@@ -16,11 +16,4 @@ I am particularly proud of my work as the lead author on the [`lterpalettefinder
 
 ## Personal Project Spotlight - `dndR`
 
-
-
-my personal 'toolbox' package [`helpR`](https://github.com/njlyon0/helpR) and the R Shiny [data portal](https://github.com/HerbVar-Network/Data-Portal) that I created for the [Hebivory Variability Network](https://herbvar.org/). My code is well-commented and is meant to provide a clear window into the function and rationale of each operation.
-
-In addition to data management, teaching and communicating scientific results are also things I love and hope to continue to focus on as my career develops. While a graduate student I sought out opportunities to teach and have guest lectured and taught labs in ecology, introductory biology, and multivariate analysis. I've developed R tutorials in an [introduction to multivariate analysis](https://github.com/njlyon0/lyon-tutorial_multivariate-intro), an [introduction to random forest](https://github.com/njlyon0/lyon-tutorial_random-forest) and best practices in [quality control](https://github.com/njlyon0/collab_vargas-quality-control-talk)
-
-Perhaps unsurprisingly for a data scientist such as myself but I am a *huge* Dungeons & Dragons fan and have begun working on a package ([`dndR`](https://github.com/njlyon0/dndR)) that serves any other people in the R / DnD Venn Diagram intersection.
-
+Perhaps unsurprisingly for someone of my professional interests but I am a *huge* Dungeons & Dragons fan in my free time. To blend my personal and professional interests I've begun working on an R package called [`dndR`](https://github.com/njlyon0/dndR) that serves any other people in the R / DnD Venn Diagram intersection. This package is also a fun chance for me to practice my coding skills in a risk-free environment
