@@ -3,30 +3,23 @@ project:
 
 website:
   title: "Nicholas J Lyon"
+  page-footer: "Copyright 2022, Nicholas Lyon"
   navbar:
     background: dark
     left:
-      - href: about.qmd
+      - href: index.qmd
         text: Home
-      - presentations.qmd
-      - teaching.qmd
-      - research.qmd
-  sidebar:
-    style: "docked"
-    search: true
-    contents:
-      - section: "Test A"
-        contents:
-          - about.qmd
-      - section: "Test B"
-        contents:
-          - presentations.qmd
+      - talks.qmd
+      - pubs.qmd
+    right:
+      - icon: github
+        href: https://github.com/njlyon0
+      - icon: twitter
+        href: https://twitter.com/scilyon
 
 format:
   html:
     theme: united
     css: styles.css
     toc: true
-
-
 
