@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "Nicholas J Lyon"
+  navbar:
+    background: dark
+    left:
+      - href: about.qmd
+        text: Home
+      - presentations.qmd
+      - teaching.qmd
+      - research.qmd
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Test A"
+        contents:
+          - about.qmd
+      - section: "Test B"
+        contents:
+          - presentations.qmd
+
+format:
+  html:
+    theme: united
+    css: styles.css
+    toc: true
+
+
+
