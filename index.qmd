@@ -2,13 +2,23 @@
 title: "About"
 ---
 
+### Hello!
+
 I am an early career data scientist with experience managing ecological data in a range of formats. In my personal research I pursued projects that allowed me to blend field, analytical, and modeling approaches to ask and answer community-level questions; this approach gave me first hand experience in both the tidying of raw data and the analysis and visualization of wrangled data.
 
 The bulk of my coding experience is in R but I also have moderate competency with SQL and have self-taught R Shiny. I plan on learning more coding languages going forward as data challenges necessitate.
 
-I firmly believe in transparency in data management and am an avid `git` user. Check out my [GitHub profile](https://github.com/njlyon0) for a selection of the public repositories that I own.
+I firmly believe in transparency in data management and am an avid `git` user. Check out my [GitHub profile](https://github.com/njlyon0) for examples of my past and current work!
 
-I am particularly proud of my work on the [`lterpalettefinder` package](https://github.com/lter/lterpalettefinder), my personal 'toolbox' package [`helpR`](https://github.com/njlyon0/helpR) and the R Shiny [data portal](https://github.com/HerbVar-Network/Data-Portal) that I created for the [Hebivory Variability Network](https://herbvar.org/). My code is well-commented and is meant to provide a clear window into the function and rationale of each operation.
+### Professional Project Spotlight - `lterpalettefinder`
+
+I am particularly proud of my work as the lead author on the [`lterpalettefinder` R package](https://github.com/lter/lterpalettefinder). This R package accepts a photo and identifies the hexadecimal codes for the top 25 most different colors in that photo. This is really great when you want to have a plot's aesthetics have a tight relationship to a picture of a study organism or research site! CRAN submission is on the horizon so stay tuned!
+
+## Personal Project Spotlight - `dndR`
+
+
+
+my personal 'toolbox' package [`helpR`](https://github.com/njlyon0/helpR) and the R Shiny [data portal](https://github.com/HerbVar-Network/Data-Portal) that I created for the [Hebivory Variability Network](https://herbvar.org/). My code is well-commented and is meant to provide a clear window into the function and rationale of each operation.
 
 In addition to data management, teaching and communicating scientific results are also things I love and hope to continue to focus on as my career develops. While a graduate student I sought out opportunities to teach and have guest lectured and taught labs in ecology, introductory biology, and multivariate analysis. I've developed R tutorials in an [introduction to multivariate analysis](https://github.com/njlyon0/lyon-tutorial_multivariate-intro), an [introduction to random forest](https://github.com/njlyon0/lyon-tutorial_random-forest) and best practices in [quality control](https://github.com/njlyon0/collab_vargas-quality-control-talk)
 
