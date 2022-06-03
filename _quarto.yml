@@ -3,7 +3,8 @@ project:
 
 website:
   title: "Nicholas J Lyon"
-  page-footer: "Copyright 2022, Nicholas Lyon"
+  repo-url: https://github.com/njlyon0/lyon_quarto
+  repo-actions: [issue]
   navbar:
     background: dark
     left:
@@ -16,6 +17,9 @@ website:
         href: https://github.com/njlyon0
       - icon: twitter
         href: https://twitter.com/scilyon
+  page-footer:
+    center: "Copyright 2022, Nicholas Lyon"
+    background: secondary
 
 format:
   html:
