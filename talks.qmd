@@ -6,6 +6,8 @@ I love chatting about science and data management and leap at the opportunity to
 
 ## Workshops and Lectures
 
+![](images/squash_bug_nymph.jpg){fig-alt="squash bug nymph"}
+
 - Collaborative Coding with GitHub and RStudio. **2022**. National Center for Ecological Analysis and Synthesis, LTER Network Office - [GitHub repo](https://github.nceas.ucsb.edu/LTER/github-workshop) - [Workshop Bookdown](https://pages.github.nceas.ucsb.edu/LTER/github-workshop/)
 - Introduction to Statistics and R in Ecology Research. **2020**. Insect Ecology (ENT 4520/6520), Clemson University. Clemson SC.
 - Plotting with ggplot2. **2019**. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.
@@ -21,6 +23,9 @@ I love chatting about science and data management and leap at the opportunity to
 ## Conference-Style Presentations
 
 ### M.Sc. Presentations (2016-19)
+
+![](images/question_mark.jpg){fig-align="center"}
+
 - Lyon, N.J. and Debinski, D.M. Evaluating the Effects of Eleven Years of Consistent Restoration Management. Ecological Society of America, Louisville KY, August **2019**
 - Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. Native Plant and Pollinator Response to Management with Fire and Grazing. Ecological Society of America, New Orleans LA, August **2018**
 - Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. Plant and Pollinator Response to Adaptive Management. Graduate and Professional Student Research Conference, Ames IA, April **2018**. Awarded Best Oral Presentation.
@@ -33,6 +38,9 @@ I love chatting about science and data management and leap at the opportunity to
 - Lyon, N.J. Incorporating Correlative Modeling into Modifying Restoration Strategies for the Future. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February **2017** - [GitHub repo](https://github.com/njlyon0/lyon-ms-thesis_sdm)
 
 ### B.Sc. Presentations (2012-16)
+
+![](images/microplastic.jpg){fig-align="center"}
+
 - Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Air and Waste Management Student Challenge, Portland OR, April **2016**. Awarded Best Presentation
 - Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Phi Sigma Research Symposium, University of Puget Sound, April **2016**
 - Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Murdock College Science Research Conference, Vancouver WA (Hilton Vancouver), November **2015**
@@ -40,12 +48,4 @@ I love chatting about science and data management and leap at the opportunity to
 - Lyon, N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Oral presentation. Phi Sigma Research Symposium, University of Puget Sound, April **2015**
 - Lyon N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September **2014**
 - Lyon, N. Plastic Contamination in Marine Environments. Oral presentation. Honors Research Symposium, Seattle University, October **2014**
-
-
-
-
-
-```{r}
-
-```
 
