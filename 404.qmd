@@ -1,0 +1,11 @@
+---
+title: "Page Not Found"
+---
+
+### Oops
+
+The page you are looking for wasn't found.
+
+You may want to try using the navigation bar to search for the content you were looking for.
+
+Also, if you think this is an error, please post an Issue on [this website's GitHub repo](https://github.com/njlyon0/lyon_quarto)!
