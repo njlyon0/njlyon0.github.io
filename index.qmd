@@ -14,21 +14,21 @@ about:
       href: https://twitter.com/scilyon
     - icon: book
       text: Lyon CV
-      href: (/documents/Lyon_CV_22-6-3.pdf)
+      href: https://github.com/njlyon0/lyon_quarto/blob/main/docs/LyonCV.pdf
 ---
 
 ## Welcome!
 
-I am an early career data scientist with experience managing ecological data in a range of formats. In my personal research I pursued projects that allowed me to blend field, analytical, and modeling approaches to ask and answer community-level questions; this approach gave me first hand experience in both the tidying of raw data and the analysis and visualization of wrangled data.
+I am an early career data scientist with experience managing ecological data in a range of formats. I have firsthand experience with designing field experiments and writing models and this has granted me invaluable insight into the quality assurance and control (QA/QC) needs of typical scientific projects.
 
 The bulk of my coding experience is in R but I also have moderate competency with SQL and have self-taught R Shiny. I plan on learning more coding languages going forward as data challenges necessitate.
 
-I firmly believe in transparency in data management and am an avid `git` user. Check out my [GitHub profile](https://github.com/njlyon0) for examples of my past and current work!
+I firmly believe in transparency in data management and am an avid `git` user. Check out my [GitHub profile](https://github.com/njlyon0){target="_blank"} for examples of my ongoing and past work!
 
 ### Professional Spotlight - `lterpalettefinder`
 
-I am particularly proud of my work as the lead author on the [`lterpalettefinder` R package](https://github.com/lter/lterpalettefinder). This R package accepts a photo and identifies the hexadecimal codes for the top 25 most different colors in that photo. This is really great when you want to have a plot's aesthetics have a tight relationship to a picture of a study organism or research site! CRAN submission is on the horizon so stay tuned!
+I am particularly proud of my work as the lead author on the [`lterpalettefinder` R package](https://github.com/lter/lterpalettefinder#readme){target="_blank"}. This R package accepts a photo and identifies the hexadecimal codes for the top 25 most different colors in that photo. This is really great when you want to have a plot's aesthetics have a tight relationship to a picture of a study organism or research site! CRAN submission is on the horizon so stay tuned!
 
 ## Personal Spotlight - `dndR`
 
-Perhaps unsurprisingly for someone of my professional interests but I am a *huge* Dungeons & Dragons fan in my free time. To blend my personal and professional interests I've begun working on an R package called [`dndR`](https://github.com/njlyon0/dndR) that serves any other people in the R / DnD Venn Diagram intersection. This package is also a fun chance for me to practice my coding skills in a risk-free environment
+Perhaps unsurprisingly for someone of my professional interests but I am a *huge* Dungeons & Dragons fan in my free time. To blend my personal and professional interests I've begun working on an R package called [`dndR`](https://github.com/njlyon0/dndR#readme){target="_blank"} that serves any other people in the R / DnD Venn Diagram intersection. This package is also a fun chance for me to practice my coding skills in a risk-free environment

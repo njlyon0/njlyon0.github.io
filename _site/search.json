@@ -1,75 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Nick J Lyon",
-    "section": "",
-    "text": "icon=arrow-up-right-square"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "The bulk of my coding experience is in R but I also have moderate competency with SQL and have self-taught R Shiny. I plan on learning more coding languages going forward as data challenges necessitate.\nI firmly believe in transparency in data management and am an avid git user. Check out my GitHub profile for a selection of the public repositories that I own.\nI am particularly proud of my work on the lterpalettefinder package, my personal ‘toolbox’ package helpR and the R Shiny data portal that I created for the Hebivory Variability Network. My code is well-commented and is meant to provide a clear window into the function and rationale of each operation.\nIn addition to data management, teaching and communicating scientific results are also things I love and hope to continue to focus on as my career develops. While a graduate student I sought out opportunities to teach and have guest lectured and taught labs in ecology, introductory biology, and multivariate analysis. I’ve developed R tutorials in an introduction to multivariate analysis, an introduction to random forest and best practices in quality control\nPerhaps unsurprisingly for a data scientist such as myself but I am a huge Dungeons & Dragons fan and have begun working on a package (dndR) that serves any other people in the R / DnD Venn Diagram intersection."
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "I am driven to be the kind of instructor who combines honest care for students with effective teaching practices and critical self-reflection to improve because those are the types of faculty that had the largest positive impact on my personal and professional lives. I have found that being this type of teacher is often synonymous with being a mentor and it is this role that I find especially attractive in pursuing a career in academia. Whether students are taking my classes because this particular subject is their passion or simply satisfying a non-major requirement, my philosophy is to teach from a place of empathy with the lives and struggles of the students in my classes, and this style of teaching is often conducive to forming mentor-mentee relationships with many students. I have been able to live out this philosophy with undergraduate students both in formal classroom contexts and in less structured field season and independent research contexts. I have served as a teaching assistant (TA) for several classes including an upper level (i.e., junior & senior) ecology course and two introductory general biology courses (open to all grades). My teaching emphasizes transparency with students, constructive and thorough feedback, and frequent requests for (anonymized) student feedback on how my teaching could better serve them. I believe that students thrive (both personally and professionally) when the intended learning objectives of every assignment and lecture is communicated in a clear and concise way early and often. Students then understand what concept I am pushing them to grapple with in an assignment rather than becoming overly focused on the point value of said task. My open-door policy for student feedback also makes students feel listened to and welcome as colleagues into the classrooms I instruct and frequently their feedback improves my teaching in ways I would never have thought of alone. Here is an example of the kind of PowerPoints I create to discussion and engagement. I also leap at the opportunity to guest lecture for courses whenever possible. So far the bulk of my experience with that type of teaching has been in the form of guest lectures on the statistical software R. This program has become increasingly widely used in published literature and is regarded as a valuable skill for graduate school so singular guest lectures on facets of R relevant to a particular course, unit, or project are useful. Provided below is a list of the guest lectures I have given to date and I am happy to share the materials I have created for these courses so just contact me if you’re interested! Clemson University, Clemson SC • 2020 – Introduction to Statistics and R in Ecology Research. Insect Ecology (ENT 4520/6520) Iowa State University, Ames IA • 2019 – Plotting with ggplot2. Data Wrangling in R for Natural Resource Professionals (NREM 305) • 2019 – Choosing the “Right” Statistical Test. Data Wrangling in R for Natural Resource Professionals (NREM 305) • 2018 – Multivariate Statistics in R. Data Management and Analysis in R for Ecologists and Evolutionary Biologists (EEB 698)"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "Green June Beetle Gut Communities How do gut microbial communities in the green June beetle differ with gut region, life stage, and sex of adult beetle? • Kucuk, R.A., Campbell, B.J., Lyon, N.J., Caterino, M.S. Gut bacteria of adult and larval Cotinis nitida Linnaeus (Coleoptera: Scarabaeidae) demonstrate community differences according to life stage and gut region. [In prep]\nIowa Research (M.Sc.) This research was conducted in the Ecology and Evolutionary Biology Program at Iowa State University and was co-advised by Dr. Diane Debinski (Montana State University) and Dr. Haldre Rogers (Iowa State University).\nMotivating Questions How can we best manage for speciose and diverse communities of insect pollinators and floral resources on agricultural lands? What are the differences between short-term community response and the response of pollinator taxa to continuous long-term (i.e., decades) management? What effect does varying landscape context have on within-site management for native bees? How might we account for climate change in developing restoration strategy?\nPhoto Gallery For a set of some of the best (in my opinion) photos from my field seasons (2016-2018) click here.\nPublications • Lyon, N.J., Debinski, D.M., Rogers, H.S., Adams, D.C., and Wilsey, B.J. An Integrated Approach to Restoring Grassland Function to Working Lands. Master of Science Thesis. (PDF) o Lyon, N.J., Debinski, D.M., Rogers, H.S. Plant and Pollinator Communities Responded Differently to Eleven Years of Management. [In prep] o Lyon, N.J., Debinski, D.M., Rangwala, I. Evaluating the Utility of Species Distribution Models in Informing Climate Change-Resilient Grassland Restoration Strategy. 7. Frontiers in Ecology and Evolution. • Coon, J.J., Lyon, N.J., Raynor, E.J., Debinski, D.M., Miller, J.R., Schact, W.H. 2021. Using Adaptive Management to Restore Grasslands Invaded by Tall Fescue (Schedonorus arundinaceus). 76. Rangeland Ecology and Management. • Lyon, N.J., Stein, D.S., Debinski, D.M., Miller, J.R., Schact, W.H. 2021. Responses of Flowering Plant and Butterfly Communities to Experimental Herbicide and Seeding Treatments for Native Grassland Restoration. 3. Ecological Restoration.\nPresentations\nWashington Research (B.Sc.) This research was conducted at the University of Puget Sound with Dr. Peter Hodum. Motivating Questions Do marine filter feeders ingest measurable quantities of microplastics? At what spatial scale can filter feeders be used as bioindicators of marine plastic contamination? Do sessile filter feeders ingest different amounts of plastic based on their relative tidal heights?\nPublications • Lyon, N.J. and Hodum, P. 2015. Mytilus Mussels as Bio-indicators of Regional Microplastic Trends. University of Puget Sound Undergraduate Thesis.\nPresentations"
-  },
-  {
-    "objectID": "presentations.html",
-    "href": "presentations.html",
-    "title": "Talks",
-    "section": "",
-    "text": "I love chatting about science and data management and leap at the opportunity to present in public-facing contexts. Here is a breakdown of some of the conference talks, workshops, and lectures I have given."
-  },
-  {
-    "objectID": "presentations.html#lectures-workshops",
-    "href": "presentations.html#lectures-workshops",
-    "title": "Talks",
-    "section": "Lectures / Workshops",
-    "text": "Lectures / Workshops\n\nIntroduction to Statistics and R in Ecology Research. 2020. Insect Ecology (ENT 4520/6520), Clemson University. Clemson SC.\nPlotting with ggplot2. 2019. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.\nChoosing the “Right” Statistical Test. 2019. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.\nMultivariate Statistics in R. 2018. Data Management and Analysis in R for Ecologists and Evolutionary Biologists (EEB 698) - GitHub repo"
-  },
-  {
-    "objectID": "presentations.html#workshops-and-lectures",
-    "href": "presentations.html#workshops-and-lectures",
-    "title": "Talks",
-    "section": "Workshops and Lectures",
-    "text": "Workshops and Lectures\n\nCollaborative Coding with GitHub and RStudio. 2022. National Center for Ecological Analysis and Synthesis, LTER Network Office - GitHub repo - Workshop Bookdown\nIntroduction to Statistics and R in Ecology Research. 2020. Insect Ecology (ENT 4520/6520), Clemson University. Clemson SC.\nPlotting with ggplot2. 2019. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.\nChoosing the “Right” Statistical Test. 2019. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.\nMultivariate Statistics in R. 2018. Data Management and Analysis in R for Ecologists and Evolutionary Biologists (EEB 698) - GitHub repo"
-  },
-  {
-    "objectID": "presentations.html#conference-presentations",
-    "href": "presentations.html#conference-presentations",
-    "title": "Talks",
-    "section": "Conference Presentations",
-    "text": "Conference Presentations\n\nLyon, N.J. and Debinski, D.M. Evaluating the Effects of Eleven Years of Consistent Restoration Management. Ecological Society of America, Louisville KY, August 2019. Oral Presentation.\nLyon, N.J., Debinski, D.M., Miller, J., Schact, W. Native Plant and Pollinator Response to Management with Fire and Grazing. Ecological Society of America, New Orleans LA, August 2018. Oral Presentation.\nLyon, N.J., Debinski, D.M., Miller, J., Schact, W. Plant and Pollinator Response to Adaptive Management. Graduate and Professional Student Research Conference, Ames IA, April 2018. Awarded Best Oral Presentation.\nLyon, N.J., Debinski, D.M. Butterfly and Nectar-Producing Plant Response to Invasive Grass Management. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February 2018\nLyon, N.J. An Integrated Approach to Tallgrass Prairie Restoration. Three-Minute Thesis, Ames IA, January 2018\nLyon, N. J., Debinski, D.M., and Rangwala, I. Species Distribution Modeling to Predict Prairie Restoration Success under Climate Change. Ecological Society of America, Portland OR, August 2017\nLyon, N.J. Predicted Response of Native Grassland Plants to Climate Change. Ten Years of Research in the Grand River Grasslands Symposium, Lamoni IA, June 2017\nLyon, N.J., Debinski, D.M., Miller, J., Schact, W., and Stein, D. Grazing, Burning, and Butterflies. Iowa Urban Tree Council, Des Moines IA, April 2017\nLyon, N.J., Debinski, D.M., Miller, J., Schact, W. and Stein, D. Adaptive Management for Prairie Plants and Pollinators in Midwestern Working Landscapes. Iowa Invasive Species Conference, Moravia IA, March 2017\nLyon, N.J. Incorporating Correlative Modeling into Modifying Restoration Strategies for the Future. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February 2017\n\n• Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Air and Waste Management Student Challenge, Portland OR, April 2016. Awarded Best Presentation • Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Phi Sigma Research Symposium, University of Puget Sound, April 2016 • Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Murdock College Science Research Conference, Vancouver WA (Hilton Vancouver), November 2015. • Lyon N. Mussels as Samplers of Regional Microplastic Contamination Trends. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September 2015. • Lyon, N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Oral presentation. Phi Sigma Research Symposium, University of Puget Sound, April 2015. • Lyon N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September 2014. • Lyon, N. Plastic Contamination in Marine Environments. Oral presentation. Honors Research Symposium, Seattle University, October 2014."
-  },
-  {
-    "objectID": "presentations.html#conference-style-presentations",
-    "href": "presentations.html#conference-style-presentations",
-    "title": "Talks",
-    "section": "Conference-Style Presentations",
-    "text": "Conference-Style Presentations\n\nM.Sc. Presentations (2016-19)\n\nLyon, N.J. and Debinski, D.M. Evaluating the Effects of Eleven Years of Consistent Restoration Management. Ecological Society of America, Louisville KY, August 2019\nLyon, N.J., Debinski, D.M., Miller, J., Schact, W. Native Plant and Pollinator Response to Management with Fire and Grazing. Ecological Society of America, New Orleans LA, August 2018\nLyon, N.J., Debinski, D.M., Miller, J., Schact, W. Plant and Pollinator Response to Adaptive Management. Graduate and Professional Student Research Conference, Ames IA, April 2018. Awarded Best Oral Presentation.\nLyon, N.J., Debinski, D.M. Butterfly and Nectar-Producing Plant Response to Invasive Grass Management. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February 2018 - GitHub repo\nLyon, N.J. An Integrated Approach to Tallgrass Prairie Restoration. Three-Minute Thesis, Ames IA, January 2018\nLyon, N. J., Debinski, D.M., and Rangwala, I. Species Distribution Modeling to Predict Prairie Restoration Success under Climate Change. Ecological Society of America, Portland OR, August 2017 - GitHub repo\nLyon, N.J. Predicted Response of Native Grassland Plants to Climate Change. Ten Years of Research in the Grand River Grasslands Symposium, Lamoni IA, June 2017 - GitHub repo\nLyon, N.J., Debinski, D.M., Miller, J., Schact, W., and Stein, D. Grazing, Burning, and Butterflies. Iowa Urban Tree Council, Des Moines IA, April 2017\nLyon, N.J., Debinski, D.M., Miller, J., Schact, W. and Stein, D. Adaptive Management for Prairie Plants and Pollinators in Midwestern Working Landscapes. Iowa Invasive Species Conference, Moravia IA, March 2017\nLyon, N.J. Incorporating Correlative Modeling into Modifying Restoration Strategies for the Future. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February 2017 - GitHub repo\n\n\n\nB.Sc. Presentations (2012-16)\n\nLyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Air and Waste Management Student Challenge, Portland OR, April 2016. Awarded Best Presentation\nLyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Phi Sigma Research Symposium, University of Puget Sound, April 2016\nLyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Murdock College Science Research Conference, Vancouver WA (Hilton Vancouver), November 2015\nLyon N. Mussels as Samplers of Regional Microplastic Contamination Trends. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September 2015\nLyon, N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Oral presentation. Phi Sigma Research Symposium, University of Puget Sound, April 2015\nLyon N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September 2014\nLyon, N. Plastic Contamination in Marine Environments. Oral presentation. Honors Research Symposium, Seattle University, October 2014"
-  },
-  {
-    "objectID": "pubs.html",
-    "href": "pubs.html",
-    "title": "Papers",
-    "section": "",
-    "text": "I have had several opportunities to publish scientific papers both as a lead author and as a member of a larger scientific team. Here are some of the highlights of that record. If any of these links are behind a paywall, simply reach out to me and I’ll work to get you a PDF."
-  },
-  {
     "objectID": "talks.html",
     "href": "talks.html",
     "title": "Talks",
@@ -84,6 +14,13 @@
     "text": "Workshops and Lectures\n\n\nCollaborative Coding with GitHub and RStudio. 2022. National Center for Ecological Analysis and Synthesis, LTER Network Office - GitHub repo - Workshop Bookdown\nIntroduction to Statistics and R in Ecology Research. 2020. Insect Ecology (ENT 4520/6520), Clemson University. Clemson SC.\nPlotting with ggplot2. 2019. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.\nChoosing the “Right” Statistical Test. 2019. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.\nMultivariate Statistics in R. 2018. Data Management and Analysis in R for Ecologists and Evolutionary Biologists (EEB 698) - GitHub repo"
   },
   {
+    "objectID": "talks.html#courses",
+    "href": "talks.html#courses",
+    "title": "Talks",
+    "section": "Courses",
+    "text": "Courses\n\nConcepts in Biology (BIO 1103), Fall 2020, University of Georgia. Athens, GA\nPrinciples of Biology (BIO 1108), Spring 2021, University of Georgia. Athens, GA\nEcology (BIO 312), Fall 2018, Iowa State University. Ames, IA"
+  },
+  {
     "objectID": "talks.html#conference-style-presentations",
     "href": "talks.html#conference-style-presentations",
     "title": "Talks",
@@ -91,25 +28,25 @@
     "text": "Conference-Style Presentations\n\nM.Sc. Presentations (2016-19)\n\n\n\n\n\n\nLyon, N.J. and Debinski, D.M. Evaluating the Effects of Eleven Years of Consistent Restoration Management. Ecological Society of America, Louisville KY, August 2019\nLyon, N.J., Debinski, D.M., Miller, J., Schact, W. Native Plant and Pollinator Response to Management with Fire and Grazing. Ecological Society of America, New Orleans LA, August 2018\nLyon, N.J., Debinski, D.M., Miller, J., Schact, W. Plant and Pollinator Response to Adaptive Management. Graduate and Professional Student Research Conference, Ames IA, April 2018. Awarded Best Oral Presentation.\nLyon, N.J., Debinski, D.M. Butterfly and Nectar-Producing Plant Response to Invasive Grass Management. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February 2018 - GitHub repo\nLyon, N.J. An Integrated Approach to Tallgrass Prairie Restoration. Three-Minute Thesis, Ames IA, January 2018\nLyon, N. J., Debinski, D.M., and Rangwala, I. Species Distribution Modeling to Predict Prairie Restoration Success under Climate Change. Ecological Society of America, Portland OR, August 2017 - GitHub repo\nLyon, N.J. Predicted Response of Native Grassland Plants to Climate Change. Ten Years of Research in the Grand River Grasslands Symposium, Lamoni IA, June 2017 - GitHub repo\nLyon, N.J., Debinski, D.M., Miller, J., Schact, W., and Stein, D. Grazing, Burning, and Butterflies. Iowa Urban Tree Council, Des Moines IA, April 2017\nLyon, N.J., Debinski, D.M., Miller, J., Schact, W. and Stein, D. Adaptive Management for Prairie Plants and Pollinators in Midwestern Working Landscapes. Iowa Invasive Species Conference, Moravia IA, March 2017\nLyon, N.J. Incorporating Correlative Modeling into Modifying Restoration Strategies for the Future. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February 2017 - GitHub repo\n\n\n\nB.Sc. Presentations (2012-16)\n\n\n\n\n\n\nLyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Air and Waste Management Student Challenge, Portland OR, April 2016. Awarded Best Presentation\nLyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Phi Sigma Research Symposium, University of Puget Sound, April 2016\nLyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Murdock College Science Research Conference, Vancouver WA (Hilton Vancouver), November 2015\nLyon N. Mussels as Samplers of Regional Microplastic Contamination Trends. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September 2015\nLyon, N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Oral presentation. Phi Sigma Research Symposium, University of Puget Sound, April 2015\nLyon N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September 2014\nLyon, N. Plastic Contamination in Marine Environments. Oral presentation. Honors Research Symposium, Seattle University, October 2014"
   },
   {
-    "objectID": "pubs.html#m.sc.-papers-2016-19",
-    "href": "pubs.html#m.sc.-papers-2016-19",
-    "title": "Papers",
-    "section": "M.Sc. Papers (2016-19)",
-    "text": "M.Sc. Papers (2016-19)\n\nLyon, N.J., Debinski, D.M., Rogers, H.S., Adams, D.C., and Wilsey, B.J. An Integrated Approach to Restoring Grassland Function to Working Lands. 2019. Master of Science Thesis.\n\n• (PDF) o Lyon, N.J., Debinski, D.M., Rogers, H.S. Plant and Pollinator Communities Responded Differently to Eleven Years of Management. [In prep] o Lyon, N.J., Debinski, D.M., Rangwala, I. Evaluating the Utility of Species Distribution Models in Informing Climate Change-Resilient Grassland Restoration Strategy. 7. Frontiers in Ecology and Evolution. • Coon, J.J., Lyon, N.J., Raynor, E.J., Debinski, D.M., Miller, J.R., Schact, W.H. 2021. Using Adaptive Management to Restore Grasslands Invaded by Tall Fescue (Schedonorus arundinaceus). 76. Rangeland Ecology and Management. • Lyon, N.J., Stein, D.S., Debinski, D.M., Miller, J.R., Schact, W.H. 2021. Responses of Flowering Plant and Butterfly Communities to Experimental Herbicide and Seeding Treatments for Native Grassland Restoration. 3. Ecological Restoration."
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nick J Lyon",
+    "section": "",
+    "text": "I am an early career data scientist with experience managing ecological data in a range of formats. I have firsthand experience with designing field experiments and writing models and this has granted me invaluable insight into the quality assurance and control (QA/QC) needs of typical scientific projects.\nThe bulk of my coding experience is in R but I also have moderate competency with SQL and have self-taught R Shiny. I plan on learning more coding languages going forward as data challenges necessitate.\nI firmly believe in transparency in data management and am an avid git user. Check out my GitHub profile for examples of my ongoing and past work!\n\n\nI am particularly proud of my work as the lead author on the lterpalettefinder R package. This R package accepts a photo and identifies the hexadecimal codes for the top 25 most different colors in that photo. This is really great when you want to have a plot’s aesthetics have a tight relationship to a picture of a study organism or research site! CRAN submission is on the horizon so stay tuned!"
   },
   {
-    "objectID": "pubs.html#b.sc.-papers-2012-16",
-    "href": "pubs.html#b.sc.-papers-2012-16",
-    "title": "Papers",
-    "section": "B.Sc. Papers (2012-16)",
-    "text": "B.Sc. Papers (2012-16)\nPublications\nPresentations\nWashington Research (B.Sc.) This research was conducted at the University of Puget Sound with Dr. Peter Hodum. Motivating Questions Do marine filter feeders ingest measurable quantities of microplastics? At what spatial scale can filter feeders be used as bioindicators of marine plastic contamination? Do sessile filter feeders ingest different amounts of plastic based on their relative tidal heights?\nPublications •\nPresentations"
+    "objectID": "index.html#personal-spotlight---dndr",
+    "href": "index.html#personal-spotlight---dndr",
+    "title": "Nick J Lyon",
+    "section": "Personal Spotlight - dndR",
+    "text": "Personal Spotlight - dndR\nPerhaps unsurprisingly for someone of my professional interests but I am a huge Dungeons & Dragons fan in my free time. To blend my personal and professional interests I’ve begun working on an R package called dndR that serves any other people in the R / DnD Venn Diagram intersection. This package is also a fun chance for me to practice my coding skills in a risk-free environment"
   },
   {
-    "objectID": "pubs.html#post-grad-2019---present",
-    "href": "pubs.html#post-grad-2019---present",
+    "objectID": "pubs.html",
+    "href": "pubs.html",
     "title": "Papers",
-    "section": "Post-Grad (2019 - Present)",
-    "text": "Post-Grad (2019 - Present)\n\nKucuk, R.A., Campbell, B.J., Lyon, N.J., Caterino, M.S. Gut bacteria of adult and larval Cotinis nitida Linnaeus (Coleoptera: Scarabaeidae) demonstrate community differences according to life stage and gut region. [In prep]"
+    "section": "",
+    "text": "I have had several opportunities to publish scientific papers both as a lead author and as a member of a larger scientific team. Here are some of the highlights of that record. If any of these links are behind a paywall, simply reach out to me and I’ll work to get you a PDF."
   },
   {
     "objectID": "pubs.html#in-prep",
@@ -123,34 +60,13 @@
     "href": "pubs.html#published",
     "title": "Papers",
     "section": "Published",
-    "text": "Published\n\n\n\n\n\n\nCoon, J.J., Lyon, N.J., Raynor, E.J., Debinski, D.M., Miller, J.R., Schact, W.H. 2021. Using Adaptive Management to Restore Grasslands Invaded by Tall Fescue (Schedonorus arundinaceus). 76. 2021. Rangeland Ecology and Management. - GitHub repo\nLyon, N.J., Stein, D.S., Debinski, D.M., Miller, J.R., Schact, W.H. 2021. Responses of Flowering Plant and Butterfly Communities to Experimental Herbicide and Seeding Treatments for Native Grassland Restoration. 3. 2021. Ecological Restoration. - GitHub repo\nLyon, N.J., Debinski, D.M., Rogers, H.S., Adams, D.C., and Wilsey, B.J. An Integrated Approach to Restoring Grassland Function to Working Lands. 2019. Master of Science Thesis\nLyon, N.J., Debinski, D.M., Rangwala, I. Evaluating the Utility of Species Distribution Models in Informing Climate Change-Resilient Grassland Restoration Strategy. 7. 2019 Frontiers in Ecology and Evolution. - GitHub repo\nLyon, N.J. and Hodum, P. 2015. Mytilus Mussels as Bio-indicators of Regional Microplastic Trends. University of Puget Sound Undergraduate Thesis."
+    "text": "Published\n\n\n\n\n\n\nCoon, J.J., Lyon, N.J., Raynor, E.J., Debinski, D.M., Miller, J.R., Schact, W.H. 2021. Using Adaptive Management to Restore Grasslands Invaded by Tall Fescue (Schedonorus arundinaceus). 76. 2021. Rangeland Ecology and Management - GitHub repo\nLyon, N.J., Stein, D.S., Debinski, D.M., Miller, J.R., Schact, W.H. 2021. Responses of Flowering Plant and Butterfly Communities to Experimental Herbicide and Seeding Treatments for Native Grassland Restoration. 3. 2021. Ecological Restoration - GitHub repo\nLyon, N.J., Debinski, D.M., Rogers, H.S., Adams, D.C., and Wilsey, B.J. An Integrated Approach to Restoring Grassland Function to Working Lands. 2019. Master of Science Thesis\nLyon, N.J., Debinski, D.M., Rangwala, I. Evaluating the Utility of Species Distribution Models in Informing Climate Change-Resilient Grassland Restoration Strategy. 7. 2019 Frontiers in Ecology and Evolution - GitHub repo\nLyon, N.J. and Hodum, P. 2015. Mytilus Mussels as Bio-indicators of Regional Microplastic Trends. University of Puget Sound Undergraduate Thesis"
   },
   {
-    "objectID": "index.html#personal-project-spotlight---dndr",
-    "href": "index.html#personal-project-spotlight---dndr",
-    "title": "Nick J Lyon",
-    "section": "Personal Project Spotlight - dndR",
-    "text": "Personal Project Spotlight - dndR\nPerhaps unsurprisingly for someone of my professional interests but I am a huge Dungeons & Dragons fan in my free time. To blend my personal and professional interests I’ve begun working on an R package called dndR that serves any other people in the R / DnD Venn Diagram intersection. This package is also a fun chance for me to practice my coding skills in a risk-free environment"
-  },
-  {
-    "objectID": "talks.html#courses",
-    "href": "talks.html#courses",
+    "objectID": "talks.html#courses-taught",
+    "href": "talks.html#courses-taught",
     "title": "Talks",
-    "section": "Courses",
-    "text": "Courses\n\nConcepts in Biology (BIO 1103), Fall 2020, University of Georgia. Athens, GA\nPrinciples of Biology (BIO 1108), Spring 2021, University of Georgia. Athens, GA\nEcology (BIO 312), Fall 2018, Iowa State University. Ames, IA"
-  },
-  {
-    "objectID": "index.html#personal-spotlight---dndr",
-    "href": "index.html#personal-spotlight---dndr",
-    "title": "Nick J Lyon",
-    "section": "Personal Spotlight - dndR",
-    "text": "Personal Spotlight - dndR\nPerhaps unsurprisingly for someone of my professional interests but I am a huge Dungeons & Dragons fan in my free time. To blend my personal and professional interests I’ve begun working on an R package called dndR that serves any other people in the R / DnD Venn Diagram intersection. This package is also a fun chance for me to practice my coding skills in a risk-free environment"
-  },
-  {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "Nick J Lyon",
-    "section": "Welcome!",
-    "text": "Welcome!\nI am an early career data scientist with experience managing ecological data in a range of formats. In my personal research I pursued projects that allowed me to blend field, analytical, and modeling approaches to ask and answer community-level questions; this approach gave me first hand experience in both the tidying of raw data and the analysis and visualization of wrangled data.\nThe bulk of my coding experience is in R but I also have moderate competency with SQL and have self-taught R Shiny. I plan on learning more coding languages going forward as data challenges necessitate.\nI firmly believe in transparency in data management and am an avid git user. Check out my GitHub profile for examples of my past and current work!\n\nProfessional Spotlight - lterpalettefinder\nI am particularly proud of my work as the lead author on the lterpalettefinder R package. This R package accepts a photo and identifies the hexadecimal codes for the top 25 most different colors in that photo. This is really great when you want to have a plot’s aesthetics have a tight relationship to a picture of a study organism or research site! CRAN submission is on the horizon so stay tuned!"
+    "section": "Courses Taught",
+    "text": "Courses Taught\n\nConcepts in Biology (BIO 1103), Fall 2020, University of Georgia. Athens, GA\nPrinciples of Biology (BIO 1108), Spring 2021, University of Georgia. Athens, GA\nEcology (BIO 312), Fall 2018, Iowa State University. Ames, IA"
   }
 ]
