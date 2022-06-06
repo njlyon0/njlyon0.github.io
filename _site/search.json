@@ -14,11 +14,11 @@
     "text": "Workshops and Lectures\n\n\nCollaborative Coding with GitHub and RStudio. 2022. National Center for Ecological Analysis and Synthesis, LTER Network Office - GitHub repo - Workshop Bookdown\nIntroduction to Statistics and R in Ecology Research. 2020. Insect Ecology (ENT 4520/6520), Clemson University. Clemson SC.\nPlotting with ggplot2. 2019. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.\nChoosing the “Right” Statistical Test. 2019. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.\nMultivariate Statistics in R. 2018. Data Management and Analysis in R for Ecologists and Evolutionary Biologists (EEB 698) - GitHub repo"
   },
   {
-    "objectID": "talks.html#courses",
-    "href": "talks.html#courses",
+    "objectID": "talks.html#courses-taught",
+    "href": "talks.html#courses-taught",
     "title": "Talks",
-    "section": "Courses",
-    "text": "Courses\n\nConcepts in Biology (BIO 1103), Fall 2020, University of Georgia. Athens, GA\nPrinciples of Biology (BIO 1108), Spring 2021, University of Georgia. Athens, GA\nEcology (BIO 312), Fall 2018, Iowa State University. Ames, IA"
+    "section": "Courses Taught",
+    "text": "Courses Taught\n\nConcepts in Biology (BIO 1103), Fall 2020, University of Georgia. Athens, GA\nPrinciples of Biology (BIO 1108), Spring 2021, University of Georgia. Athens, GA\nEcology (BIO 312), Fall 2018, Iowa State University. Ames, IA"
   },
   {
     "objectID": "talks.html#conference-style-presentations",
@@ -61,12 +61,5 @@
     "title": "Papers",
     "section": "Published",
     "text": "Published\n\n\n\n\n\n\nCoon, J.J., Lyon, N.J., Raynor, E.J., Debinski, D.M., Miller, J.R., Schact, W.H. 2021. Using Adaptive Management to Restore Grasslands Invaded by Tall Fescue (Schedonorus arundinaceus). 76. 2021. Rangeland Ecology and Management - GitHub repo\nLyon, N.J., Stein, D.S., Debinski, D.M., Miller, J.R., Schact, W.H. 2021. Responses of Flowering Plant and Butterfly Communities to Experimental Herbicide and Seeding Treatments for Native Grassland Restoration. 3. 2021. Ecological Restoration - GitHub repo\nLyon, N.J., Debinski, D.M., Rogers, H.S., Adams, D.C., and Wilsey, B.J. An Integrated Approach to Restoring Grassland Function to Working Lands. 2019. Master of Science Thesis\nLyon, N.J., Debinski, D.M., Rangwala, I. Evaluating the Utility of Species Distribution Models in Informing Climate Change-Resilient Grassland Restoration Strategy. 7. 2019 Frontiers in Ecology and Evolution - GitHub repo\nLyon, N.J. and Hodum, P. 2015. Mytilus Mussels as Bio-indicators of Regional Microplastic Trends. University of Puget Sound Undergraduate Thesis"
-  },
-  {
-    "objectID": "talks.html#courses-taught",
-    "href": "talks.html#courses-taught",
-    "title": "Talks",
-    "section": "Courses Taught",
-    "text": "Courses Taught\n\nConcepts in Biology (BIO 1103), Fall 2020, University of Georgia. Athens, GA\nPrinciples of Biology (BIO 1108), Spring 2021, University of Georgia. Athens, GA\nEcology (BIO 312), Fall 2018, Iowa State University. Ames, IA"
   }
 ]
