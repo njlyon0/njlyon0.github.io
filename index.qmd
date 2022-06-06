@@ -14,7 +14,7 @@ about:
       href: https://twitter.com/scilyon
     - icon: book
       text: Lyon CV
-      href: https://github.com/njlyon0/lyon_quarto/blob/main/docs/LyonCV.pdf
+      href: https://github.com/njlyon0/lyon_quarto/blob/main/files/LyonCV.pdf
 ---
 
 ## Welcome!
@@ -27,8 +27,8 @@ I firmly believe in transparency in data management and am an avid `git` user. C
 
 ### Professional Spotlight - `lterpalettefinder`
 
-I am particularly proud of my work as the lead author on the [`lterpalettefinder` R package](https://github.com/lter/lterpalettefinder#readme){target="_blank"}. This R package accepts a photo and identifies the hexadecimal codes for the top 25 most different colors in that photo. This is really great when you want to have a plot's aesthetics have a tight relationship to a picture of a study organism or research site! CRAN submission is on the horizon so stay tuned!
+I am particularly proud of my work as the lead author on the [`lterpalettefinder` R package](https://github.com/lter/lterpalettefinder#readme). This R package accepts a photo and identifies the hexadecimal codes for the top 25 most different colors in that photo. This is really great when you want to have a plot's aesthetics have a tight relationship to a picture of a study organism or research site! CRAN submission is on the horizon so stay tuned!
 
 ## Personal Spotlight - `dndR`
 
-Perhaps unsurprisingly for someone of my professional interests but I am a *huge* Dungeons & Dragons fan in my free time. To blend my personal and professional interests I've begun working on an R package called [`dndR`](https://github.com/njlyon0/dndR#readme){target="_blank"} that serves any other people in the R / DnD Venn Diagram intersection. This package is also a fun chance for me to practice my coding skills in a risk-free environment
+Perhaps unsurprisingly for someone of my professional interests but I am a *huge* Dungeons & Dragons fan in my free time. To blend my personal and professional interests I've begun working on an R package called [`dndR`](https://github.com/njlyon0/dndR#readme) that serves any other people in the R / DnD Venn Diagram intersection. This package is also a fun chance for me to practice my coding skills in a risk-free environment

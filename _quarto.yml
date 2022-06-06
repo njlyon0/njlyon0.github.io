@@ -26,4 +26,6 @@ format:
     theme: united
     css: styles.css
     toc: true
+    link-external-newwindow: true
+    link-external-icon: true
 

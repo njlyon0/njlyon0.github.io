@@ -142,11 +142,11 @@ ul.task-list{list-style: none;}
 <h2 class="anchored" data-anchor-id="workshops-and-lectures">Workshops and Lectures</h2>
 <p><img src="images/squash_bug_nymph.jpg" class="img-fluid" alt="squash bug nymph"></p>
 <ul>
-<li>Collaborative Coding with GitHub and RStudio. <strong>2022</strong>. National Center for Ecological Analysis and Synthesis, LTER Network Office - <a href="https://github.nceas.ucsb.edu/LTER/github-workshop" target="_blank">GitHub repo</a> - <a href="https://pages.github.nceas.ucsb.edu/LTER/github-workshop/" target="_blank">Workshop Bookdown</a></li>
+<li>Collaborative Coding with GitHub and RStudio. <strong>2022</strong>. National Center for Ecological Analysis and Synthesis, LTER Network Office - <a href="https://github.nceas.ucsb.edu/LTER/github-workshop">GitHub repo</a> - <a href="https://pages.github.nceas.ucsb.edu/LTER/github-workshop/">Workshop Bookdown</a></li>
 <li>Introduction to Statistics and R in Ecology Research. <strong>2020</strong>. Insect Ecology (ENT 4520/6520), Clemson University. Clemson SC.</li>
 <li>Plotting with ggplot2. <strong>2019</strong>. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.</li>
 <li>Choosing the “Right” Statistical Test. <strong>2019</strong>. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.</li>
-<li>Multivariate Statistics in R. <strong>2018</strong>. Data Management and Analysis in R for Ecologists and Evolutionary Biologists (EEB 698) - <a href="https://github.com/njlyon0/lyon-tutorial_multivariate-intro" target="_blank">GitHub repo</a></li>
+<li>Multivariate Statistics in R. <strong>2018</strong>. Data Management and Analysis in R for Ecologists and Evolutionary Biologists (EEB 698) - <a href="https://github.com/njlyon0/lyon-tutorial_multivariate-intro">GitHub repo</a></li>
 </ul>
 </section>
 <section id="courses-taught" class="level2">
@@ -170,13 +170,13 @@ ul.task-list{list-style: none;}
 <li>Lyon, N.J. and Debinski, D.M. Evaluating the Effects of Eleven Years of Consistent Restoration Management. Ecological Society of America, Louisville KY, August <strong>2019</strong></li>
 <li>Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. Native Plant and Pollinator Response to Management with Fire and Grazing. Ecological Society of America, New Orleans LA, August <strong>2018</strong></li>
 <li>Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. Plant and Pollinator Response to Adaptive Management. Graduate and Professional Student Research Conference, Ames IA, April <strong>2018</strong>. Awarded Best Oral Presentation.</li>
-<li>Lyon, N.J., Debinski, D.M. Butterfly and Nectar-Producing Plant Response to Invasive Grass Management. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February <strong>2018</strong> - <a href="https://github.com/njlyon0/collab_coon-daubenmire-herbicide" target="_blank">GitHub repo</a></li>
+<li>Lyon, N.J., Debinski, D.M. Butterfly and Nectar-Producing Plant Response to Invasive Grass Management. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February <strong>2018</strong> - <a href="https://github.com/njlyon0/collab_coon-daubenmire-herbicide">GitHub repo</a></li>
 <li>Lyon, N.J. An Integrated Approach to Tallgrass Prairie Restoration. Three-Minute Thesis, Ames IA, January <strong>2018</strong></li>
-<li>Lyon, N. J., Debinski, D.M., and Rangwala, I. Species Distribution Modeling to Predict Prairie Restoration Success under Climate Change. Ecological Society of America, Portland OR, August <strong>2017</strong> - <a href="https://github.com/njlyon0/lyon-ms-thesis_sdm" target="_blank">GitHub repo</a></li>
-<li>Lyon, N.J. Predicted Response of Native Grassland Plants to Climate Change. Ten Years of Research in the Grand River Grasslands Symposium, Lamoni IA, June <strong>2017</strong> - <a href="https://github.com/njlyon0/lyon-ms-thesis_sdm" target="_blank">GitHub repo</a></li>
+<li>Lyon, N. J., Debinski, D.M., and Rangwala, I. Species Distribution Modeling to Predict Prairie Restoration Success under Climate Change. Ecological Society of America, Portland OR, August <strong>2017</strong> - <a href="https://github.com/njlyon0/lyon-ms-thesis_sdm">GitHub repo</a></li>
+<li>Lyon, N.J. Predicted Response of Native Grassland Plants to Climate Change. Ten Years of Research in the Grand River Grasslands Symposium, Lamoni IA, June <strong>2017</strong> - <a href="https://github.com/njlyon0/lyon-ms-thesis_sdm">GitHub repo</a></li>
 <li>Lyon, N.J., Debinski, D.M., Miller, J., Schact, W., and Stein, D. Grazing, Burning, and Butterflies. Iowa Urban Tree Council, Des Moines IA, April <strong>2017</strong></li>
 <li>Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. and Stein, D. Adaptive Management for Prairie Plants and Pollinators in Midwestern Working Landscapes. Iowa Invasive Species Conference, Moravia IA, March <strong>2017</strong></li>
-<li>Lyon, N.J. Incorporating Correlative Modeling into Modifying Restoration Strategies for the Future. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February <strong>2017</strong> - <a href="https://github.com/njlyon0/lyon-ms-thesis_sdm" target="_blank">GitHub repo</a></li>
+<li>Lyon, N.J. Incorporating Correlative Modeling into Modifying Restoration Strategies for the Future. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February <strong>2017</strong> - <a href="https://github.com/njlyon0/lyon-ms-thesis_sdm">GitHub repo</a></li>
 </ul>
 </section>
 <section id="b.sc.-presentations-2012-16" class="level3">
@@ -278,6 +278,22 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return popup.innerHTML;
     });
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->
