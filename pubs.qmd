@@ -8,9 +8,11 @@ I have had several opportunities to publish scientific papers both as a lead aut
 
 ![](images/great_spangled_fritillary.jpg)
 
-Note that these projects have GitHub repositories but they are set to 'Private' until publication. If you would like to use the code in this repos, just reach out and we can discuss adding you to them before their visibility is changed.
+Note that most of these projects have GitHub repositories but they are set to 'Private' until publication. If you would like to use the code in this repos, just reach out and we can discuss adding you to them before their visibility is changed.
 
-- Kucuk, R.A., Campbell, B.J., Lyon, N.J., Caterino, M.S. Gut bacteria of adult and larval Cotinis nitida Linnaeus (Coleoptera: Scarabaeidae) demonstrate community differences according to life stage and gut region. *[In prep]*
+- Gaynor, K. et al. Ten Simple Rules to Cultivate Belonging in Collaborative Data Science Research Teams. *[In prep]*
+
+- Kucuk, R.A., Campbell, B.J., Lyon, N.J., Caterino, M.S. Gut Bacteria of Ddult and Larval Cotinis nitida Linnaeus (Coleoptera: Scarabaeidae) Demonstrate Community Differences According to Life Stage and Gut Region. *[In prep]*
 
 - Lyon, N.J., Debinski, D.M., Rogers, H.S. Plant and Pollinator Communities Responded Differently to Eleven Years of Management. *[In prep]*
 
