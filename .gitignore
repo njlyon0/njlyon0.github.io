@@ -43,5 +43,8 @@ vignettes/*.pdf
 # Add DS_Store
 .DS_Store
 
-# Add .Rproj
+# .Rproj file
 *.Rproj
+
+# Content archive
+_archive
