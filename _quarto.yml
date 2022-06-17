@@ -11,6 +11,7 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - pkgs.qmd
       - talks.qmd
       - pubs.qmd
     right:

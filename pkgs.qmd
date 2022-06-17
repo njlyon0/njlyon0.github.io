@@ -1,0 +1,29 @@
+---
+title: "Packages"
+---
+
+I have increasingly worked on wrapping the functions that I write into R packages both for simplicity's sake on my end as I reference my own work across different projects but also to (hopefully) help others who run into the same repetitive tasks that I have attempted to solve. Below are the packages I am an author on along with a brief description of their purpose and their hex logo. Additionally, for `dndR`, `helpR`, and `scicomptools` I designed their hex logos.
+
+## [`lterpalettefinder`](https://github.com/lter/lterpalettefinder#readme)
+
+<img src="images/hex_lterpalettefinder.png" width="20%" align="right"/>
+
+This package allows users to extract colors (as hexadecimal codes) from a given image. These codes can then be used for the creation of graphics that have aesthetic connections to pictures relevant to the data (e.g., focal organism, study site, etc.). Secondarily, it also contains a set of "official" palettes that can be accessed if the user would prefer to use a pre-set palette rather than deriving their own.
+
+## [`dndR`](https://github.com/njlyon0/dndR#readme)
+
+<img src="images/hex_dndR.png" width="20%" align="right"/>
+
+Perhaps unsurprisingly for someone of my professional interests, but I am a *huge* Dungeons & Dragons fan in my free time. To blend my personal and professional interests I've created this package (`dndR`) to serve any other people in the R / DnD Venn Diagram intersection. It allows for easy rolling of dice, creation of character statistics, and (for GMs) encounter balancing. This package is also a fun chance for me to practice my coding skills in a risk-free environment.
+
+## [`helpR`](https://github.com/njlyon0/helpR#readme)
+
+<img src="images/hex_helpR.png" width="20%" align="right"/>
+
+The unifying theme of this package is essentially that none of these functions have a strong connection anywhere else. This package is a grab back of data wrangling, plotting, and exporting functions I've written and wanted to use across projects without copy/pasting the functions into all those different repositories.
+
+## [`scicomptools`](https://github.com/NCEAS/scicomptools#readme)
+
+<img src="images/hex_scicomptools.png" width="20%" align="right"/>
+
+This package contains all of the standalone functions written by the NCEAS Scientific Computing Support Team that don't cleanly fit in other repositories. This is similar in rationale to the `helpR` package but in this case, many of the functions were written by others and I have simply maintained them and improved them where the opportunity arises.
