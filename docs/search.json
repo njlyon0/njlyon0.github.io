@@ -11,7 +11,7 @@
     "href": "talks.html#workshops-and-lectures",
     "title": "Talks",
     "section": "Workshops and Lectures",
-    "text": "Workshops and Lectures\n\n\nCollaborative Coding with GitHub and RStudio. 2022. National Center for Ecological Analysis and Synthesis, LTER Network Office - GitHub repo - Workshop Bookdown\nIntroduction to Statistics and R in Ecology Research. 2020. Insect Ecology (ENT 4520/6520), Clemson University. Clemson SC.\nPlotting with ggplot2. 2019. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.\nChoosing the “Right” Statistical Test. 2019. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.\nMultivariate Statistics in R. 2018. Data Management and Analysis in R for Ecologists and Evolutionary Biologists (EEB 698) - GitHub repo"
+    "text": "Workshops and Lectures\n\n\n\n\n\n\nCollaborative Coding with GitHub and RStudio. 2022. National Center for Ecological Analysis and Synthesis, LTER Network Office - GitHub repo - Workshop Bookdown\nIntroduction to Statistics and R in Ecology Research. 2020. Insect Ecology (ENT 4520/6520), Clemson University. Clemson SC.\nPlotting with ggplot2. 2019. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.\nChoosing the “Right” Statistical Test. 2019. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.\nMultivariate Statistics in R. 2018. Data Management and Analysis in R for Ecologists and Evolutionary Biologists (EEB 698) - GitHub repo"
   },
   {
     "objectID": "talks.html#courses-taught",
@@ -32,7 +32,7 @@
     "href": "pkgs.html",
     "title": "Packages",
     "section": "",
-    "text": "I have increasingly worked on wrapping the functions that I write into R packages both for simplicity’s sake on my end as I reference my own work across different projects but also to (hopefully) help others who run into the same repetitive tasks that I have attempted to solve. Below are the packages I am an author on along with a brief description of their purpose and their hex logo. Additionally, for dndR, helpR, and scicomptools I designed their hex logos."
+    "text": "I have increasingly worked on wrapping the functions that I write into R packages both for simplicity’s sake on my end as I reference my own work across different projects but also to (hopefully) help others who run into the same repetitive tasks that I have attempted to solve. Below are the packages I am an author on along with a brief description of their purpose and their hex logo. Additionally, I designed the hex logos for dndR, helpR, and scicomptools."
   },
   {
     "objectID": "pkgs.html#lterpalettefinder",
@@ -81,13 +81,13 @@
     "href": "pubs.html#in-prep",
     "title": "Papers",
     "section": "In-Prep",
-    "text": "In-Prep\n\nNote that most of these projects have GitHub repositories but they are set to ‘Private’ until publication. If you would like to use the code in this repos, just reach out and we can discuss adding you to them before their visibility is changed.\n\nGaynor, K. et al. Ten Simple Rules to Cultivate Belonging in Collaborative Data Science Research Teams. [In prep]\nKucuk, R.A., Campbell, B.J., Lyon, N.J., Caterino, M.S. Gut Bacteria of Ddult and Larval Cotinis nitida Linnaeus (Coleoptera: Scarabaeidae) Demonstrate Community Differences According to Life Stage and Gut Region. [In prep]\nLyon, N.J., Debinski, D.M., Rogers, H.S. Plant and Pollinator Communities Responded Differently to Eleven Years of Management. [In prep]"
+    "text": "In-Prep\nNote that most of these projects have GitHub repositories but they are set to ‘Private’ until publication. If you would like to use the code in one of these repos, just reach out and we can discuss adding you to them before the papers are published.\n\nGaynor, K. et al. Ten Simple Rules to Cultivate Belonging in Collaborative Data Science Research Teams. [In prep]\nKucuk, R.A., Campbell, B.J., Lyon, N.J., Caterino, M.S. Gut Bacteria of Ddult and Larval Cotinis nitida Linnaeus (Coleoptera: Scarabaeidae) Demonstrate Community Differences According to Life Stage and Gut Region. [In prep]\nLyon, N.J., Debinski, D.M., Rogers, H.S. Plant and Pollinator Communities Responded Differently to Eleven Years of Management. [In prep]"
   },
   {
     "objectID": "pubs.html#published",
     "href": "pubs.html#published",
     "title": "Papers",
     "section": "Published",
-    "text": "Published\n\n\n\n\n\n\nCoon, J.J., Lyon, N.J., Raynor, E.J., Debinski, D.M., Miller, J.R., Schact, W.H. 2021. Using Adaptive Management to Restore Grasslands Invaded by Tall Fescue (Schedonorus arundinaceus). 76. 2021. Rangeland Ecology and Management - GitHub repo\nLyon, N.J., Stein, D.S., Debinski, D.M., Miller, J.R., Schact, W.H. 2021. Responses of Flowering Plant and Butterfly Communities to Experimental Herbicide and Seeding Treatments for Native Grassland Restoration. 3. 2021. Ecological Restoration - GitHub repo\nLyon, N.J., Debinski, D.M., Rogers, H.S., Adams, D.C., and Wilsey, B.J. An Integrated Approach to Restoring Grassland Function to Working Lands. 2019. Master of Science Thesis\nLyon, N.J., Debinski, D.M., Rangwala, I. Evaluating the Utility of Species Distribution Models in Informing Climate Change-Resilient Grassland Restoration Strategy. 7. 2019 Frontiers in Ecology and Evolution - GitHub repo\nLyon, N.J. and Hodum, P. 2015. Mytilus Mussels as Bio-indicators of Regional Microplastic Trends. University of Puget Sound Undergraduate Thesis"
+    "text": "Published\n\nCoon, J.J., Lyon, N.J., Raynor, E.J., Debinski, D.M., Miller, J.R., Schact, W.H. 2021. Using Adaptive Management to Restore Grasslands Invaded by Tall Fescue (Schedonorus arundinaceus). 76. 2021. Rangeland Ecology and Management - GitHub repo\nLyon, N.J., Stein, D.S., Debinski, D.M., Miller, J.R., Schact, W.H. 2021. Responses of Flowering Plant and Butterfly Communities to Experimental Herbicide and Seeding Treatments for Native Grassland Restoration. 3. 2021. Ecological Restoration - GitHub repo\nLyon, N.J., Debinski, D.M., Rogers, H.S., Adams, D.C., and Wilsey, B.J. An Integrated Approach to Restoring Grassland Function to Working Lands. 2019. Master of Science Thesis\nLyon, N.J., Debinski, D.M., Rangwala, I. Evaluating the Utility of Species Distribution Models in Informing Climate Change-Resilient Grassland Restoration Strategy. 7. 2019 Frontiers in Ecology and Evolution - GitHub repo\nLyon, N.J. and Hodum, P. 2015. Mytilus Mussels as Bio-indicators of Regional Microplastic Trends. University of Puget Sound Undergraduate Thesis"
   }
 ]

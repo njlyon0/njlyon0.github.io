@@ -4,28 +4,28 @@ title: "Papers"
 
 I have had several opportunities to publish scientific papers both as a lead author and as a member of a larger scientific team. Here are some of the highlights of that record. If any of these links are behind a paywall, simply reach out to me and I'll work to get you a PDF.
 
+![](images/great_spangled_fritillary.jpg){width="600" fig-align="center"}
+
 ## In-Prep
 
-![](images/great_spangled_fritillary.jpg)
+Note that most of these projects have GitHub repositories but they are set to 'Private' until publication. If you would like to use the code in one of these repos, just reach out and we can discuss adding you to them before the papers are published.
 
-Note that most of these projects have GitHub repositories but they are set to 'Private' until publication. If you would like to use the code in this repos, just reach out and we can discuss adding you to them before their visibility is changed.
+-   Gaynor, K. et al. Ten Simple Rules to Cultivate Belonging in Collaborative Data Science Research Teams. *\[In prep\]*
 
-- Gaynor, K. et al. Ten Simple Rules to Cultivate Belonging in Collaborative Data Science Research Teams. *[In prep]*
+-   Kucuk, R.A., Campbell, B.J., Lyon, N.J., Caterino, M.S. Gut Bacteria of Ddult and Larval Cotinis nitida Linnaeus (Coleoptera: Scarabaeidae) Demonstrate Community Differences According to Life Stage and Gut Region. *\[In prep\]*
 
-- Kucuk, R.A., Campbell, B.J., Lyon, N.J., Caterino, M.S. Gut Bacteria of Ddult and Larval Cotinis nitida Linnaeus (Coleoptera: Scarabaeidae) Demonstrate Community Differences According to Life Stage and Gut Region. *[In prep]*
-
-- Lyon, N.J., Debinski, D.M., Rogers, H.S. Plant and Pollinator Communities Responded Differently to Eleven Years of Management. *[In prep]*
+-   Lyon, N.J., Debinski, D.M., Rogers, H.S. Plant and Pollinator Communities Responded Differently to Eleven Years of Management. *\[In prep\]*
 
 ## Published
 
-![](images/stilt_bug.jpg){fig-align="center"}
+-   Coon, J.J., Lyon, N.J., Raynor, E.J., Debinski, D.M., Miller, J.R., Schact, W.H. 2021. [Using Adaptive Management to Restore Grasslands Invaded by Tall Fescue (*Schedonorus arundinaceus*)](https://www.sciencedirect.com/science/article/abs/pii/S1550742421000129?casa_token=4hUYfkm3-RcAAAAA:wxQ1-YwOxcii7F3TzLo8FL5uBeMe7QzmKsOHQ0TIM3zYO5m4tARAfLpgVOcLlLVxElm4d4qwrWc). 76. **2021**. Rangeland Ecology and Management - [GitHub repo](https://github.com/njlyon0/collab_coon-daubenmire-herbicide)
 
-- Coon, J.J., Lyon, N.J., Raynor, E.J., Debinski, D.M., Miller, J.R., Schact, W.H. 2021. [Using Adaptive Management to Restore Grasslands Invaded by Tall Fescue (*Schedonorus arundinaceus*)](https://www.sciencedirect.com/science/article/abs/pii/S1550742421000129?casa_token=4hUYfkm3-RcAAAAA:wxQ1-YwOxcii7F3TzLo8FL5uBeMe7QzmKsOHQ0TIM3zYO5m4tARAfLpgVOcLlLVxElm4d4qwrWc). 76. **2021**. Rangeland Ecology and Management - [GitHub repo](https://github.com/njlyon0/collab_coon-daubenmire-herbicide)
+-   Lyon, N.J., Stein, D.S., Debinski, D.M., Miller, J.R., Schact, W.H. 2021. [Responses of Flowering Plant and Butterfly Communities to Experimental Herbicide and Seeding Treatments for Native Grassland Restoration](http://er.uwpress.org/content/39/3/168.short). 3. **2021**. Ecological Restoration - [GitHub repo](https://github.com/njlyon0/lyon_bfly-herbicide)
 
-- Lyon, N.J., Stein, D.S., Debinski, D.M., Miller, J.R., Schact, W.H. 2021. [Responses of Flowering Plant and Butterfly Communities to Experimental Herbicide and Seeding Treatments for Native Grassland Restoration](http://er.uwpress.org/content/39/3/168.short). 3. **2021**. Ecological Restoration - [GitHub repo](https://github.com/njlyon0/lyon_bfly-herbicide)
+-   Lyon, N.J., Debinski, D.M., Rogers, H.S., Adams, D.C., and Wilsey, B.J. [An Integrated Approach to Restoring Grassland Function to Working Lands](https://dr.lib.iastate.edu/entities/publication/f3cd5b5f-17ae-4fdd-b8b9-0a87fda99765). **2019**. Master of Science Thesis
 
-- Lyon, N.J., Debinski, D.M., Rogers, H.S., Adams, D.C., and Wilsey, B.J. [An Integrated Approach to Restoring Grassland Function to Working Lands](https://dr.lib.iastate.edu/entities/publication/f3cd5b5f-17ae-4fdd-b8b9-0a87fda99765). **2019**. Master of Science Thesis
+-   Lyon, N.J., Debinski, D.M., Rangwala, I. [Evaluating the Utility of Species Distribution Models in Informing Climate Change-Resilient Grassland Restoration Strategy](https://www.frontiersin.org/articles/10.3389/fevo.2019.00033/full). 7. **2019** Frontiers in Ecology and Evolution - [GitHub repo](https://github.com/njlyon0/lyon-ms-thesis_sdm)
 
-- Lyon, N.J., Debinski, D.M., Rangwala, I. [Evaluating the Utility of Species Distribution Models in Informing Climate Change-Resilient Grassland Restoration Strategy](https://www.frontiersin.org/articles/10.3389/fevo.2019.00033/full). 7. **2019** Frontiers in Ecology and Evolution - [GitHub repo](https://github.com/njlyon0/lyon-ms-thesis_sdm)
+-   Lyon, N.J. and Hodum, P. 2015. [Mytilus Mussels as Bio-indicators of Regional Microplastic Trends](https://soundideas.pugetsound.edu/summer_research/259/). University of Puget Sound Undergraduate Thesis
 
-- Lyon, N.J. and Hodum, P. 2015. [Mytilus Mussels as Bio-indicators of Regional Microplastic Trends](https://soundideas.pugetsound.edu/summer_research/259/). University of Puget Sound Undergraduate Thesis
+![](images/stilt_bug.jpg){width="600" fig-align="center"}

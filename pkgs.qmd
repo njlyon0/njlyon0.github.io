@@ -2,7 +2,7 @@
 title: "Packages"
 ---
 
-I have increasingly worked on wrapping the functions that I write into R packages both for simplicity's sake on my end as I reference my own work across different projects but also to (hopefully) help others who run into the same repetitive tasks that I have attempted to solve. Below are the packages I am an author on along with a brief description of their purpose and their hex logo. Additionally, for `dndR`, `helpR`, and `scicomptools` I designed their hex logos.
+I have increasingly worked on wrapping the functions that I write into R packages both for simplicity's sake on my end as I reference my own work across different projects but also to (hopefully) help others who run into the same repetitive tasks that I have attempted to solve. Below are the packages I am an author on along with a brief description of their purpose and their hex logo. Additionally, I designed the hex logos for `dndR`, `helpR`, and `scicomptools`.
 
 ## [`lterpalettefinder`](https://github.com/lter/lterpalettefinder#readme)
 
