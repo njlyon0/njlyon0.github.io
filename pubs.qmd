@@ -4,7 +4,7 @@ title: "Papers"
 
 I have had several opportunities to publish scientific papers both as a lead author and as a member of a larger scientific team. Here are some of the highlights of that record. If any of these links are behind a paywall, simply reach out to me and I'll work to get you a PDF.
 
-![](images/great_spangled_fritillary.jpg){width="600" fig-align="center"}
+![](images/great_spangled_fritillary.jpg){width="600" fig-align="center" fig-alt="great spangled fritillary"}
 
 ## In-Prep
 
@@ -28,4 +28,4 @@ Note that most of these projects have GitHub repositories but they are set to 'P
 
 -   Lyon, N.J. and Hodum, P. 2015. [Mytilus Mussels as Bio-indicators of Regional Microplastic Trends](https://soundideas.pugetsound.edu/summer_research/259/). University of Puget Sound Undergraduate Thesis
 
-![](images/stilt_bug.jpg){width="600" fig-align="center"}
+![](images/stilt_bug.jpg){width="600" fig-align="center" fig-alt="stilt bug"}
