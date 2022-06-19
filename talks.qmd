@@ -22,7 +22,7 @@ I love chatting about science and data management and leap at the opportunity to
 
 ## Conference-Style Presentations
 
-- Lyon, N.J. and Vargas C. Data Quality Control Using R. Santa Barbara R Users Group, June **2022** - [GitHub repo](https://github.com/njlyon0/collab_vargas-quality-control-talk)
+- Lyon, N.J. and Vargas, C. Data Quality Control Using R. Santa Barbara R Users Group, June **2022** - [GitHub repo](https://github.com/njlyon0/collab_vargas-quality-control-talk)
 - Lyon, N.J. and Debinski, D.M. Evaluating the Effects of Eleven Years of Consistent Restoration Management. Ecological Society of America, Louisville KY, August **2019**
 - Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. Native Plant and Pollinator Response to Management with Fire and Grazing. Ecological Society of America, New Orleans LA, August **2018**
 - Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. Plant and Pollinator Response to Adaptive Management. Graduate and Professional Student Research Conference, Ames IA, April **2018**. Awarded Best Oral Presentation.

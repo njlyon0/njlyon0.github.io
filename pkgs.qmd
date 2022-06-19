@@ -8,7 +8,7 @@ I have increasingly worked on wrapping the functions that I write into R package
 
 <img src="images/hex_lterpalettefinder.png" width="20%" align="right"/>
 
-This package allows users to extract colors (as hexadecimal codes) from a given image. These codes can then be used for the creation of graphics that have aesthetic connections to pictures relevant to the data (e.g., focal organism, study site, etc.). Secondarily, it also contains a set of "official" palettes that can be accessed if the user would prefer to use a pre-set palette rather than deriving their own.
+This package allows users to extract colors (as hexadecimal codes) from a given image. These codes can then be used for the creation of graphics that have aesthetic connections to pictures relevant to the data (e.g., focal organism, study site, etc.). Secondarily, it also contains a set of official palettes that can be accessed if the user would prefer to use a pre-set palette rather than creating their own.
 
 ## [`dndR`](https://github.com/njlyon0/dndR#readme)
 
@@ -20,7 +20,7 @@ Perhaps unsurprisingly for someone of my professional interests, but I am a *hug
 
 <img src="images/hex_helpR.png" width="20%" align="right"/>
 
-The unifying theme of this package is essentially that none of these functions have a strong connection anywhere else. This package is a grab back of data wrangling, plotting, and exporting functions I've written and wanted to use across projects without copy/pasting the functions into all those different repositories.
+The unifying theme of this package is essentially that none of these functions have a strong connection anywhere else. This package is a grab bag of data wrangling, plotting, and exporting functions I've written and wanted to use across projects without copy/pasting the functions into all those different repositories.
 
 ## [`scicomptools`](https://github.com/NCEAS/scicomptools#readme)
 

@@ -8,11 +8,11 @@ I have had several opportunities to publish scientific papers both as a lead aut
 
 ## In-Prep
 
-Note that most of these projects have GitHub repositories but they are set to 'Private' until publication. If you would like to use the code in one of these repos, just reach out and we can discuss adding you to them before the papers are published.
+Note that most of these projects have GitHub repositories but they are set to 'Private' until publication. If you would like to use the code in one of these repos, just reach out and we can discuss adding you to the repositories before the papers are published.
 
 -   Gaynor, K. et al. Ten Simple Rules to Cultivate Belonging in Collaborative Data Science Research Teams. *\[In prep\]*
 
--   Kucuk, R.A., Campbell, B.J., Lyon, N.J., Caterino, M.S. Gut Bacteria of Ddult and Larval Cotinis nitida Linnaeus (Coleoptera: Scarabaeidae) Demonstrate Community Differences According to Life Stage and Gut Region. *\[In prep\]*
+-   Kucuk, R.A., Campbell, B.J., Lyon, N.J., Caterino, M.S. Gut Bacteria of adult and Larval Cotinis nitida Linnaeus (Coleoptera: Scarabaeidae) Demonstrate Community Differences According to Life Stage and Gut Region. *\[In prep\]*
 
 -   Lyon, N.J., Debinski, D.M., Rogers, H.S. Plant and Pollinator Communities Responded Differently to Eleven Years of Management. *\[In prep\]*
 
