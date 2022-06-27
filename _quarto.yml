@@ -7,7 +7,7 @@ website:
   repo-url: https://github.com/njlyon0/njlyon0.github.io
   repo-actions: [issue]
   navbar:
-    background: dark
+    background: primary
     left:
       - href: index.qmd
         text: Home
@@ -25,7 +25,9 @@ website:
 
 format:
   html:
-    theme: united
+    theme:
+      light: minty
+      dark: darkly
     css: styles.css
     toc: true
     link-external-newwindow: true
