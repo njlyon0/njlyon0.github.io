@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Nicholas J Lyon"
-  repo-url: https://github.com/njlyon0/lyon_quarto
+  repo-url: https://github.com/njlyon0/njlyon0.github.io
   repo-actions: [issue]
   navbar:
     background: dark
