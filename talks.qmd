@@ -4,9 +4,9 @@ title: "Talks"
 
 I love chatting about science and data management and leap at the opportunity to present in public-facing contexts. Here is a breakdown of some of the conference talks, workshops, and lectures I have given.
 
-## Workshops and Lectures
-
 ![](images/squash_bug_nymph.jpg){width="600" fig-align="center" fig-alt="squash bug nymph"}
+
+## Workshops and Lectures
 
 - Collaborative Coding with GitHub and RStudio. **2022**. National Center for Ecological Analysis and Synthesis, LTER Network Office - [GitHub repo](https://github.nceas.ucsb.edu/LTER/github-workshop) - [Workshop Bookdown](https://pages.github.nceas.ucsb.edu/LTER/github-workshop/)
 - Introduction to Statistics and R in Ecology Research. **2020**. Insect Ecology (ENT 4520/6520), Clemson University. Clemson SC.
