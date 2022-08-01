@@ -14,13 +14,13 @@ This package allows users to extract colors (as hexadecimal codes) from a given 
 
 <img src="images/dndR_hex.png" width="20%" align="right"/>
 
-Perhaps unsurprisingly for someone of my professional interests, but I am a *huge* Dungeons & Dragons fan in my free time. To blend my personal and professional interests I've created this package (`dndR`) to serve any other people in the R / DnD Venn Diagram intersection. It allows for easy rolling of dice, creation of character statistics, and (for GMs) encounter balancing. This package is also a fun chance for me to practice my coding skills in a risk-free environment.
+Perhaps unsurprisingly for someone of my professional interests, I am a *huge* Dungeons & Dragons ({{< fa dice-d20 >}}) fan in my free time. To blend my personal and professional interests I've created this package (`dndR`) to serve any other people in the R / DnD Venn Diagram intersection. It allows for easy rolling of dice, creation of character statistics, and (for GMs) encounter balancing. This package is also a fun chance for me to practice my coding skills in a risk-free environment.
 
 ## [`helpR`](https://github.com/njlyon0/helpR#readme)
 
 <img src="images/helpR_hex.png" width="20%" align="right"/>
 
-The unifying theme of this package is essentially that none of these functions have a strong connection anywhere else. This package is a grab bag of data wrangling, plotting, and exporting functions I've written and wanted to use across projects without copy/pasting the functions into all those different repositories.
+The unifying theme of this package is essentially that none of these functions have a strong connection anywhere else. This package is a grab bag of data wrangling, plotting, and exporting functions I've written and wanted to use across projects without copy/pasting the functions into all those different repositories. Hopefully some of them can be of value to you as well!
 
 ## [`scicomptools`](https://github.com/NCEAS/scicomptools#readme)
 
