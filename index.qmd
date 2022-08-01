@@ -6,21 +6,21 @@ about:
   image-width: 10cm
   image-shape: round
   links:
-    - icon: github
+    - href: https://github.com/njlyon0
       text: GitHub
-      href: https://github.com/njlyon0
-    - icon: twitter
+      icon: github
+    - href: https://twitter.com/scilyon
       text: Twitter
-      href: https://twitter.com/scilyon
-    - icon: book
+      icon: twitter
+    - href: https://github.com/njlyon0/lyon_quarto/blob/main/files/LyonCV.pdf
       text: CV
-      href: https://github.com/njlyon0/lyon_quarto/blob/main/files/LyonCV.pdf
-    - icon: journal-bookmark-fill
+      icon: book
+    - href: https://www.linkedin.com/in/nicholasjlyon
       text: LinkedIn
-      href: https://www.linkedin.com/in/nicholasjlyon
-    - icon: envelope
+      icon: journal-bookmark-fill
+    - href: mailto:nicholasjlyon@gmail.com
       text: Email
-      href: mailto:nicholasjlyon@gmail.com
+      icon: envelope
 ---
 
 ## Welcome!
