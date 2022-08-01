@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Nicholas J Lyon"
+  favicon: images/dndR_hex.png
   repo-url: https://github.com/njlyon0/njlyon0.github.io
   repo-actions: [issue]
   navbar:

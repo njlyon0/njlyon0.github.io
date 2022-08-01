@@ -7,14 +7,20 @@ about:
   image-shape: round
   links:
     - icon: github
-      text: njlyon0
+      text: GitHub
       href: https://github.com/njlyon0
     - icon: twitter
-      text: scilyon
+      text: Twitter
       href: https://twitter.com/scilyon
     - icon: book
-      text: Lyon CV
+      text: CV
       href: https://github.com/njlyon0/lyon_quarto/blob/main/files/LyonCV.pdf
+    - icon: journal-bookmark-fill
+      text: LinkedIn
+      href: https://www.linkedin.com/in/nicholasjlyon
+    - icon: envelope
+      text: Email
+      href: mailto:nicholasjlyon@gmail.com
 ---
 
 ## Welcome!
