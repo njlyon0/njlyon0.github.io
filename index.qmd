@@ -12,10 +12,10 @@ about:
     - href: https://twitter.com/scilyon
       text: Twitter
       icon: twitter
-    - href: https://github.com/njlyon0/lyon_quarto/blob/main/files/LyonCV.pdf
+    - href: https://github.com/njlyon0/njlyon0.github.io/blob/main/files/LyonCV.pdf
       text: CV
       icon: archive-fill
-    - href: https://github.com/njlyon0/lyon_quarto/blob/main/files/LyonCV.pdf
+    - href: https://github.com/njlyon0/njlyon0.github.io/blob/main/files/LyonResume.pdf
       text: Resume
       icon: journal-bookmark-fill
     - href: https://www.linkedin.com/in/nicholasjlyon
