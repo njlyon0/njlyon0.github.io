@@ -14,13 +14,16 @@ about:
       icon: twitter
     - href: https://github.com/njlyon0/lyon_quarto/blob/main/files/LyonCV.pdf
       text: CV
-      icon: book
+      icon: archive-fill
+    - href: https://github.com/njlyon0/lyon_quarto/blob/main/files/LyonCV.pdf
+      text: Resume
+      icon: journal-bookmark-fill
     - href: https://www.linkedin.com/in/nicholasjlyon
       text: LinkedIn
       icon: linkedin
     - href: mailto:nicholasjlyon@gmail.com
       text: Email
-      icon: envelope
+      icon: envelope-fill
 ---
 
 ## Welcome!
