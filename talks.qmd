@@ -8,15 +8,21 @@ I love chatting about science and data management and leap at the opportunity to
 
 ## Workshops & Lectures
 
-{{< fa screwdriver-wrench >}} -- Collaborative Coding with GitHub and RStudio. **2022**. National Center for Ecological Analysis and Synthesis, LTER Network Office - [GitHub repo](https://github.nceas.ucsb.edu/LTER/github-workshop) - [Workshop Bookdown](https://pages.github.nceas.ucsb.edu/LTER/github-workshop/)
+{{< fa screwdriver-wrench >}} -- Lyon, N.J., De La Rosa, G., Guerrero, F. Sharing Science with R Shiny Apps. **2022**. LTER All Scientists' Meeting, Monterey, CA - [GitHub repo](https://github.com/njlyon0/asm-2022_shiny-workshop) - [Workshop website](https://njlyon0.github.io/asm-2022_shiny-workshop/) - [Example Shiny apps' GitHub repo](https://github.com/njlyon0/asm-2022_shiny-workshop-examples)
 
-{{< fa screwdriver-wrench >}} -- Introduction to Statistics and R in Ecology Research. **2020**. Insect Ecology (ENT 4520/6520), Clemson University. Clemson SC.
+{{< fa screwdriver-wrench >}} -- Lyon, N.J., Chen, A. Reproducible Coding with `git` and GitHub. **2022**. LTER All Scientists' Meeting, Monterey, CA - [GitHub repo](https://github.com/njlyon0/asm-2022_github-workshop) - [Workshop website](https://njlyon0.github.io/asm-2022_github-workshop/)
 
-{{< fa screwdriver-wrench >}} -- Plotting with ggplot2. **2019**. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.
+{{< fa screwdriver-wrench >}} -- Lyon, N.J., Chen, A., Brun, J. Coding with the Tidyverse. **2022**. National Center for Ecological Analysis and Synthesis, LTER Network Office - [GitHub repo](https://github.com/NCEAS/scicomp-workshop-tidyverse) - [Workshop website](https://nceas.github.io/scicomp-workshop-tidyverse/)
 
-{{< fa screwdriver-wrench >}} -- Choosing the “Right” Statistical Test. **2019**. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.
+{{< fa screwdriver-wrench >}} -- Lyon, N.J., Chen, A., Brun, J. Collaborative Coding with GitHub and RStudio. **2022**. National Center for Ecological Analysis and Synthesis, LTER Network Office - [GitHub repo](https://github.com/NCEAS/scicomp-workshop-collaborative-coding) - [Workshop website](https://nceas.github.io/scicomp-workshop-collaborative-coding/)
 
-{{< fa screwdriver-wrench >}} -- Multivariate Statistics in R. **2018**. Data Management and Analysis in R for Ecologists and Evolutionary Biologists (EEB 698) - [GitHub repo](https://github.com/njlyon0/lyon-tutorial_multivariate-intro)
+{{< fa screwdriver-wrench >}} -- Lyon, N.J. Introduction to Statistics and R in Ecology Research. **2020**. Insect Ecology (ENT 4520/6520), Clemson University. Clemson SC.
+
+{{< fa screwdriver-wrench >}} -- Lyon, N.J. Plotting with `ggplot2`. **2019**. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.
+
+{{< fa screwdriver-wrench >}} -- Lyon, N.J. Choosing the “Right” Statistical Test. **2019**. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.
+
+{{< fa screwdriver-wrench >}} -- Lyon, N.J. Multivariate Statistics in R. **2018**. Data Management and Analysis in R for Ecologists and Evolutionary Biologists (EEB 698) - [GitHub repo](https://github.com/njlyon0/lyon-tutorial_multivariate-intro)
 
 ## Courses
 
