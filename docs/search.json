@@ -46,7 +46,7 @@
     "href": "pkgs.html#dndr",
     "title": "Packages",
     "section": "dndR",
-    "text": "dndR\n\nPerhaps unsurprisingly for someone of my professional interests, I am a huge Dungeons & Dragons () fan in my free time. To blend my personal and professional interests I’ve created this package (dndR) to serve any other people in the R / DnD Venn Diagram intersection. It allows for easy rolling of dice, creation of character statistics, and (for GMs) encounter balancing. This package is also a fun chance for me to practice my coding skills in a risk-free environment."
+    "text": "dndR\n\nPerhaps unsurprisingly for someone of my professional interests, I am a huge Dungeons & Dragons () fan in my free time. To blend my personal and professional interests I’ve created this package (dndR) to serve any other people in the R / DnD Venn Diagram intersection. It allows for easy rolling of dice, creation of character statistics, and (for GMs) encounter balancing. This package is also a fun chance for me to practice my coding skills in a risk-free environment.\nTo help showcase some of the functions in dndR I’ve created a standalone Quarto website that is similar to a vignette. Feel free to check it out!"
   },
   {
     "objectID": "pkgs.html#helpr",
