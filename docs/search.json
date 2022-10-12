@@ -89,5 +89,26 @@
     "title": "Papers",
     "section": "Published",
     "text": "Published\n  – Coon, J.J., Lyon, N.J., Raynor, E.J., Debinski, D.M., Miller, J.R., Schact, W.H. 2021. Using Adaptive Management to Restore Grasslands Invaded by Tall Fescue (Schedonorus arundinaceus). 76. 2021. Rangeland Ecology and Management - GitHub repo\n  – Lyon, N.J., Stein, D.S., Debinski, D.M., Miller, J.R., Schact, W.H. 2021. Responses of Flowering Plant and Butterfly Communities to Experimental Herbicide and Seeding Treatments for Native Grassland Restoration. 3. 2021. Ecological Restoration - GitHub repo\n  – Lyon, N.J., Debinski, D.M., Rogers, H.S., Adams, D.C., and Wilsey, B.J. An Integrated Approach to Restoring Grassland Function to Working Lands. 2019. Master of Science Thesis\n – Lyon, N.J., Debinski, D.M., Rangwala, I. Evaluating the Utility of Species Distribution Models in Informing Climate Change-Resilient Grassland Restoration Strategy. 7. 2019 Frontiers in Ecology and Evolution - GitHub repo\n – Lyon, N.J. and Hodum, P. 2015. Mytilus Mussels as Bio-indicators of Regional Microplastic Trends. University of Puget Sound Undergraduate Thesis"
+  },
+  {
+    "objectID": "career.html",
+    "href": "career.html",
+    "title": "Selected Experience",
+    "section": "",
+    "text": "While I recommend checking out my CV for a more complete history of my career thus far, I am including more holistic descriptions of my programming-focused positions below."
+  },
+  {
+    "objectID": "career.html#lter-network-office",
+    "href": "career.html#lter-network-office",
+    "title": "Selected Experience",
+    "section": "LTER Network Office",
+    "text": "LTER Network Office\n \nI worked as a member of the Scientific Computing Support Team for the LTER Network Office housed at the National Center for Ecological Analysis and Synthesis (NCEAS). While on this team, I supported the analytical, quality control, and data acquisition and management needs of five synthesis working groups comprised of dozens of working scientists and managers.\nSpecifically, I created the Quarto website for the team and helped in the creation of GitHub and tidyverse workshops. I also designed a tutorial on building websites with Quarto to facilitate a more ‘go at your own pace’ approach to teaching coding skills. Additionally, I discussed a set of coding “best practices” recommendations with my team and then created brief explanations of these on our website."
+  },
+  {
+    "objectID": "career.html#herbivory-variability-network",
+    "href": "career.html#herbivory-variability-network",
+    "title": "Selected Experience",
+    "section": "Herbivory Variability Network",
+    "text": "Herbivory Variability Network\n\nI worked as the Data Scientist / Network Administrator for the Herbivory Variability Network (aka HerbVar) housed at Michigan State University and led by Dr. Will Wetzel. While in that role I designed significant components of their wrangling pipeline and optimized some workflows that predated my hiring. Many of HerbVar’s repositories are private (at least until publication!) but their GitHub Organization can be found here.\nOne significant task I accomplished for HerbVar that is public was their R Shiny Data Portal. The portal allowed HerbVar network members to attach data, enter associated metadata, and even performed preliminary quality control prior to submission! The GitHub repository for the portal can be found here"
   }
 ]
