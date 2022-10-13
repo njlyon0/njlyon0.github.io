@@ -6,8 +6,8 @@ title: "Selected Experience"
 
 ## LTER Network Office
 
-<img src="images/lno_logo.jpeg" width="45%"/>
-<img src="images/nceas_logo.jpeg" width="45%"/>
+<img src="images/lno_square_logo_transparent.png" width = "15%" align = "right"/>
+<img src="images/nceas_square_logo_transparent.png" width = "15%" align = "right"/>
 
 I worked as a member of the Scientific Computing Support Team for the [LTER Network Office](https://lternet.edu/) housed at the National Center for Ecological Analysis and Synthesis ([NCEAS](https://www.nceas.ucsb.edu/)). While on this team, I supported the analytical, quality control, and data acquisition and management needs of five synthesis working groups comprised of dozens of working scientists and managers.
 
@@ -15,7 +15,7 @@ Specifically, I created the [Quarto website for the team](https://nceas.github.i
 
 ## Herbivory Variability Network
 
-<img src="images/msu_logo.png" width="45%"/>
+<img src="images/msu_square_logo_transparent.png" width = "20%" align = "right"/>
 
 I worked as the Data Scientist / Network Administrator for the Herbivory Variability Network (aka [HerbVar](https://herbvar.org/)) housed at Michigan State University and led by [Dr. Will Wetzel](https://wetzellab.com/). While in that role I designed significant components of their wrangling pipeline and optimized some workflows that predated my hiring. Many of HerbVar's repositories are private (at least until publication!) but their GitHub Organization can be found [here](https://github.com/HerbVar-Network). 
 
