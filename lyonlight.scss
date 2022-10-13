@@ -12,9 +12,11 @@ $orange-2: #F9B000;
 $orange-1: #FFD879;
 
 $cream: #F4F3EE;
+$gray-0: #d6d6d6;
 $gray-1: #BCB8B1;
 $gray-2: #8A817C;
 $gray-3: #222823;
+$gray-4: #191919;
 $black: #08090A;
 
 // Fonts
@@ -31,7 +33,7 @@ $footer-bg: $blue-2; // footer
 $link-color: $blue-2; // hyperlinks 
 
 // Inline code
-$code-bg: $cream; // inline code background color
+$code-bg: $gray-0; // inline code background color
 $code-color: $blue-3; // inline code text color
 
 // Code blocks
