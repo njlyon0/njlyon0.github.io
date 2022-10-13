@@ -19,6 +19,8 @@ website:
     right:
       - icon: github
         href: https://github.com/njlyon0
+      - text: CV
+        href: https://github.com/njlyon0/njlyon0.github.io/blob/main/files/LyonCV.pdf
       - icon: twitter
         href: https://twitter.com/scilyon
   page-footer:
@@ -28,9 +30,9 @@ website:
 format:
   html:
     theme:
-      light: minty
-      dark: darkly
-    css: styles.css
+      light: lyonlight.scss
+      dark: lyondark.scss
+    mainfont: Open Sans
     toc: true
     link-external-newwindow: true
     link-external-icon: false
