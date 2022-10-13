@@ -1,5 +1,4 @@
 ---
-title: "Nick J Lyon"
 about:
   template: trestles
   image: images/nick_lyon_2022.jpg
