@@ -1,31 +1,34 @@
 /*-- scss:defaults --*/
 
 // Colors
-$teal: #41b6c4;
-$med-blue: #225ea8;
-$orange: #fe9929;
-$burnt-orange: #993404;
-$navy: #253494;
-$dark-gray: #333333;
-$cream: #FDFBF7;
-$pale-green: #ffffd9;
+/* source: https://coolors.co/palettes/trending */
+$light-blue: #8ECAE6;
+$med-blue: #219EBC;
+$dark-blue: #023047;
+$light-orange: #FFB703;
+$dark-orange: #FB8500;
+
+$cream: #F4F3EE;
+$light-gray: #BCB8B1;
+$med-gray: #8A817C;
+$charcoal: #463F3A;
 
 // Fonts
 $font-size: 25px;
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 // Base document colors
-$navbar-bg: $orange; // navbar
+$navbar-bg: $dark-orange; // navbar
 $navbar-fg: $cream; // navbar foreground elements
-$navbar-hl: $navy; // highlight color when hovering over navbar links
-$body-bg: $cream; // page background 
-$body-color: $dark-gray; // page text 
-$footer-bg: $teal; // footer 
-$link-color: $navy; // hyperlinks 
+$navbar-hl: $dark-blue; // highlight color when on a page
+$body-bg: $charcoal; // page background 
+$body-color: $cream; // page text 
+$footer-bg: $dark-blue; // footer 
+$link-color: $cream; // hyperlinks 
 
 // Inline code
-$code-bg: $cream; // inline code background color
-$code-color: $navy; // inline code text color
+$code-bg: $light-blue; // inline code background color
+$code-color: $cream; // inline code text color
 
 // Code blocks
-$code-block-bg: $pale-green; // code block background color
+$code-block-bg: $light-blue; // code block background color
