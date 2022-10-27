@@ -1,0 +1,27 @@
+---
+title: "Consulting"
+---
+
+I have increasingly been leveraging my expertise as a consultant and am happy to discuss possible future opportunities! Please feel free to explore the rest of this website and my GitHub profile ([njlyon0](https://github.com/njlyon0)) for examples of my data science skills and send me an email (see the "Email" button of [my homepage](https://njlyon0.github.io/)) if you'd like to get more information.
+
+I am a certified [Carpentries](https://carpentries.org/) instructor so I have formal training in the pedagogy of teaching coding and am happy to do such tutoring as a consultant if that is of interest.
+
+## Rates
+
+My typical rates are as follows:
+
+| Job Category | Rate |
+|--------------|------|
+| Non-Academic | $75 / hour |
+| Academic     | $50 / hour |
+| Graduate Student | Authorship on Publication(s) |
+| Rush Job (< 48 hours) | $250 minimum |
+
+Depending on the scope of the job we can absolutely discuss deviations from this framework.
+
+## Past Consulting Work
+
+The nature of consulting is that products of the work tend to not be publicly-available but I am happy to discuss (within the confines of relevant non-disclosure agreements) the type of work I've done for any of the following entities:
+
+<img src="images/consulting_logos/brdgai_logo.png" width = "30%" /> <img src="images/consulting_logos/iunu_logo.png" width = "30%" /> <img src="images/consulting_logos/scope3_logo.png" width = "30%" />
+

@@ -13,6 +13,7 @@ website:
       - href: index.qmd
         text: Home
       - pkgs.qmd
+      - consult.qmd
       - talks.qmd
       - pubs.qmd
     right:

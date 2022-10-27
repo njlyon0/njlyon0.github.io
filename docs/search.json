@@ -110,5 +110,26 @@
     "title": "Selected Experience",
     "section": "Herbivory Variability Network",
     "text": "Herbivory Variability Network\n\nI worked as the Data Scientist / Network Administrator for the Herbivory Variability Network (aka HerbVar) housed at Michigan State University and led by Dr. Will Wetzel. While in that role I designed significant components of their wrangling pipeline and optimized some workflows that predated my hiring. Many of HerbVar’s repositories are private (at least until publication!) but their GitHub Organization can be found here.\nOne significant task I accomplished for HerbVar that is public was their R Shiny Data Portal. The portal allowed HerbVar network members to attach data, enter associated metadata, and even performed preliminary quality control prior to submission! The GitHub repository for the portal can be found here"
+  },
+  {
+    "objectID": "consult.html",
+    "href": "consult.html",
+    "title": "Consulting",
+    "section": "",
+    "text": "I have increasingly been leveraging my expertise as a consultant and am happy to discuss possible future opportunities! Please feel free to explore the rest of this website and my GitHub profile (njlyon0) for examples of my data science skills and send me an email (see the “Email” button of my homepage) if you’d like to get more information.\nI am a certified Carpentries instructor so I have formal training in the pedagogy of teaching coding and am happy to do such tutoring as a consultant if that is of interest."
+  },
+  {
+    "objectID": "consult.html#rates",
+    "href": "consult.html#rates",
+    "title": "Consulting",
+    "section": "Rates",
+    "text": "Rates\nMy typical rates are as follows:\n\n\n\nJob Category\nRate\n\n\n\n\nNon-Academic\n$75 / hour\n\n\nAcademic\n$50 / hour\n\n\nGraduate Student\nAuthorship on Publication(s)\n\n\nRush Job (< 48 hours)\n$250 minimum\n\n\n\nDepending on the scope of the job we can absolutely discuss deviations from this framework."
+  },
+  {
+    "objectID": "consult.html#past-consulting-work",
+    "href": "consult.html#past-consulting-work",
+    "title": "Consulting",
+    "section": "Past Consulting Work",
+    "text": "Past Consulting Work\nThe nature of consulting is that products of the work tend to not be publicly-available but I am happy to discuss (within the confines of relevant non-disclosure agreements) the type of work I’ve done for any of the following entities:"
   }
 ]
