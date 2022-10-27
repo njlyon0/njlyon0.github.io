@@ -12,7 +12,6 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - career.qmd
       - pkgs.qmd
       - talks.qmd
       - pubs.qmd
