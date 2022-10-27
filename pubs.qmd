@@ -6,11 +6,11 @@ I have had several opportunities to publish scientific papers both as a lead aut
 
 ![](images/great_spangled_fritillary.jpg){width="600" fig-align="center" fig-alt="great spangled fritillary"}
 
-## In-Prep
+## Not (Yet!) Published
 
 Note that most of these projects have GitHub repositories but they are set to 'Private' until publication. If you would like to use the code in one of these repos, just reach out and we can discuss adding you to the repositories before the papers are published.
 
-{{< fa bolt >}} -- Gaynor, K. et al. Ten Simple Rules to Cultivate Belonging in Collaborative Data Science Research Teams. *\[In prep\]*
+{{< fa people-group >}} -- Gaynor, K. et al. Ten Simple Rules to Cultivate Belonging in Collaborative Data Science Research Teams. *\[In publication\]*
 
 {{< fa bug >}} -- Kucuk, R.A., Campbell, B.J., Lyon, N.J., Caterino, M.S. Gut Bacteria of Adult and Larval Cotinis nitida Linnaeus (Coleoptera: Scarabaeidae) Demonstrate Community Differences According to Life Stage and Gut Region. *\[In prep\]*
 

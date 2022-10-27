@@ -4,7 +4,7 @@
     "href": "talks.html",
     "title": "Talks",
     "section": "",
-    "text": "I love chatting about science and data management and leap at the opportunity to present in public-facing contexts. Here is a breakdown of some of the conference talks, workshops, and lectures I have given as well as the semester-long courses I have taught. The icons to the left of the titles (e.g.,  )are intended to help roughly group content by their topic."
+    "text": "I love chatting about science and data management and leap at the opportunity to present in public-facing contexts. Here is a breakdown of some of the conference talks, workshops, and lectures I have given as well as the semester-long courses I have taught. The icons to the left of the titles (e.g., ) are intended to help roughly group content by their topic."
   },
   {
     "objectID": "talks.html#workshops-lectures",
@@ -77,11 +77,11 @@
     "text": "I have had several opportunities to publish scientific papers both as a lead author and as a member of a larger scientific team. Here are some of the highlights of that record. If any of these links are behind a paywall, simply reach out to me and I’ll work to get you a PDF. The icons to the left of the titles (e.g., ) are intended to help roughly group content by their topic."
   },
   {
-    "objectID": "pubs.html#in-prep",
-    "href": "pubs.html#in-prep",
+    "objectID": "pubs.html#not-yet-published",
+    "href": "pubs.html#not-yet-published",
     "title": "Papers",
-    "section": "In-Prep",
-    "text": "In-Prep\nNote that most of these projects have GitHub repositories but they are set to ‘Private’ until publication. If you would like to use the code in one of these repos, just reach out and we can discuss adding you to the repositories before the papers are published.\n – Gaynor, K. et al. Ten Simple Rules to Cultivate Belonging in Collaborative Data Science Research Teams. [In prep]\n – Kucuk, R.A., Campbell, B.J., Lyon, N.J., Caterino, M.S. Gut Bacteria of Adult and Larval Cotinis nitida Linnaeus (Coleoptera: Scarabaeidae) Demonstrate Community Differences According to Life Stage and Gut Region. [In prep]"
+    "section": "Not (Yet!) Published",
+    "text": "Not (Yet!) Published\nNote that most of these projects have GitHub repositories but they are set to ‘Private’ until publication. If you would like to use the code in one of these repos, just reach out and we can discuss adding you to the repositories before the papers are published.\n – Gaynor, K. et al. Ten Simple Rules to Cultivate Belonging in Collaborative Data Science Research Teams. [In publication]\n – Kucuk, R.A., Campbell, B.J., Lyon, N.J., Caterino, M.S. Gut Bacteria of Adult and Larval Cotinis nitida Linnaeus (Coleoptera: Scarabaeidae) Demonstrate Community Differences According to Life Stage and Gut Region. [In prep]"
   },
   {
     "objectID": "pubs.html#published",

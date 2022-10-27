@@ -2,7 +2,7 @@
 title: "Talks"
 ---
 
-I love chatting about science and data management and leap at the opportunity to present in public-facing contexts. Here is a breakdown of some of the conference talks, workshops, and lectures I have given as well as the semester-long courses I have taught. The icons to the left of the titles (e.g., {{< fa screwdriver-wrench >}} )are intended to help roughly group content by their topic.
+I love chatting about science and data management and leap at the opportunity to present in public-facing contexts. Here is a breakdown of some of the conference talks, workshops, and lectures I have given as well as the semester-long courses I have taught. The icons to the left of the titles (e.g., {{< fa screwdriver-wrench >}}) are intended to help roughly group content by their topic.
 
 ![](images/squash_bug_nymph.jpg){width="600" fig-align="center" fig-alt="squash bug nymph"}
 
