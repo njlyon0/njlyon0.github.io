@@ -77,6 +77,13 @@
     "text": "helpR\n\nMiscellaneous Helper Functions for Coding in R\n\nThe unifying theme of this package is essentially that none of these functions have a strong connection anywhere else. This package is a grab bag of data wrangling, plotting, and exporting functions I’ve written and wanted to use across projects without copy/pasting the functions into all those different repositories. Hopefully some of them can be of value to you as well!"
   },
   {
+    "objectID": "pkgs.html#heron",
+    "href": "pkgs.html#heron",
+    "title": "R Packages",
+    "section": "HERON",
+    "text": "HERON\n\nHelpers for River Observation\n[ Hex logo in development! ]\nI developed this package in support of the LTER synthesis working group focusing on riverine silica exports. These functions are primarily focused on downstream (no pun intended!) operations for processing outputs created by the EGRET (CRAN link) and SiZer (CRAN link) R packages."
+  },
+  {
     "objectID": "pkgs.html#scicomptools",
     "href": "pkgs.html#scicomptools",
     "title": "R Packages",

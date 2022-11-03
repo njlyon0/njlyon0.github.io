@@ -32,6 +32,14 @@ To help showcase some of the functions in `dndR` I've created a [standalone Quar
 
 The unifying theme of this package is essentially that none of these functions have a strong connection anywhere else. This package is a grab bag of data wrangling, plotting, and exporting functions I've written and wanted to use across projects without copy/pasting the functions into all those different repositories. Hopefully some of them can be of value to you as well!
 
+## [`HERON`](https://github.com/lter/HERON#readme)
+
+### <u>He</u>lpers for <u>R</u>iver <u>O</u>bservatio<u>n</u>
+
+[ Hex logo in development! ]
+
+I developed this package in support of the LTER synthesis working group focusing on riverine silica exports. These functions are primarily focused on downstream (no pun intended!) operations for processing outputs created by the `EGRET` ([CRAN link](https://cran.r-project.org/web/packages/EGRET/index.html)) and `SiZer` ([CRAN link](https://cran.r-project.org/web/packages/SiZer/index.html)) R packages.
+
 ## [`scicomptools`](https://github.com/NCEAS/scicomptools#readme)
 
 ### Tools Developed by NCEAS’ Scientific Computing Support Team
