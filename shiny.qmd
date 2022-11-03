@@ -16,7 +16,8 @@ One such side project is the R package `lterpalettefinder` (one of the [R packag
 
 Once the package reached a point where functions were relatively stable, I wrote an [R Shiny app](https://cosima.nceas.ucsb.edu/lterpalettefinder-shiny/) to allow even people without R knowledge to explore the package and pull palettes from their own photos!
 
-The code for the data portal can be found on GitHub {{< github >}} [here](https://github.com/lter/lterpalettefinder-shiny)
+The code for the data portal can be found on GitHub {{< fa brands github >}}
+ [here](https://github.com/lter/lterpalettefinder-shiny)
 
 ## Herbivory Variability Network Data Portal
 
@@ -27,4 +28,4 @@ The Herbivory Variability Network (aka [HerbVar](https://herbvar.org/)) is a rel
 
 The data portal (deployed [here](https://herbvar.shinyapps.io/data_portal_actual/)) asks users to enter various metadata about the data they are submitting and performs some preliminary QA/QC. The app doesn't reject data that has errors but does--politely--flag any identified issues for the user to (hopefully) address and re-attach data. Attached data are then uploaded to a Google Drive folder and entered metadata are added as a new row to a dynamic GoogleSheet for downstream use.
 
-The code for the data portal can be found on GitHub {{< github >}} [here](https://github.com/HerbVar-Network/Data-Portal)
+The code for the data portal can be found on GitHub {{< fa brands github >}} [here](https://github.com/HerbVar-Network/Data-Portal)
