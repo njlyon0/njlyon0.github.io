@@ -12,10 +12,14 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - pkgs.qmd
+      - text: "Data Science Portfolio"
+        menu:
+         - pkgs.qmd
+      - text: "Academic Portfolio"
+        menu:
+          - talks.qmd
+          - pubs.qmd
       - consult.qmd
-      - talks.qmd
-      - pubs.qmd
     right:
       - icon: github
         href: https://github.com/njlyon0
