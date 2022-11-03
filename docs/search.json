@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I worked as a member of the Scientific Computing Support Team for the LTER Network Office housed at the National Center for Ecological Analysis and Synthesis (NCEAS). While on this team, I supported the analytical, quality control, and data acquisition and management needs of five synthesis working groups comprised of dozens of working scientists and managers.\nSpecifically, I created the Quarto website for the team and helped in the creation of GitHub and tidyverse workshops. I also designed a tutorial on building websites with Quarto to facilitate a more ‘go at your own pace’ approach to teaching coding skills. Additionally, I discussed a set of coding “best practices” recommendations with my team and then created brief explanations of these on our website."
+  },
+  {
     "objectID": "talks.html",
     "href": "talks.html",
     "title": "Talks",
@@ -39,14 +46,14 @@
     "href": "pkgs.html#lterpalettefinder",
     "title": "R Packages",
     "section": "lterpalettefinder",
-    "text": "lterpalettefinder\n\nThis package allows users to extract colors (as hexadecimal codes) from a given image. These codes can then be used for the creation of graphics that have aesthetic connections to pictures relevant to the data (e.g., focal organism, study site, etc.). Secondarily, it also contains a set of official palettes that can be accessed if the user would prefer to use a pre-set palette rather than creating their own."
+    "text": "lterpalettefinder\n\nThis package allows users to extract colors (as hexadecimal codes) from a given image. These codes can then be used for the creation of graphics that have aesthetic connections to pictures relevant to the data (e.g., focal organism, study site, etc.). Secondarily, it also contains a set of official palettes that can be accessed if the user would prefer to use a pre-set palette rather than creating their own.\nTo allow non-R users to explore lterpalettefinder, I created an R Shiny app that allows anyone with an internet connection to use this package."
   },
   {
     "objectID": "pkgs.html#dndr",
     "href": "pkgs.html#dndr",
     "title": "R Packages",
     "section": "dndR",
-    "text": "dndR\n\nPerhaps unsurprisingly for someone of my professional interests, I am a huge Dungeons & Dragons () fan in my free time. To blend my personal and professional interests I’ve created this package (dndR) to serve any other people in the R / DnD Venn Diagram intersection. It allows for easy rolling of dice, creation of character statistics, and (for GMs) encounter balancing. This package is also a fun chance for me to practice my coding skills in a risk-free environment.\nTo help showcase some of the functions in dndR I’ve created a standalone Quarto website that is similar to a vignette. Feel free to check it out!"
+    "text": "dndR\n\nPerhaps unsurprisingly for someone of my professional interests, I am a huge Dungeons & Dragons () fan in my free time. To blend my personal and professional interests I’ve created this package to serve any other people in the R / DnD Venn Diagram intersection. It allows for easy rolling of dice, creation of character statistics, and (for GMs) encounter balancing. This package is also a fun chance for me to practice my coding skills in a risk-free environment.\nTo help showcase some of the functions in dndR I’ve created a standalone Quarto website that is similar to a vignette. Feel free to check it out!"
   },
   {
     "objectID": "pkgs.html#helpr",
@@ -61,6 +68,34 @@
     "title": "R Packages",
     "section": "scicomptools",
     "text": "scicomptools\n\nThis package contains all of the standalone functions written by the NCEAS Scientific Computing Support Team that don’t cleanly fit in other repositories. This is similar in rationale to the helpR package but in this case, many of the functions were written by others and I have simply maintained them and improved them where the opportunity arises."
+  },
+  {
+    "objectID": "shiny.html",
+    "href": "shiny.html",
+    "title": "R Shiny",
+    "section": "",
+    "text": "I’ve had the opportunity to create some fun apps using R Shiny and am excited to create more! I particularly appreciate that Shiny apps can be used to make R content accessible to those without an R background and have strived to leverage that value in the apps I have written so far."
+  },
+  {
+    "objectID": "shiny.html#herbivory-variability-network-data-portal",
+    "href": "shiny.html#herbivory-variability-network-data-portal",
+    "title": "R Shiny",
+    "section": "Herbivory Variability Network Data Portal",
+    "text": "Herbivory Variability Network Data Portal\n \nThe Herbivory Variability Network (aka HerbVar) is a relatively new Research Coordination Network (RCN) focused on understanding the ecological and phylogenetic drivers of variation in herbivore damage around the globe. HerbVar is housed at Michigan State University and led by Dr. Will Wetzel. While working as their data scientist / network administrator I leapt at the chance to use Shiny to create a data submission portal.\nThe data portal (deployed here) asks users to enter various metadata about the data they are submitting and performs some preliminary QA/QC. The app doesn’t reject data that has errors but does–politely–flag any identified issues for the user to (hopefully) address and re-attach data. Attached data are then uploaded to a Google Drive folder and entered metadata are added as a new row to a dynamic GoogleSheet for downstream use.\nThe code for the data portal can be found on GitHub here"
+  },
+  {
+    "objectID": "shiny.html#lterpalettefinder-explorer",
+    "href": "shiny.html#lterpalettefinder-explorer",
+    "title": "R Shiny",
+    "section": "lterpalettefinder Explorer",
+    "text": "lterpalettefinder Explorer\n\nI am currently a data scientist working with the Long Term Ecological Research Network Office (aka LNO). While my primary role is to support synthesis working groups, I also am encouraged to pursue programming tasks that are interesting to me and may indirectly improve my ability to aid working groups.\nOne such side project is the R package lterpalettefinder (one of the R packages I’ve created). This package began as a straightforward way of allowing R users to include color palettes manually extracted from photos taken at LTER sites but over time evolved into developing functions to do that extraction automatically.\nOnce the package reached a point where functions were relatively stable, I wrote an R Shiny app to allow even people without R knowledge to explore the package and pull palettes from their own photos!\nThe code for the data portal can be found on GitHub here"
+  },
+  {
+    "objectID": "code.html",
+    "href": "code.html",
+    "title": "Selected Code",
+    "section": "",
+    "text": "I am currently a data scientist working with the Long Term Ecological Research Network Office (aka LNO). My primary role is to support the LTER synthesis working groups; these groups are composed of scientists from many professional spheres and subject matter areas who apply for and receive funding to work for typically 1-3 years on a synthesis project that requires harmonizing and analyzing data from many sources to answer a large question that cannot be addressed by any single data source."
   },
   {
     "objectID": "index.html",
@@ -89,27 +124,6 @@
     "title": "Papers",
     "section": "Published",
     "text": "Published\n  – Coon, J.J., Lyon, N.J., Raynor, E.J., Debinski, D.M., Miller, J.R., Schact, W.H. 2021. Using Adaptive Management to Restore Grasslands Invaded by Tall Fescue (Schedonorus arundinaceus). 76. 2021. Rangeland Ecology and Management - GitHub repo\n  – Lyon, N.J., Stein, D.S., Debinski, D.M., Miller, J.R., Schact, W.H. 2021. Responses of Flowering Plant and Butterfly Communities to Experimental Herbicide and Seeding Treatments for Native Grassland Restoration. 3. 2021. Ecological Restoration - GitHub repo\n  – Lyon, N.J., Debinski, D.M., Rogers, H.S., Adams, D.C., and Wilsey, B.J. An Integrated Approach to Restoring Grassland Function to Working Lands. 2019. Master of Science Thesis\n – Lyon, N.J., Debinski, D.M., Rangwala, I. Evaluating the Utility of Species Distribution Models in Informing Climate Change-Resilient Grassland Restoration Strategy. 7. 2019 Frontiers in Ecology and Evolution - GitHub repo\n – Lyon, N.J. and Hodum, P. 2015. Mytilus Mussels as Bio-indicators of Regional Microplastic Trends. University of Puget Sound Undergraduate Thesis"
-  },
-  {
-    "objectID": "career.html",
-    "href": "career.html",
-    "title": "Selected Experience",
-    "section": "",
-    "text": "While I recommend checking out my CV for a more complete history of my career thus far, I am including more holistic descriptions of my programming-focused positions below."
-  },
-  {
-    "objectID": "career.html#lter-network-office",
-    "href": "career.html#lter-network-office",
-    "title": "Selected Experience",
-    "section": "LTER Network Office",
-    "text": "LTER Network Office\n \nI worked as a member of the Scientific Computing Support Team for the LTER Network Office housed at the National Center for Ecological Analysis and Synthesis (NCEAS). While on this team, I supported the analytical, quality control, and data acquisition and management needs of five synthesis working groups comprised of dozens of working scientists and managers.\nSpecifically, I created the Quarto website for the team and helped in the creation of GitHub and tidyverse workshops. I also designed a tutorial on building websites with Quarto to facilitate a more ‘go at your own pace’ approach to teaching coding skills. Additionally, I discussed a set of coding “best practices” recommendations with my team and then created brief explanations of these on our website."
-  },
-  {
-    "objectID": "career.html#herbivory-variability-network",
-    "href": "career.html#herbivory-variability-network",
-    "title": "Selected Experience",
-    "section": "Herbivory Variability Network",
-    "text": "Herbivory Variability Network\n\nI worked as the Data Scientist / Network Administrator for the Herbivory Variability Network (aka HerbVar) housed at Michigan State University and led by Dr. Will Wetzel. While in that role I designed significant components of their wrangling pipeline and optimized some workflows that predated my hiring. Many of HerbVar’s repositories are private (at least until publication!) but their GitHub Organization can be found here.\nOne significant task I accomplished for HerbVar that is public was their R Shiny Data Portal. The portal allowed HerbVar network members to attach data, enter associated metadata, and even performed preliminary quality control prior to submission! The GitHub repository for the portal can be found here"
   },
   {
     "objectID": "consult.html",
