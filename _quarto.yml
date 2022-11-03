@@ -17,6 +17,7 @@ website:
          - pkgs.qmd
          - teaching.qmd
          - shiny.qmd
+         - code.qmd
       - text: "Academic Portfolio"
         menu:
           - talks.qmd

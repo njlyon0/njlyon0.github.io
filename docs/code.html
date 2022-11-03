@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Nicholas J Lyon - R Shiny</title>
+<title>Nicholas J Lyon - Selected Code</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -149,8 +149,8 @@ ul.task-list{list-style: none;}
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#lterpalettefinder-explorer" id="toc-lterpalettefinder-explorer" class="nav-link active" data-scroll-target="#lterpalettefinder-explorer"><code>lterpalettefinder</code> Explorer</a></li>
-  <li><a href="#herbivory-variability-network-data-portal" id="toc-herbivory-variability-network-data-portal" class="nav-link" data-scroll-target="#herbivory-variability-network-data-portal">Herbivory Variability Network Data Portal</a></li>
+  <li><a href="#lter-working-group---silica-exports" id="toc-lter-working-group---silica-exports" class="nav-link active" data-scroll-target="#lter-working-group---silica-exports">LTER Working Group - Silica Exports</a></li>
+  <li><a href="#lyon-ms-thesis---native-bee-restoration-ecology" id="toc-lyon-ms-thesis---native-bee-restoration-ecology" class="nav-link" data-scroll-target="#lyon-ms-thesis---native-bee-restoration-ecology">Lyon MS Thesis - Native Bee Restoration Ecology</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/njlyon0/njlyon0.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -159,7 +159,7 @@ ul.task-list{list-style: none;}
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">R Shiny</h1>
+<h1 class="title">Selected Code</h1>
 </div>
 
 
@@ -173,22 +173,21 @@ ul.task-list{list-style: none;}
 
 </header>
 
-<p><img src="images/shiny_hex.png" width="15%" align="right"></p>
-<p>I’ve had the opportunity to create some fun apps using R Shiny and am excited to create more! I particularly appreciate that Shiny apps can be used to make R content accessible to those without an R background and have strived to leverage that value in the apps I have written so far.</p>
-<section id="lterpalettefinder-explorer" class="level2">
-<h2 class="anchored" data-anchor-id="lterpalettefinder-explorer"><code>lterpalettefinder</code> Explorer</h2>
-<p><img src="images/lterpalettefinder_hex.png" width="20%" align="right"></p>
-<p>I am currently a data scientist working with the Long Term Ecological Research Network Office (aka <a href="https://lternet.edu/">LNO</a>). While my primary role is to support synthesis working groups, I also am encouraged to pursue programming tasks that are interesting to me and may indirectly improve my ability to aid working groups.</p>
-<p>One such side project is the R package <code>lterpalettefinder</code> (one of the <a href="https://njlyon0.github.io/pkgs.html">R packages I’ve created</a>). This package began as a straightforward way of allowing R users to include color palettes manually extracted from photos taken at LTER sites but over time evolved into developing functions to do that extraction automatically.</p>
-<p>Once the package reached a point where functions were relatively stable, I wrote an <a href="https://cosima.nceas.ucsb.edu/lterpalettefinder-shiny/">R Shiny app</a> to allow even people without R knowledge to explore the package and pull palettes from their own photos!</p>
-<p>The code for the data portal can be found on GitHub <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/lter/lterpalettefinder-shiny">here</a></p>
+<p>Several examples of my coding ability that I’m proud of are in private <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub repositories until their eventual publication but I am still deeply excited to share a selection of my work that is publicly-available!</p>
+<section id="lter-working-group---silica-exports" class="level2">
+<h2 class="anchored" data-anchor-id="lter-working-group---silica-exports">LTER Working Group - Silica Exports</h2>
+<p><img src="images/lno_square.png" width="20%" align="right"></p>
+<p>One LTER synthesis working group (see the <a href="https://lternet.edu/">LTER Network Office</a> website for more details) I had a particularly significant role in helping was the Silica Exports group. This group was particularly interested in the drivers of and variation in export of silica from rivers around the world. Riverine silica export is significant–in part–because diatoms in the ocean are silica limited. Diatoms are important marine photosynthesizers and their populations can have a direct impact on carbon sequestration and, indirectly, climate change.</p>
+<p>This working group had annual data on silica concentrations from hundreds of rivers around the globe. They had created plots of these data showing the relationship between silica (y) and time (x) and wanted to (1) identify significant changes in the slope in each line, (2) “break” the line at those places, and (3) fit separate linear models to each section of the line to be able to assess rates of change. After a few initial conversations so that I could better understand their needs I set to work building a workflow that could meet their needs. I periodically met with the principal investigators of this team to discuss my progress and ask for clarification at points where a judgement call needed to be made by a subject matter expert.</p>
+<p>The products of that work are housed in this <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/njlyon0/collab_silica-cryosphere">GitHub repository</a> and make heavy use of the <code>HERON</code> R package I am developing to support this task and a few related repositories created for the same working group.</p>
 </section>
-<section id="herbivory-variability-network-data-portal" class="level2">
-<h2 class="anchored" data-anchor-id="herbivory-variability-network-data-portal">Herbivory Variability Network Data Portal</h2>
-<p><img src="images/herbvar_logo.png" width="15%" align="right"> <img src="images/msu_square.png" width="25%" align="right"></p>
-<p>The Herbivory Variability Network (aka <a href="https://herbvar.org/">HerbVar</a>) is a relatively new Research Coordination Network (RCN) focused on understanding the ecological and phylogenetic drivers of <em>variation</em> in herbivore damage around the globe. HerbVar is housed at Michigan State University and led by <a href="https://wetzellab.com/">Dr.&nbsp;Will Wetzel</a>. While working as their data scientist / network administrator I leapt at the chance to use Shiny to create a data submission portal.</p>
-<p>The data portal (deployed <a href="https://herbvar.shinyapps.io/data_portal_actual/">here</a>) asks users to enter various metadata about the data they are submitting and performs some preliminary QA/QC. The app doesn’t reject data that has errors but does–politely–flag any identified issues for the user to (hopefully) address and re-attach data. Attached data are then uploaded to a Google Drive folder and entered metadata are added as a new row to a dynamic GoogleSheet for downstream use.</p>
-<p>The code for the data portal can be found on GitHub <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/HerbVar-Network/Data-Portal">here</a></p>
+<section id="lyon-ms-thesis---native-bee-restoration-ecology" class="level2">
+<h2 class="anchored" data-anchor-id="lyon-ms-thesis---native-bee-restoration-ecology">Lyon MS Thesis - Native Bee Restoration Ecology</h2>
+<p><img src="images/isu_logo.png" width="22%" align="right"></p>
+<p>I earned my Master of Science at Iowa State University in the <a href="https://www.eeb.iastate.edu/">Ecology and Evolutionary Biology</a> program and the focus of my thesis was restoration community ecology of Midwestern pollinators and nectar-producing plants. One facet of this work was a side question I pursued on the response of native bees to combinations of annual prescribed fire and cattle grazing.</p>
+<p>Native bees don’t form hives in the way that European honey bees do and many of them make solitary nests in stems or by digging small (and very cute!) holes in patches of bare ground. Fire and cattle grazing change the availability both of bare ground and dead stems and these management methods also altar the composition of the floral community. I hypothesized that the changes to the bees’ food sources and habitat would change the bee community and set out to test the extent to which this was the case.</p>
+<p>As is sometimes the case with ecology research, I had a wonderful time collecting the data but they were so zero-inflated (i.e., there were so many times when I didn’t find <em>any</em> bees in my traps) that the data weren’t really analyzable. That said I made a <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/njlyon0/lyon-ms-thesis_bee-project">GitHub repository</a> for my exploration and initial quality control of the data and made it public.</p>
+<p>I also shared the data on the Environmental Data Initiative’s Data Portal in case someone else could find a use for them. I’ve linked that data package <a href="https://portal.edirepository.org/nis/mapbrowse?scope=edi&amp;identifier=1210&amp;revision=1">here</a></p>
 
 
 </section>
