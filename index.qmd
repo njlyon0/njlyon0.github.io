@@ -34,3 +34,7 @@ The bulk of my coding experience is in R (including R Shiny) but I also have mod
 ### Skills & Interests
 
 {{< fa screwdriver-wrench >}} Coding -- {{< fa bug >}} Ecology -- {{< fa book >}} Reading -- {{< fa camera-retro >}} Photography -- {{< fa person-chalkboard >}} Teaching -- {{< fa dice-d20 >}} Dungeons & Dragons -- {{< fa seedling >}} Botany -- {{< fa crow >}} Birding
+
+### Photo Credit
+
+Profile picture taken by [Alex Phillips Photography](https://alexphillipsphoto.com/). Thanks Alex!
