@@ -24,4 +24,4 @@ Native bees don't form hives in the way that European honey bees do and many of 
 
 As is sometimes the case with ecology research, I had a wonderful time collecting the data but they were so zero-inflated (i.e., there were so many times when I didn't find *any* bees in my traps) that the data weren't really analyzable. That said I made a {{< fa brands github >}} [GitHub repository](https://github.com/njlyon0/lyon-ms-thesis_bee-project) for my exploration and initial quality control of the data and made it public.
 
-I also shared the data on the Environmental Data Initiative's Data Portal in case someone else could find a use for them. I've linked that data package [here](https://portal.edirepository.org/nis/mapbrowse?scope=edi&identifier=1210&revision=1)
+I also shared the data on the Environmental Data Initiative's Data Portal in case someone else could find a use for them. I've linked that data package [here](https://portal.edirepository.org/nis/mapbrowse?scope=edi&identifier=1210&revision=1).

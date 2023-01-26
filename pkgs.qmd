@@ -8,7 +8,7 @@ I have increasingly worked on wrapping the functions that I write into R package
 
 ### Extract Color Palettes from Photos and Pick Official LTER Palettes
 
-<img src="images/lterpalettefinder_hex.png" width="20%" align="right"/>
+<img src="images/hex_logos/lterpalettefinder_hex.png" width="20%" align="right"/>
 
 This package allows users to extract colors (as hexadecimal codes) from a given image. These codes can then be used for the creation of graphics that have aesthetic connections to pictures relevant to the data (e.g., focal organism, study site, etc.). Secondarily, it also contains a set of official palettes that can be accessed if the user would prefer to use a pre-set palette rather than creating their own.
 
@@ -18,7 +18,7 @@ To allow non-R users to explore `lterpalettefinder`, I created an [R Shiny app](
 
 ### An R Package for Dungeons & Dragons
 
-<img src="images/dndR_hex.png" width="20%" align="right"/>
+<img src="images/hex_logos/dndR_hex.png" width="20%" align="right"/>
 
 Perhaps unsurprisingly for someone of my professional interests, I am a *huge* Dungeons & Dragons ({{< fa dice-d20 >}}) fan in my free time. To blend my personal and professional interests I've created this package to serve any other people in the R / DnD Venn Diagram intersection. It allows for easy rolling of dice, creation of character statistics, and (for GMs) encounter balancing. This package is also a fun chance for me to practice my coding skills in a risk-free environment.
 
@@ -28,7 +28,7 @@ To help showcase some of the functions in `dndR` I've created a [standalone Quar
 
 ### Miscellaneous Helper Functions for Coding in R
 
-<img src="images/helpR_hex.png" width="20%" align="right"/>
+<img src="images/hex_logos/helpR_hex.png" width="20%" align="right"/>
 
 The unifying theme of this package is essentially that none of these functions have a strong connection anywhere else. This package is a grab bag of data wrangling, plotting, and exporting functions I've written and wanted to use across projects without copy/pasting the functions into all those different repositories. Hopefully some of them can be of value to you as well!
 
@@ -36,7 +36,7 @@ The unifying theme of this package is essentially that none of these functions h
 
 ### <u>He</u>lpers for <u>R</u>iver <u>O</u>bservatio<u>n</u>
 
-[ Hex logo in development! ]
+<img src="images/hex_logos/HERON_hex.png" width="20%" align="right"/>
 
 I developed this package in support of the LTER synthesis working group focusing on riverine silica exports. These functions are primarily focused on downstream (no pun intended!) operations for processing outputs created by the `EGRET` ([CRAN link](https://cran.r-project.org/web/packages/EGRET/index.html)) and `SiZer` ([CRAN link](https://cran.r-project.org/web/packages/SiZer/index.html)) R packages.
 
@@ -44,6 +44,6 @@ I developed this package in support of the LTER synthesis working group focusing
 
 ### Tools Developed by NCEAS’ Scientific Computing Support Team
 
-<img src="images/scicomptools_hex.png" width="20%" align="right"/>
+<img src="images/hex_logos/scicomptools_hex.png" width="20%" align="right"/>
 
 This package contains all of the standalone functions written by the NCEAS Scientific Computing Support Team that don't cleanly fit in other repositories. This is similar in rationale to the `helpR` package but in this case, many of the functions were written by others and I have simply maintained them and improved them where the opportunity arises.

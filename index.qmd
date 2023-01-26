@@ -1,7 +1,7 @@
 ---
 about:
   template: trestles
-  image: images/nick_lyon_2023.jpg
+  image: images/profiles/nick_lyon_2023.jpg
   image-width: 10cm
   image-shape: round
   links:
