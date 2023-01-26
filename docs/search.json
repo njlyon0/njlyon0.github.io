@@ -2,21 +2,21 @@
   {
     "objectID": "teaching.html",
     "href": "teaching.html",
-    "title": "Workshop Materials",
+    "title": "Workshops",
     "section": "",
     "text": "I co-led an R Shiny workshop with Gabe De La Rosa and Francisco J Guerrero at the LTER All Scientists’ Meeting in September 2022. This workshop was aimed at participants with moderate R knowledge but little to no prior experience with R Shiny. The workshop uses a Quarto website to allow participants to follow along on the day of the workshop and also house resources they could refer back to on their own as needed.\nWe began with the fundamentals of Shiny and ended by live coding an interactive app that was moderately complex. We shared the  GitHub repository for the workshop website with attendees and I created a standalone  GitHub repository to house example apps for them to use as jumping off points."
   },
   {
     "objectID": "teaching.html#tidyverse-workshop",
     "href": "teaching.html#tidyverse-workshop",
-    "title": "Workshop Materials",
+    "title": "Workshops",
     "section": "Tidyverse Workshop",
     "text": "Tidyverse Workshop\n \nAs part of my role with the Long Term Ecological Research Network Office (aka LNO) I helped create a workshop on coding with the tidyverse R packages. The workshop was offered to synthesis working groups composed of scientists from a range of institutions and coding experience and typically takes between 1 and 3 hours (depending on the needs and interest of each group).\nI and the other members of the Scientific Computing Support team built a Quarto website for workshop materials and also shared the  Github repository that generates that website.\nI also created all of the visuals for that workshop to give learners non-text and non-code ways of understanding core tidyverse operations."
   },
   {
     "objectID": "teaching.html#collaborative-coding-with-github-workshop",
     "href": "teaching.html#collaborative-coding-with-github-workshop",
-    "title": "Workshop Materials",
+    "title": "Workshops",
     "section": "Collaborative Coding with GitHub Workshop",
     "text": "Collaborative Coding with GitHub Workshop\n \nAlso as part of my work with the LTER Network Office, I worked collaboratively with the rest of the Sci Comp team to create a workshop aimed at facilitating the working groups’ adoption of GitHub as part of their coding workflow. LTER working groups by their nature are focused on questions that require significant harmonizing of data and analysis. GitHub is a natural extension of this work and allows much easier collaboration than the alternatives.\nWe also use this workshop’s materials to emphasize the server that is available to these groups for short-term data storage and collaboration. The  Github repository for the workshop can be found here."
   },

@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Nicholas J Lyon"
-  favicon: images/dndR_hex.png
+  favicon: images/hex_logos/dndR_hex.png
   repo-url: https://github.com/njlyon0/njlyon0.github.io
   repo-actions: [issue]
   navbar:
@@ -15,11 +15,11 @@ website:
       - text: "Data Science Portfolio"
         menu:
          - pkgs.qmd
+         - teaching.qmd
          - shiny.qmd
          - code.qmd
       - text: "Academic Portfolio"
         menu:
-         - teaching.qmd
          - talks.qmd
          - pubs.qmd
       - consult.qmd

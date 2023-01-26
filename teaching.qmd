@@ -1,5 +1,5 @@
 ---
-title: "Workshop Materials"
+title: "Workshops"
 ---
 
 ## R Shiny [Workshop](https://njlyon0.github.io/asm-2022_shiny-workshop/)
