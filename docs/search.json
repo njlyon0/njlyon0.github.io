@@ -4,7 +4,7 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "I co-led an R Shiny workshop with Gabe De La Rosa and Francisco J Guerrero at the LTER All Scientists’ Meeting in September 2022. This workshop was aimed at participants with moderate R knowledge but little to no prior experience with R Shiny. I created a Quarto website for the workshop to allow participants to follow along on the day of the workshop and also house resources they could refer back to on their own as needed.\nWe began with the fundamentals of Shiny and ended by live coding an interactive app that was moderately complex. We shared the  GitHub repository for the workshop website with attendees and I created a standalone  GitHub repository to house example apps for them to use as jumping off points."
+    "text": "I co-led an R Shiny workshop with Gabe De La Rosa and Francisco J Guerrero at the LTER All Scientists’ Meeting in September 2022. This workshop was aimed at participants with moderate R knowledge but little to no prior experience with R Shiny. The workshop uses a Quarto website to allow participants to follow along on the day of the workshop and also house resources they could refer back to on their own as needed.\nWe began with the fundamentals of Shiny and ended by live coding an interactive app that was moderately complex. We shared the  GitHub repository for the workshop website with attendees and I created a standalone  GitHub repository to house example apps for them to use as jumping off points."
   },
   {
     "objectID": "teaching.html#tidyverse-workshop",
@@ -98,18 +98,18 @@
     "text": "I’ve had the opportunity to create some fun apps using R Shiny and am excited to create more! I particularly appreciate that Shiny apps can be used to make R content accessible to those without an R background and have strived to leverage that value in the apps I have written so far."
   },
   {
-    "objectID": "shiny.html#lterpalettefinder-explorer",
-    "href": "shiny.html#lterpalettefinder-explorer",
+    "objectID": "shiny.html#lterpalettefinder-shiny-explorer",
+    "href": "shiny.html#lterpalettefinder-shiny-explorer",
     "title": "R Shiny",
-    "section": "lterpalettefinder Explorer",
-    "text": "lterpalettefinder Explorer\n\nI am currently a data scientist working with the Long Term Ecological Research Network Office (aka LNO). While my primary role is to support synthesis working groups, I also am encouraged to pursue programming tasks that are interesting to me and may indirectly improve my ability to aid working groups.\nOne such side project is the R package lterpalettefinder (one of the R packages I’ve created). This package began as a straightforward way of allowing R users to include color palettes manually extracted from photos taken at LTER sites but over time evolved into developing functions to do that extraction automatically.\nOnce the package reached a point where functions were relatively stable, I wrote an R Shiny app to allow even people without R knowledge to explore the package and pull palettes from their own photos!\nThe code for the data portal can be found on GitHub  here"
+    "section": "lterpalettefinder Shiny Explorer",
+    "text": "lterpalettefinder Shiny Explorer\n\nI am currently a data scientist working with the Long Term Ecological Research Network Office (aka LNO). While my primary role is to support synthesis working groups, I also am encouraged to pursue programming tasks that are interesting to me and may indirectly improve my ability to aid working groups.\nOne such side project is the R package lterpalettefinder (one of the R packages I’ve created). This package began as a straightforward way of allowing R users to include color palettes manually extracted from photos taken at LTER sites but over time evolved into developing functions to do that extraction automatically.\nThis app provides a non-R interface to explore the package and pull palettes from their own photos. My hope is that this framework allows those without R knowledge to still make use of lterpalettefinder.\nThe code for the data portal can be found on GitHub  here"
   },
   {
     "objectID": "shiny.html#herbivory-variability-network-data-portal",
     "href": "shiny.html#herbivory-variability-network-data-portal",
     "title": "R Shiny",
     "section": "Herbivory Variability Network Data Portal",
-    "text": "Herbivory Variability Network Data Portal\n \nThe Herbivory Variability Network (aka HerbVar) is a relatively new Research Coordination Network (RCN) focused on understanding the ecological and phylogenetic drivers of variation in herbivore damage around the globe. HerbVar is housed at Michigan State University and led by Dr. Will Wetzel. While working as their data scientist / network administrator I leapt at the chance to use Shiny to create a data submission portal.\nThe data portal (deployed here) asks users to enter various metadata about the data they are submitting and performs some preliminary QA/QC. The app doesn’t reject data that has errors but does–politely–flag any identified issues for the user to (hopefully) address and re-attach data. Attached data are then uploaded to a Google Drive folder and entered metadata are added as a new row to a dynamic GoogleSheet for downstream use.\nThe code for the data portal can be found on GitHub  here"
+    "text": "Herbivory Variability Network Data Portal\n \nThe Herbivory Variability Network (aka HerbVar) is a relatively new Research Coordination Network (RCN) focused on understanding the ecological and phylogenetic drivers of variation in herbivore damage around the globe. HerbVar is housed at Michigan State University and led by Dr. Will Wetzel. While working as their data scientist / network administrator I leapt at the chance to use Shiny to create a data submission portal.\nThe data portal collects various metadata about the data being submitting and performs some preliminary QA/QC. The app doesn’t reject data that has errors but does–politely–flag any identified issues for the user to (hopefully) address and re-attach data. Attached data are then uploaded to a Google Drive folder and entered metadata are added as a new row to a dynamic GoogleSheet for downstream use.\nThe code for the data portal can be found on GitHub  here"
   },
   {
     "objectID": "code.html",

@@ -2,30 +2,30 @@
 title: "R Shiny"
 ---
 
-<img src="images/shiny_hex.png" width = "15%" align="right"/> 
+<img src="images/hex_logos/shiny_hex.png" width = "15%" align="right"/> 
 
 I've had the opportunity to create some fun apps using R Shiny and am excited to create more! I particularly appreciate that Shiny apps can be used to make R content accessible to those without an R background and have strived to leverage that value in the apps I have written so far.
 
-## `lterpalettefinder` Explorer
+## `lterpalettefinder` [Shiny Explorer](https://cosima.nceas.ucsb.edu/lterpalettefinder-shiny/)
 
 <img src="images/hex_logos/lterpalettefinder_hex.png" width="20%" align="right"/>
 
 I am currently a data scientist working with the Long Term Ecological Research Network Office (aka [LNO](https://lternet.edu/)). While my primary role is to support synthesis working groups, I also am encouraged to pursue programming tasks that are interesting to me and may indirectly improve my ability to aid working groups.
 
-One such side project is the R package `lterpalettefinder` (one of the [R packages I've created](https://njlyon0.github.io/pkgs.html)).  This package began as a straightforward way of allowing R users to include color palettes manually extracted from photos taken at LTER sites but over time evolved into developing functions to do that extraction automatically.
+One such side project is the R package `lterpalettefinder` (one of the [R packages I've created](https://njlyon0.github.io/pkgs.html)). This package began as a straightforward way of allowing R users to include color palettes manually extracted from photos taken at LTER sites but over time evolved into developing functions to do that extraction automatically.
 
-Once the package reached a point where functions were relatively stable, I wrote an [R Shiny app](https://cosima.nceas.ucsb.edu/lterpalettefinder-shiny/) to allow even people without R knowledge to explore the package and pull palettes from their own photos!
+This app provides a non-R interface to explore the package and pull palettes from their own photos. My hope is that this framework allows those without R knowledge to still make use of `lterpalettefinder`.
 
 The code for the data portal can be found on GitHub {{< fa brands github >}}
  [here](https://github.com/lter/lterpalettefinder-shiny)
 
-## Herbivory Variability Network Data Portal
+## Herbivory Variability Network [Data Portal](https://herbvar.shinyapps.io/data_portal_actual/)
 
 <img src="images/herbvar_logo.png" width="15%" align="right" />
 <img src="images/msu_square.png" width="25%" align="right"/>
 
 The Herbivory Variability Network (aka [HerbVar](https://herbvar.org/)) is a relatively new Research Coordination Network (RCN) focused on understanding the ecological and phylogenetic drivers of *variation* in herbivore damage around the globe. HerbVar is housed at Michigan State University and led by [Dr. Will Wetzel](https://wetzellab.com/). While working as their data scientist / network administrator I leapt at the chance to use Shiny to create a data submission portal.
 
-The data portal (deployed [here](https://herbvar.shinyapps.io/data_portal_actual/)) asks users to enter various metadata about the data they are submitting and performs some preliminary QA/QC. The app doesn't reject data that has errors but does--politely--flag any identified issues for the user to (hopefully) address and re-attach data. Attached data are then uploaded to a Google Drive folder and entered metadata are added as a new row to a dynamic GoogleSheet for downstream use.
+The data portal collects various metadata about the data being submitting and performs some preliminary QA/QC. The app doesn't reject data that has errors but does--politely--flag any identified issues for the user to (hopefully) address and re-attach data. Attached data are then uploaded to a Google Drive folder and entered metadata are added as a new row to a dynamic GoogleSheet for downstream use.
 
 The code for the data portal can be found on GitHub {{< fa brands github >}} [here](https://github.com/HerbVar-Network/Data-Portal)
