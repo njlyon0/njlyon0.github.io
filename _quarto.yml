@@ -15,13 +15,13 @@ website:
       - text: "Data Science Portfolio"
         menu:
          - pkgs.qmd
-         - teaching.qmd
          - shiny.qmd
          - code.qmd
       - text: "Academic Portfolio"
         menu:
-          - talks.qmd
-          - pubs.qmd
+         - teaching.qmd
+         - talks.qmd
+         - pubs.qmd
       - consult.qmd
     right:
       - icon: github
