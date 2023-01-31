@@ -24,13 +24,13 @@ Perhaps unsurprisingly for someone of my professional interests, I am a *huge* D
 
 To help showcase some of the functions in `dndR` I've created a [standalone Quarto website](https://njlyon0.github.io/dndR/) that is similar to a vignette. Feel free to check it out!
 
-## [`helpR`](https://github.com/njlyon0/helpR#readme)
+## [`supportR`](https://github.com/njlyon0/supportR#readme)
 
-### Miscellaneous Helper Functions for Coding in R
+### Support Functions for Wrangling and Visualization
 
-<img src="images/hex_logos/helpR_hex.png" width="20%" align="right"/>
+<img src="images/hex_logos/supportR_hex.png" width="20%" align="right"/>
 
-The unifying theme of this package is essentially that none of these functions have a strong connection anywhere else. This package is a grab bag of data wrangling, plotting, and exporting functions I've written and wanted to use across projects without copy/pasting the functions into all those different repositories. Hopefully some of them can be of value to you as well!
+The unifying theme of this package is essentially that none of these functions have a strong connection anywhere else. This package is a grab bag of data wrangling, visualization, and exporting functions I've written and wanted to use across projects without copy/pasting the functions into all those different repositories. Hopefully some of them can be of value to you as well!
 
 ## [`HERON`](https://github.com/lter/HERON#readme)
 

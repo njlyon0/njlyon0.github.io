@@ -70,11 +70,11 @@
     "text": "dndR\n\nAn R Package for Dungeons & Dragons\n\nPerhaps unsurprisingly for someone of my professional interests, I am a huge Dungeons & Dragons () fan in my free time. To blend my personal and professional interests I’ve created this package to serve any other people in the R / DnD Venn Diagram intersection. It allows for easy rolling of dice, creation of character statistics, and (for GMs) encounter balancing. This package is also a fun chance for me to practice my coding skills in a risk-free environment.\nTo help showcase some of the functions in dndR I’ve created a standalone Quarto website that is similar to a vignette. Feel free to check it out!"
   },
   {
-    "objectID": "pkgs.html#helpr",
-    "href": "pkgs.html#helpr",
+    "objectID": "pkgs.html#supportr",
+    "href": "pkgs.html#supportr",
     "title": "R Packages",
-    "section": "helpR",
-    "text": "helpR\n\nMiscellaneous Helper Functions for Coding in R\n\nThe unifying theme of this package is essentially that none of these functions have a strong connection anywhere else. This package is a grab bag of data wrangling, plotting, and exporting functions I’ve written and wanted to use across projects without copy/pasting the functions into all those different repositories. Hopefully some of them can be of value to you as well!"
+    "section": "supportR",
+    "text": "supportR\n\nSupport Functions for Wrangling and Visualization\n\nThe unifying theme of this package is essentially that none of these functions have a strong connection anywhere else. This package is a grab bag of data wrangling, visualization, and exporting functions I’ve written and wanted to use across projects without copy/pasting the functions into all those different repositories. Hopefully some of them can be of value to you as well!"
   },
   {
     "objectID": "pkgs.html#heron",
