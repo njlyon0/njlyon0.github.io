@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Nicholas J Lyon - Talks</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/hex_logos/dndR_hex.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Nicholas J Lyon</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data-science-portfolio" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Data Science Portfolio</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-data-science-portfolio">    
+        <li>
+    <a class="dropdown-item" href="./pkgs.html">
+ <span class="dropdown-text">R Packages</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./teaching.html">
+ <span class="dropdown-text">Workshops</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./shiny.html">
+ <span class="dropdown-text">R Shiny</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./code.html">
+ <span class="dropdown-text">Selected Code</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-academic-portfolio" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Academic Portfolio</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-academic-portfolio">    
+        <li>
+    <a class="dropdown-item" href="./talks.html">
+ <span class="dropdown-text">Talks</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./pubs.html">
+ <span class="dropdown-text">Papers</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./consult.html">
+ <span class="menu-text">Consulting</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/njlyon0"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/njlyon0/njlyon0.github.io/blob/main/files/LyonCV.pdf">
+ <span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/scilyon"><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div class="quarto-toggle-container">
+                  <a href="" class="quarto-color-scheme-toggle nav-link" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+              </div>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#workshops-lectures" id="toc-workshops-lectures" class="nav-link active" data-scroll-target="#workshops-lectures">Workshops &amp; Lectures</a></li>
+  <li><a href="#courses" id="toc-courses" class="nav-link" data-scroll-target="#courses">Courses</a></li>
+  <li><a href="#conference-style-presentations" id="toc-conference-style-presentations" class="nav-link" data-scroll-target="#conference-style-presentations">Conference-Style Presentations</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/njlyon0/njlyon0.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Talks</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>I love chatting about science and data management and leap at the opportunity to present in public-facing contexts. Here is a breakdown of some of the conference talks, workshops, and lectures I have given as well as the semester-long courses I have taught. The icons to the left of the titles (e.g., <i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i>) are intended to help roughly group content by their topic.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/squash_bug_nymph.jpg" class="img-fluid figure-img" alt="squash bug nymph" width="600"></p>
+</figure>
+</div>
+<section id="workshops-lectures" class="level2">
+<h2 class="anchored" data-anchor-id="workshops-lectures">Workshops &amp; Lectures</h2>
+<p><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i> – Lyon, N.J., De La Rosa, G., Guerrero, F. Sharing Science with R Shiny Apps. <strong>2022</strong>. LTER All Scientists’ Meeting, Monterey, CA - <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/njlyon0/asm-2022_shiny-workshop">GitHub repo</a> - <a href="https://njlyon0.github.io/asm-2022_shiny-workshop/">Workshop website</a> - <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/njlyon0/asm-2022_shiny-workshop-examples">Example Shiny apps’ GitHub repo</a></p>
+<p><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i> – Lyon, N.J., Chen, A. Reproducible Coding with <code>git</code> and GitHub. <strong>2022</strong>. LTER All Scientists’ Meeting, Monterey, CA - <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/njlyon0/asm-2022_github-workshop">GitHub repo</a> - <a href="https://njlyon0.github.io/asm-2022_github-workshop/">Workshop website</a></p>
+<p><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i> – Lyon, N.J., Chen, A., Brun, J. Coding with the Tidyverse. <strong>2022</strong>. National Center for Ecological Analysis and Synthesis, LTER Network Office - <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/NCEAS/scicomp-workshop-tidyverse">GitHub repo</a> - <a href="https://nceas.github.io/scicomp-workshop-tidyverse/">Workshop website</a></p>
+<p><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i> – Lyon, N.J., Chen, A., Brun, J. Collaborative Coding with GitHub and RStudio. <strong>2022</strong>. National Center for Ecological Analysis and Synthesis, LTER Network Office - <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/NCEAS/scicomp-workshop-collaborative-coding">GitHub repo</a> - <a href="https://nceas.github.io/scicomp-workshop-collaborative-coding/">Workshop website</a></p>
+<p><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i> – Lyon, N.J. Introduction to Statistics and R in Ecology Research. <strong>2020</strong>. Insect Ecology (ENT 4520/6520), Clemson University. Clemson SC.</p>
+<p><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i> – Lyon, N.J. Plotting with <code>ggplot2</code>. <strong>2019</strong>. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.</p>
+<p><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i> – Lyon, N.J. Choosing the “Right” Statistical Test. <strong>2019</strong>. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.</p>
+<p><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i> – Lyon, N.J. Multivariate Statistics in R. <strong>2018</strong>. Data Management and Analysis in R for Ecologists and Evolutionary Biologists (EEB 698) - <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/njlyon0/lyon-tutorial_multivariate-intro">GitHub repo</a></p>
+</section>
+<section id="courses" class="level2">
+<h2 class="anchored" data-anchor-id="courses">Courses</h2>
+<p><i class="fa-solid fa-bug" aria-hidden="true"></i> – Principles of Biology (BIO 1108), Spring <strong>2021</strong>, University of Georgia. Athens, GA</p>
+<p><i class="fa-solid fa-microscope" aria-hidden="true"></i> – Concepts in Biology (BIO 1103), Fall <strong>2020</strong>, University of Georgia. Athens, GA</p>
+<p><i class="fa-solid fa-bugs" aria-hidden="true"></i> <i class="fa-solid fa-seedling" aria-hidden="true"></i> – Ecology (BIO 312), Fall <strong>2018</strong>, Iowa State University. Ames, IA</p>
+</section>
+<section id="conference-style-presentations" class="level2">
+<h2 class="anchored" data-anchor-id="conference-style-presentations">Conference-Style Presentations</h2>
+<p><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i> – Lyon, N.J. and Vargas, C. Data Quality Control Using R. Santa Barbara R Users Group, June <strong>2022</strong> - <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/njlyon0/collab_vargas-quality-control-talk">GitHub repo</a></p>
+<p><i class="fa-solid fa-fire-flame-curved" aria-hidden="true"></i> <i class="fa-solid fa-cow" aria-hidden="true"></i> – Lyon, N.J. and Debinski, D.M. Evaluating the Effects of Eleven Years of Consistent Restoration Management. Ecological Society of America, Louisville KY, August <strong>2019</strong></p>
+<p><i class="fa-solid fa-fire-flame-curved" aria-hidden="true"></i> <i class="fa-solid fa-cow" aria-hidden="true"></i> – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. Native Plant and Pollinator Response to Management with Fire and Grazing. Ecological Society of America, New Orleans LA, August <strong>2018</strong></p>
+<p><i class="fa-solid fa-bug" aria-hidden="true"></i> <i class="fa-solid fa-seedling" aria-hidden="true"></i> – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. Plant and Pollinator Response to Adaptive Management. Graduate and Professional Student Research Conference, Ames IA, April <strong>2018</strong>. Awarded Best Oral Presentation.</p>
+<p><i class="fa-solid fa-bug" aria-hidden="true"></i> <i class="fa-solid fa-seedling" aria-hidden="true"></i> – Lyon, N.J., Debinski, D.M. Butterfly and Nectar-Producing Plant Response to Invasive Grass Management. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February <strong>2018</strong> - <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/njlyon0/collab_coon-daubenmire-herbicide">GitHub repo</a></p>
+<p><i class="fa-solid fa-fire-flame-curved" aria-hidden="true"></i> <i class="fa-solid fa-cow" aria-hidden="true"></i> <i class="fa-solid fa-cloud-sun" aria-hidden="true"></i> – Lyon, N.J. An Integrated Approach to Tallgrass Prairie Restoration. Three-Minute Thesis, Ames IA, January <strong>2018</strong></p>
+<p><i class="fa-solid fa-cloud-sun" aria-hidden="true"></i> – Lyon, N. J., Debinski, D.M., and Rangwala, I. Species Distribution Modeling to Predict Prairie Restoration Success under Climate Change. Ecological Society of America, Portland OR, August <strong>2017</strong> - <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/njlyon0/lyon-ms-thesis_sdm">GitHub repo</a></p>
+<p><i class="fa-solid fa-cloud-sun" aria-hidden="true"></i> – Lyon, N.J. Predicted Response of Native Grassland Plants to Climate Change. Ten Years of Research in the Grand River Grasslands Symposium, Lamoni IA, June <strong>2017</strong> - <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/njlyon0/lyon-ms-thesis_sdm">GitHub repo</a></p>
+<p><i class="fa-solid fa-fire-flame-curved" aria-hidden="true"></i> <i class="fa-solid fa-cow" aria-hidden="true"></i> <i class="fa-solid fa-bug" aria-hidden="true"></i> – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W., and Stein, D. Grazing, Burning, and Butterflies. Iowa Urban Tree Council, Des Moines IA, April <strong>2017</strong></p>
+<p><i class="fa-solid fa-fire-flame-curved" aria-hidden="true"></i> <i class="fa-solid fa-cow" aria-hidden="true"></i> <i class="fa-solid fa-bug" aria-hidden="true"></i> – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. and Stein, D. Adaptive Management for Prairie Plants and Pollinators in Midwestern Working Landscapes. Iowa Invasive Species Conference, Moravia IA, March <strong>2017</strong></p>
+<p><i class="fa-solid fa-cloud-sun" aria-hidden="true"></i> – Lyon, N.J. Incorporating Correlative Modeling into Modifying Restoration Strategies for the Future. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February <strong>2017</strong> - <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/njlyon0/lyon-ms-thesis_sdm">GitHub repo</a></p>
+<p><i class="fa-solid fa-anchor" aria-hidden="true"></i> – Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Air and Waste Management Student Challenge, Portland OR, April <strong>2016</strong>. Awarded Best Presentation</p>
+<p><i class="fa-solid fa-anchor" aria-hidden="true"></i> – Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Phi Sigma Research Symposium, University of Puget Sound, April <strong>2016</strong></p>
+<p><i class="fa-solid fa-anchor" aria-hidden="true"></i> – Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Murdock College Science Research Conference, Vancouver WA (Hilton Vancouver), November <strong>2015</strong></p>
+<p><i class="fa-solid fa-anchor" aria-hidden="true"></i> – Lyon N. Mussels as Samplers of Regional Microplastic Contamination Trends. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September <strong>2015</strong></p>
+<p><i class="fa-solid fa-anchor" aria-hidden="true"></i> – Lyon, N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Oral presentation. Phi Sigma Research Symposium, University of Puget Sound, April <strong>2015</strong></p>
+<p><i class="fa-solid fa-anchor" aria-hidden="true"></i> – Lyon N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September <strong>2014</strong></p>
+<p><i class="fa-solid fa-anchor" aria-hidden="true"></i> – Lyon, N. Plastic Contamination in Marine Environments. Oral presentation. Honors Research Symposium, Seattle University, October <strong>2014</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/question_mark.jpg" class="img-fluid figure-img" alt="question mark butterfly" width="600"></p>
+</figure>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp(/https:\/\/github\.com\/njlyon0\/njlyon0\.github\.io/);
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center">Copyright 2022, Nicholas Lyon</div>
+  </div>
+</footer>
+
+
+
+</body></html>
