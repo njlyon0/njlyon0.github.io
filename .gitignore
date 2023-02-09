@@ -38,6 +38,7 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
+# Interior parts of Quarto
 /.quarto/
 
 # Add DS_Store
@@ -48,3 +49,7 @@ vignettes/*.pdf
 
 # Content archive
 _archive
+
+# Rendered docs folder
+docs/
+
