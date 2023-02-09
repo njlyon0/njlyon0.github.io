@@ -2,6 +2,9 @@ project:
   type: website
   output-dir: docs
 
+execute:
+  freeze: auto
+
 website:
   title: "Nicholas J Lyon"
   favicon: images/hex_logos/dndR_hex.png
@@ -43,4 +46,3 @@ format:
     toc: true
     link-external-newwindow: true
     link-external-icon: false
-
