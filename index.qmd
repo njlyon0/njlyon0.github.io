@@ -27,9 +27,9 @@ about:
 
 ## Welcome!
 
-I am an early career data scientist with experience managing ecological data in a range of formats. I have firsthand experience with designing field experiments and writing models and this has granted me invaluable insight into the quality assurance and control (QA/QC) needs of typical scientific projects.
+I am an early career data scientist with experience managing life sciences data in a range of formats. I have firsthand experience with designing field experiments and writing models and this has granted me invaluable insight into the quality assurance and control (QA/QC) needs of typical scientific projects.
 
-The bulk of my coding experience is in R (including R Shiny) but I also have moderate competency with SQL and the command line. I plan on learning more coding languages going forward as data challenges necessitate (I am particularly excited to learn Python). I firmly believe in transparency in data management and am an avid `git` user. Check out my {{< fa brands github >}} [GitHub profile](https://github.com/njlyon0){target="_blank"} for examples of my ongoing and past work!
+The bulk of my coding experience is in R (including R Shiny) but I also have moderate competency with SQL and the command line. I plan on learning more coding languages going forward as data challenges necessitate (I am particularly excited to learn Python). I firmly believe in transparency in data management and am an avid `git` user. Check out my {{< fa brands github >}} [GitHub profile](https://github.com/njlyon0){target="_blank"} for examples of my work!
 
 ### Skills & Interests
 
