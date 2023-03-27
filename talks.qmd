@@ -8,6 +8,8 @@ I love chatting about science and data management and leap at the opportunity to
 
 ## Workshops & Lectures
 
+{{< fa screwdriver-wrench >}} -- Lyon, N.J., Chen, A., Brun, J. Collaborative Coding with GitHub and RStudio. **2023**. National Center for Ecological Analysis and Synthesis, LTER Network Office - {{< fa brands github >}} [GitHub repo](https://github.com/NCEAS/scicomp-workshop-collaborative-coding) - [Workshop website](https://nceas.github.io/scicomp-workshop-collaborative-coding/)
+
 {{< fa screwdriver-wrench >}} -- Lyon, N.J., De La Rosa, G., Guerrero, F. Sharing Science with R Shiny Apps. **2022**. LTER All Scientists' Meeting, Monterey, CA - {{< fa brands github >}} [GitHub repo](https://github.com/njlyon0/asm-2022_shiny-workshop) - [Workshop website](https://njlyon0.github.io/asm-2022_shiny-workshop/) - {{< fa brands github >}} [Example Shiny apps' GitHub repo](https://github.com/njlyon0/asm-2022_shiny-workshop-examples)
 
 {{< fa screwdriver-wrench >}} -- Lyon, N.J., Chen, A. Reproducible Coding with `git` and GitHub. **2022**. LTER All Scientists' Meeting, Monterey, CA - {{< fa brands github >}} [GitHub repo](https://github.com/njlyon0/asm-2022_github-workshop) - [Workshop website](https://njlyon0.github.io/asm-2022_github-workshop/)
