@@ -46,4 +46,4 @@ I developed this package in support of the LTER synthesis working group focusing
 
 <img src="images/hex_logos/scicomptools_hex.png" width="20%" align="right"/>
 
-This package contains all of the standalone functions written by the NCEAS Scientific Computing Support Team that don't cleanly fit in other repositories. This is similar in rationale to the `supportR` package but in this case, many of the functions were written by others and I have simply maintained them and improved them where the opportunity arises.
+This package contains all of the standalone functions written by the NCEAS Scientific Computing Support Team that don't cleanly fit in other repositories. This is similar in rationale to the `supportR` package but in this case, some of these functions were written by others. Additionally, these functions are written in the context of the work I do for the LTER Network Office and thus don't belong in `supportR` because that is more for personal / side projects.
