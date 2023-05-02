@@ -2,7 +2,7 @@
 title: "R Packages"
 ---
 
-I have increasingly worked on wrapping the functions that I write into R packages both for simplicity's sake on my end as I reference my own work across different projects but also to (hopefully) help others who run into the same repetitive tasks that I have attempted to solve. Below are the packages I am an author on along with a brief description of their purpose and their hex logo. Additionally, I designed the hex logos for `dndR`, `helpR`, and `scicomptools`. [Gabe De La Rosa](https://www.gabrieldelarosa.com/) designed the hex logos for `lterpalettefinder` and `HERON`, thanks Gabe!
+I have increasingly worked on wrapping the functions that I write into R packages both for simplicity's sake on my end as I reference my own work across different projects but also to (hopefully) help others who run into the same repetitive tasks that I have attempted to solve. Below are the packages I am an author on along with a brief description of their purpose and their hex logo. Additionally, I designed the hex logos for `dndR` and `supportR`. [Gabe De La Rosa](https://www.gabrieldelarosa.com/) designed the hex logos for `lterpalettefinder`, `HERON`, , and `scicomptools`; thanks Gabe!
 
 ## [`lterpalettefinder`](https://github.com/lter/lterpalettefinder#readme)
 
@@ -46,4 +46,4 @@ I developed this package in support of the LTER synthesis working group focusing
 
 <img src="images/hex_logos/scicomptools_hex.png" width="20%" align="right"/>
 
-This package contains all of the standalone functions written by the NCEAS Scientific Computing Support Team that don't cleanly fit in other repositories. This is similar in rationale to the `helpR` package but in this case, many of the functions were written by others and I have simply maintained them and improved them where the opportunity arises.
+This package contains all of the standalone functions written by the NCEAS Scientific Computing Support Team that don't cleanly fit in other repositories. This is similar in rationale to the `supportR` package but in this case, many of the functions were written by others and I have simply maintained them and improved them where the opportunity arises.
