@@ -19,7 +19,7 @@ website:
       - text: "Data Science Portfolio"
         menu:
          - pkgs.qmd
-         - teaching.qmd
+         - workshops.qmd
          - shiny.qmd
          - code.qmd
       - text: "Academic Portfolio"
