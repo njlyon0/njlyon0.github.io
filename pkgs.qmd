@@ -10,7 +10,7 @@ I have increasingly worked on wrapping the functions that I write into R package
 
 <img src="images/hex_logos/dndR_hex.png" width="20%" align="right"/>
 
-Perhaps unsurprisingly for someone of my professional interests, I am a *huge* Dungeons & Dragons ({{< fa dice-d20 >}}) fan in my free time. To blend my personal and professional interests I've created this package to serve any other people in the R / DnD Venn Diagram intersection. It allows for easy rolling of dice, creation of character statistics, and (for GMs) encounter balancing. This package is also a fun chance for me to practice my coding skills in a risk-free environment.
+Perhaps unsurprisingly for someone of my professional interests, I am a *huge* Dungeons & Dragons ({{< fa dice-d20 >}}) fan in my free time. To blend my personal and professional interests I've created this package to serve any other people in the R / DnD Venn Diagram intersection. It allows for easy rolling of dice, creation of character statistics, and (for GMs) encounter balancing. This package is also a fun chance for me to practice my coding skills in a risk-free environment. **A version of this package is available on CRAN [here](https://cran.r-project.org/web/packages/dndR/index.html).**
 
 To help showcase some of the functions in `dndR` I've created a [standalone Quarto website](https://njlyon0.github.io/dndR/) that is similar to a vignette. Feel free to check it out!
 
@@ -20,7 +20,7 @@ To help showcase some of the functions in `dndR` I've created a [standalone Quar
 
 <img src="images/hex_logos/supportR_hex.png" width="20%" align="right"/>
 
-The unifying theme of this package is essentially that none of these functions have a strong connection anywhere else. This package is a grab bag of data wrangling, visualization, and exporting functions I've written and wanted to use across projects without copy/pasting the functions into all those different repositories. Hopefully some of them can be of value to you as well!
+The unifying theme of this package is essentially that none of these functions have a strong connection anywhere else. This package is a grab bag of data wrangling, visualization, and exporting functions I've written and wanted to use across projects without copy/pasting the functions into all those different repositories. Hopefully some of them can be of value to you as well! **A version of this package is available on CRAN [here](https://cran.r-project.org/web/packages/supportR/index.html).**
 
 ## [`lterpalettefinder`](https://github.com/lter/lterpalettefinder#readme)
 
@@ -28,7 +28,7 @@ The unifying theme of this package is essentially that none of these functions h
 
 <img src="images/hex_logos/lterpalettefinder_hex.png" width="20%" align="right"/>
 
-This package allows users to extract colors (as hexadecimal codes) from a given image. These codes can then be used for the creation of graphics that have aesthetic connections to pictures relevant to the data (e.g., focal organism, study site, etc.). Secondarily, it also contains a set of official palettes that can be accessed if the user would prefer to use a pre-set palette rather than creating their own.
+This package allows users to extract colors (as hexadecimal codes) from a given image. These codes can then be used for the creation of graphics that have aesthetic connections to pictures relevant to the data (e.g., focal organism, study site, etc.). Secondarily, it also contains a set of official palettes that can be accessed if the user would prefer to use a pre-set palette rather than creating their own. **A version of this package is available on CRAN [here](https://cran.r-project.org/web/packages/lterpalettefinder/index.html).**
 
 To allow non-R users to explore `lterpalettefinder`, I created an [R Shiny app](https://cosima.nceas.ucsb.edu/lterpalettefinder-shiny/) that allows anyone with an internet connection to use this package.
 
