@@ -6,7 +6,7 @@ I have increasingly worked on wrapping the functions that I write into R package
 
 ## [`dndR`](https://github.com/njlyon0/dndR#readme)
 
-### An R Package for Dungeons & Dragons
+### Dungeons & Dragons Functions for Players and Dungeon Masters
 
 <img src="images/hex_logos/dndR_hex.png" width="20%" align="right"/>
 
