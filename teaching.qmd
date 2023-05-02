@@ -2,7 +2,7 @@
 title: "Workshops"
 ---
 
-## R Shiny [Workshop](https://njlyon0.github.io/asm-2022_shiny-workshop/)
+## [R Shiny Apps for Sharing Science](https://njlyon0.github.io/asm-2022_shiny-workshop/)
 
 <img src="images/hex_logos/shiny_hex.png" width="20%" align="right"/>
 
@@ -10,7 +10,7 @@ I co-led an R Shiny workshop with [Gabe De La Rosa](https://www.gabrieldelarosa.
 
 We began with the fundamentals of Shiny and ended by live coding an interactive app that was moderately complex. We shared the {{< fa brands github >}} [GitHub repository](https://github.com/njlyon0/asm-2022_shiny-workshop) for the workshop website with attendees and I created a standalone {{< fa brands github >}} [GitHub repository](https://github.com/njlyon0/asm-2022_shiny-workshop-examples) to house example apps for them to use as jumping off points.
 
-## Tidyverse [Workshop](https://nceas.github.io/scicomp-workshop-tidyverse/)
+## [Coding in the Tidyverse](https://nceas.github.io/scicomp-workshop-tidyverse/)
 
 <img src="images/lno_square.png" width="20%" align="right"/>
 <img src="images/hex_logos/tidyverse_hex.png" width="20%" align="right"/>
@@ -21,7 +21,7 @@ I and the other members of the [Scientific Computing Support team](https://nceas
 
 I also created all of the visuals for that workshop to give learners non-text and non-code ways of understanding core `tidyverse` operations.
 
-## Collaborative Coding with GitHub [Workshop](https://nceas.github.io/scicomp-workshop-collaborative-coding/)
+## [Collaborative Coding with GitHub](https://nceas.github.io/scicomp-workshop-collaborative-coding/)
 
 <img src="images/lno_square.png" width="20%" align="right"/>
 <img src="images/github_logo.png" width="20%" align="right"/>
