@@ -16,6 +16,8 @@ Note that most of these projects have GitHub repositories but they are set to 'P
 
 {{< fa water >}} -- Johnson, K. et al. Establishing Fluvial Silica Regimes and Their Stability Across the Northern Hemisphere. *\[In review at _Limnology and Oceanography Letters_\]*
 
+{{< fa screwdriver-wrench >}} -- Brun, J. et al. Enabling Data-Driven Collaborative and Reproducible Environmental Synthesis Science. *\[In prep\]*
+
 {{< fa seedling >}} {{< fa cow >}} -- Moranz, R., Lyon, N.J. and Debinski, D.M. Response of Butterfly Milkweed (*Ascelpias tuberosa*) to Cattle Grazing. *\[In prep\]*
 
 ## Published
