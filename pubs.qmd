@@ -14,7 +14,7 @@ Note that most of these projects have GitHub repositories but they are set to 'P
 
 {{< fa bug >}} -- Kucuk, R.A. et al. Gut Bacteria of Adult and Larval Cotinis nitida Linnaeus (Coleoptera: Scarabaeidae) Demonstrate Community Differences According to Life Stage and Gut Region. *\[In review at _Frontiers in Microbiology_\]*
 
-{{< fa water >}} -- Johnson, K. et al. Establishing Fluvial Silica Regimes and Their Stability Across the Northern Hemisphere. *\[In prep\]*
+{{< fa water >}} -- Johnson, K. et al. Establishing Fluvial Silica Regimes and Their Stability Across the Northern Hemisphere. *\[In review at _Limnology and Oceanography Letters_\]*
 
 {{< fa seedling >}} {{< fa cow >}} -- Moranz, R., Lyon, N.J. and Debinski, D.M. Response of Butterfly Milkweed (*Ascelpias tuberosa*) to Cattle Grazing. *\[In prep\]*
 
