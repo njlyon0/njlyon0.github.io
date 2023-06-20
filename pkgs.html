@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<meta name="generator" content="quarto-1.3.361">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -60,7 +60,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -175,13 +176,13 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#extract-color-palettes-from-photos-and-pick-official-lter-palettes" id="toc-extract-color-palettes-from-photos-and-pick-official-lter-palettes" class="nav-link" data-scroll-target="#extract-color-palettes-from-photos-and-pick-official-lter-palettes">Extract Color Palettes from Photos and Pick Official LTER Palettes</a></li>
   </ul></li>
-  <li><a href="#heron" id="toc-heron" class="nav-link" data-scroll-target="#heron"><code>HERON</code></a>
-  <ul class="collapse">
-  <li><a href="#helpers-for-river-observation" id="toc-helpers-for-river-observation" class="nav-link" data-scroll-target="#helpers-for-river-observation"><u>He</u>lpers for <u>R</u>iver <u>O</u>bservatio<u>n</u></a></li>
-  </ul></li>
   <li><a href="#scicomptools" id="toc-scicomptools" class="nav-link" data-scroll-target="#scicomptools"><code>scicomptools</code></a>
   <ul class="collapse">
   <li><a href="#tools-developed-by-nceas-scientific-computing-support-team" id="toc-tools-developed-by-nceas-scientific-computing-support-team" class="nav-link" data-scroll-target="#tools-developed-by-nceas-scientific-computing-support-team">Tools Developed by NCEAS’ Scientific Computing Support Team</a></li>
+  </ul></li>
+  <li><a href="#heron" id="toc-heron" class="nav-link" data-scroll-target="#heron"><code>HERON</code></a>
+  <ul class="collapse">
+  <li><a href="#helpers-for-river-observation" id="toc-helpers-for-river-observation" class="nav-link" data-scroll-target="#helpers-for-river-observation"><u>He</u>lpers for <u>R</u>iver <u>O</u>bservatio<u>n</u></a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/njlyon0/njlyon0.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -233,20 +234,20 @@ ul.task-list li input[type="checkbox"] {
 <p>To allow non-R users to explore <code>lterpalettefinder</code>, I created an <a href="https://cosima.nceas.ucsb.edu/lterpalettefinder-shiny/">R Shiny app</a> that allows anyone with an internet connection to use this package.</p>
 </section>
 </section>
+<section id="scicomptools" class="level2">
+<h2 class="anchored" data-anchor-id="scicomptools"><a href="https://github.com/NCEAS/scicomptools#readme"><code>scicomptools</code></a></h2>
+<section id="tools-developed-by-nceas-scientific-computing-support-team" class="level3">
+<h3 class="anchored" data-anchor-id="tools-developed-by-nceas-scientific-computing-support-team">Tools Developed by NCEAS’ Scientific Computing Support Team</h3>
+<p><img src="images/hex_logos/scicomptools_hex.png" width="20%" align="right"></p>
+<p>This package contains all of the standalone functions written by the NCEAS Scientific Computing Support Team that don’t cleanly fit in other repositories. This is similar in rationale to the <code>supportR</code> package but in this case, some of these functions were written by others. Additionally, these functions are written in the context of the work I do for the LTER Network Office and thus don’t belong in <code>supportR</code> because that is more for personal / side projects. <strong>A version of this package is available on CRAN <a href="https://cran.r-project.org/web/packages/scicomptools/index.html">here</a>.</strong></p>
+</section>
+</section>
 <section id="heron" class="level2">
 <h2 class="anchored" data-anchor-id="heron"><a href="https://github.com/lter/HERON#readme"><code>HERON</code></a></h2>
 <section id="helpers-for-river-observation" class="level3">
 <h3 class="anchored" data-anchor-id="helpers-for-river-observation"><u>He</u>lpers for <u>R</u>iver <u>O</u>bservatio<u>n</u></h3>
 <p><img src="images/hex_logos/HERON_hex.png" width="20%" align="right"></p>
 <p>I developed this package in support of the LTER synthesis working group focusing on riverine silica exports. These functions are primarily focused on downstream (no pun intended!) operations for processing outputs created by the <code>EGRET</code> (<a href="https://cran.r-project.org/web/packages/EGRET/index.html">CRAN link</a>) and <code>SiZer</code> (<a href="https://cran.r-project.org/web/packages/SiZer/index.html">CRAN link</a>) R packages.</p>
-</section>
-</section>
-<section id="scicomptools" class="level2">
-<h2 class="anchored" data-anchor-id="scicomptools"><a href="https://github.com/NCEAS/scicomptools#readme"><code>scicomptools</code></a></h2>
-<section id="tools-developed-by-nceas-scientific-computing-support-team" class="level3">
-<h3 class="anchored" data-anchor-id="tools-developed-by-nceas-scientific-computing-support-team">Tools Developed by NCEAS’ Scientific Computing Support Team</h3>
-<p><img src="images/hex_logos/scicomptools_hex.png" width="20%" align="right"></p>
-<p>This package contains all of the standalone functions written by the NCEAS Scientific Computing Support Team that don’t cleanly fit in other repositories. This is similar in rationale to the <code>supportR</code> package but in this case, some of these functions were written by others. Additionally, these functions are written in the context of the work I do for the LTER Network Office and thus don’t belong in <code>supportR</code> because that is more for personal / side projects.</p>
 
 
 </section>
