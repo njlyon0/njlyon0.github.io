@@ -32,6 +32,14 @@ This package allows users to extract colors (as hexadecimal codes) from a given 
 
 To allow non-R users to explore `lterpalettefinder`, I created an [R Shiny app](https://cosima.nceas.ucsb.edu/lterpalettefinder-shiny/) that allows anyone with an internet connection to use this package.
 
+## [`scicomptools`](https://github.com/NCEAS/scicomptools#readme)
+
+### Tools Developed by NCEAS’ Scientific Computing Support Team
+
+<img src="images/hex_logos/scicomptools_hex.png" width="20%" align="right"/>
+
+This package contains all of the standalone functions written by the NCEAS Scientific Computing Support Team that don't cleanly fit in other repositories. This is similar in rationale to the `supportR` package but in this case, some of these functions were written by others. Additionally, these functions are written in the context of the work I do for the LTER Network Office and thus don't belong in `supportR` because that is more for personal / side projects.  **A version of this package is available on CRAN [here](https://cran.r-project.org/web/packages/scicomptools/index.html).**
+
 ## [`HERON`](https://github.com/lter/HERON#readme)
 
 ### <u>He</u>lpers for <u>R</u>iver <u>O</u>bservatio<u>n</u>
@@ -39,11 +47,3 @@ To allow non-R users to explore `lterpalettefinder`, I created an [R Shiny app](
 <img src="images/hex_logos/HERON_hex.png" width="20%" align="right"/>
 
 I developed this package in support of the LTER synthesis working group focusing on riverine silica exports. These functions are primarily focused on downstream (no pun intended!) operations for processing outputs created by the `EGRET` ([CRAN link](https://cran.r-project.org/web/packages/EGRET/index.html)) and `SiZer` ([CRAN link](https://cran.r-project.org/web/packages/SiZer/index.html)) R packages.
-
-## [`scicomptools`](https://github.com/NCEAS/scicomptools#readme)
-
-### Tools Developed by NCEAS’ Scientific Computing Support Team
-
-<img src="images/hex_logos/scicomptools_hex.png" width="20%" align="right"/>
-
-This package contains all of the standalone functions written by the NCEAS Scientific Computing Support Team that don't cleanly fit in other repositories. This is similar in rationale to the `supportR` package but in this case, some of these functions were written by others. Additionally, these functions are written in the context of the work I do for the LTER Network Office and thus don't belong in `supportR` because that is more for personal / side projects.
