@@ -8,9 +8,6 @@ about:
     - href: https://github.com/njlyon0
       text: GitHub
       icon: github
-    - href: https://twitter.com/scilyon
-      text: Twitter
-      icon: twitter
     - href: https://github.com/njlyon0/njlyon0.github.io/blob/main/files/LyonCV.pdf
       text: CV
       icon: archive-fill
