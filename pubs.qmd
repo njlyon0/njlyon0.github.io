@@ -10,8 +10,6 @@ I have had several opportunities to publish scientific papers both as a lead aut
 
 Note that most of these projects have GitHub repositories but they are set to 'Private' until publication. If you would like to use the code in one of these repos, just reach out and we can discuss adding you to the repositories before the papers are published.
 
-{{< fa bug >}} -- Kucuk, R.A. et al. Gut Bacteria of Adult and Larval Cotinis nitida Linnaeus (Coleoptera: Scarabaeidae) Demonstrate Community Differences According to Life Stage and Gut Region. *\[In press at _Frontiers in Microbiology_\]* - {{< fa brands github >}} [GitHub repo](https://github.com/njlyon0/collab_kucuk-cotinis)
-
 {{< fa seedling >}} -- Robinson, M.L. et al. Latitude, Traits, and Phylogeny Determine Variability in Herbivore Attack. *\[In revision at _Science_\]*
 
 {{< fa water >}} -- Johnson, K. et al. Establishing Fluvial Silica Regimes and Their Stability Across the Northern Hemisphere. *\[In review at _Limnology and Oceanography Letters_\]*
@@ -22,9 +20,11 @@ Note that most of these projects have GitHub repositories but they are set to 'P
 
 ## Published
 
+{{< fa bug >}} -- Kucuk, R.A. et al. [Gut Bacteria of Adult and Larval _Cotinis nitida_ Linnaeus (Coleoptera: Scarabaeidae) Demonstrate Community Differences According to Life Stage and Gut Region](https://www.frontiersin.org/articles/10.3389/fmicb.2023.1185661/full) **2023**. Frontiers in Microbiology - {{< fa brands github >}} [GitHub repo](https://github.com/njlyon0/collab_kucuk-cotinis)
+
 {{< fa people-group >}} -- Gaynor, K. et al. [Ten Simple Rules to Cultivate Belonging in Collaborative Data Science Research Teams](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010567). **2022**. PLOS Computational Biology
 
-{{< fa fire-flame-curved >}} {{< fa cow >}} -- Coon, J.J. et al. [Using Adaptive Management to Restore Grasslands Invaded by Tall Fescue (*Schedonorus arundinaceus*)](https://www.sciencedirect.com/science/article/abs/pii/S1550742421000129?casa_token=4hUYfkm3-RcAAAAA:wxQ1-YwOxcii7F3TzLo8FL5uBeMe7QzmKsOHQ0TIM3zYO5m4tARAfLpgVOcLlLVxElm4d4qwrWc). 76. **2021**. Rangeland Ecology and Management - {{< fa brands github >}} [GitHub repo](https://github.com/njlyon0/collab_coon-daubenmire-herbicide)
+{{< fa fire-flame-curved >}} {{< fa cow >}} -- Coon, J.J. et al. [Using Adaptive Management to Restore Grasslands Invaded by Tall Fescue (_Schedonorus arundinaceus_)](https://www.sciencedirect.com/science/article/abs/pii/S1550742421000129?casa_token=4hUYfkm3-RcAAAAA:wxQ1-YwOxcii7F3TzLo8FL5uBeMe7QzmKsOHQ0TIM3zYO5m4tARAfLpgVOcLlLVxElm4d4qwrWc). 76. **2021**. Rangeland Ecology and Management - {{< fa brands github >}} [GitHub repo](https://github.com/njlyon0/collab_coon-daubenmire-herbicide)
 
 {{< fa seedling >}} {{< fa bug >}} -- Lyon, N.J. et al. [Responses of Flowering Plant and Butterfly Communities to Experimental Herbicide and Seeding Treatments for Native Grassland Restoration](http://er.uwpress.org/content/39/3/168.short). 3. **2021**. Ecological Restoration - {{< fa brands github >}} [GitHub repo](https://github.com/njlyon0/lyon_bfly-herbicide)
 
