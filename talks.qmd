@@ -28,13 +28,13 @@ I love chatting about science and data management and leap at the opportunity to
 
 ## Courses
 
-{{< fa screwdriver-wrench >}} -- Programming in R for Biologists (BIO 316), Summer **2023**, Stonehill College, Easton, MA
+{{< fa screwdriver-wrench >}} -- **<u>Instructor</u>** - Programming in R for Biologists (BIO 316), Summer **2023**, Stonehill College, Easton, MA
 
-{{< fa bug >}} -- Principles of Biology **<u>Lab</u>** (BIO 1108), Spring **2021**, University of Georgia. Athens, GA
+{{< fa bug >}} -- **<u>Teaching Assistant</u>** - Principles of Biology Lab (BIO 1108L), Spring **2021**, University of Georgia. Athens, GA
 
-{{< fa microscope >}} -- Concepts in Biology **<u>Lab</u>** (BIO 1103), Fall **2020**, University of Georgia. Athens, GA
+{{< fa microscope >}} -- **<u>Teaching Assistant</u>** - Concepts in Biology Lab (BIO 1103L), Fall **2020**, University of Georgia. Athens, GA
 
-{{< fa bugs >}} {{< fa seedling >}} -- Ecology **<u>Lab</u>** (BIO 312), Fall **2018**, Iowa State University. Ames, IA
+{{< fa bugs >}} {{< fa seedling >}} -- **<u>Teaching Assistant</u>** - Ecology Lab (BIO 312L), Fall **2018**, Iowa State University. Ames, IA
 
 ## Conference-Style Presentations
 
