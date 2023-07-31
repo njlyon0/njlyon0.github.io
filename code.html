@@ -159,8 +159,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#lter-working-group---silica-exports" id="toc-lter-working-group---silica-exports" class="nav-link active" data-scroll-target="#lter-working-group---silica-exports">LTER Working Group - Silica Exports</a></li>
-  <li><a href="#lyon-ms-thesis---native-bee-restoration-ecology" id="toc-lyon-ms-thesis---native-bee-restoration-ecology" class="nav-link" data-scroll-target="#lyon-ms-thesis---native-bee-restoration-ecology">Lyon MS Thesis - Native Bee Restoration Ecology</a></li>
+  <li><a href="#flexible-data-wrangling" id="toc-flexible-data-wrangling" class="nav-link active" data-scroll-target="#flexible-data-wrangling">Flexible Data Wrangling</a></li>
+  <li><a href="#scientific-manuscript-code" id="toc-scientific-manuscript-code" class="nav-link" data-scroll-target="#scientific-manuscript-code">Scientific Manuscript Code</a></li>
+  <li><a href="#spatial-data" id="toc-spatial-data" class="nav-link" data-scroll-target="#spatial-data">Spatial Data</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/njlyon0/njlyon0.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -184,21 +185,36 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Several examples of my coding ability that I’m proud of are in private <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub repositories until their eventual publication but I am still deeply excited to share a selection of my work that is publicly-available!</p>
-<section id="lter-working-group---silica-exports" class="level2">
-<h2 class="anchored" data-anchor-id="lter-working-group---silica-exports">LTER Working Group - Silica Exports</h2>
-<p><img src="images/lno_square.png" width="20%" align="right"></p>
-<p>One LTER synthesis working group (see the <a href="https://lternet.edu/">LTER Network Office</a> website for more details) I had a particularly significant role in helping was the Silica Exports group. This group was particularly interested in the drivers of and variation in export of silica from rivers around the world. Riverine silica export is significant–in part–because diatoms in the ocean are silica limited. Diatoms are important marine photosynthesizers and their populations can have a direct impact on carbon sequestration and, indirectly, climate change.</p>
-<p>This working group had annual data on silica concentrations from hundreds of rivers around the globe. They had created plots of these data showing the relationship between silica (y) and time (x) and wanted to (1) identify significant changes in the slope in each line, (2) “break” the line at those places, and (3) fit separate linear models to each section of the line to be able to assess rates of change. After a few initial conversations so that I could better understand their needs I set to work building a workflow that could meet their needs. I periodically met with the principal investigators of this team to discuss my progress and ask for clarification at points where a judgement call needed to be made by a subject matter expert.</p>
-<p>The products of that work are housed in this <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/njlyon0/collab_silica-cryosphere">GitHub repository</a> and make heavy use of the <code>HERON</code> R package I am developing to support this task and a few related repositories created for the same working group.</p>
+<p>I’m deeply excited to be able to share a few examples of my publicly-available work for reference of my coding ability / style. I typically have a few ongoing projects in private <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub repositories (until their publication) but I try to keep the majority of my work transparent and accessible whenever possible.</p>
+<section id="flexible-data-wrangling" class="level2">
+<h2 class="anchored" data-anchor-id="flexible-data-wrangling">Flexible Data Wrangling</h2>
+<p><img src="images/lno_square.png" width="15%" align="right"></p>
+<p>In my work as a data scientist at the <a href="https://lternet.edu/">Long Term Ecological Research (LTER) Network Office</a> I supported various working groups in addressing synthesis science questions. Among these was a group concerned with the effects of soil phosphorus on carbon and nitrogen (see their <a href="https://lternet.edu/working-groups/soil-p-control-of-c-and-n/">full project description here</a>). This group needed a workflow that would allow them to take earlier datasets in a range of formats related to this question and generate a single, analysis-ready table.</p>
+<p>To meet this need, I developed a flexible workflow that used a living ‘data key’ GoogleSheet to synonymize each datasets’ various columns into a harmonized dataframe (see <a href="https://github.com/lter/lter-sparc-soil-p/blob/main/soil_p_wrangle.R">the R script on <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub here</a>). This approach allowed the working group to integrate new data by updating a file in a familiar interface (GoogleSheets) while still ensuring their actual workflow was reproducibly documented in a scripted format.</p>
 </section>
-<section id="lyon-ms-thesis---native-bee-restoration-ecology" class="level2">
-<h2 class="anchored" data-anchor-id="lyon-ms-thesis---native-bee-restoration-ecology">Lyon MS Thesis - Native Bee Restoration Ecology</h2>
-<p><img src="images/isu_logo.png" width="22%" align="right"></p>
-<p>I earned my Master of Science at Iowa State University in the <a href="https://www.eeb.iastate.edu/">Ecology and Evolutionary Biology</a> program and the focus of my thesis was restoration community ecology of Midwestern pollinators and nectar-producing plants. One facet of this work was a side question I pursued on the response of native bees to combinations of annual prescribed fire and cattle grazing.</p>
-<p>Native bees don’t form hives in the way that European honey bees do and many of them make solitary nests in stems or by digging small (and very cute!) holes in patches of bare ground. Fire and cattle grazing change the availability both of bare ground and dead stems and these management methods also altar the composition of the floral community. I hypothesized that the changes to the bees’ food sources and habitat would change the bee community and set out to test the extent to which this was the case.</p>
-<p>As is sometimes the case with ecology research, I had a wonderful time collecting the data but they were so zero-inflated (i.e., there were so many times when I didn’t find <em>any</em> bees in my traps) that the data weren’t really analyzable. That said I made a <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/njlyon0/lyon-ms-thesis_bee-project">GitHub repository</a> for my exploration and initial quality control of the data and made it public.</p>
-<p>I also shared the data on the Environmental Data Initiative’s Data Portal in case someone else could find a use for them. I’ve linked that data package <a href="https://portal.edirepository.org/nis/mapbrowse?scope=edi&amp;identifier=1210&amp;revision=1">here</a>.</p>
+<section id="scientific-manuscript-code" class="level2">
+<h2 class="anchored" data-anchor-id="scientific-manuscript-code">Scientific Manuscript Code</h2>
+<p><img src="images/consulting_logos/univ_georgia_logo.png" width="25%" align="right"></p>
+<p>I collaborated with a doctoral student at University of Georiga (Roy Kucuk) on his project on the microbial communities found in the gut of the green june beetle (<em>Cotinis nitida</em>). Roy had genetic data and wanted to test hypotheses about community composition and diversity differences in different regions of the gut, across beetle lifestages, and between beetle sexes. The paper was published in Frontiers in Microbiology (an open access journal) <a href="https://www.frontiersin.org/articles/10.3389/fmicb.2023.1185661/full">here</a>.</p>
+<p>In the <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/njlyon0/collab_kucuk-cotinis">GitHub repository</a> for this project I:</p>
+<ul>
+<li>Wrangled the data and calculated the needed diversity metrics at various taxonomic levels</li>
+<li>Identified and performed the appropriate statistical tests to address Roy’s hypotheses</li>
+<li>Created publication-quality figures of the primary results and generated exploratory visualizations</li>
+<li>Revized all scripts iteratively per feedback from Roy and his other collaborators</li>
+</ul>
+</section>
+<section id="spatial-data" class="level2">
+<h2 class="anchored" data-anchor-id="spatial-data">Spatial Data</h2>
+<p><img src="images/lno_square.png" width="15%" align="right"></p>
+<p>In my work at the LTER Network Office I also worked with a working group exploring the drivers of riverine silica quantities across the globe (see the <a href="https://lternet.edu/working-groups/from-poles-to-tropics-a-multi-biome-synthesis-investigating-the-controls-on-river-si-exports/">full project description here</a>). As part of one of their questions they needed to extract various geological, biological, and climatic variables of interest from within the watershed catchments of the several hundred rivers at which they had silica and river flow information.</p>
+<p>In the <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/lter/lterwg-silica-spatial">GitHub repository</a> for this task I:</p>
+<ul>
+<li>Harmonized watershed catchment polgyons into a standard format</li>
+<li>Extracted spatial data (e.g., GeoTIFF, netCDF, etc.) from within those polygons</li>
+<li>Summarized extracted data at various spatial and temporal levels</li>
+<li>Combined summarized data into a single, analysis-ready table that was interoperable with the data files elsewhere in their project</li>
+</ul>
 
 
 </section>
