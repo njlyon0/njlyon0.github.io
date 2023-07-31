@@ -2,7 +2,50 @@
 title: "Selected Code"
 ---
 
-Several examples of my coding ability that I'm proud of are in private {{< fa brands github >}} GitHub repositories until their eventual publication but I am still deeply excited to share a selection of my work that is publicly-available!
+I'm deeply excited to be able to share a few examples of my publicly-available work for reference of my coding ability / style. I typically have a few ongoing projects in private {{< fa brands github >}} GitHub repositories (until their publication) but I try to keep the majority of my work transparent and accessible whenever possible.
+
+## Flexible Data Wrangling
+
+<img src="images/lno_square.png" width="15%" align="right"/>
+
+In my work as a data scientist at the [Long Term Ecological Research (LTER) Network Office](https://lternet.edu/) I supported various working groups in addressing synthesis science questions. Among these was a group concerned with the effects of soil phosphorus on carbon and nitrogen (see their [full project description here](https://lternet.edu/working-groups/soil-p-control-of-c-and-n/)). This group needed a workflow that would allow them to take earlier datasets in a range of formats related to this question and generate a single, analysis-ready table.
+
+To meet this need, I developed a flexible workflow that used a living 'data key' GoogleSheet to synonymize each datasets' various columns into a harmonized dataframe (see [the R script on {{< fa brands github >}} GitHub here](https://github.com/lter/lter-sparc-soil-p/blob/main/soil_p_wrangle.R)). This approach allowed the working group to integrate new data by updating a file in a familiar interface (GoogleSheets) while still ensuring their actual workflow was reproducibly documented in a scripted format.
+
+## Scientific Manuscript Code
+
+<img src="images/consulting_logos/univ_georgia_logo.png" width="25%" align="right"/>
+
+I collaborated with a doctoral student at University of Georiga (Roy Kucuk) on his project on the microbial communities found in the gut of the green june beetle (_Cotinis nitida_). Roy had genetic data and wanted to test hypotheses about community composition and diversity differences in different regions of the gut, across beetle lifestages, and between beetle sexes. The paper was published in Frontiers in Microbiology (an open access journal) [here](https://www.frontiersin.org/articles/10.3389/fmicb.2023.1185661/full).
+
+In the {{< fa brands github >}} [GitHub repository](https://github.com/njlyon0/collab_kucuk-cotinis) for this project I:
+
+- Wrangled the data and calculated the needed diversity metrics at various taxonomic levels
+- Identified and performed the appropriate statistical tests to address Roy's hypotheses
+- Created publication-quality figures of the primary results and generated exploratory visualizations
+- Revized all scripts iteratively per feedback from Roy and his other collaborators
+
+## Spatial Data
+
+<img src="images/lno_square.png" width="15%" align="right"/>
+
+In my work at the LTER Network Office I also worked with a working group exploring the drivers of riverine silica quantities across the globe (see the [full project description here](https://lternet.edu/working-groups/from-poles-to-tropics-a-multi-biome-synthesis-investigating-the-controls-on-river-si-exports/)). As part of one of their questions they needed to extract various geological, biological, and climatic variables of interest from within the watershed catchments of the several hundred rivers at which they had silica and river flow information.
+
+In the {{< fa brands github >}} [GitHub repository](https://github.com/lter/lterwg-silica-spatial) for this task I:
+
+- Harmonized watershed catchment polgyons into a standard format
+- Extracted spatial data (e.g., GeoTIFF, netCDF, etc.) from within those polygons
+- Summarized extracted data at various spatial and temporal levels
+- Combined summarized data into a single, analysis-ready table that was interoperable with the data files elsewhere in their project
+
+
+
+
+
+
+
+
+
 
 ## LTER Working Group - Silica Exports
 
