@@ -6,6 +6,16 @@ I love chatting about science and data management and leap at the opportunity to
 
 ![](images/squash_bug_nymph.jpg){width="600" fig-align="center" fig-alt="squash bug nymph"}
 
+## Courses
+
+{{< fa screwdriver-wrench >}} -- **<u>Instructor</u>** - Programming in R for Biologists (BIO 316), Summer **2023**, Stonehill College, Easton, MA
+
+{{< fa bug >}} -- **<u>Teaching Assistant</u>** - Principles of Biology Lab (BIO 1108L), Spring **2021**, University of Georgia. Athens, GA
+
+{{< fa microscope >}} -- **<u>Teaching Assistant</u>** - Concepts in Biology Lab (BIO 1103L), Fall **2020**, University of Georgia. Athens, GA
+
+{{< fa bugs >}} {{< fa seedling >}} -- **<u>Teaching Assistant</u>** - Ecology Lab (BIO 312L), Fall **2018**, Iowa State University. Ames, IA
+
 ## Workshops & Lectures
 
 {{< fa screwdriver-wrench >}} -- Lyon, N.J., Chen, A., Brun, J. Collaborative Coding with GitHub and RStudio. **2023**. National Center for Ecological Analysis and Synthesis, LTER Network Office - {{< fa brands github >}} [GitHub repo](https://github.com/NCEAS/scicomp-workshop-collaborative-coding) - [Workshop website](https://nceas.github.io/scicomp-workshop-collaborative-coding/)
@@ -25,16 +35,6 @@ I love chatting about science and data management and leap at the opportunity to
 {{< fa screwdriver-wrench >}} -- Lyon, N.J. Choosing the “Right” Statistical Test. **2019**. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.
 
 {{< fa screwdriver-wrench >}} -- Lyon, N.J. Multivariate Statistics in R. **2018**. Data Management and Analysis in R for Ecologists and Evolutionary Biologists (EEB 698) - {{< fa brands github >}} [GitHub repo](https://github.com/njlyon0/lyon-tutorial_multivariate-intro)
-
-## Courses
-
-{{< fa screwdriver-wrench >}} -- **<u>Instructor</u>** - Programming in R for Biologists (BIO 316), Summer **2023**, Stonehill College, Easton, MA
-
-{{< fa bug >}} -- **<u>Teaching Assistant</u>** - Principles of Biology Lab (BIO 1108L), Spring **2021**, University of Georgia. Athens, GA
-
-{{< fa microscope >}} -- **<u>Teaching Assistant</u>** - Concepts in Biology Lab (BIO 1103L), Fall **2020**, University of Georgia. Athens, GA
-
-{{< fa bugs >}} {{< fa seedling >}} -- **<u>Teaching Assistant</u>** - Ecology Lab (BIO 312L), Fall **2018**, Iowa State University. Ames, IA
 
 ## Conference-Style Presentations
 
