@@ -1,5 +1,6 @@
 ---
 about:
+  id: header
   template: trestles
   image: images/profiles/nick_lyon_2023.jpg
   image-width: 10cm
@@ -22,11 +23,18 @@ about:
       icon: envelope-fill
 ---
 
+:::{#header}
+
 ## Welcome!
 
-I am an early career data scientist with experience managing scientific data in a range of formats. My prior experience as a community ecologist gives me firsthand experience with the realities of field-collected and modeled data and the necessary quality assurance and control (QA/QC) typical of scientific projects. I view myself as a facilitator of science and am deeply passionate about helping scientists overcome data or analysis-related hurdles to their exciting discipline-specific questions. My role at the [Long Term Ecological Research (LTER) Network Office](https://lternet.edu/) allows me to do exactly this work and I also make time outside of work hours to help graduate students and other working scientists who reach out to me.
+My name is Nick Lyon _(they / he)_ and I am an early career data scientist with experience managing and analyzing scientific data in a range of formats. I'm also a passionate educator (certified as an instructor by [The Carpentries](https://carpentries.org/)) and thoroughly enjoy chances to teach and learn with audiences of all levels of prior experience.
 
-The bulk of my coding experience is in R (including R package development and R Shiny) but I also have moderate competency with SQL and the command line. I'm also proficient in generating reports in markdown syntax with embedded code chunks, including using [Quarto](https://quarto.org/) to scaffold these reports into larger products. I plan on learning more coding languages going forward as data challenges necessitate (I am particularly excited to learn Python). I firmly believe in transparency in data management and am an avid `git` user. Check out my {{< fa brands github >}} [GitHub profile](https://github.com/njlyon0){target="_blank"} for examples of my work!
+I firmly believe in transparency in data management and am an avid `git` user. Check out my {{< fa brands github >}} [GitHub profile](https://github.com/njlyon0){target="_blank"} for examples of my work!
+:::
+
+My prior experience as a community ecologist gives me firsthand experience with the realities of field-collected and modeled data and the necessary quality assurance and control (QA/QC) typical of scientific projects. I view myself as a facilitator of science and am deeply passionate about helping scientists overcome data or analysis-related hurdles to their exciting discipline-specific questions. My role at the [Long Term Ecological Research (LTER) Network Office](https://lternet.edu/) allows me to do exactly this work and I also make time outside of work hours to help graduate students and other working scientists who reach out to me.
+ 
+The bulk of my coding experience is in R (including R package development and R Shiny) but I also have moderate competency with SQL and the command line. I'm also proficient in generating reports in markdown syntax with embedded code chunks, including using [Quarto](https://quarto.org/) to scaffold these reports into larger products. I plan on learning more coding languages going forward as data challenges necessitate (I am particularly excited to learn Python). 
 
 In addition to my scientific and coding backgrounds I'm also passionate about education--particularly at the undergraduate level. I've offered workshops, taught university courses, and presented extensively in conference settings. I regularly seek feedback and integrate feedback into my instructional materials. I'm a certified instructor with [The Carpentries](https://carpentries.org/) and a substantive portion of my teaching experience is specifically aimed at helping beginner-to-intermediate learners gain familiarity with coding skills. I strive to be an empathetic and transparent educator and participants consistently indicate that philosophy is a highlight of their experience.
 
