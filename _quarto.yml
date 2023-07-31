@@ -32,10 +32,8 @@ website:
         href: https://github.com/njlyon0
       - text: CV
         href: https://github.com/njlyon0/njlyon0.github.io/blob/main/files/LyonCV.pdf
-      - icon: twitter
-        href: https://twitter.com/scilyon
   page-footer:
-    center: "Copyright 2022, Nicholas Lyon"
+    center: "Copyright 2023, Nicholas Lyon"
     background: secondary
 
 format:
