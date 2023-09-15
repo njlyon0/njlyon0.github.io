@@ -10,7 +10,7 @@ I'm deeply excited to be able to share a few examples of my publicly-available w
 
 In my work as a data scientist at the [Long Term Ecological Research (LTER) Network Office](https://lternet.edu/) I supported various working groups in addressing synthesis science questions. Among these was a group concerned with the effects of soil phosphorus on carbon and nitrogen (see their [full project description here](https://lternet.edu/working-groups/soil-p-control-of-c-and-n/)). This group needed a workflow that would allow them to take earlier datasets in a range of formats related to this question and generate a single, analysis-ready table.
 
-To meet this need, I developed a flexible workflow that used a living 'data key' GoogleSheet to synonymize each datasets' various columns into a harmonized dataframe (see [the R script on {{< fa brands github >}} GitHub here](https://github.com/lter/lter-sparc-soil-p/blob/main/soil_p_wrangle.R)). This approach allowed the working group to integrate new data by updating a file in a familiar interface (GoogleSheets) while still ensuring their actual workflow was reproducibly documented in a scripted format.
+To meet this need, I developed a flexible workflow that used a living 'data key' GoogleSheet to synonymize each datasets' various columns into a harmonized dataframe (see [all project scripts on their {{< fa brands github >}} GitHub here](https://github.com/lter/lter-sparc-soil-p)). This approach allowed the working group to integrate new data by updating a file in a familiar interface (GoogleSheets) while still ensuring their actual workflow was reproducibly documented in a scripted format.
 
 ## Scientific Manuscript Code
 
