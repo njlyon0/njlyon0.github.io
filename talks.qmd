@@ -8,7 +8,7 @@ I love chatting about science and data management and leap at the opportunity to
 
 ## Courses
 
-{{< fa screwdriver-wrench >}} -- **<u>Instructor</u>** - Programming in R for Biologists (BIO 316), Summer **2023**, Stonehill College, Easton, MA
+{{< fa screwdriver-wrench >}} -- **<u>Adjunct Faculty</u>** - Programming in R for Biologists (BIO 316), Summer **2023**, Stonehill College, Easton, MA
 
 {{< fa bug >}} -- **<u>Teaching Assistant</u>** - Principles of Biology Lab (BIO 1108L), Spring **2021**, University of Georgia. Athens, GA
 
