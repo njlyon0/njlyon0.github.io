@@ -2,7 +2,7 @@
 title: "Papers"
 ---
 
-I have had several opportunities to publish scientific papers both as a lead author and as a member of a larger scientific team. Here are some of the highlights of that record. If any of these links are behind a paywall, simply reach out to me and I'll work to get you a PDF. The icons to the left of the titles (e.g., {{< fa bug >}}) are intended to help roughly group content by their topic.
+I have had several opportunities to publish scientific papers both as a lead author and as a member of a larger scientific team. Here are some of the highlights of that record. If any of these links are behind a paywall for you, simply reach out to me and I'll work to get you a PDF. The icons to the left of the titles (e.g., {{< fa bug >}}) are intended to help roughly group content by their topic.
 
 ![](images/great_spangled_fritillary.jpg){width="600" fig-align="center" fig-alt="great spangled fritillary"}
 
