@@ -38,6 +38,8 @@ I love chatting about science and data management and leap at the opportunity to
 
 ## Conference-Style Presentations
 
+{{< fa bug >}} {{< fa screwdriver-wrench >}} -- Lyon, N.J. From Ecologist to Data Scientist. Biology Department Seminar. Stonehill College, Easton MA, September **2023**
+
 {{< fa screwdriver-wrench >}} -- Lyon, N.J. and Vargas, C. Data Quality Control Using R. Santa Barbara R Users Group, June **2022** - {{< fa brands github >}} [GitHub repo](https://github.com/njlyon0/collab_vargas-quality-control-talk)
 
 {{< fa fire-flame-curved >}} {{< fa cow >}} -- Lyon, N.J. and Debinski, D.M. Evaluating the Effects of Eleven Years of Consistent Restoration Management. Ecological Society of America, Louisville KY, August **2019**
