@@ -18,15 +18,17 @@ website:
         text: Home
       - text: "Data Science Portfolio"
         menu:
-         - pkgs.qmd
-         - workshops.qmd
-         - shiny.qmd
-         - code.qmd
+         - href: pkgs.qmd
+         - href: workshops.qmd
+         - text: R/Python Bilingualism
+           href: https://njlyon0.github.io/collab_bilingualism/
+         - href: shiny.qmd
+         - href: code.qmd
       - text: "Academic Portfolio"
         menu:
-         - talks.qmd
-         - pubs.qmd
-      - consult.qmd
+         - href: talks.qmd
+         - href: pubs.qmd
+      - href: consult.qmd
     right:
       - icon: github
         href: https://github.com/njlyon0
