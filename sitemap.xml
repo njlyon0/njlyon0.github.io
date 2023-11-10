@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/njlyon0/njlyon0.github.io/code.html</loc>
-    <lastmod>2023-10-12T18:32:29.357Z</lastmod>
-  </url>
-  <url>
     <loc>https://github.com/njlyon0/njlyon0.github.io/shiny.html</loc>
-    <lastmod>2023-10-12T18:32:27.669Z</lastmod>
+    <lastmod>2023-11-10T14:20:37.913Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/njlyon0/njlyon0.github.io/consult.html</loc>
-    <lastmod>2023-10-12T18:32:26.749Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/njlyon0/njlyon0.github.io/talks.html</loc>
-    <lastmod>2023-10-12T18:32:24.189Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/njlyon0/njlyon0.github.io/workshops.html</loc>
-    <lastmod>2023-10-12T18:32:26.345Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/njlyon0/njlyon0.github.io/pubs.html</loc>
-    <lastmod>2023-10-12T18:32:27.225Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/njlyon0/njlyon0.github.io/pkgs.html</loc>
-    <lastmod>2023-10-12T18:32:28.141Z</lastmod>
+    <lastmod>2023-11-10T14:20:37.061Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/njlyon0/njlyon0.github.io/index.html</loc>
-    <lastmod>2023-10-12T18:32:28.901Z</lastmod>
+    <lastmod>2023-11-10T14:20:36.405Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/njlyon0/njlyon0.github.io/pubs.html</loc>
+    <lastmod>2023-11-10T14:20:35.173Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/njlyon0/njlyon0.github.io/pkgs.html</loc>
+    <lastmod>2023-11-10T14:20:36.101Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/njlyon0/njlyon0.github.io/workshops.html</loc>
+    <lastmod>2023-11-10T14:20:36.725Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/njlyon0/njlyon0.github.io/talks.html</loc>
+    <lastmod>2023-11-10T14:20:37.601Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/njlyon0/njlyon0.github.io/code.html</loc>
+    <lastmod>2023-11-10T14:20:38.257Z</lastmod>
   </url>
 </urlset>
