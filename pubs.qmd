@@ -10,8 +10,6 @@ I have had several opportunities to publish scientific papers both as a lead aut
 
 Note that most of these projects have GitHub repositories but they are set to 'Private' until publication. If you would like to use the code in one of these repos, just reach out and we can discuss adding you to the repositories before the papers are published.
 
-{{< fa seedling >}} -- Robinson, M.L. et al. Latitude, Traits, and Phylogeny Determine Variability in Herbivore Attack. *\[In revision at _Science_\]*
-
 {{< fa water >}} -- Johnson, K. et al. Establishing Fluvial Silica Regimes and Their Stability Across the Northern Hemisphere. *\[In review at _Limnology and Oceanography Letters_\]*
 
 {{< fa screwdriver-wrench >}} -- Brun, J. et al. Enabling Data-Driven Collaborative and Reproducible Environmental Synthesis Science. *\[In prep\]*
@@ -19,6 +17,8 @@ Note that most of these projects have GitHub repositories but they are set to 'P
 {{< fa seedling >}} {{< fa cow >}} -- Moranz, R., Lyon, N.J. and Debinski, D.M. Response of Butterfly Milkweed (*Ascelpias tuberosa*) to Cattle Grazing. *\[In prep\]*
 
 ## Published
+
+{{< fa seedling >}} -- Herbivory Variability Network. [Plant Size, Latitude, and Phylogeny Explain Within-Population Variability in Herbivory](https://www.science.org/doi/10.1126/science.adh8830) **2023**. Science
 
 {{< fa bug >}} -- Kucuk, R.A. et al. [Gut Bacteria of Adult and Larval _Cotinis nitida_ Linnaeus (Coleoptera: Scarabaeidae) Demonstrate Community Differences According to Life Stage and Gut Region](https://www.frontiersin.org/articles/10.3389/fmicb.2023.1185661/full) **2023**. Frontiers in Microbiology - {{< fa brands github >}} [GitHub repo](https://github.com/njlyon0/collab_kucuk-cotinis)
 
