@@ -21,62 +21,6 @@
     "text": "Herbivory Variability Network Data Portal\n \nThe Herbivory Variability Network (aka HerbVar) is a relatively new Research Coordination Network (RCN) focused on understanding the ecological and phylogenetic drivers of variation in herbivore damage around the globe. HerbVar is housed at Michigan State University and led by Dr. Will Wetzel. While working as their data scientist / network administrator I leapt at the chance to use Shiny to create a data submission portal.\nThe data portal collects various metadata about the data being submitting and performs some preliminary QA/QC. The app doesn’t reject data that has errors but does–politely–flag any identified issues for the user to (hopefully) address and re-attach data. Attached data are then uploaded to a Google Drive folder and entered metadata are added as a new row to a dynamic GoogleSheet for downstream use.\nThe code for the data portal can be found on GitHub  here"
   },
   {
-    "objectID": "consult.html",
-    "href": "consult.html",
-    "title": "Consulting",
-    "section": "",
-    "text": "I have increasingly been leveraging my expertise as a consultant and am happy to discuss possible future opportunities to work with your team! Please feel free to explore the rest of this website and my GitHub profile (njlyon0) for examples of my data science skills and send me an email (see the “Email” button of my homepage) if you’d like to get more information.\nI am a certified instructor with The Carpentries so I have formal training in coding pedagogy and am happy to do such tutoring as a consultant if that is of interest."
-  },
-  {
-    "objectID": "consult.html#rates",
-    "href": "consult.html#rates",
-    "title": "Consulting",
-    "section": "Rates",
-    "text": "Rates\nMy typical rates are as follows:\n\n\n\nJob Category\nRate\n\n\n\n\nNon-Academic\n$75 / hour\n\n\nAcademic\n$50 / hour\n\n\nGraduate Student\nAuthorship on Publication(s)\n\n\nRush Job (&lt; 72 hours)\n$250 minimum\n\n\n\nDepending on the scope of the job we can absolutely discuss deviations from this framework!"
-  },
-  {
-    "objectID": "consult.html#past-consulting-work",
-    "href": "consult.html#past-consulting-work",
-    "title": "Consulting",
-    "section": "Past Consulting Work",
-    "text": "Past Consulting Work\nThe nature of consulting is that products of the work tend to not be publicly-available but I am happy to discuss (within the confines of relevant non-disclosure agreements) the type of work I’ve done with researchers at the following organizations:"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Nicholas J Lyon",
-    "section": "",
-    "text": "GitHub\n  \n  \n    \n     CV\n  \n  \n    \n     Resume\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n  \n  \n\n\nMy name is Nick Lyon (they / them) and I am an early career data scientist with experience managing and analyzing scientific data in a range of formats. I’m also a passionate educator (certified as an instructor by The Carpentries) and thoroughly enjoy chances to teach and learn with audiences of all levels of prior experience. I firmly believe in transparency in data management and am an avid git user. Check out my  GitHub profile for examples of my work!\n\n\n Coding –  Ecology –  Reading –  Photography –  Teaching –  Dungeons & Dragons –  Botany –  Birding"
-  },
-  {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "Nicholas J Lyon",
-    "section": "",
-    "text": "My name is Nick Lyon (they / them) and I am an early career data scientist with experience managing and analyzing scientific data in a range of formats. I’m also a passionate educator (certified as an instructor by The Carpentries) and thoroughly enjoy chances to teach and learn with audiences of all levels of prior experience. I firmly believe in transparency in data management and am an avid git user. Check out my  GitHub profile for examples of my work!\n\n\n Coding –  Ecology –  Reading –  Photography –  Teaching –  Dungeons & Dragons –  Botany –  Birding"
-  },
-  {
-    "objectID": "pubs.html",
-    "href": "pubs.html",
-    "title": "Papers",
-    "section": "",
-    "text": "I have had several opportunities to publish scientific papers both as a lead author and as a member of a larger scientific team. Here are some of the highlights of that record. If any of these links are behind a paywall for you, simply reach out to me and I’ll work to get you a PDF. The icons to the left of the titles (e.g., ) are intended to help roughly group content by their topic."
-  },
-  {
-    "objectID": "pubs.html#not-yet-published",
-    "href": "pubs.html#not-yet-published",
-    "title": "Papers",
-    "section": "Not (Yet!) Published",
-    "text": "Not (Yet!) Published\nNote that most of these projects have GitHub repositories but they are set to ‘Private’ until publication. If you would like to use the code in one of these repos, just reach out and we can discuss adding you to the repositories before the papers are published.\n – Johnson, K. et al. Establishing Fluvial Silica Regimes and Their Stability Across the Northern Hemisphere. [In review at Limnology and Oceanography Letters]\n – Brun, J. et al. Enabling Data-Driven Collaborative and Reproducible Environmental Synthesis Science. [In prep]\n  – Moranz, R., Lyon, N.J. and Debinski, D.M. Response of Butterfly Milkweed (Ascelpias tuberosa) to Cattle Grazing. [In prep]"
-  },
-  {
-    "objectID": "pubs.html#published",
-    "href": "pubs.html#published",
-    "title": "Papers",
-    "section": "Published",
-    "text": "Published\n – Herbivory Variability Network. Plant Size, Latitude, and Phylogeny Explain Within-Population Variability in Herbivory 2023. Science\n – Kucuk, R.A. et al. Gut Bacteria of Adult and Larval Cotinis nitida Linnaeus (Coleoptera: Scarabaeidae) Demonstrate Community Differences According to Life Stage and Gut Region 2023. Frontiers in Microbiology -  GitHub repo\n – Gaynor, K. et al. Ten Simple Rules to Cultivate Belonging in Collaborative Data Science Research Teams. 2022. PLOS Computational Biology\n  – Coon, J.J. et al. Using Adaptive Management to Restore Grasslands Invaded by Tall Fescue (Schedonorus arundinaceus). 76. 2021. Rangeland Ecology and Management -  GitHub repo\n  – Lyon, N.J. et al. Responses of Flowering Plant and Butterfly Communities to Experimental Herbicide and Seeding Treatments for Native Grassland Restoration. 3. 2021. Ecological Restoration -  GitHub repo\n  – Lyon, N.J. et al. An Integrated Approach to Restoring Grassland Function to Working Lands. 2019. Master of Science Thesis\n – Lyon, N.J., Debinski, D.M., and Rangwala, I. Evaluating the Utility of Species Distribution Models in Informing Climate Change-Resilient Grassland Restoration Strategy. 7. 2019 Frontiers in Ecology and Evolution -  GitHub repo\n – Lyon, N.J. and Hodum, P. Mytilus Mussels as Bio-indicators of Regional Microplastic Trends. 2015. University of Puget Sound Undergraduate Thesis"
-  },
-  {
     "objectID": "pkgs.html",
     "href": "pkgs.html",
     "title": "R Packages",
@@ -119,32 +63,88 @@
     "text": "HERON\n\nHelpers for River Observation\n\nI developed this package in support of the LTER synthesis working group focusing on riverine silica exports. These functions are primarily focused on downstream (no pun intended!) operations for processing outputs created by the EGRET (CRAN link) and SiZer (CRAN link) R packages."
   },
   {
-    "objectID": "workshops.html",
-    "href": "workshops.html",
-    "title": "Workshops",
+    "objectID": "consult.html",
+    "href": "consult.html",
+    "title": "Consulting",
     "section": "",
-    "text": "I co-led an R Shiny workshop with Gabe De La Rosa and Francisco J Guerrero at the LTER All Scientists’ Meeting in September 2022. This workshop was aimed at participants with moderate R knowledge but little to no prior experience with R Shiny. The workshop uses a Quarto website to allow participants to follow along on the day of the workshop and also house resources they could refer back to on their own as needed.\nWe began with the fundamentals of Shiny and ended by live coding an interactive app that was moderately complex. We shared the  GitHub repository for the workshop website with attendees and I created a standalone  GitHub repository to house example apps for them to use as jumping off points."
+    "text": "I have increasingly been leveraging my expertise as a consultant and am happy to discuss possible future opportunities to work with your team! Please feel free to explore the rest of this website and my GitHub profile (njlyon0) for examples of my data science skills and send me an email (see the “Email” button of my homepage) if you’d like to get more information.\nI am a certified instructor with The Carpentries so I have formal training in coding pedagogy and am happy to do such tutoring as a consultant if that is of interest."
   },
   {
-    "objectID": "workshops.html#r-shiny-apps-for-sharing-science",
-    "href": "workshops.html#r-shiny-apps-for-sharing-science",
-    "title": "Workshops",
+    "objectID": "consult.html#rates",
+    "href": "consult.html#rates",
+    "title": "Consulting",
+    "section": "Rates",
+    "text": "Rates\nMy typical rates are as follows:\n\n\n\nJob Category\nRate\n\n\n\n\nNon-Academic\n$75 / hour\n\n\nAcademic\n$50 / hour\n\n\nGraduate Student\nAuthorship on Publication(s)\n\n\nRush Job (&lt; 72 hours)\n$250 minimum\n\n\n\nDepending on the scope of the job we can absolutely discuss deviations from this framework!"
+  },
+  {
+    "objectID": "consult.html#past-consulting-work",
+    "href": "consult.html#past-consulting-work",
+    "title": "Consulting",
+    "section": "Past Consulting Work",
+    "text": "Past Consulting Work\nThe nature of consulting is that products of the work tend to not be publicly-available but I am happy to discuss (within the confines of relevant non-disclosure agreements) the type of work I’ve done with researchers at the following organizations:"
+  },
+  {
+    "objectID": "pubs.html",
+    "href": "pubs.html",
+    "title": "Papers",
     "section": "",
-    "text": "I co-led an R Shiny workshop with Gabe De La Rosa and Francisco J Guerrero at the LTER All Scientists’ Meeting in September 2022. This workshop was aimed at participants with moderate R knowledge but little to no prior experience with R Shiny. The workshop uses a Quarto website to allow participants to follow along on the day of the workshop and also house resources they could refer back to on their own as needed.\nWe began with the fundamentals of Shiny and ended by live coding an interactive app that was moderately complex. We shared the  GitHub repository for the workshop website with attendees and I created a standalone  GitHub repository to house example apps for them to use as jumping off points."
+    "text": "I have had several opportunities to publish scientific papers both as a lead author and as a member of a larger scientific team. Here are some of the highlights of that record. If any of these links are behind a paywall for you, simply reach out to me and I’ll work to get you a PDF. The icons to the left of the titles (e.g., ) are intended to help roughly group content by their topic."
   },
   {
-    "objectID": "workshops.html#coding-in-the-tidyverse",
-    "href": "workshops.html#coding-in-the-tidyverse",
-    "title": "Workshops",
-    "section": "Coding in the Tidyverse",
-    "text": "Coding in the Tidyverse\n \nAs part of my role with the Long Term Ecological Research Network Office (aka LNO) I helped create a workshop on coding with the tidyverse R packages. The workshop was offered to synthesis working groups composed of scientists from a range of institutions and coding experience and typically takes between 1 and 3 hours (depending on the needs and interest of each group).\nI and the other members of the Scientific Computing Support team built a Quarto website for workshop materials and also shared the  Github repository that generates that website.\nI also created all of the visuals for that workshop to give learners non-text and non-code ways of understanding core tidyverse operations."
+    "objectID": "pubs.html#not-yet-published",
+    "href": "pubs.html#not-yet-published",
+    "title": "Papers",
+    "section": "Not (Yet!) Published",
+    "text": "Not (Yet!) Published\nNote that many of these projects have GitHub repositories but they are set to ‘Private’ until publication. If you would like to use the code in one of these repos, just reach out and we can discuss adding you to the repositories before the papers are published.\n – LaMontagne, J. et al. Community Synchrony in Seed Production is Associated with Trait Similarity and Climate across North America. [In prep]\n – Nigro, K. et al. coMAST: Harmonized Seed Production Data for Woody Plants across U.S. Long Term Research Sites. [In prep]\n – Brun, J. et al. Enabling Data-Driven Collaborative and Reproducible Environmental Synthesis Science. [In prep]\n  – Moranz, R., Lyon, N.J. and Debinski, D.M. Response of Butterfly Milkweed (Ascelpias tuberosa) to Cattle Grazing. [In prep]"
   },
   {
-    "objectID": "workshops.html#collaborative-coding-with-github",
-    "href": "workshops.html#collaborative-coding-with-github",
-    "title": "Workshops",
-    "section": "Collaborative Coding with GitHub",
-    "text": "Collaborative Coding with GitHub\n \nAlso as part of my work with the LTER Network Office, I worked collaboratively with the rest of the Sci Comp team to create a workshop aimed at facilitating the working groups’ adoption of GitHub as part of their coding workflow. LTER working groups by their nature are focused on questions that require significant harmonizing of data and analysis. GitHub is a natural extension of this work and allows much easier collaboration than the alternatives.\nWe also use this workshop’s materials to emphasize the server that is available to these groups for short-term data storage and collaboration. The  Github repository for the workshop can be found here."
+    "objectID": "pubs.html#published",
+    "href": "pubs.html#published",
+    "title": "Papers",
+    "section": "Published",
+    "text": "Published\n – Johnson, K. et al. Establishing Fluvial Silicon Regimes and Their Stability Across the Northern Hemisphere 2024. Limnology and Oceanography Letters\n – Herbivory Variability Network. Plant Size, Latitude, and Phylogeny Explain Within-Population Variability in Herbivory 2023. Science\n – Kucuk, R.A. et al. Gut Bacteria of Adult and Larval Cotinis nitida Linnaeus (Coleoptera: Scarabaeidae) Demonstrate Community Differences According to Life Stage and Gut Region 2023. Frontiers in Microbiology -  GitHub repo\n – Gaynor, K. et al. Ten Simple Rules to Cultivate Belonging in Collaborative Data Science Research Teams. 2022. PLOS Computational Biology\n  – Coon, J.J. et al. Using Adaptive Management to Restore Grasslands Invaded by Tall Fescue (Schedonorus arundinaceus). 76. 2021. Rangeland Ecology and Management -  GitHub repo\n  – Lyon, N.J. et al. Responses of Flowering Plant and Butterfly Communities to Experimental Herbicide and Seeding Treatments for Native Grassland Restoration. 3. 2021. Ecological Restoration -  GitHub repo\n  – Lyon, N.J. et al. An Integrated Approach to Restoring Grassland Function to Working Lands. 2019. Master of Science Thesis\n – Lyon, N.J., Debinski, D.M., and Rangwala, I. Evaluating the Utility of Species Distribution Models in Informing Climate Change-Resilient Grassland Restoration Strategy. 7. 2019 Frontiers in Ecology and Evolution -  GitHub repo\n – Lyon, N.J. and Hodum, P. Mytilus Mussels as Bio-indicators of Regional Microplastic Trends. 2015. University of Puget Sound Undergraduate Thesis"
+  },
+  {
+    "objectID": "code.html",
+    "href": "code.html",
+    "title": "Selected Code",
+    "section": "",
+    "text": "I’m deeply excited to be able to share a few examples of my publicly-available work for reference of my coding ability / style. I typically have a few ongoing projects in private  GitHub repositories (until their publication) but I try to keep the majority of my work transparent and accessible whenever possible."
+  },
+  {
+    "objectID": "code.html#flexible-data-wrangling",
+    "href": "code.html#flexible-data-wrangling",
+    "title": "Selected Code",
+    "section": "Flexible Data Wrangling",
+    "text": "Flexible Data Wrangling\n\nIn my work as a data scientist at the Long Term Ecological Research (LTER) Network Office I supported various working groups in addressing synthesis science questions. Among these was a group concerned with the effects of soil phosphorus on carbon and nitrogen (see their full project description here). This group needed a workflow that would allow them to take earlier datasets in a range of formats related to this question and generate a single, analysis-ready table.\nTo meet this need, I developed a flexible workflow that used a living ‘data key’ GoogleSheet to synonymize each datasets’ various columns into a harmonized dataframe (see all project scripts on their  GitHub here). This approach allowed the working group to integrate new data by updating a file in a familiar interface (GoogleSheets) while still ensuring their actual workflow was reproducibly documented in a scripted format."
+  },
+  {
+    "objectID": "code.html#scientific-manuscript-code",
+    "href": "code.html#scientific-manuscript-code",
+    "title": "Selected Code",
+    "section": "Scientific Manuscript Code",
+    "text": "Scientific Manuscript Code\n\nI collaborated with a doctoral student at University of Georiga (Roy Kucuk) on his project on the microbial communities found in the gut of the green june beetle (Cotinis nitida). Roy had genetic data and wanted to test hypotheses about community composition and diversity differences in different regions of the gut, across beetle lifestages, and between beetle sexes. The paper was published in Frontiers in Microbiology (an open access journal) here.\nIn the  GitHub repository for this project I:\n\nWrangled the data and calculated the needed diversity metrics at various taxonomic levels\nIdentified and performed the appropriate statistical tests to address Roy’s hypotheses\nCreated publication-quality figures of the primary results and generated exploratory visualizations\nRevized all scripts iteratively per feedback from Roy and his other collaborators"
+  },
+  {
+    "objectID": "code.html#spatial-data",
+    "href": "code.html#spatial-data",
+    "title": "Selected Code",
+    "section": "Spatial Data",
+    "text": "Spatial Data\n\nIn my work at the LTER Network Office I also worked with a working group exploring the drivers of riverine silica quantities across the globe (see the full project description here). As part of one of their questions they needed to extract various geological, biological, and climatic variables of interest from within the watershed catchments of the several hundred rivers at which they had silica and river flow information.\nIn the  GitHub repository for this task I:\n\nHarmonized watershed catchment polgyons into a standard format\nExtracted spatial data (e.g., GeoTIFF, netCDF, etc.) from within those polygons\nSummarized extracted data at various spatial and temporal levels\nCombined summarized data into a single, analysis-ready table that was interoperable with the data files elsewhere in their project"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nicholas J Lyon",
+    "section": "",
+    "text": "GitHub\n  \n  \n    \n     CV\n  \n  \n    \n     Resume\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n  \n  \n\n\nMy name is Nick Lyon (they / them) and I am an early career data scientist with experience managing and analyzing scientific data in a range of formats. I’m also a passionate educator (certified as an instructor by The Carpentries) and thoroughly enjoy chances to teach and learn with audiences of all levels of prior experience. I firmly believe in transparency in data management and am an avid git user. Check out my  GitHub profile for examples of my work!\n\n\n Coding –  Ecology –  Reading –  Photography –  Teaching –  Dungeons & Dragons –  Botany –  Birding"
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Nicholas J Lyon",
+    "section": "",
+    "text": "My name is Nick Lyon (they / them) and I am an early career data scientist with experience managing and analyzing scientific data in a range of formats. I’m also a passionate educator (certified as an instructor by The Carpentries) and thoroughly enjoy chances to teach and learn with audiences of all levels of prior experience. I firmly believe in transparency in data management and am an avid git user. Check out my  GitHub profile for examples of my work!\n\n\n Coding –  Ecology –  Reading –  Photography –  Teaching –  Dungeons & Dragons –  Botany –  Birding"
   },
   {
     "objectID": "talks.html",
@@ -175,31 +175,31 @@
     "text": "Conference-Style Presentations\n  – Lyon, N.J. From Ecologist to Data Scientist. Biology Department Seminar. Stonehill College, Easton MA, September 2023\n – Lyon, N.J. and Vargas, C. Data Quality Control Using R. Santa Barbara R Users Group, June 2022 -  GitHub repo\n  – Lyon, N.J. and Debinski, D.M. Evaluating the Effects of Eleven Years of Consistent Restoration Management. Ecological Society of America, Louisville KY, August 2019\n  – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. Native Plant and Pollinator Response to Management with Fire and Grazing. Ecological Society of America, New Orleans LA, August 2018\n  – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. Plant and Pollinator Response to Adaptive Management. Graduate and Professional Student Research Conference, Ames IA, April 2018. Awarded Best Oral Presentation.\n  – Lyon, N.J., Debinski, D.M. Butterfly and Nectar-Producing Plant Response to Invasive Grass Management. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February 2018 -  GitHub repo\n   – Lyon, N.J. An Integrated Approach to Tallgrass Prairie Restoration. Three-Minute Thesis, Ames IA, January 2018\n – Lyon, N. J., Debinski, D.M., and Rangwala, I. Species Distribution Modeling to Predict Prairie Restoration Success under Climate Change. Ecological Society of America, Portland OR, August 2017 -  GitHub repo\n – Lyon, N.J. Predicted Response of Native Grassland Plants to Climate Change. Ten Years of Research in the Grand River Grasslands Symposium, Lamoni IA, June 2017 -  GitHub repo\n   – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W., and Stein, D. Grazing, Burning, and Butterflies. Iowa Urban Tree Council, Des Moines IA, April 2017\n   – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. and Stein, D. Adaptive Management for Prairie Plants and Pollinators in Midwestern Working Landscapes. Iowa Invasive Species Conference, Moravia IA, March 2017\n – Lyon, N.J. Incorporating Correlative Modeling into Modifying Restoration Strategies for the Future. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February 2017 -  GitHub repo\n – Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Air and Waste Management Student Challenge, Portland OR, April 2016. Awarded Best Presentation\n – Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Phi Sigma Research Symposium, University of Puget Sound, April 2016\n – Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Murdock College Science Research Conference, Vancouver WA (Hilton Vancouver), November 2015\n – Lyon N. Mussels as Samplers of Regional Microplastic Contamination Trends. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September 2015\n – Lyon, N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Oral presentation. Phi Sigma Research Symposium, University of Puget Sound, April 2015\n – Lyon N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September 2014\n – Lyon, N. Plastic Contamination in Marine Environments. Oral presentation. Honors Research Symposium, Seattle University, October 2014"
   },
   {
-    "objectID": "code.html",
-    "href": "code.html",
-    "title": "Selected Code",
+    "objectID": "workshops.html",
+    "href": "workshops.html",
+    "title": "Workshops",
     "section": "",
-    "text": "I’m deeply excited to be able to share a few examples of my publicly-available work for reference of my coding ability / style. I typically have a few ongoing projects in private  GitHub repositories (until their publication) but I try to keep the majority of my work transparent and accessible whenever possible."
+    "text": "I co-led an R Shiny workshop with Gabe De La Rosa and Francisco J Guerrero at the LTER All Scientists’ Meeting in September 2022. This workshop was aimed at participants with moderate R knowledge but little to no prior experience with R Shiny. The workshop uses a Quarto website to allow participants to follow along on the day of the workshop and also house resources they could refer back to on their own as needed.\nWe began with the fundamentals of Shiny and ended by live coding an interactive app that was moderately complex. We shared the  GitHub repository for the workshop website with attendees and I created a standalone  GitHub repository to house example apps for them to use as jumping off points."
   },
   {
-    "objectID": "code.html#flexible-data-wrangling",
-    "href": "code.html#flexible-data-wrangling",
-    "title": "Selected Code",
-    "section": "Flexible Data Wrangling",
-    "text": "Flexible Data Wrangling\n\nIn my work as a data scientist at the Long Term Ecological Research (LTER) Network Office I supported various working groups in addressing synthesis science questions. Among these was a group concerned with the effects of soil phosphorus on carbon and nitrogen (see their full project description here). This group needed a workflow that would allow them to take earlier datasets in a range of formats related to this question and generate a single, analysis-ready table.\nTo meet this need, I developed a flexible workflow that used a living ‘data key’ GoogleSheet to synonymize each datasets’ various columns into a harmonized dataframe (see all project scripts on their  GitHub here). This approach allowed the working group to integrate new data by updating a file in a familiar interface (GoogleSheets) while still ensuring their actual workflow was reproducibly documented in a scripted format."
+    "objectID": "workshops.html#r-shiny-apps-for-sharing-science",
+    "href": "workshops.html#r-shiny-apps-for-sharing-science",
+    "title": "Workshops",
+    "section": "",
+    "text": "I co-led an R Shiny workshop with Gabe De La Rosa and Francisco J Guerrero at the LTER All Scientists’ Meeting in September 2022. This workshop was aimed at participants with moderate R knowledge but little to no prior experience with R Shiny. The workshop uses a Quarto website to allow participants to follow along on the day of the workshop and also house resources they could refer back to on their own as needed.\nWe began with the fundamentals of Shiny and ended by live coding an interactive app that was moderately complex. We shared the  GitHub repository for the workshop website with attendees and I created a standalone  GitHub repository to house example apps for them to use as jumping off points."
   },
   {
-    "objectID": "code.html#scientific-manuscript-code",
-    "href": "code.html#scientific-manuscript-code",
-    "title": "Selected Code",
-    "section": "Scientific Manuscript Code",
-    "text": "Scientific Manuscript Code\n\nI collaborated with a doctoral student at University of Georiga (Roy Kucuk) on his project on the microbial communities found in the gut of the green june beetle (Cotinis nitida). Roy had genetic data and wanted to test hypotheses about community composition and diversity differences in different regions of the gut, across beetle lifestages, and between beetle sexes. The paper was published in Frontiers in Microbiology (an open access journal) here.\nIn the  GitHub repository for this project I:\n\nWrangled the data and calculated the needed diversity metrics at various taxonomic levels\nIdentified and performed the appropriate statistical tests to address Roy’s hypotheses\nCreated publication-quality figures of the primary results and generated exploratory visualizations\nRevized all scripts iteratively per feedback from Roy and his other collaborators"
+    "objectID": "workshops.html#coding-in-the-tidyverse",
+    "href": "workshops.html#coding-in-the-tidyverse",
+    "title": "Workshops",
+    "section": "Coding in the Tidyverse",
+    "text": "Coding in the Tidyverse\n \nAs part of my role with the Long Term Ecological Research Network Office (aka LNO) I helped create a workshop on coding with the tidyverse R packages. The workshop was offered to synthesis working groups composed of scientists from a range of institutions and coding experience and typically takes between 1 and 3 hours (depending on the needs and interest of each group).\nI and the other members of the Scientific Computing Support team built a Quarto website for workshop materials and also shared the  Github repository that generates that website.\nI also created all of the visuals for that workshop to give learners non-text and non-code ways of understanding core tidyverse operations."
   },
   {
-    "objectID": "code.html#spatial-data",
-    "href": "code.html#spatial-data",
-    "title": "Selected Code",
-    "section": "Spatial Data",
-    "text": "Spatial Data\n\nIn my work at the LTER Network Office I also worked with a working group exploring the drivers of riverine silica quantities across the globe (see the full project description here). As part of one of their questions they needed to extract various geological, biological, and climatic variables of interest from within the watershed catchments of the several hundred rivers at which they had silica and river flow information.\nIn the  GitHub repository for this task I:\n\nHarmonized watershed catchment polgyons into a standard format\nExtracted spatial data (e.g., GeoTIFF, netCDF, etc.) from within those polygons\nSummarized extracted data at various spatial and temporal levels\nCombined summarized data into a single, analysis-ready table that was interoperable with the data files elsewhere in their project"
+    "objectID": "workshops.html#collaborative-coding-with-github",
+    "href": "workshops.html#collaborative-coding-with-github",
+    "title": "Workshops",
+    "section": "Collaborative Coding with GitHub",
+    "text": "Collaborative Coding with GitHub\n \nAlso as part of my work with the LTER Network Office, I worked collaboratively with the rest of the Sci Comp team to create a workshop aimed at facilitating the working groups’ adoption of GitHub as part of their coding workflow. LTER working groups by their nature are focused on questions that require significant harmonizing of data and analysis. GitHub is a natural extension of this work and allows much easier collaboration than the alternatives.\nWe also use this workshop’s materials to emphasize the server that is available to these groups for short-term data storage and collaboration. The  Github repository for the workshop can be found here."
   }
 ]
