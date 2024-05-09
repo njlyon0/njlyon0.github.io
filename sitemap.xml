@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://njlyon0.github.io/pubs.html</loc>
+    <lastmod>2024-05-09T18:21:15.372Z</lastmod>
+  </url>
+  <url>
     <loc>https://njlyon0.github.io/index.html</loc>
-    <lastmod>2024-03-13T20:57:42.312Z</lastmod>
-  </url>
-  <url>
-    <loc>https://njlyon0.github.io/code.html</loc>
-    <lastmod>2024-03-13T20:57:42.236Z</lastmod>
-  </url>
-  <url>
-    <loc>https://njlyon0.github.io/talks.html</loc>
-    <lastmod>2024-03-13T20:57:42.316Z</lastmod>
-  </url>
-  <url>
-    <loc>https://njlyon0.github.io/workshops.html</loc>
-    <lastmod>2024-03-13T20:57:42.316Z</lastmod>
+    <lastmod>2024-05-09T18:21:15.372Z</lastmod>
   </url>
   <url>
     <loc>https://njlyon0.github.io/pkgs.html</loc>
-    <lastmod>2024-03-13T20:57:42.312Z</lastmod>
+    <lastmod>2024-05-09T18:21:15.372Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njlyon0.github.io/code.html</loc>
+    <lastmod>2024-05-09T18:21:15.296Z</lastmod>
   </url>
   <url>
     <loc>https://njlyon0.github.io/consult.html</loc>
-    <lastmod>2024-03-13T20:57:42.236Z</lastmod>
+    <lastmod>2024-05-09T18:21:15.296Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njlyon0.github.io/workshops.html</loc>
+    <lastmod>2024-05-09T18:21:15.372Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njlyon0.github.io/talks.html</loc>
+    <lastmod>2024-05-09T18:21:15.372Z</lastmod>
   </url>
   <url>
     <loc>https://njlyon0.github.io/shiny.html</loc>
-    <lastmod>2024-03-13T20:57:42.312Z</lastmod>
-  </url>
-  <url>
-    <loc>https://njlyon0.github.io/pubs.html</loc>
-    <lastmod>2024-03-13T20:57:42.312Z</lastmod>
+    <lastmod>2024-05-09T18:21:15.372Z</lastmod>
   </url>
 </urlset>
