@@ -10,17 +10,19 @@ I have had several opportunities to publish scientific papers both as a lead aut
 
 Note that many of these projects have GitHub repositories but they are set to 'Private' until publication. If you would like to use the code in one of these repos, just reach out and we can discuss adding you to the repositories before the papers are published.
 
+{{< fa tree >}} -- LaMontagne, J. _et al._ Community Synchrony in Seed Production is Associated with Trait Similarity and Climate across North America. *\[In revision at Ecology Letters\]*
+
+{{< fa tree >}} -- Nigro, K. _et al._ coMAST: Harmonized Seed Production Data for Woody Plants across U.S. Long Term Research Sites. *\[In revision at Ecology\]*
+
 {{< fa water >}} -- Johnson, K. _et al._ Climate, Hydrology, and Nutrients Control the Seasonality of Si Concentrations in Rivers. *\[In review at Journal of Geophysical Research: Biogeosciences\]*
-
-{{< fa tree >}} -- LaMontagne, J. _et al._ Community Synchrony in Seed Production is Associated with Trait Similarity and Climate across North America. *\[In prep\]*
-
-{{< fa tree >}} -- Nigro, K. _et al._ coMAST: Harmonized Seed Production Data for Woody Plants across U.S. Long Term Research Sites. *\[In prep\]*
 
 {{< fa screwdriver-wrench >}} -- Brun, J. _et al._ Enabling Data-Driven Collaborative and Reproducible Environmental Synthesis Science. *\[In prep\]*
 
 {{< fa seedling >}} {{< fa cow >}} -- Moranz, R., Lyon, N.J. and Debinski, D.M. Response of Butterfly Milkweed (*Ascelpias tuberosa*) to Cattle Grazing. *\[In prep\]*
 
 ## Published
+
+{{< fa screwdriver-wrench >}} -- Lyon, N.J. & Chen, A. [Announcing `ltertools`: An R Package By and For the LTER Community](https://lternet.edu/stories/announcing-ltertools-an-r-package-by-and-for-the-lter-community/) **2024**. DataBits
 
 {{< fa water >}} -- Johnson, K. _et al._ [Establishing Fluvial Silicon Regimes and Their Stability Across the Northern Hemisphere](https://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lol2.10372) **2024**. Limnology and Oceanography Letters
 
@@ -38,6 +40,6 @@ Note that many of these projects have GitHub repositories but they are set to 'P
 
 {{< fa cloud-sun >}} -- Lyon, N.J., Debinski, D.M., and Rangwala, I. [Evaluating the Utility of Species Distribution Models in Informing Climate Change-Resilient Grassland Restoration Strategy](https://www.frontiersin.org/articles/10.3389/fevo.2019.00033/full). 7. **2019** Frontiers in Ecology and Evolution - {{< fa brands github >}} [GitHub repo](https://github.com/njlyon0/lyon-ms-thesis_sdm)
 
-{{< fa anchor >}} -- Lyon, N.J. and Hodum, P. [Mytilus Mussels as Bio-indicators of Regional Microplastic Trends](https://soundideas.pugetsound.edu/summer_research/259/). **2015**. University of Puget Sound Undergraduate Thesis
+{{< fa anchor >}} -- Lyon, N.J. & Hodum, P. [Mytilus Mussels as Bio-indicators of Regional Microplastic Trends](https://soundideas.pugetsound.edu/summer_research/259/). **2015**. University of Puget Sound Undergraduate Thesis
 
 ![](images/stilt_bug.jpg){width="600" fig-align="center" fig-alt="stilt bug"}
