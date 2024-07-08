@@ -8,7 +8,7 @@ execute:
 
 website:
   title: "Nicholas J Lyon"
-  favicon: images/hex_logos/dndR_hex.png
+  favicon: images/logo_lyon.png
   repo-url: https://github.com/njlyon0/njlyon0.github.io
   repo-actions: [issue]
   navbar:
