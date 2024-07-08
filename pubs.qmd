@@ -10,7 +10,7 @@ I have had several opportunities to publish scientific papers both as a lead aut
 
 Note that many of these projects have GitHub repositories but they are set to 'Private' until publication. If you would like to use the code in one of these repos, just reach out and we can discuss adding you to the repositories before the papers are published.
 
-{{< fa tree >}} -- LaMontagne, J. _et al._ Community Synchrony in Seed Production is Associated with Trait Similarity and Climate across North America. *\[In revision at Ecology Letters\]*
+{{< fa tree >}} -- LaMontagne, J. _et al._ Community Synchrony in Seed Production is Associated with Trait Similarity and Climate across North America. *\[In press at Ecology Letters\]*
 
 {{< fa tree >}} -- Nigro, K. _et al._ coMAST: Harmonized Seed Production Data for Woody Plants across U.S. Long Term Research Sites. *\[In revision at Ecology\]*
 
