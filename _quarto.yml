@@ -18,8 +18,8 @@ website:
         text: Home
       - text: "R Packages"
         href: pkgs.qmd
-      - text: "R/Python Bilingualism"
-        href: https://njlyon0.github.io/collab_bilingualism/
+      - text: "Python Work"
+        href: python.qmd
       - text: "Presentations"
         href: talks.qmd
       - text: "Papers"

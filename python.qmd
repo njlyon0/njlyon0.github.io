@@ -1,0 +1,10 @@
+---
+title: "Python"
+---
+
+While I am primarily an R coder I definitely recognize that other languages can be extremely valuable and are more commonly used in some fields. So that I am not 'monolingual' I've made some strong efforts to self-teach Python and document that process in ways that may be useful to others interested in making a similar leap
+
+## R / Python Bilingualism
+
+First and foremost of these efforts is my stab at a ['bilingualism' website for R & Python](https://njlyon0.github.io/collab_bilingualism/). This site demonstrates a range of increasingly complex R operations and their Python equivalents (or vice versa if you were interested in making the reverse translation). I'm constantly improving on that website and have a comprehensive contributing guidelines document to make it easier for others to collaborate with me on maximizing the value of that resource. You can also check out the {{< fa brands github >}} [GitHub repository](https://github.com/njlyon0/collab_bilingualism) for the website here.
+
