@@ -32,13 +32,21 @@ This package allows users to extract colors (as hexadecimal codes) from a given 
 
 To allow non-R users to explore `lterpalettefinder`, I created an [R Shiny app](https://cosima.nceas.ucsb.edu/lterpalettefinder-shiny/) that allows anyone with an internet connection to use this package.
 
+## [`ltertools`](https://github.com/lter/ltertools#readme)
+
+_Hex logo in development!_
+
+### Tools Developed by the Long Term Ecological Research Community
+
+This package contains functions developed by members of the LTER community. This package is meant to help centralize useful tools that individuals develop but that may be broadly useful. There are extensive contributing guidelines to ensure that everyone is given appropriate intellectual credit for lending their insight. More information on the Network can be found [here](https://lternet.edu/). **A version of this package is available on CRAN [here](https://cran.rstudio.com/web/packages/ltertools/index.html).**
+
 ## [`scicomptools`](https://github.com/NCEAS/scicomptools#readme)
 
-### Tools Developed by NCEAS’ Scientific Computing Support Team
+### Tools Developed by NCEAS' Scientific Computing Support Team
 
 <img src="images/hex_logos/scicomptools_hex.png" width="20%" align="right"/>
 
-This package contains all of the standalone functions written by the NCEAS Scientific Computing Support Team that don't cleanly fit in other repositories. This is similar in rationale to the `supportR` package but in this case, some of these functions were written by others. Additionally, these functions are written in the context of the work I do for the LTER Network Office and thus don't belong in `supportR` because that is more for personal / side projects.  **A version of this package is available on CRAN [here](https://cran.r-project.org/web/packages/scicomptools/index.html).**
+This package contains all of the standalone functions written by the NCEAS Scientific Computing Support Team that don't cleanly fit in other repositories. This is similar in rationale to the `supportR` package but in this case, some of these functions were written by others. Additionally, these functions are written in the context of the work I do for the LTER Network Office and thus don't belong in `supportR` because that is more for personal / side projects. **A version of this package is available on CRAN [here](https://cran.r-project.org/web/packages/scicomptools/index.html).**
 
 ## [`HERON`](https://github.com/lter/HERON#readme)
 
