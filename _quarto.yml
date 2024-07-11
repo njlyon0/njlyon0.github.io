@@ -16,10 +16,10 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - text: "R Packages"
-        href: pkgs.qmd
-      - text: "Python Work"
-        href: python.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - href: pkgs.qmd
+      - href: python.qmd
       - text: "Presentations"
         href: talks.qmd
       - text: "Papers"
