@@ -4,8 +4,6 @@ title: "Page Not Found"
 
 ### Oops
 
-The page you are looking for wasn't found.
+The page you are looking for wasn't found. You may want to try using the navigation bar to search for the content you were looking for.
 
-You may want to try using the navigation bar to search for the content you were looking for.
-
-Also, if you think this is an error, please post an Issue on [this website's GitHub repo](https://github.com/njlyon0/lyon_quarto)!
+If you feel that you've reached this page because of an error, please post a {{< fa brands github >}} GitHub Issue on [this website's GitHub repository](https://github.com/njlyon0/njlyon0.github.io/issues)!
