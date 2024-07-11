@@ -18,6 +18,8 @@ website:
         text: Home
       - text: "Teaching"
         href: teaching.qmd
+      - text: "Software"
+        href: software.qmd
       - href: pkgs.qmd
       - href: python.qmd
       - text: "Presentations"

@@ -1,0 +1,45 @@
+---
+title: "Software"
+---
+
+One of the main products of my work as a data scientist is various forms of software. While {{< fa brands r-project >}} R is my primary language I have branched out somewhat into other languages (including {{< fa brands python >}} Python) and will try to reference those outputs here as well even if they are a numeric minority.
+
+## General Code Products
+
+I work extensively on {{< fa brands github >}} GitHub and am a firm believer in version control as a mechanism for ensuring code reproducibility. Because of that--and to avoid redundancy--I recommend that you explore {{< fa brands github >}} [my GitHub profile](https://github.com/njlyon0) for a more or less complete set of the projects I've worked on.
+
+## R Packages
+
+ have increasingly worked on wrapping the functions that I write into R packages both for simplicity's sake on my end as I reference my own work across different projects but also to (hopefully) help others who run into the same repetitive tasks that I have attempted to solve. Below is a list of the packages where I am an author Additionally, note that I designed the hex logos for `dndR` and `supportR` while [Gabe De La Rosa](https://www.gabrieldelarosa.com/) designed the hex logos for `lterpalettefinder`, `HERON`, and `scicomptools`; thanks Gabe!
+
+- `dndR`: **Dungeons & Dragons Functions for Players and Dungeon Masters**
+    - {{< fa brands r-project >}} [CRAN link](https://cran.r-project.org/web/packages/dndR/index.html) - {{< fa brands github >}} [GitHub repository](https://github.com/njlyon0/dndR#readme)
+- `supportR`: **Support Functions for Wrangling and Visualization**
+    - {{< fa brands r-project >}} [CRAN link](https://cran.r-project.org/web/packages/supportR/index.html) - {{< fa brands github >}} [GitHub repository](https://github.com/njlyon0/supportR#readme)
+- `ltertools`: **Tools Developed by the Long Term Ecological Research Community**
+    - {{< fa brands r-project >}} [CRAN link](https://cran.rstudio.com/web/packages/ltertools/index.html) - {{< fa brands github >}} [GitHub repository](https://github.com/lter/ltertools#readme)
+- `lterpalettefinder`: **Extract Color Palettes from Photos and Pick Official LTER Palettes**
+    - {{< fa brands r-project >}} [CRAN link](https://cran.r-project.org/web/packages/lterpalettefinder/index.html) - {{< fa brands github >}} [GitHub repository](https://github.com/lter/lterpalettefinder#readme)
+- `scicomptools`: **Tools Developed by NCEAS' Scientific Computing Support Team**
+    - {{< fa brands r-project >}} [CRAN link](https://cran.r-project.org/web/packages/scicomptools/index.html) - {{< fa brands github >}} [GitHub repository](https://github.com/NCEAS/scicomptools#readme)
+- `metajam`: **Easily Download Data and Metadata from 'DataONE'**
+    - {{< fa brands r-project >}} [CRAN link](https://cran.rstudio.com/web/packages/metajam/index.html) - {{< fa brands github >}} [GitHub repository](https://github.com/NCEAS/metajam#readme)
+- `HERON`: **<u>He</u>lpers for <u>R</u>iver <u>O</u>bservatio<u>n</u>**
+    - {{< fa brands github >}} [GitHub repository](https://github.com/lter/HERON#readme)
+
+<img src="images/hex_logos/dndR_hex.png" alt = "hex logo for the dndR R package" width="20%" align="right"/>
+
+<img src="images/hex_logos/supportR_hex.png" alt = "hex logo for the supportR R package" width="20%" align="right"/>
+
+<img src="images/hex_logos/lterpalettefinder_hex.png" alt = "hex logo for the lterpalettefinder R package" width="20%" align="right"/>
+
+<img src="images/hex_logos/scicomptools_hex.png" alt = "hex logo for the scicomptools R package" width="20%" align="right"/>
+
+<img src="images/hex_logos/HERON_hex.png" alt = "hex logo for the HERON R package" width="20%" align="right"/>
+
+## R / Python Bilingualism Website
+
+While I am primarily an {{< fa brands r-project >}} R coder, I definitely recognize that other languages can be extremely valuable! To make sure that I'm well-rounded I've made some strong efforts to self-teach {{< fa brands python >}} Python and document that process in ways that may be useful to others interested in making a similar leap. First and foremost of these efforts is my stab at a ['bilingualism' website for R & Python](https://njlyon0.github.io/collab_bilingualism/). This site demonstrates a range of increasingly complex R operations and their Python equivalents (or vice versa if you were interested in making the reverse translation). I'm constantly improving on that website and have a comprehensive contributing guidelines document to make it easier for others to collaborate with me on maximizing the value of that resource. You can also check out the {{< fa brands github >}} [GitHub repository](https://github.com/njlyon0/collab_bilingualism) for the website here.
+
+
+
