@@ -2,7 +2,7 @@
 title: "Consulting"
 ---
 
-I have increasingly been leveraging my expertise as a consultant and am happy to discuss possible future opportunities to work with your team! Please feel free to explore the rest of this website and my GitHub profile ([njlyon0](https://github.com/njlyon0)) for examples of my data science skills and send me an email (see the "Email" button of [my homepage](https://njlyon0.github.io/)) if you'd like to get more information.
+I have increasingly been leveraging my expertise as a consultant and am happy to discuss possible future opportunities to work with your team! Please feel free to explore the rest of this website and my {{< fa brands github >}} [GitHub profile](https://github.com/njlyon0) for examples of my data science skills and send me an email (see the "Email" button of [my homepage](https://njlyon0.github.io/)) if you'd like to get more information.
 
 I am a certified instructor with [The Carpentries](https://carpentries.org/) so I have formal training in coding pedagogy and am happy to do such tutoring as a consultant if that is of interest.
 
@@ -21,8 +21,8 @@ Depending on the scope of the job we can absolutely discuss deviations from this
 
 ## Past Consulting Work
 
-The nature of consulting is that products of the work tend to not be publicly-available but I am happy to discuss (within the confines of relevant non-disclosure agreements) the type of work I've done with researchers at the following organizations:
+The nature of consulting is that products of the work are not always publicly-available but I am happy to discuss (within the confines of relevant non-disclosure agreements) the type of work I've done with researchers at the following organizations:
 
-<img src="images/consulting_logos/brdgai_logo.png" width = "30%" /> <img src="images/consulting_logos/iunu_logo.png" width = "30%" /> <img src="images/consulting_logos/scope3_logo.png" width = "30%" />
+<img src="images/consulting_logos/brdgai_logo.png" alt="Logo for BrdgAI" width="30%" /> <img src="images/consulting_logos/iunu_logo.png" alt="Logo for iUNU" width="30%" /> <img src="images/consulting_logos/scope3_logo.png" alt="Logo for Scope3 Consulting" width="30%" />
 
-<img src="images/consulting_logos/univ_georgia_logo.png" width = "30%" /> <img src="images/consulting_logos/montana_state_logo.png" width = "30%" /> <img src="images/consulting_logos/xerces_logo.png" width = "30%" />
+<img src="images/consulting_logos/univ_georgia_logo.png" alt="Logo for the University of Georgia" width="30%" /> <img src="images/consulting_logos/montana_state_logo.png" alt="Logo for Montana State University" width="30%" /> <img src="images/consulting_logos/xerces_logo.png" alt="Logo for the Xerces Society" width="30%" />
