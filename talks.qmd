@@ -6,20 +6,7 @@ I love chatting about science and data management and leap at the opportunity to
 
 ![](images/squash_bug_nymph.jpg){width="600" fig-align="center" fig-alt="squash bug nymph"}
 
-
 ## Workshops & Lectures
-
-{{< fa screwdriver-wrench >}} -- Lyon, N.J. & Chen, A. Collaborative Coding with GitHub. **2023**. American Geophysical Union (AGU), San Francisco, CA - {{< fa brands github >}} [GitHub repo](https://github.com/NCEAS/scicomp-workshop-collaborative-coding) - {{< fa earth-americas >}} [Workshop website](https://nceas.github.io/scicomp-workshop-collaborative-coding/)
-
-{{< fa screwdriver-wrench >}} -- Lyon, N.J., Chen, A., Brun, J. Collaborative Coding with GitHub and RStudio. **2023**. National Center for Ecological Analysis and Synthesis, LTER Network Office - {{< fa brands github >}} [GitHub repo](https://github.com/NCEAS/scicomp-workshop-collaborative-coding) - {{< fa earth-americas >}} [Workshop website](https://nceas.github.io/scicomp-workshop-collaborative-coding/)
-
-{{< fa screwdriver-wrench >}} -- Lyon, N.J., De La Rosa, G., Guerrero, F. Sharing Science with R Shiny Apps. **2022**. LTER All Scientists' Meeting, Monterey, CA - {{< fa brands github >}} [GitHub repo](https://github.com/njlyon0/asm-2022_shiny-workshop) - {{< fa earth-americas >}} [Workshop website](https://njlyon0.github.io/asm-2022_shiny-workshop/) - {{< fa brands github >}} [Example Shiny apps' GitHub repo](https://github.com/njlyon0/asm-2022_shiny-workshop-examples)
-
-{{< fa screwdriver-wrench >}} -- Lyon, N.J., Chen, A. Reproducible Coding with `git` and GitHub. **2022**. LTER All Scientists' Meeting, Monterey, CA - {{< fa brands github >}} [GitHub repo](https://github.com/njlyon0/asm-2022_github-workshop) - {{< fa earth-americas >}} [Workshop website](https://njlyon0.github.io/asm-2022_github-workshop/)
-
-{{< fa screwdriver-wrench >}} -- Lyon, N.J., Chen, A., Brun, J. Coding with the Tidyverse. **2022**. National Center for Ecological Analysis and Synthesis, LTER Network Office - {{< fa brands github >}} [GitHub repo](https://github.com/NCEAS/scicomp-workshop-tidyverse) - {{< fa earth-americas >}} [Workshop website](https://nceas.github.io/scicomp-workshop-tidyverse/)
-
-{{< fa screwdriver-wrench >}} -- Lyon, N.J., Chen, A., Brun, J. Collaborative Coding with GitHub and RStudio. **2022**. National Center for Ecological Analysis and Synthesis, LTER Network Office - {{< fa brands github >}} [GitHub repo](https://github.com/NCEAS/scicomp-workshop-collaborative-coding) - {{< fa earth-americas >}} [Workshop website](https://nceas.github.io/scicomp-workshop-collaborative-coding/)
 
 {{< fa screwdriver-wrench >}} -- Lyon, N.J. Introduction to Statistics and R in Ecology Research. **2020**. Insect Ecology (ENT 4520/6520), Clemson University. Clemson SC.
 
