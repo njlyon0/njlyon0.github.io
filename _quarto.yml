@@ -14,18 +14,16 @@ website:
   navbar:
     background: primary
     left:
-      - href: index.qmd
-        text: Home
-      - text: "Teaching"
-        href: teaching.qmd
+      - text: "Home"
+        href: index.qmd
       - text: "Software"
         href: software.qmd
-      - href: pkgs.qmd
-      - href: python.qmd
-      - text: "Presentations"
-        href: talks.qmd
+      - text: "Teaching"
+        href: teaching.qmd
       - text: "Papers"
         href: pubs.qmd
+      - text: "Presentations"
+        href: talks.qmd
       - text: "Consulting"
         href: consult.qmd
     right:
