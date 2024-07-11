@@ -18,16 +18,22 @@ website:
         text: Home
       - text: "Data Science Portfolio"
         menu:
-         - href: pkgs.qmd
-         - href: workshops.qmd
-         - text: R/Python Bilingualism
+         - text: "R Packages"
+           href: pkgs.qmd
+         - text: "Workshops"
+           href: workshops.qmd
+         - text: "R/Python Bilingualism"
            href: https://njlyon0.github.io/collab_bilingualism/
-         - href: shiny.qmd
-         - href: code.qmd
+         - text: "Shiny Apps"
+           href: shiny.qmd
+         - text: "Selected Code"
+           href: code.qmd
       - text: "Academic Portfolio"
         menu:
-         - href: talks.qmd
-         - href: pubs.qmd
+         - text: "Talks"
+           href: talks.qmd
+         - text: "Papers"
+           href: pubs.qmd
       - href: consult.qmd
     right:
       - icon: github
@@ -35,7 +41,7 @@ website:
       - text: CV
         href: https://github.com/njlyon0/njlyon0.github.io/blob/main/files/LyonCV.pdf
   page-footer:
-    center: "Copyright 2023, Nicholas Lyon"
+    center: "Copyright 2024, Nicholas Lyon"
     background: secondary
 
 format:
