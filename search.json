@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "Talks",
-    "section": "",
-    "text": "I love chatting about science and data management and leap at the opportunity to present in public-facing contexts. Here is a breakdown of some of the conference talks, workshops, and lectures I have given as well as the semester-long courses I have taught. The icons to the left of the titles (e.g., ) are intended to help roughly group content by their topic."
-  },
-  {
-    "objectID": "talks.html#courses",
-    "href": "talks.html#courses",
-    "title": "Talks",
-    "section": "Courses",
-    "text": "Courses\n – Adjunct Faculty - Programming in R for Biologists (BIO 316), Summer 2023, Stonehill College, Easton, MA\n – Teaching Assistant - Principles of Biology Lab (BIO 1108L), Spring 2021, University of Georgia. Athens, GA\n – Teaching Assistant - Concepts in Biology Lab (BIO 1103L), Fall 2020, University of Georgia. Athens, GA\n  – Teaching Assistant - Ecology Lab (BIO 312L), Fall 2018, Iowa State University. Ames, IA"
-  },
-  {
-    "objectID": "talks.html#workshops-lectures",
-    "href": "talks.html#workshops-lectures",
-    "title": "Talks",
-    "section": "Workshops & Lectures",
-    "text": "Workshops & Lectures\n – Lyon, N.J., Chen, A., Brun, J. Collaborative Coding with GitHub and RStudio. 2023. National Center for Ecological Analysis and Synthesis, LTER Network Office -  GitHub repo - Workshop website\n – Lyon, N.J., De La Rosa, G., Guerrero, F. Sharing Science with R Shiny Apps. 2022. LTER All Scientists’ Meeting, Monterey, CA -  GitHub repo - Workshop website -  Example Shiny apps’ GitHub repo\n – Lyon, N.J., Chen, A. Reproducible Coding with git and GitHub. 2022. LTER All Scientists’ Meeting, Monterey, CA -  GitHub repo - Workshop website\n – Lyon, N.J., Chen, A., Brun, J. Coding with the Tidyverse. 2022. National Center for Ecological Analysis and Synthesis, LTER Network Office -  GitHub repo - Workshop website\n – Lyon, N.J., Chen, A., Brun, J. Collaborative Coding with GitHub and RStudio. 2022. National Center for Ecological Analysis and Synthesis, LTER Network Office -  GitHub repo - Workshop website\n – Lyon, N.J. Introduction to Statistics and R in Ecology Research. 2020. Insect Ecology (ENT 4520/6520), Clemson University. Clemson SC.\n – Lyon, N.J. Plotting with ggplot2. 2019. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.\n – Lyon, N.J. Choosing the “Right” Statistical Test. 2019. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.\n – Lyon, N.J. Multivariate Statistics in R. 2018. Data Management and Analysis in R for Ecologists and Evolutionary Biologists (EEB 698) -  GitHub repo"
-  },
-  {
-    "objectID": "talks.html#conference-style-presentations",
-    "href": "talks.html#conference-style-presentations",
-    "title": "Talks",
-    "section": "Conference-Style Presentations",
-    "text": "Conference-Style Presentations\n  – Lyon, N.J. From Ecologist to Data Scientist. Biology Department Seminar. Stonehill College, Easton MA, September 2023\n – Lyon, N.J. and Vargas, C. Data Quality Control Using R. Santa Barbara R Users Group, June 2022 -  GitHub repo\n  – Lyon, N.J. and Debinski, D.M. Evaluating the Effects of Eleven Years of Consistent Restoration Management. Ecological Society of America, Louisville KY, August 2019\n  – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. Native Plant and Pollinator Response to Management with Fire and Grazing. Ecological Society of America, New Orleans LA, August 2018\n  – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. Plant and Pollinator Response to Adaptive Management. Graduate and Professional Student Research Conference, Ames IA, April 2018. Awarded Best Oral Presentation.\n  – Lyon, N.J., Debinski, D.M. Butterfly and Nectar-Producing Plant Response to Invasive Grass Management. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February 2018 -  GitHub repo\n   – Lyon, N.J. An Integrated Approach to Tallgrass Prairie Restoration. Three-Minute Thesis, Ames IA, January 2018\n – Lyon, N. J., Debinski, D.M., and Rangwala, I. Species Distribution Modeling to Predict Prairie Restoration Success under Climate Change. Ecological Society of America, Portland OR, August 2017 -  GitHub repo\n – Lyon, N.J. Predicted Response of Native Grassland Plants to Climate Change. Ten Years of Research in the Grand River Grasslands Symposium, Lamoni IA, June 2017 -  GitHub repo\n   – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W., and Stein, D. Grazing, Burning, and Butterflies. Iowa Urban Tree Council, Des Moines IA, April 2017\n   – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. and Stein, D. Adaptive Management for Prairie Plants and Pollinators in Midwestern Working Landscapes. Iowa Invasive Species Conference, Moravia IA, March 2017\n – Lyon, N.J. Incorporating Correlative Modeling into Modifying Restoration Strategies for the Future. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February 2017 -  GitHub repo\n – Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Air and Waste Management Student Challenge, Portland OR, April 2016. Awarded Best Presentation\n – Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Phi Sigma Research Symposium, University of Puget Sound, April 2016\n – Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Murdock College Science Research Conference, Vancouver WA (Hilton Vancouver), November 2015\n – Lyon N. Mussels as Samplers of Regional Microplastic Contamination Trends. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September 2015\n – Lyon, N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Oral presentation. Phi Sigma Research Symposium, University of Puget Sound, April 2015\n – Lyon N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September 2014\n – Lyon, N. Plastic Contamination in Marine Environments. Oral presentation. Honors Research Symposium, Seattle University, October 2014"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Nicholas J Lyon",
@@ -42,78 +14,211 @@
     "text": "My name is Nick Lyon (they / them) and I am an early career data scientist with experience managing and analyzing scientific data in a range of formats. I’m also a passionate educator (certified as an instructor by The Carpentries) and thoroughly enjoy chances to teach and learn with audiences of all levels of prior experience. I firmly believe in transparency in data management and am an avid Git/GitHub user. Check out my  GitHub profile for examples of my work!\n\n\n Coding –  Ecology –  Reading –  Photography –  Teaching –  Dungeons & Dragons –  Botany –  Birding"
   },
   {
-    "objectID": "code.html",
-    "href": "code.html",
+    "objectID": "consult.html",
+    "href": "consult.html",
+    "title": "Consulting",
+    "section": "",
+    "text": "I have increasingly been leveraging my expertise as a consultant and am happy to discuss possible future opportunities to work with your team! Please feel free to explore the rest of this website and my  GitHub profile for examples of my data science skills and send me an email (see the “Email” button of my homepage) if you’d like to get more information.\nI am a certified instructor with The Carpentries so I have formal training in coding pedagogy and am happy to do such tutoring as a consultant if that is of interest."
+  },
+  {
+    "objectID": "consult.html#rates",
+    "href": "consult.html#rates",
+    "title": "Consulting",
+    "section": "Rates",
+    "text": "Rates\nMy typical rates are as follows:\n\n\n\nJob Category\nRate\n\n\n\n\nNon-Academic\n$75 / hour\n\n\nAcademic\n$50 / hour\n\n\nGraduate Student\nAuthorship on Publication(s)\n\n\nRush Job (&lt; 72 hours)\n$250 minimum\n\n\n\nDepending on the scope of the job we can absolutely discuss deviations from this framework!"
+  },
+  {
+    "objectID": "consult.html#past-consulting-work",
+    "href": "consult.html#past-consulting-work",
+    "title": "Consulting",
+    "section": "Past Consulting Work",
+    "text": "Past Consulting Work\nThe nature of consulting is that products of the work are not always publicly-available but I am happy to discuss (within the confines of relevant non-disclosure agreements) the type of work I’ve done with researchers at the following organizations:"
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "I love chatting about science and data management and leap at the opportunity to present in public-facing contexts. Here is a breakdown of some of the lectures and conference-style talks I have given. The icons to the left of the titles (e.g., ) are intended to help roughly group content by their topic."
+  },
+  {
+    "objectID": "talks.html#workshops-lectures",
+    "href": "talks.html#workshops-lectures",
+    "title": "Presentations",
+    "section": "Workshops & Lectures",
+    "text": "Workshops & Lectures\n – Lyon, N.J. Introduction to Statistics and R in Ecology Research. 2020. Insect Ecology (ENT 4520/6520), Clemson University. Clemson SC.\n – Lyon, N.J. Plotting with ggplot2. 2019. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.\n – Lyon, N.J. Choosing the “Right” Statistical Test. 2019. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.\n – Lyon, N.J. Multivariate Statistics in R. 2018. Data Management and Analysis in R for Ecologists and Evolutionary Biologists (EEB 698) -  Workshop slides"
+  },
+  {
+    "objectID": "talks.html#conference-style-presentations",
+    "href": "talks.html#conference-style-presentations",
+    "title": "Presentations",
+    "section": "Conference-Style Presentations",
+    "text": "Conference-Style Presentations\n  – Lyon, N.J. From Ecologist to Data Scientist. Biology Department Seminar. Stonehill College, Easton MA, September 2023\n – Lyon, N.J. and Vargas, C. Data Quality Control Using R. Santa Barbara R Users Group, June 2022 -  GitHub repo\n  – Lyon, N.J. and Debinski, D.M. Evaluating the Effects of Eleven Years of Consistent Restoration Management. Ecological Society of America, Louisville KY, August 2019\n  – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. Native Plant and Pollinator Response to Management with Fire and Grazing. Ecological Society of America, New Orleans LA, August 2018\n  – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. Plant and Pollinator Response to Adaptive Management. Graduate and Professional Student Research Conference, Ames IA, April 2018. Awarded Best Oral Presentation.\n  – Lyon, N.J., Debinski, D.M. Butterfly and Nectar-Producing Plant Response to Invasive Grass Management. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February 2018 -  GitHub repo\n   – Lyon, N.J. An Integrated Approach to Tallgrass Prairie Restoration. Three-Minute Thesis, Ames IA, January 2018\n – Lyon, N. J., Debinski, D.M., and Rangwala, I. Species Distribution Modeling to Predict Prairie Restoration Success under Climate Change. Ecological Society of America, Portland OR, August 2017 -  GitHub repo\n – Lyon, N.J. Predicted Response of Native Grassland Plants to Climate Change. Ten Years of Research in the Grand River Grasslands Symposium, Lamoni IA, June 2017 -  GitHub repo\n   – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W., and Stein, D. Grazing, Burning, and Butterflies. Iowa Urban Tree Council, Des Moines IA, April 2017\n   – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. and Stein, D. Adaptive Management for Prairie Plants and Pollinators in Midwestern Working Landscapes. Iowa Invasive Species Conference, Moravia IA, March 2017\n – Lyon, N.J. Incorporating Correlative Modeling into Modifying Restoration Strategies for the Future. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February 2017 -  GitHub repo\n – Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Air and Waste Management Student Challenge, Portland OR, April 2016. Awarded Best Presentation\n – Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Phi Sigma Research Symposium, University of Puget Sound, April 2016\n – Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Murdock College Science Research Conference, Vancouver WA (Hilton Vancouver), November 2015\n – Lyon N. Mussels as Samplers of Regional Microplastic Contamination Trends. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September 2015\n – Lyon, N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Oral presentation. Phi Sigma Research Symposium, University of Puget Sound, April 2015\n – Lyon N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September 2014\n – Lyon, N. Plastic Contamination in Marine Environments. Oral presentation. Honors Research Symposium, Seattle University, October 2014"
+  },
+  {
+    "objectID": "deprecated/python.html",
+    "href": "deprecated/python.html",
+    "title": "Python",
+    "section": "",
+    "text": "While I am primarily an R coder I definitely recognize that other languages can be extremely valuable and are more commonly used in some fields. So that I am not ‘monolingual’ I’ve made some strong efforts to self-teach Python and document that process in ways that may be useful to others interested in making a similar leap"
+  },
+  {
+    "objectID": "deprecated/python.html#r-python-bilingualism",
+    "href": "deprecated/python.html#r-python-bilingualism",
+    "title": "Python",
+    "section": "R / Python Bilingualism",
+    "text": "R / Python Bilingualism\nFirst and foremost of these efforts is my stab at a ‘bilingualism’ website for R & Python. This site demonstrates a range of increasingly complex R operations and their Python equivalents (or vice versa if you were interested in making the reverse translation). I’m constantly improving on that website and have a comprehensive contributing guidelines document to make it easier for others to collaborate with me on maximizing the value of that resource. You can also check out the  GitHub repository for the website here."
+  },
+  {
+    "objectID": "deprecated/code.html",
+    "href": "deprecated/code.html",
     "title": "Selected Code",
     "section": "",
     "text": "I’m deeply excited to be able to share a few examples of my publicly-available work for reference of my coding ability / style. I typically have a few ongoing projects in private  GitHub repositories (until their publication) but I try to keep the majority of my work transparent and accessible whenever possible."
   },
   {
-    "objectID": "code.html#flexible-data-wrangling",
-    "href": "code.html#flexible-data-wrangling",
+    "objectID": "deprecated/code.html#flexible-data-wrangling",
+    "href": "deprecated/code.html#flexible-data-wrangling",
     "title": "Selected Code",
     "section": "Flexible Data Wrangling",
     "text": "Flexible Data Wrangling\n\nIn my work as a data scientist at the Long Term Ecological Research (LTER) Network Office I supported various working groups in addressing synthesis science questions. Among these was a group concerned with the effects of soil phosphorus on carbon and nitrogen (see their full project description here). This group needed a workflow that would allow them to take earlier datasets in a range of formats related to this question and generate a single, analysis-ready table.\nTo meet this need, I developed a flexible workflow that used a living ‘data key’ GoogleSheet to synonymize each datasets’ various columns into a harmonized dataframe (see all project scripts on their  GitHub here). This approach allowed the working group to integrate new data by updating a file in a familiar interface (GoogleSheets) while still ensuring their actual workflow was reproducibly documented in a scripted format."
   },
   {
-    "objectID": "code.html#scientific-manuscript-code",
-    "href": "code.html#scientific-manuscript-code",
+    "objectID": "deprecated/code.html#scientific-manuscript-code",
+    "href": "deprecated/code.html#scientific-manuscript-code",
     "title": "Selected Code",
     "section": "Scientific Manuscript Code",
     "text": "Scientific Manuscript Code\n\nI collaborated with a doctoral student at University of Georiga (Roy Kucuk) on his project on the microbial communities found in the gut of the green june beetle (Cotinis nitida). Roy had genetic data and wanted to test hypotheses about community composition and diversity differences in different regions of the gut, across beetle lifestages, and between beetle sexes. The paper was published in Frontiers in Microbiology (an open access journal) here.\nIn the  GitHub repository for this project I:\n\nWrangled the data and calculated the needed diversity metrics at various taxonomic levels\nIdentified and performed the appropriate statistical tests to address Roy’s hypotheses\nCreated publication-quality figures of the primary results and generated exploratory visualizations\nRevized all scripts iteratively per feedback from Roy and his other collaborators"
   },
   {
-    "objectID": "code.html#spatial-data",
-    "href": "code.html#spatial-data",
+    "objectID": "deprecated/code.html#spatial-data",
+    "href": "deprecated/code.html#spatial-data",
     "title": "Selected Code",
     "section": "Spatial Data",
     "text": "Spatial Data\n\nIn my work at the LTER Network Office I also worked with a working group exploring the drivers of riverine silica quantities across the globe (see the full project description here). As part of one of their questions they needed to extract various geological, biological, and climatic variables of interest from within the watershed catchments of the several hundred rivers at which they had silica and river flow information.\nIn the  GitHub repository for this task I:\n\nHarmonized watershed catchment polgyons into a standard format\nExtracted spatial data (e.g., GeoTIFF, netCDF, etc.) from within those polygons\nSummarized extracted data at various spatial and temporal levels\nCombined summarized data into a single, analysis-ready table that was interoperable with the data files elsewhere in their project"
   },
   {
-    "objectID": "shiny.html",
-    "href": "shiny.html",
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "One of the main products of my work as a data scientist is various forms of software. While  R is my primary language I have branched out somewhat into other languages (including  Python) and will try to reference those outputs here as well even if they are a numeric minority."
+  },
+  {
+    "objectID": "software.html#general-code-products",
+    "href": "software.html#general-code-products",
+    "title": "Software",
+    "section": "General Code Products",
+    "text": "General Code Products\nI work extensively on  GitHub and am a firm believer in version control as a mechanism for ensuring code reproducibility. Because of that–and to avoid redundancy–I recommend that you explore  my GitHub profile for a more or less complete set of the projects I’ve worked on."
+  },
+  {
+    "objectID": "software.html#r-packages",
+    "href": "software.html#r-packages",
+    "title": "Software",
+    "section": "R Packages",
+    "text": "R Packages\nhave increasingly worked on wrapping the functions that I write into R packages both for simplicity’s sake on my end as I reference my own work across different projects but also to (hopefully) help others who run into the same repetitive tasks that I have attempted to solve. Below is a list of the packages where I am an author Additionally, note that I designed the hex logos for dndR and supportR while Gabe De La Rosa designed the hex logos for lterpalettefinder, HERON, and scicomptools; thanks Gabe!\n\ndndR: Dungeons & Dragons Functions for Players and Dungeon Masters\n\n CRAN link -  GitHub repository\n\nsupportR: Support Functions for Wrangling and Visualization\n\n CRAN link -  GitHub repository\n\nltertools: Tools Developed by the Long Term Ecological Research Community\n\n CRAN link -  GitHub repository\n\nlterpalettefinder: Extract Color Palettes from Photos and Pick Official LTER Palettes\n\n CRAN link -  GitHub repository\n\nscicomptools: Tools Developed by NCEAS’ Scientific Computing Support Team\n\n CRAN link -  GitHub repository\n\nmetajam: Easily Download Data and Metadata from ‘DataONE’\n\n CRAN link -  GitHub repository\n\nHERON: Helpers for River Observation\n\n GitHub repository"
+  },
+  {
+    "objectID": "software.html#r-python-bilingualism-website",
+    "href": "software.html#r-python-bilingualism-website",
+    "title": "Software",
+    "section": "R / Python Bilingualism Website",
+    "text": "R / Python Bilingualism Website\nWhile I am primarily an  R coder, I definitely recognize that other languages can be extremely valuable! To make sure that I’m well-rounded I’ve made some strong efforts to self-teach  Python and document that process in ways that may be useful to others interested in making a similar leap. First and foremost of these efforts is my stab at a ‘bilingualism’ website for R & Python. This site demonstrates a range of increasingly complex R operations and their Python equivalents (or vice versa if you were interested in making the reverse translation). I’m constantly improving on that website and have a comprehensive contributing guidelines document to make it easier for others to collaborate with me on maximizing the value of that resource. You can also check out the  GitHub repository for the website here."
+  },
+  {
+    "objectID": "deprecated/pkgs.html",
+    "href": "deprecated/pkgs.html",
+    "title": "R Packages",
+    "section": "",
+    "text": "I have increasingly worked on wrapping the functions that I write into R packages both for simplicity’s sake on my end as I reference my own work across different projects but also to (hopefully) help others who run into the same repetitive tasks that I have attempted to solve. Below are the packages I am an author on along with a brief description of their purpose and their hex logo. Additionally, I designed the hex logos for dndR and supportR. Gabe De La Rosa designed the hex logos for lterpalettefinder, HERON, and scicomptools; thanks Gabe!"
+  },
+  {
+    "objectID": "deprecated/pkgs.html#dndr",
+    "href": "deprecated/pkgs.html#dndr",
+    "title": "R Packages",
+    "section": "dndR",
+    "text": "dndR\n\nDungeons & Dragons Functions for Players and Dungeon Masters\n\nPerhaps unsurprisingly for someone of my professional interests, I am a huge Dungeons & Dragons () fan in my free time. To blend my personal and professional interests I’ve created this package to serve any other people in the R / DnD Venn Diagram intersection. It allows for easy rolling of dice, creation of character statistics, and (for GMs) encounter balancing. This package is also a fun chance for me to practice my coding skills in a risk-free environment. A version of this package is available on CRAN here."
+  },
+  {
+    "objectID": "deprecated/pkgs.html#supportr",
+    "href": "deprecated/pkgs.html#supportr",
+    "title": "R Packages",
+    "section": "supportR",
+    "text": "supportR\n\nSupport Functions for Wrangling and Visualization\n\nThe unifying theme of this package is essentially that none of these functions have a strong connection anywhere else. This package is a grab bag of data wrangling, visualization, and exporting functions I’ve written and wanted to use across projects without copy/pasting the functions into all those different repositories. Hopefully some of them can be of value to you as well! A version of this package is available on CRAN here."
+  },
+  {
+    "objectID": "deprecated/pkgs.html#lterpalettefinder",
+    "href": "deprecated/pkgs.html#lterpalettefinder",
+    "title": "R Packages",
+    "section": "lterpalettefinder",
+    "text": "lterpalettefinder\n\nExtract Color Palettes from Photos and Pick Official LTER Palettes\n\nThis package allows users to extract colors (as hexadecimal codes) from a given image. These codes can then be used for the creation of graphics that have aesthetic connections to pictures relevant to the data (e.g., focal organism, study site, etc.). Secondarily, it also contains a set of official palettes that can be accessed if the user would prefer to use a pre-set palette rather than creating their own. A version of this package is available on CRAN here.\nTo allow non-R users to explore lterpalettefinder, I created an R Shiny app that allows anyone with an internet connection to use this package."
+  },
+  {
+    "objectID": "deprecated/pkgs.html#ltertools",
+    "href": "deprecated/pkgs.html#ltertools",
+    "title": "R Packages",
+    "section": "ltertools",
+    "text": "ltertools\nHex logo in development!\n\nTools Developed by the Long Term Ecological Research Community\nThis package contains functions developed by members of the LTER community. This package is meant to help centralize useful tools that individuals develop but that may be broadly useful. There are extensive contributing guidelines to ensure that everyone is given appropriate intellectual credit for lending their insight. More information on the Network can be found here. A version of this package is available on CRAN here."
+  },
+  {
+    "objectID": "deprecated/pkgs.html#scicomptools",
+    "href": "deprecated/pkgs.html#scicomptools",
+    "title": "R Packages",
+    "section": "scicomptools",
+    "text": "scicomptools\n\nTools Developed by NCEAS’ Scientific Computing Support Team\n\nThis package contains all of the standalone functions written by the NCEAS Scientific Computing Support Team that don’t cleanly fit in other repositories. This is similar in rationale to the supportR package but in this case, some of these functions were written by others. Additionally, these functions are written in the context of the work I do for the LTER Network Office and thus don’t belong in supportR because that is more for personal / side projects. A version of this package is available on CRAN here."
+  },
+  {
+    "objectID": "deprecated/pkgs.html#heron",
+    "href": "deprecated/pkgs.html#heron",
+    "title": "R Packages",
+    "section": "HERON",
+    "text": "HERON\n\nHelpers for River Observation\n\nI developed this package in support of the LTER synthesis working group focusing on riverine silica exports. These functions are primarily focused on downstream (no pun intended!) operations for processing outputs created by the EGRET (CRAN link) and SiZer (CRAN link) R packages."
+  },
+  {
+    "objectID": "deprecated/shiny.html",
+    "href": "deprecated/shiny.html",
     "title": "R Shiny",
     "section": "",
     "text": "I’ve had the opportunity to create some fun apps using R Shiny and am excited to create more! I particularly appreciate that Shiny apps can be used to make R content accessible to those without an R background and have strived to leverage that value in the apps I have written so far."
   },
   {
-    "objectID": "shiny.html#lterpalettefinder-shiny-explorer",
-    "href": "shiny.html#lterpalettefinder-shiny-explorer",
+    "objectID": "deprecated/shiny.html#lterpalettefinder-shiny-explorer",
+    "href": "deprecated/shiny.html#lterpalettefinder-shiny-explorer",
     "title": "R Shiny",
     "section": "lterpalettefinder Shiny Explorer",
     "text": "lterpalettefinder Shiny Explorer\n\nI am currently a data scientist working with the Long Term Ecological Research Network Office (aka LNO). While my primary role is to support synthesis working groups, I also am encouraged to pursue programming tasks that are interesting to me and may indirectly improve my ability to aid working groups.\nOne such side project is the R package lterpalettefinder (one of the R packages I’ve created). This package began as a straightforward way of allowing R users to include color palettes manually extracted from photos taken at LTER sites but over time evolved into developing functions to do that extraction automatically.\nThis app provides a non-R interface to explore the package and pull palettes from their own photos. My hope is that this framework allows those without R knowledge to still make use of lterpalettefinder.\nThe code for the data portal can be found on GitHub  here"
   },
   {
-    "objectID": "shiny.html#herbivory-variability-network-data-portal",
-    "href": "shiny.html#herbivory-variability-network-data-portal",
+    "objectID": "deprecated/shiny.html#herbivory-variability-network-data-portal",
+    "href": "deprecated/shiny.html#herbivory-variability-network-data-portal",
     "title": "R Shiny",
     "section": "Herbivory Variability Network Data Portal",
     "text": "Herbivory Variability Network Data Portal\n \nThe Herbivory Variability Network (aka HerbVar) is a relatively new Research Coordination Network (RCN) focused on understanding the ecological and phylogenetic drivers of variation in herbivore damage around the globe. HerbVar is housed at Michigan State University and led by Dr. Will Wetzel. While working as their data scientist / network administrator I leapt at the chance to use Shiny to create a data submission portal.\nThe data portal collects various metadata about the data being submitting and performs some preliminary QA/QC. The app doesn’t reject data that has errors but does–politely–flag any identified issues for the user to (hopefully) address and re-attach data. Attached data are then uploaded to a Google Drive folder and entered metadata are added as a new row to a dynamic GoogleSheet for downstream use.\nThe code for the data portal can be found on GitHub  here"
   },
   {
-    "objectID": "workshops.html",
-    "href": "workshops.html",
+    "objectID": "deprecated/workshops.html",
+    "href": "deprecated/workshops.html",
     "title": "Workshops",
     "section": "",
     "text": "I co-led an R Shiny workshop with Gabe De La Rosa and Francisco J Guerrero at the LTER All Scientists’ Meeting in September 2022. This workshop was aimed at participants with moderate R knowledge but little to no prior experience with R Shiny. The workshop uses a Quarto website to allow participants to follow along on the day of the workshop and also house resources they could refer back to on their own as needed.\nWe began with the fundamentals of Shiny and ended by live coding an interactive app that was moderately complex. We shared the  GitHub repository for the workshop website with attendees and I created a standalone  GitHub repository to house example apps for them to use as jumping off points."
   },
   {
-    "objectID": "workshops.html#r-shiny-apps-for-sharing-science",
-    "href": "workshops.html#r-shiny-apps-for-sharing-science",
+    "objectID": "deprecated/workshops.html#r-shiny-apps-for-sharing-science",
+    "href": "deprecated/workshops.html#r-shiny-apps-for-sharing-science",
     "title": "Workshops",
     "section": "",
     "text": "I co-led an R Shiny workshop with Gabe De La Rosa and Francisco J Guerrero at the LTER All Scientists’ Meeting in September 2022. This workshop was aimed at participants with moderate R knowledge but little to no prior experience with R Shiny. The workshop uses a Quarto website to allow participants to follow along on the day of the workshop and also house resources they could refer back to on their own as needed.\nWe began with the fundamentals of Shiny and ended by live coding an interactive app that was moderately complex. We shared the  GitHub repository for the workshop website with attendees and I created a standalone  GitHub repository to house example apps for them to use as jumping off points."
   },
   {
-    "objectID": "workshops.html#coding-in-the-tidyverse",
-    "href": "workshops.html#coding-in-the-tidyverse",
+    "objectID": "deprecated/workshops.html#coding-in-the-tidyverse",
+    "href": "deprecated/workshops.html#coding-in-the-tidyverse",
     "title": "Workshops",
     "section": "Coding in the Tidyverse",
     "text": "Coding in the Tidyverse\n \nAs part of my role with the Long Term Ecological Research Network Office (aka LNO) I helped create a workshop on coding with the tidyverse R packages. The workshop was offered to synthesis working groups composed of scientists from a range of institutions and coding experience and typically takes between 1 and 3 hours (depending on the needs and interest of each group).\nI and the other members of the Scientific Computing Support team built a Quarto website for workshop materials and also shared the  Github repository that generates that website.\nI also created all of the visuals for that workshop to give learners non-text and non-code ways of understanding core tidyverse operations."
   },
   {
-    "objectID": "workshops.html#collaborative-coding-with-github",
-    "href": "workshops.html#collaborative-coding-with-github",
+    "objectID": "deprecated/workshops.html#collaborative-coding-with-github",
+    "href": "deprecated/workshops.html#collaborative-coding-with-github",
     "title": "Workshops",
     "section": "Collaborative Coding with GitHub",
     "text": "Collaborative Coding with GitHub\n \nAlso as part of my work with the LTER Network Office, I worked collaboratively with the rest of the Sci Comp team to create a workshop aimed at facilitating the working groups’ adoption of GitHub as part of their coding workflow. LTER working groups by their nature are focused on questions that require significant harmonizing of data and analysis. GitHub is a natural extension of this work and allows much easier collaboration than the alternatives.\nWe also use this workshop’s materials to emphasize the server that is available to these groups for short-term data storage and collaboration. The  Github repository for the workshop can be found here."
@@ -140,66 +245,24 @@
     "text": "Published\n – Lyon, N.J. & Chen, A. Announcing ltertools: An R Package By and For the LTER Community 2024. DataBits\n – Johnson, K. et al. Establishing Fluvial Silicon Regimes and Their Stability Across the Northern Hemisphere 2024. Limnology and Oceanography Letters\n – Herbivory Variability Network. Plant Size, Latitude, and Phylogeny Explain Within-Population Variability in Herbivory 2023. Science\n – Kucuk, R.A. et al. Gut Bacteria of Adult and Larval Cotinis nitida Linnaeus (Coleoptera: Scarabaeidae) Demonstrate Community Differences According to Life Stage and Gut Region 2023. Frontiers in Microbiology -  GitHub repo\n – Gaynor, K. et al. Ten Simple Rules to Cultivate Belonging in Collaborative Data Science Research Teams. 2022. PLOS Computational Biology\n  – Coon, J.J. et al. Using Adaptive Management to Restore Grasslands Invaded by Tall Fescue (Schedonorus arundinaceus). 76. 2021. Rangeland Ecology and Management -  GitHub repo\n  – Lyon, N.J. et al. Responses of Flowering Plant and Butterfly Communities to Experimental Herbicide and Seeding Treatments for Native Grassland Restoration. 3. 2021. Ecological Restoration -  GitHub repo\n  – Lyon, N.J. et al. An Integrated Approach to Restoring Grassland Function to Working Lands. 2019. Master of Science Thesis\n – Lyon, N.J., Debinski, D.M., and Rangwala, I. Evaluating the Utility of Species Distribution Models in Informing Climate Change-Resilient Grassland Restoration Strategy. 7. 2019 Frontiers in Ecology and Evolution -  GitHub repo\n – Lyon, N.J. & Hodum, P. Mytilus Mussels as Bio-indicators of Regional Microplastic Trends. 2015. University of Puget Sound Undergraduate Thesis"
   },
   {
-    "objectID": "pkgs.html",
-    "href": "pkgs.html",
-    "title": "R Packages",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Courses & Workshops",
     "section": "",
-    "text": "I have increasingly worked on wrapping the functions that I write into R packages both for simplicity’s sake on my end as I reference my own work across different projects but also to (hopefully) help others who run into the same repetitive tasks that I have attempted to solve. Below are the packages I am an author on along with a brief description of their purpose and their hex logo. Additionally, I designed the hex logos for dndR and supportR. Gabe De La Rosa designed the hex logos for lterpalettefinder, HERON, and scicomptools; thanks Gabe!"
+    "text": "I’m a deeply enthusiastic person generally and one of the things that brings me the most joy is teaching and learning with others. As such, I have repeatedly sought out opportunities to teach in contexts ranging from hour-long workshops all the way to year-long courses. See a list of those below along with–where applicable–additional resources."
   },
   {
-    "objectID": "pkgs.html#dndr",
-    "href": "pkgs.html#dndr",
-    "title": "R Packages",
-    "section": "dndR",
-    "text": "dndR\n\nDungeons & Dragons Functions for Players and Dungeon Masters\n\nPerhaps unsurprisingly for someone of my professional interests, I am a huge Dungeons & Dragons () fan in my free time. To blend my personal and professional interests I’ve created this package to serve any other people in the R / DnD Venn Diagram intersection. It allows for easy rolling of dice, creation of character statistics, and (for GMs) encounter balancing. This package is also a fun chance for me to practice my coding skills in a risk-free environment. A version of this package is available on CRAN here.\nTo help showcase some of the functions in dndR I’ve created a standalone Quarto website that is similar to a vignette. Feel free to check it out!"
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "Courses & Workshops",
+    "section": "Courses",
+    "text": "Courses\n  – Instructor - Synthesis Skills for Early Career Researchers (SSECR), 2024-2025, Long Term Ecological Research Network Office, Santa Barbara, CA -  GitHub repo -  Course website\n – Adjunct Faculty - Programming in R for Biologists (BIO 316), Summer 2023 & Summer 2024, Stonehill College, Easton, MA -  GitHub repo -  Course website\n – Teaching Assistant - Principles of Biology Lab (BIO 1108L), Spring 2021, University of Georgia. Athens, GA\n – Teaching Assistant - Concepts in Biology Lab (BIO 1103L), Fall 2020, University of Georgia. Athens, GA\n  – Teaching Assistant - Ecology Lab (BIO 312L), Fall 2018, Iowa State University. Ames, IA"
   },
   {
-    "objectID": "pkgs.html#supportr",
-    "href": "pkgs.html#supportr",
-    "title": "R Packages",
-    "section": "supportR",
-    "text": "supportR\n\nSupport Functions for Wrangling and Visualization\n\nThe unifying theme of this package is essentially that none of these functions have a strong connection anywhere else. This package is a grab bag of data wrangling, visualization, and exporting functions I’ve written and wanted to use across projects without copy/pasting the functions into all those different repositories. Hopefully some of them can be of value to you as well! A version of this package is available on CRAN here."
-  },
-  {
-    "objectID": "pkgs.html#lterpalettefinder",
-    "href": "pkgs.html#lterpalettefinder",
-    "title": "R Packages",
-    "section": "lterpalettefinder",
-    "text": "lterpalettefinder\n\nExtract Color Palettes from Photos and Pick Official LTER Palettes\n\nThis package allows users to extract colors (as hexadecimal codes) from a given image. These codes can then be used for the creation of graphics that have aesthetic connections to pictures relevant to the data (e.g., focal organism, study site, etc.). Secondarily, it also contains a set of official palettes that can be accessed if the user would prefer to use a pre-set palette rather than creating their own. A version of this package is available on CRAN here.\nTo allow non-R users to explore lterpalettefinder, I created an R Shiny app that allows anyone with an internet connection to use this package."
-  },
-  {
-    "objectID": "pkgs.html#scicomptools",
-    "href": "pkgs.html#scicomptools",
-    "title": "R Packages",
-    "section": "scicomptools",
-    "text": "scicomptools\n\nTools Developed by NCEAS’ Scientific Computing Support Team\n\nThis package contains all of the standalone functions written by the NCEAS Scientific Computing Support Team that don’t cleanly fit in other repositories. This is similar in rationale to the supportR package but in this case, some of these functions were written by others. Additionally, these functions are written in the context of the work I do for the LTER Network Office and thus don’t belong in supportR because that is more for personal / side projects. A version of this package is available on CRAN here."
-  },
-  {
-    "objectID": "pkgs.html#heron",
-    "href": "pkgs.html#heron",
-    "title": "R Packages",
-    "section": "HERON",
-    "text": "HERON\n\nHelpers for River Observation\n\nI developed this package in support of the LTER synthesis working group focusing on riverine silica exports. These functions are primarily focused on downstream (no pun intended!) operations for processing outputs created by the EGRET (CRAN link) and SiZer (CRAN link) R packages."
-  },
-  {
-    "objectID": "consult.html",
-    "href": "consult.html",
-    "title": "Consulting",
-    "section": "",
-    "text": "I have increasingly been leveraging my expertise as a consultant and am happy to discuss possible future opportunities to work with your team! Please feel free to explore the rest of this website and my GitHub profile (njlyon0) for examples of my data science skills and send me an email (see the “Email” button of my homepage) if you’d like to get more information.\nI am a certified instructor with The Carpentries so I have formal training in coding pedagogy and am happy to do such tutoring as a consultant if that is of interest."
-  },
-  {
-    "objectID": "consult.html#rates",
-    "href": "consult.html#rates",
-    "title": "Consulting",
-    "section": "Rates",
-    "text": "Rates\nMy typical rates are as follows:\n\n\n\nJob Category\nRate\n\n\n\n\nNon-Academic\n$75 / hour\n\n\nAcademic\n$50 / hour\n\n\nGraduate Student\nAuthorship on Publication(s)\n\n\nRush Job (&lt; 72 hours)\n$250 minimum\n\n\n\nDepending on the scope of the job we can absolutely discuss deviations from this framework!"
-  },
-  {
-    "objectID": "consult.html#past-consulting-work",
-    "href": "consult.html#past-consulting-work",
-    "title": "Consulting",
-    "section": "Past Consulting Work",
-    "text": "Past Consulting Work\nThe nature of consulting is that products of the work tend to not be publicly-available but I am happy to discuss (within the confines of relevant non-disclosure agreements) the type of work I’ve done with researchers at the following organizations:"
+    "objectID": "teaching.html#workshops",
+    "href": "teaching.html#workshops",
+    "title": "Courses & Workshops",
+    "section": "Workshops",
+    "text": "Workshops\nNote that these workshops were designed to be offered repeatedly to different audiences. As such, while each of these workshops is only identified once I have been part of the teaching team for all of them many times. All resources are “living” so that participants from earlier iterations of a given workshop find the most up-to-date version of the materials when they revisit their old bookmarks.\n – Collaborative Coding with GitHub -  GitHub repo -  Workshop website\n – Sharing Science with R Shiny Apps -  GitHub repo -  Workshop website\n – Coding with the Tidyverse -  GitHub repo -  Workshop website"
   }
 ]

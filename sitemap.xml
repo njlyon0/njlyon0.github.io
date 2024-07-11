@@ -1,35 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://njlyon0.github.io/talks.html</loc>
-    <lastmod>2024-07-08T16:00:46.478Z</lastmod>
-  </url>
-  <url>
     <loc>https://njlyon0.github.io/index.html</loc>
-    <lastmod>2024-07-08T16:00:46.478Z</lastmod>
-  </url>
-  <url>
-    <loc>https://njlyon0.github.io/code.html</loc>
-    <lastmod>2024-07-08T16:00:46.402Z</lastmod>
-  </url>
-  <url>
-    <loc>https://njlyon0.github.io/shiny.html</loc>
-    <lastmod>2024-07-08T16:00:46.478Z</lastmod>
-  </url>
-  <url>
-    <loc>https://njlyon0.github.io/workshops.html</loc>
-    <lastmod>2024-07-08T16:00:46.478Z</lastmod>
-  </url>
-  <url>
-    <loc>https://njlyon0.github.io/pubs.html</loc>
-    <lastmod>2024-07-08T16:00:46.478Z</lastmod>
-  </url>
-  <url>
-    <loc>https://njlyon0.github.io/pkgs.html</loc>
-    <lastmod>2024-07-08T16:00:46.478Z</lastmod>
+    <lastmod>2024-07-11T20:34:03.055Z</lastmod>
   </url>
   <url>
     <loc>https://njlyon0.github.io/consult.html</loc>
-    <lastmod>2024-07-08T16:00:46.402Z</lastmod>
+    <lastmod>2024-07-11T20:34:02.979Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njlyon0.github.io/talks.html</loc>
+    <lastmod>2024-07-11T20:34:03.055Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njlyon0.github.io/deprecated/python.html</loc>
+    <lastmod>2024-07-11T20:34:02.979Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njlyon0.github.io/deprecated/code.html</loc>
+    <lastmod>2024-07-11T20:34:02.979Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njlyon0.github.io/software.html</loc>
+    <lastmod>2024-07-11T20:34:03.055Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njlyon0.github.io/deprecated/pkgs.html</loc>
+    <lastmod>2024-07-11T20:34:02.979Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njlyon0.github.io/deprecated/shiny.html</loc>
+    <lastmod>2024-07-11T20:34:02.979Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njlyon0.github.io/deprecated/workshops.html</loc>
+    <lastmod>2024-07-11T20:34:02.979Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njlyon0.github.io/pubs.html</loc>
+    <lastmod>2024-07-11T20:34:03.055Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njlyon0.github.io/teaching.html</loc>
+    <lastmod>2024-07-11T20:34:03.055Z</lastmod>
   </url>
 </urlset>

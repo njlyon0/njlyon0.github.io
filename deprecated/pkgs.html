@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.53">
+<meta name="generator" content="quarto-1.5.54">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Selected Code – Nicholas J Lyon</title>
+<title>R Packages – Nicholas J Lyon</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +23,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/logo_lyon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../images/logo_lyon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Nicholas J Lyon</span>
     </a>
   </div>
@@ -93,53 +93,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data-science-portfolio" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Data Science Portfolio</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-data-science-portfolio">    
-        <li>
-    <a class="dropdown-item" href="./pkgs.html">
- <span class="dropdown-text">R Packages</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./workshops.html">
- <span class="dropdown-text">Workshops</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://njlyon0.github.io/collab_bilingualism/">
- <span class="dropdown-text">R/Python Bilingualism</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./shiny.html">
- <span class="dropdown-text">R Shiny</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./code.html">
- <span class="dropdown-text">Selected Code</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-academic-portfolio" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Academic Portfolio</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-academic-portfolio">    
-        <li>
-    <a class="dropdown-item" href="./talks.html">
- <span class="dropdown-text">Talks</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./pubs.html">
- <span class="dropdown-text">Papers</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./consult.html"> 
+    <a class="nav-link" href="../software.html"> 
+<span class="menu-text">Software</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../pubs.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../talks.html"> 
+<span class="menu-text">Presentations</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../consult.html"> 
 <span class="menu-text">Consulting</span></a>
   </li>  
 </ul>
@@ -170,9 +144,30 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#flexible-data-wrangling" id="toc-flexible-data-wrangling" class="nav-link active" data-scroll-target="#flexible-data-wrangling">Flexible Data Wrangling</a></li>
-  <li><a href="#scientific-manuscript-code" id="toc-scientific-manuscript-code" class="nav-link" data-scroll-target="#scientific-manuscript-code">Scientific Manuscript Code</a></li>
-  <li><a href="#spatial-data" id="toc-spatial-data" class="nav-link" data-scroll-target="#spatial-data">Spatial Data</a></li>
+  <li><a href="#dndr" id="toc-dndr" class="nav-link active" data-scroll-target="#dndr"><code>dndR</code></a>
+  <ul class="collapse">
+  <li><a href="#dungeons-dragons-functions-for-players-and-dungeon-masters" id="toc-dungeons-dragons-functions-for-players-and-dungeon-masters" class="nav-link" data-scroll-target="#dungeons-dragons-functions-for-players-and-dungeon-masters">Dungeons &amp; Dragons Functions for Players and Dungeon Masters</a></li>
+  </ul></li>
+  <li><a href="#supportr" id="toc-supportr" class="nav-link" data-scroll-target="#supportr"><code>supportR</code></a>
+  <ul class="collapse">
+  <li><a href="#support-functions-for-wrangling-and-visualization" id="toc-support-functions-for-wrangling-and-visualization" class="nav-link" data-scroll-target="#support-functions-for-wrangling-and-visualization">Support Functions for Wrangling and Visualization</a></li>
+  </ul></li>
+  <li><a href="#lterpalettefinder" id="toc-lterpalettefinder" class="nav-link" data-scroll-target="#lterpalettefinder"><code>lterpalettefinder</code></a>
+  <ul class="collapse">
+  <li><a href="#extract-color-palettes-from-photos-and-pick-official-lter-palettes" id="toc-extract-color-palettes-from-photos-and-pick-official-lter-palettes" class="nav-link" data-scroll-target="#extract-color-palettes-from-photos-and-pick-official-lter-palettes">Extract Color Palettes from Photos and Pick Official LTER Palettes</a></li>
+  </ul></li>
+  <li><a href="#ltertools" id="toc-ltertools" class="nav-link" data-scroll-target="#ltertools"><code>ltertools</code></a>
+  <ul class="collapse">
+  <li><a href="#tools-developed-by-the-long-term-ecological-research-community" id="toc-tools-developed-by-the-long-term-ecological-research-community" class="nav-link" data-scroll-target="#tools-developed-by-the-long-term-ecological-research-community">Tools Developed by the Long Term Ecological Research Community</a></li>
+  </ul></li>
+  <li><a href="#scicomptools" id="toc-scicomptools" class="nav-link" data-scroll-target="#scicomptools"><code>scicomptools</code></a>
+  <ul class="collapse">
+  <li><a href="#tools-developed-by-nceas-scientific-computing-support-team" id="toc-tools-developed-by-nceas-scientific-computing-support-team" class="nav-link" data-scroll-target="#tools-developed-by-nceas-scientific-computing-support-team">Tools Developed by NCEAS’ Scientific Computing Support Team</a></li>
+  </ul></li>
+  <li><a href="#heron" id="toc-heron" class="nav-link" data-scroll-target="#heron"><code>HERON</code></a>
+  <ul class="collapse">
+  <li><a href="#helpers-for-river-observation" id="toc-helpers-for-river-observation" class="nav-link" data-scroll-target="#helpers-for-river-observation"><u>He</u>lpers for <u>R</u>iver <u>O</u>bservatio<u>n</u></a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/njlyon0/njlyon0.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -181,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Selected Code</h1>
+<h1 class="title">R Packages</h1>
 </div>
 
 
@@ -198,38 +193,57 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I’m deeply excited to be able to share a few examples of my publicly-available work for reference of my coding ability / style. I typically have a few ongoing projects in private <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub repositories (until their publication) but I try to keep the majority of my work transparent and accessible whenever possible.</p>
-<section id="flexible-data-wrangling" class="level2">
-<h2 class="anchored" data-anchor-id="flexible-data-wrangling">Flexible Data Wrangling</h2>
-<p><img src="images/lno_square.png" width="15%" align="right"></p>
-<p>In my work as a data scientist at the <a href="https://lternet.edu/">Long Term Ecological Research (LTER) Network Office</a> I supported various working groups in addressing synthesis science questions. Among these was a group concerned with the effects of soil phosphorus on carbon and nitrogen (see their <a href="https://lternet.edu/working-groups/soil-p-control-of-c-and-n/">full project description here</a>). This group needed a workflow that would allow them to take earlier datasets in a range of formats related to this question and generate a single, analysis-ready table.</p>
-<p>To meet this need, I developed a flexible workflow that used a living ‘data key’ GoogleSheet to synonymize each datasets’ various columns into a harmonized dataframe (see <a href="https://github.com/lter/lter-sparc-soil-p">all project scripts on their <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub here</a>). This approach allowed the working group to integrate new data by updating a file in a familiar interface (GoogleSheets) while still ensuring their actual workflow was reproducibly documented in a scripted format.</p>
+<p>I have increasingly worked on wrapping the functions that I write into R packages both for simplicity’s sake on my end as I reference my own work across different projects but also to (hopefully) help others who run into the same repetitive tasks that I have attempted to solve. Below are the packages I am an author on along with a brief description of their purpose and their hex logo. Additionally, I designed the hex logos for <code>dndR</code> and <code>supportR</code>. <a href="https://www.gabrieldelarosa.com/">Gabe De La Rosa</a> designed the hex logos for <code>lterpalettefinder</code>, <code>HERON</code>, and <code>scicomptools</code>; thanks Gabe!</p>
+<section id="dndr" class="level2">
+<h2 class="anchored" data-anchor-id="dndr"><a href="https://github.com/njlyon0/dndR#readme"><code>dndR</code></a></h2>
+<section id="dungeons-dragons-functions-for-players-and-dungeon-masters" class="level3">
+<h3 class="anchored" data-anchor-id="dungeons-dragons-functions-for-players-and-dungeon-masters">Dungeons &amp; Dragons Functions for Players and Dungeon Masters</h3>
+<p><img src="images/hex_logos/dndR_hex.png" alt="hex logo for the dndR R package" width="20%" align="right"></p>
+<p>Perhaps unsurprisingly for someone of my professional interests, I am a <em>huge</em> Dungeons &amp; Dragons (<i class="fa-solid fa-dice-d20" aria-hidden="true"></i>) fan in my free time. To blend my personal and professional interests I’ve created this package to serve any other people in the R / DnD Venn Diagram intersection. It allows for easy rolling of dice, creation of character statistics, and (for GMs) encounter balancing. This package is also a fun chance for me to practice my coding skills in a risk-free environment. <strong>A version of this package is available on CRAN <a href="https://cran.r-project.org/web/packages/dndR/index.html">here</a>.</strong></p>
 </section>
-<section id="scientific-manuscript-code" class="level2">
-<h2 class="anchored" data-anchor-id="scientific-manuscript-code">Scientific Manuscript Code</h2>
-<p><img src="images/consulting_logos/univ_georgia_logo.png" width="25%" align="right"></p>
-<p>I collaborated with a doctoral student at University of Georiga (Roy Kucuk) on his project on the microbial communities found in the gut of the green june beetle (<em>Cotinis nitida</em>). Roy had genetic data and wanted to test hypotheses about community composition and diversity differences in different regions of the gut, across beetle lifestages, and between beetle sexes. The paper was published in Frontiers in Microbiology (an open access journal) <a href="https://www.frontiersin.org/articles/10.3389/fmicb.2023.1185661/full">here</a>.</p>
-<p>In the <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/njlyon0/collab_kucuk-cotinis">GitHub repository</a> for this project I:</p>
-<ul>
-<li>Wrangled the data and calculated the needed diversity metrics at various taxonomic levels</li>
-<li>Identified and performed the appropriate statistical tests to address Roy’s hypotheses</li>
-<li>Created publication-quality figures of the primary results and generated exploratory visualizations</li>
-<li>Revized all scripts iteratively per feedback from Roy and his other collaborators</li>
-</ul>
 </section>
-<section id="spatial-data" class="level2">
-<h2 class="anchored" data-anchor-id="spatial-data">Spatial Data</h2>
-<p><img src="images/lno_square.png" width="15%" align="right"></p>
-<p>In my work at the LTER Network Office I also worked with a working group exploring the drivers of riverine silica quantities across the globe (see the <a href="https://lternet.edu/working-groups/from-poles-to-tropics-a-multi-biome-synthesis-investigating-the-controls-on-river-si-exports/">full project description here</a>). As part of one of their questions they needed to extract various geological, biological, and climatic variables of interest from within the watershed catchments of the several hundred rivers at which they had silica and river flow information.</p>
-<p>In the <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/lter/lterwg-silica-spatial">GitHub repository</a> for this task I:</p>
-<ul>
-<li>Harmonized watershed catchment polgyons into a standard format</li>
-<li>Extracted spatial data (e.g., GeoTIFF, netCDF, etc.) from within those polygons</li>
-<li>Summarized extracted data at various spatial and temporal levels</li>
-<li>Combined summarized data into a single, analysis-ready table that was interoperable with the data files elsewhere in their project</li>
-</ul>
+<section id="supportr" class="level2">
+<h2 class="anchored" data-anchor-id="supportr"><a href="https://github.com/njlyon0/supportR#readme"><code>supportR</code></a></h2>
+<section id="support-functions-for-wrangling-and-visualization" class="level3">
+<h3 class="anchored" data-anchor-id="support-functions-for-wrangling-and-visualization">Support Functions for Wrangling and Visualization</h3>
+<p><img src="images/hex_logos/supportR_hex.png" alt="hex logo for the supportR R package" width="20%" align="right"></p>
+<p>The unifying theme of this package is essentially that none of these functions have a strong connection anywhere else. This package is a grab bag of data wrangling, visualization, and exporting functions I’ve written and wanted to use across projects without copy/pasting the functions into all those different repositories. Hopefully some of them can be of value to you as well! <strong>A version of this package is available on CRAN <a href="https://cran.r-project.org/web/packages/supportR/index.html">here</a>.</strong></p>
+</section>
+</section>
+<section id="lterpalettefinder" class="level2">
+<h2 class="anchored" data-anchor-id="lterpalettefinder"><a href="https://github.com/lter/lterpalettefinder#readme"><code>lterpalettefinder</code></a></h2>
+<section id="extract-color-palettes-from-photos-and-pick-official-lter-palettes" class="level3">
+<h3 class="anchored" data-anchor-id="extract-color-palettes-from-photos-and-pick-official-lter-palettes">Extract Color Palettes from Photos and Pick Official LTER Palettes</h3>
+<p><img src="images/hex_logos/lterpalettefinder_hex.png" alt="hex logo for the lterpalettefinder R package" width="20%" align="right"></p>
+<p>This package allows users to extract colors (as hexadecimal codes) from a given image. These codes can then be used for the creation of graphics that have aesthetic connections to pictures relevant to the data (e.g., focal organism, study site, etc.). Secondarily, it also contains a set of official palettes that can be accessed if the user would prefer to use a pre-set palette rather than creating their own. <strong>A version of this package is available on CRAN <a href="https://cran.r-project.org/web/packages/lterpalettefinder/index.html">here</a>.</strong></p>
+<p>To allow non-R users to explore <code>lterpalettefinder</code>, I created an <a href="https://cosima.nceas.ucsb.edu/lterpalettefinder-shiny/">R Shiny app</a> that allows anyone with an internet connection to use this package.</p>
+</section>
+</section>
+<section id="ltertools" class="level2">
+<h2 class="anchored" data-anchor-id="ltertools"><a href="https://github.com/lter/ltertools#readme"><code>ltertools</code></a></h2>
+<p><em>Hex logo in development!</em></p>
+<section id="tools-developed-by-the-long-term-ecological-research-community" class="level3">
+<h3 class="anchored" data-anchor-id="tools-developed-by-the-long-term-ecological-research-community">Tools Developed by the Long Term Ecological Research Community</h3>
+<p>This package contains functions developed by members of the LTER community. This package is meant to help centralize useful tools that individuals develop but that may be broadly useful. There are extensive contributing guidelines to ensure that everyone is given appropriate intellectual credit for lending their insight. More information on the Network can be found <a href="https://lternet.edu/">here</a>. <strong>A version of this package is available on CRAN <a href="https://cran.rstudio.com/web/packages/ltertools/index.html">here</a>.</strong></p>
+</section>
+</section>
+<section id="scicomptools" class="level2">
+<h2 class="anchored" data-anchor-id="scicomptools"><a href="https://github.com/NCEAS/scicomptools#readme"><code>scicomptools</code></a></h2>
+<section id="tools-developed-by-nceas-scientific-computing-support-team" class="level3">
+<h3 class="anchored" data-anchor-id="tools-developed-by-nceas-scientific-computing-support-team">Tools Developed by NCEAS’ Scientific Computing Support Team</h3>
+<p><img src="images/hex_logos/scicomptools_hex.png" alt="hex logo for the scicomptools R package" width="20%" align="right"></p>
+<p>This package contains all of the standalone functions written by the NCEAS Scientific Computing Support Team that don’t cleanly fit in other repositories. This is similar in rationale to the <code>supportR</code> package but in this case, some of these functions were written by others. Additionally, these functions are written in the context of the work I do for the LTER Network Office and thus don’t belong in <code>supportR</code> because that is more for personal / side projects. <strong>A version of this package is available on CRAN <a href="https://cran.r-project.org/web/packages/scicomptools/index.html">here</a>.</strong></p>
+</section>
+</section>
+<section id="heron" class="level2">
+<h2 class="anchored" data-anchor-id="heron"><a href="https://github.com/lter/HERON#readme"><code>HERON</code></a></h2>
+<section id="helpers-for-river-observation" class="level3">
+<h3 class="anchored" data-anchor-id="helpers-for-river-observation"><u>He</u>lpers for <u>R</u>iver <u>O</u>bservatio<u>n</u></h3>
+<p><img src="images/hex_logos/HERON_hex.png" alt="hex logo for the HERON R package" width="20%" align="right"></p>
+<p>I developed this package in support of the LTER synthesis working group focusing on riverine silica exports. These functions are primarily focused on downstream (no pun intended!) operations for processing outputs created by the <code>EGRET</code> (<a href="https://cran.r-project.org/web/packages/EGRET/index.html">CRAN link</a>) and <code>SiZer</code> (<a href="https://cran.r-project.org/web/packages/SiZer/index.html">CRAN link</a>) R packages.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -809,7 +823,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>Copyright 2023, Nicholas Lyon</p>
+<p>Copyright 2024, Nicholas Lyon</p>
 <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/njlyon0/njlyon0.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
