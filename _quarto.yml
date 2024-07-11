@@ -20,8 +20,6 @@ website:
         menu:
          - text: "R Packages"
            href: pkgs.qmd
-         - text: "Workshops"
-           href: workshops.qmd
          - text: "R/Python Bilingualism"
            href: https://njlyon0.github.io/collab_bilingualism/
          - text: "Shiny Apps"
