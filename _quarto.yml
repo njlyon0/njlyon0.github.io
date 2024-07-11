@@ -34,7 +34,8 @@ website:
            href: talks.qmd
          - text: "Papers"
            href: pubs.qmd
-      - href: consult.qmd
+      - text: "Consulting"
+        href: consult.qmd
     right:
       - icon: github
         href: https://github.com/njlyon0
