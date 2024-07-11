@@ -16,22 +16,14 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - text: "Data Science Portfolio"
-        menu:
-         - text: "R Packages"
-           href: pkgs.qmd
-         - text: "R/Python Bilingualism"
-           href: https://njlyon0.github.io/collab_bilingualism/
-         - text: "Shiny Apps"
-           href: shiny.qmd
-         - text: "Selected Code"
-           href: code.qmd
-      - text: "Academic Portfolio"
-        menu:
-         - text: "Talks"
-           href: talks.qmd
-         - text: "Papers"
-           href: pubs.qmd
+      - text: "R Packages"
+        href: pkgs.qmd
+      - text: "R/Python Bilingualism"
+        href: https://njlyon0.github.io/collab_bilingualism/
+      - text: "Presentations"
+        href: talks.qmd
+      - text: "Papers"
+        href: pubs.qmd
       - text: "Consulting"
         href: consult.qmd
     right:
