@@ -27,6 +27,10 @@ Depending on the scope of the job we can absolutely discuss deviations from this
 
 The nature of consulting is that products of the work are not always publicly-available but I am happy to discuss (within the confines of relevant non-disclosure agreements) the type of work I've done with researchers at the following organizations:
 
-<img src="images/consulting_logos/brdgai_logo.png" alt="Logo for BrdgAI" width="30%" /> <img src="images/consulting_logos/iunu_logo.png" alt="Logo for iUNU" width="30%" /> <img src="images/consulting_logos/scope3_logo.png" alt="Logo for Scope3 Consulting" width="30%" />
+<p align="center">
 
-<img src="images/consulting_logos/univ_georgia_logo.png" alt="Logo for the University of Georgia" width="30%" /> <img src="images/consulting_logos/montana_state_logo.png" alt="Logo for Montana State University" width="30%" /> <img src="images/consulting_logos/xerces_logo.png" alt="Logo for the Xerces Society" width="30%" />
+<img src="images/consult_univ-georgia.png" alt="Logo for the University of Georgia" width="30%" /> <img src="images/consult_iunu.png" alt="Logo for iUNU" width="30%" /> <img src="images/consult_scope3.png" alt="Logo for Scope3 Consulting" width="30%" />
+
+<img src="images/consult_xerces.png" alt="Logo for the Xerces Society" width="30%" /> <img src="images/consult_montana-state.png" alt="Logo for Montana State University" width="30%" /> <img src="images/consult_brdgai.png" alt="Logo for BrdgAI" width="30%" />
+
+</p>
