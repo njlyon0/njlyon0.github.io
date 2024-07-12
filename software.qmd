@@ -12,8 +12,8 @@ One of the main products of my work as a data scientist is various forms of soft
 
 I work extensively on {{< fa brands github >}} GitHub and am a firm believer in version control as a mechanism for ensuring code reproducibility. Because of that--and to avoid redundancy--I recommend that you explore {{< fa brands github >}} [my GitHub profile](https://github.com/njlyon0) for a more or less complete set of the projects I've worked on.
 
-<img src="images/logo_nceas.png" alt="" height="80" align="right"/>
-<img src="images/logo_lter.png" alt="" height="80" align="right"/>
+<img src="images/logo_nceas.png" alt="Logo for the National Center for Ecological Analysis and Synthesis (NCEAS)" height="80" align="right"/>
+<img src="images/logo_lter.png" alt="Logo for the Long Term Ecological Research (LTER) Network Office" height="80" align="right"/>
 
 In my role as a Data Scientist for the Long Term Ecological Research ([LTER](https://lternet.edu/)) Network Office I've also done a lot of code work in the {{< fa brands github >}} [GitHub Organization](https://github.com/lter). I've also done some work in the National Center for Ecological Analysis and Synthesis ([NCEAS](https://www.nceas.ucsb.edu/)) {{< fa brands github >}} [GitHub Organization](https://github.com/NCEAS), particularly in repositories with "scicomp" as part of their name.
 
