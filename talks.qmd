@@ -5,7 +5,7 @@ title: "Presentations"
 I love chatting about science and data management and leap at the opportunity to present in public-facing contexts. Here is a breakdown of some of the lectures and conference-style talks I have given. The icons to the left of the titles (e.g., {{< fa screwdriver-wrench >}}) are intended to help roughly group content by their topic.
 
 <p align="center">
-<img src="images/squash_bug_nymph.jpg" alt="Picture of a squash bug (Anasa tristis) nymph next to a number 2 pencil" width="85%"/>
+<img src="images/pic_squash-bug-nymph.jpg" alt="Picture of a squash bug (Anasa tristis) nymph next to a number 2 pencil" width="85%"/>
 </p>
 
 ## Lectures

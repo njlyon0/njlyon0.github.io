@@ -6,6 +6,10 @@ I have increasingly been leveraging my expertise as a consultant and am happy to
 
 I am a certified instructor with [The Carpentries](https://carpentries.org/) so I have formal training in coding pedagogy and am happy to do such tutoring as a consultant if that is of interest.
 
+<p align="center">
+<img src="images/pic_microplastic.jpg" alt="Piece of microplastic auto-fluorescing under near-UV light" width="85%"/>
+</p>
+
 ## Rates
 
 My typical rates are as follows:

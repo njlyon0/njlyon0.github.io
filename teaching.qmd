@@ -5,7 +5,7 @@ title: "Courses & Workshops"
 I'm a deeply enthusiastic person generally and one of the things that brings me the most joy is teaching and learning with others. As such, I have repeatedly sought out opportunities to teach in contexts ranging from hour-long workshops all the way to year-long courses. See a list of those below along with--where applicable--additional resources.
 
 <p align="center">
-<img src="images/question_mark.jpg" alt="Picture of a question mark butterfly (Polygonia interrogationis) on a leaf" width="85%"/>
+<img src="images/pic_question-mark.jpg" alt="Picture of a question mark butterfly (Polygonia interrogationis) on a leaf" width="85%"/>
 </p>
 
 ## Courses
