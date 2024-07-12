@@ -4,7 +4,9 @@ title: "Papers"
 
 I have had several opportunities to publish scientific papers both as a lead author and as a member of a larger scientific team. Here are some of the highlights of that record. If any of these links are behind a paywall for you, simply reach out to me and I'll work to get you a PDF. The icons to the left of the titles (e.g., {{< fa bug >}}) are intended to help roughly group content by their topic.
 
-![](images/great_spangled_fritillary.jpg){width="600" fig-align="center" fig-alt="great spangled fritillary"}
+<p align="center">
+<img src="images/great_spangled_fritillary.jpg" alt="Picture of a question mark butterfly (Speyeria cybele) on a common milkweed flower (Asclepias syriaca)" width="85%"/>
+</p>
 
 ## Not (Yet!) Published
 
@@ -41,5 +43,3 @@ Note that many of these projects have GitHub repositories but they are set to 'P
 {{< fa cloud-sun >}} -- Lyon, N.J., Debinski, D.M., and Rangwala, I. [Evaluating the Utility of Species Distribution Models in Informing Climate Change-Resilient Grassland Restoration Strategy](https://www.frontiersin.org/articles/10.3389/fevo.2019.00033/full). 7. **2019** Frontiers in Ecology and Evolution - {{< fa brands github >}} [GitHub repo](https://github.com/njlyon0/lyon-ms-thesis_sdm)
 
 {{< fa anchor >}} -- Lyon, N.J. & Hodum, P. [Mytilus Mussels as Bio-indicators of Regional Microplastic Trends](https://soundideas.pugetsound.edu/summer_research/259/). **2015**. University of Puget Sound Undergraduate Thesis
-
-![](images/stilt_bug.jpg){width="600" fig-align="center" fig-alt="stilt bug"}

@@ -2,7 +2,11 @@
 title: "Software"
 ---
 
-One of the main products of my work as a data scientist is various forms of software. While {{< fa brands r-project >}} R is my primary language I have branched out somewhat into other languages (including {{< fa brands python >}} Python) and will try to reference those outputs here as well even if they are a numeric minority.
+One of the main products of my work as a data scientist is various forms of software. While {{< fa brands r-project >}} R is my primary language I have branched out somewhat into other languages (including {{< fa brands python >}} Python) and will try to reference those outputs here as well.
+
+<p align="center">
+<img src="images/stilt_bug.jpg" alt="Picture of a stilt bug (family: Berytidae) on a leaf" width="85%"/>
+</p>
 
 ## General Code Products
 

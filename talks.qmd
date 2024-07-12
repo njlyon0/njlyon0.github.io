@@ -4,9 +4,11 @@ title: "Presentations"
 
 I love chatting about science and data management and leap at the opportunity to present in public-facing contexts. Here is a breakdown of some of the lectures and conference-style talks I have given. The icons to the left of the titles (e.g., {{< fa screwdriver-wrench >}}) are intended to help roughly group content by their topic.
 
-![](images/squash_bug_nymph.jpg){width="600" fig-align="center" fig-alt="squash bug nymph"}
+<p align="center">
+<img src="images/squash_bug_nymph.jpg" alt="Picture of a squash bug (Anasa tristis) nymph next to a number 2 pencil" width="85%"/>
+</p>
 
-## Workshops & Lectures
+## Lectures
 
 {{< fa screwdriver-wrench >}} -- Lyon, N.J. Introduction to Statistics and R in Ecology Research. **2020**. Insect Ecology (ENT 4520/6520), Clemson University. Clemson SC.
 
@@ -14,7 +16,7 @@ I love chatting about science and data management and leap at the opportunity to
 
 {{< fa screwdriver-wrench >}} -- Lyon, N.J. Choosing the "Right" Statistical Test. **2019**. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.
 
-{{< fa screwdriver-wrench >}} -- Lyon, N.J. Multivariate Statistics in R. **2018**. Data Management and Analysis in R for Ecologists and Evolutionary Biologists (EEB 698) - {{< fa person-chalkboard >}} [Workshop slides](https://njlyon0.github.io/lyon_talks/slides/tutorial_multivar-stats.html#/title-slide)
+{{< fa screwdriver-wrench >}} -- Lyon, N.J. Multivariate Statistics in R. **2018**. Data Management and Analysis in R for Ecologists and Evolutionary Biologists (EEB 698) - {{< fa person-chalkboard >}} [Lecture slides](https://njlyon0.github.io/lyon_talks/slides/tutorial_multivar-stats.html#/title-slide)
 
 ## Conference-Style Presentations
 
@@ -55,5 +57,3 @@ I love chatting about science and data management and leap at the opportunity to
 {{< fa anchor >}} -- Lyon N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September **2014**
 
 {{< fa anchor >}} -- Lyon, N. Plastic Contamination in Marine Environments. Oral presentation. Honors Research Symposium, Seattle University, October **2014**
-
-![](images/question_mark.jpg){width="600" fig-align="center" fig-alt="question mark butterfly"}
