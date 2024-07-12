@@ -36,15 +36,9 @@ In my role as a Data Scientist for the Long Term Ecological Research ([LTER](htt
 - `HERON`: **<u>He</u>lpers for <u>R</u>iver <u>O</u>bservatio<u>n</u>**
     - {{< fa brands github >}} [GitHub repository](https://github.com/lter/HERON#readme)
 
-<img src="images/hex_logos/dndR_hex.png" alt = "hex logo for the dndR R package" width="20%" align="right"/>
-
-<img src="images/hex_logos/supportR_hex.png" alt = "hex logo for the supportR R package" width="20%" align="right"/>
-
-<img src="images/hex_logos/lterpalettefinder_hex.png" alt = "hex logo for the lterpalettefinder R package" width="20%" align="right"/>
-
-<img src="images/hex_logos/scicomptools_hex.png" alt = "hex logo for the scicomptools R package" width="20%" align="right"/>
-
-<img src="images/hex_logos/HERON_hex.png" alt = "hex logo for the HERON R package" width="20%" align="right"/>
+<p align="center">
+<img src="images/hex_dndR.png" alt = "hex logo for the dndR R package" width="100" height="110"/> <img src="images/hex_supportR.png" alt = "hex logo for the supportR R package" width="100" height="110"/> <img src="images/hex_lterpalettefinder.png" alt = "hex logo for the lterpalettefinder R package" width="95" height="110"/> <img src="images/hex_scicomptools.png" alt = "hex logo for the scicomptools R package" width="110" height="110"/> <img src="images/hex_HERON.png" alt = "hex logo for the HERON R package" width="95" height="110"/>
+</p>
 
 ## R / Python Bilingualism Website
 
