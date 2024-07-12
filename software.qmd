@@ -40,9 +40,11 @@ In my role as a Data Scientist for the Long Term Ecological Research ([LTER](htt
 <img src="images/hex_dndR.png" alt = "hex logo for the dndR R package" width="100" height="110"/> <img src="images/hex_supportR.png" alt = "hex logo for the supportR R package" width="100" height="110"/> <img src="images/hex_lterpalettefinder.png" alt = "hex logo for the lterpalettefinder R package" width="95" height="110"/> <img src="images/hex_scicomptools.png" alt = "hex logo for the scicomptools R package" width="110" height="110"/> <img src="images/hex_HERON.png" alt = "hex logo for the HERON R package" width="95" height="110"/>
 </p>
 
-## R / Python Bilingualism Website
+## R / Python Bilingualism
 
-While I am primarily an {{< fa brands r-project >}} R coder, I definitely recognize that other languages can be extremely valuable! To make sure that I'm well-rounded I've made some strong efforts to self-teach {{< fa brands python >}} Python and document that process in ways that may be useful to others interested in making a similar leap. First and foremost of these efforts is my stab at a ['bilingualism' website for R & Python](https://njlyon0.github.io/collab_bilingualism/). This site demonstrates a range of increasingly complex R operations and their Python equivalents (or vice versa if you were interested in making the reverse translation). I'm constantly improving on that website and have a comprehensive contributing guidelines document to make it easier for others to collaborate with me on maximizing the value of that resource. You can also check out the {{< fa brands github >}} [GitHub repository](https://github.com/njlyon0/collab_bilingualism) for the website here.
+While I am primarily an {{< fa brands r-project >}} R coder, I definitely recognize that other languages can be extremely valuable! To make sure that I'm well-rounded I've made some strong efforts to self-teach {{< fa brands python >}} Python and document that process in ways that may be useful to others interested in making a similar leap. First and foremost of these efforts is my stab at a ['bilingualism' website for R & Python](https://njlyon0.github.io/collab_bilingualism/). This site demonstrates a range of increasingly complex operations and how they are accomplished in both languages.
+
+I'm constantly improving on that website and have comprehensive [contributing guidelines](https://njlyon0.github.io/collab_bilingualism/collabs.html) to make it easier for others to collaborate with me on maximizing the value of this resource. You can also check out the {{< fa brands github >}} [GitHub repository](https://github.com/njlyon0/collab_bilingualism) for the website here.
 
 
 
