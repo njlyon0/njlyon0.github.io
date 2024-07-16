@@ -24,6 +24,8 @@ I'm a deeply enthusiastic person generally and one of the things that brings me 
 
 Note that these workshops were designed to be offered repeatedly to different audiences. As such, while each of these workshops is only identified once I have been part of the teaching team for all of them _many_ times. All resources are "living" so that participants from earlier iterations of a given workshop find the most up-to-date version of the materials when they revisit their old bookmarks.
 
+{{< fa people-group >}} {{< fa screwdriver-wrench >}} -- **Ecological Data Synthesis: A Primer on Essential Methods** - {{< fa brands github >}} [GitHub repo](https://github.com/lter/eco-data-synth-primer) - {{< fa earth-americas >}} [Workshop website](https://lter.github.io/eco-data-synth-primer/)
+
 {{< fa screwdriver-wrench >}} -- **Collaborative Coding with GitHub** - {{< fa brands github >}} [GitHub repo](https://github.com/NCEAS/scicomp-workshop-collaborative-coding) - {{< fa earth-americas >}} [Workshop website](https://nceas.github.io/scicomp-workshop-collaborative-coding/)
 
 {{< fa screwdriver-wrench >}} -- **Sharing Science with R Shiny Apps** - {{< fa brands github >}} [GitHub repo](https://github.com/njlyon0/asm-2022_shiny-workshop) - {{< fa earth-americas >}} [Workshop website](https://njlyon0.github.io/asm-2022_shiny-workshop/)
