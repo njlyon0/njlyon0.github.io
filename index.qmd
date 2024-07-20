@@ -9,9 +9,6 @@ about:
     - href: https://github.com/njlyon0
       text: GitHub
       icon: github
-    - href: https://github.com/njlyon0/njlyon0.github.io/blob/main/files/LyonCV.pdf
-      text: CV
-      icon: archive-fill
     - href: https://github.com/njlyon0/njlyon0.github.io/blob/main/files/LyonResume.pdf
       text: Resume
       icon: journal-bookmark-fill
