@@ -22,7 +22,7 @@ I love chatting about science and data management and leap at the opportunity to
 
 {{< fa bug >}} {{< fa screwdriver-wrench >}} -- Lyon, N.J. From Ecologist to Data Scientist. Biology Department Seminar. Stonehill College, Easton MA, September **2023**
 
-{{< fa screwdriver-wrench >}} -- Lyon, N.J. and Vargas, C. Data Quality Control Using R. Santa Barbara R Users Group, June **2022** - {{< fa brands github >}} [GitHub repo](https://github.com/njlyon0/collab_vargas-quality-control-talk)
+{{< fa screwdriver-wrench >}} -- Lyon, N.J. and Vargas, C. Data Quality Control Using R. Santa Barbara R Users Group, June **2022** - [{{< fa brands github >}}](https://github.com/njlyon0/collab_vargas-quality-control-talk)
 
 {{< fa fire-flame-curved >}} {{< fa cow >}} -- Lyon, N.J. and Debinski, D.M. Evaluating the Effects of Eleven Years of Consistent Restoration Management. Ecological Society of America, Louisville KY, August **2019**
 
@@ -30,19 +30,19 @@ I love chatting about science and data management and leap at the opportunity to
 
 {{< fa bug >}} {{< fa seedling >}} -- Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. Plant and Pollinator Response to Adaptive Management. Graduate and Professional Student Research Conference, Ames IA, April **2018**. Awarded Best Oral Presentation.
 
-{{< fa bug >}} {{< fa seedling >}} -- Lyon, N.J., Debinski, D.M. Butterfly and Nectar-Producing Plant Response to Invasive Grass Management. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February **2018** - {{< fa brands github >}} [GitHub repo](https://github.com/njlyon0/collab_coon-daubenmire-herbicide)
+{{< fa bug >}} {{< fa seedling >}} -- Lyon, N.J., Debinski, D.M. Butterfly and Nectar-Producing Plant Response to Invasive Grass Management. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February **2018** - [{{< fa brands github >}}](https://github.com/njlyon0/collab_coon-daubenmire-herbicide)
 
 {{< fa fire-flame-curved >}} {{< fa cow >}} {{< fa cloud-sun >}} -- Lyon, N.J. An Integrated Approach to Tallgrass Prairie Restoration. Three-Minute Thesis, Ames IA, January **2018**
 
-{{< fa cloud-sun >}} -- Lyon, N. J., Debinski, D.M., and Rangwala, I. Species Distribution Modeling to Predict Prairie Restoration Success under Climate Change. Ecological Society of America, Portland OR, August **2017** - {{< fa brands github >}} [GitHub repo](https://github.com/njlyon0/lyon-ms-thesis_sdm)
+{{< fa cloud-sun >}} -- Lyon, N. J., Debinski, D.M., and Rangwala, I. Species Distribution Modeling to Predict Prairie Restoration Success under Climate Change. Ecological Society of America, Portland OR, August **2017** - [{{< fa brands github >}}](https://github.com/njlyon0/lyon-ms-thesis_sdm)
 
-{{< fa cloud-sun >}} -- Lyon, N.J. Predicted Response of Native Grassland Plants to Climate Change. Ten Years of Research in the Grand River Grasslands Symposium, Lamoni IA, June **2017** - {{< fa brands github >}} [GitHub repo](https://github.com/njlyon0/lyon-ms-thesis_sdm)
+{{< fa cloud-sun >}} -- Lyon, N.J. Predicted Response of Native Grassland Plants to Climate Change. Ten Years of Research in the Grand River Grasslands Symposium, Lamoni IA, June **2017** - [{{< fa brands github >}}](https://github.com/njlyon0/lyon-ms-thesis_sdm)
 
 {{< fa fire-flame-curved >}} {{< fa cow >}} {{< fa bug >}} -- Lyon, N.J., Debinski, D.M., Miller, J., Schact, W., and Stein, D. Grazing, Burning, and Butterflies. Iowa Urban Tree Council, Des Moines IA, April **2017**
 
 {{< fa fire-flame-curved >}} {{< fa cow >}} {{< fa bug >}} -- Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. and Stein, D. Adaptive Management for Prairie Plants and Pollinators in Midwestern Working Landscapes. Iowa Invasive Species Conference, Moravia IA, March **2017**
 
-{{< fa cloud-sun >}} -- Lyon, N.J. Incorporating Correlative Modeling into Modifying Restoration Strategies for the Future. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February **2017** - {{< fa brands github >}} [GitHub repo](https://github.com/njlyon0/lyon-ms-thesis_sdm)
+{{< fa cloud-sun >}} -- Lyon, N.J. Incorporating Correlative Modeling into Modifying Restoration Strategies for the Future. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February **2017** - [{{< fa brands github >}}](https://github.com/njlyon0/lyon-ms-thesis_sdm)
 
 {{< fa anchor >}} -- Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Air and Waste Management Student Challenge, Portland OR, April **2016**. Awarded Best Presentation
 

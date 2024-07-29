@@ -10,9 +10,9 @@ I'm a deeply enthusiastic person generally and one of the things that brings me 
 
 ## Courses
 
-{{< fa people-group >}} {{< fa screwdriver-wrench >}} -- **<u>Instructor</u>** - Synthesis Skills for Early Career Researchers (SSECR), **2024-2025**, Long Term Ecological Research Network Office, Santa Barbara, CA - {{< fa brands github >}} [GitHub repo](https://github.com/lter/ssecr) - {{< fa earth-americas >}} [Course website](https://lter.github.io/ssecr/)
+{{< fa people-group >}} {{< fa screwdriver-wrench >}} -- **<u>Instructor</u>** - [Synthesis Skills for Early Career Researchers](https://lter.github.io/ssecr/) (SSECR), **2024-2025**, Long Term Ecological Research Network Office, Santa Barbara, CA - [{{< fa brands github >}}](https://github.com/lter/ssecr)
 
-{{< fa screwdriver-wrench >}} -- **<u>Adjunct Faculty</u>** - Programming in R for Biologists (BIO 316), Summer **2023** & Summer **2024**, Stonehill College, Easton, MA - {{< fa brands github >}} [GitHub repo](https://github.com/njlyon0/teach_r-for-biologists) - {{< fa earth-americas >}} [Course website](https://njlyon0.github.io/teach_r-for-biologists/)
+{{< fa screwdriver-wrench >}} -- **<u>Adjunct Faculty</u>** - [Programming in R for Biologists](https://njlyon0.github.io/teach_r-for-biologists/) (BIO 316), Summer **2023** & Summer **2024**, Stonehill College, Easton, MA - [{{< fa brands github >}}](https://github.com/njlyon0/teach_r-for-biologists)
 
 {{< fa bug >}} -- **<u>Teaching Assistant</u>** - Principles of Biology Lab (BIO 1108L), Spring **2021**, University of Georgia. Athens, GA
 
@@ -24,11 +24,10 @@ I'm a deeply enthusiastic person generally and one of the things that brings me 
 
 Note that these workshops were designed to be offered repeatedly to different audiences. As such, while each of these workshops is only identified once I have been part of the teaching team for all of them _many_ times. All resources are "living" so that participants from earlier iterations of a given workshop find the most up-to-date version of the materials when they revisit their old bookmarks.
 
-{{< fa people-group >}} {{< fa screwdriver-wrench >}} -- **Ecological Data Synthesis: A Primer on Essential Methods** - {{< fa brands github >}} [GitHub repo](https://github.com/lter/eco-data-synth-primer) - {{< fa earth-americas >}} [Workshop website](https://lter.github.io/eco-data-synth-primer/)
+{{< fa people-group >}} {{< fa screwdriver-wrench >}} -- **[Ecological Data Synthesis: A Primer on Essential Methods](https://lter.github.io/eco-data-synth-primer/)** - [{{< fa brands github >}}](https://github.com/lter/eco-data-synth-primer)
 
-{{< fa screwdriver-wrench >}} -- **Collaborative Coding with GitHub** - {{< fa brands github >}} [GitHub repo](https://github.com/NCEAS/scicomp-workshop-collaborative-coding) - {{< fa earth-americas >}} [Workshop website](https://nceas.github.io/scicomp-workshop-collaborative-coding/)
+{{< fa screwdriver-wrench >}} -- **[Collaborative Coding with GitHub](https://nceas.github.io/scicomp-workshop-collaborative-coding/)** - [{{< fa brands github >}}](https://github.com/NCEAS/scicomp-workshop-collaborative-coding)
 
-{{< fa screwdriver-wrench >}} -- **Sharing Science with R Shiny Apps** - {{< fa brands github >}} [GitHub repo](https://github.com/njlyon0/asm-2022_shiny-workshop) - {{< fa earth-americas >}} [Workshop website](https://njlyon0.github.io/asm-2022_shiny-workshop/)
+{{< fa screwdriver-wrench >}} -- **[Sharing Science with R Shiny Apps](https://njlyon0.github.io/asm-2022_shiny-workshop/)** - [{{< fa brands github >}}](https://github.com/njlyon0/asm-2022_shiny-workshop)
 
-{{< fa screwdriver-wrench >}} -- **Coding with the Tidyverse** - {{< fa brands github >}} [GitHub repo](https://github.com/NCEAS/scicomp-workshop-tidyverse) - {{< fa earth-americas >}} [Workshop website](https://nceas.github.io/scicomp-workshop-tidyverse/)
-
+{{< fa screwdriver-wrench >}} -- **[Coding with the Tidyverse](https://nceas.github.io/scicomp-workshop-tidyverse/)** - [{{< fa brands github >}}](https://github.com/NCEAS/scicomp-workshop-tidyverse)

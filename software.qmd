@@ -21,23 +21,18 @@ In my role as a Data Scientist for the Long Term Ecological Research ([LTER](htt
 
  have increasingly worked on wrapping the functions that I write into R packages both for simplicity's sake on my end as I reference my own work across different projects but also to (hopefully) help others who run into the same repetitive tasks that I have attempted to solve. Below is a list of the packages where I am an author Additionally, note that I designed the hex logos for `dndR` and `supportR` while [Gabe De La Rosa](https://www.gabrieldelarosa.com/) designed the hex logos for `lterpalettefinder`, `HERON`, and `scicomptools`; thanks Gabe!
 
-- `dndR`: **Dungeons & Dragons Functions for Players and Dungeon Masters**
-    - {{< fa brands r-project >}} [CRAN link](https://cran.r-project.org/web/packages/dndR/index.html) - {{< fa brands github >}} [GitHub repository](https://github.com/njlyon0/dndR#readme)
-- `supportR`: **Support Functions for Wrangling and Visualization**
-    - {{< fa brands r-project >}} [CRAN link](https://cran.r-project.org/web/packages/supportR/index.html) - {{< fa brands github >}} [GitHub repository](https://github.com/njlyon0/supportR#readme)
-- `ltertools`: **Tools Developed by the Long Term Ecological Research Community**
-    - {{< fa brands r-project >}} [CRAN link](https://cran.rstudio.com/web/packages/ltertools/index.html) - {{< fa brands github >}} [GitHub repository](https://github.com/lter/ltertools#readme)
-- `lterpalettefinder`: **Extract Color Palettes from Photos and Pick Official LTER Palettes**
-    - {{< fa brands r-project >}} [CRAN link](https://cran.r-project.org/web/packages/lterpalettefinder/index.html) - {{< fa brands github >}} [GitHub repository](https://github.com/lter/lterpalettefinder#readme)
-- `scicomptools`: **Tools Developed by NCEAS' Scientific Computing Support Team**
-    - {{< fa brands r-project >}} [CRAN link](https://cran.r-project.org/web/packages/scicomptools/index.html) - {{< fa brands github >}} [GitHub repository](https://github.com/NCEAS/scicomptools#readme)
-- `metajam`: **Easily Download Data and Metadata from 'DataONE'**
-    - {{< fa brands r-project >}} [CRAN link](https://cran.rstudio.com/web/packages/metajam/index.html) - {{< fa brands github >}} [GitHub repository](https://github.com/NCEAS/metajam#readme)
-- `HERON`: **<u>He</u>lpers for <u>R</u>iver <u>O</u>bservatio<u>n</u>**
-    - {{< fa brands github >}} [GitHub repository](https://github.com/lter/HERON#readme)
+_Icon legend:_ {{< fa brands r-project >}} = CRAN link | {{< fa brands github >}} = GitHub repository
+
+- `dndR`: **Dungeons & Dragons Functions for Players and Dungeon Masters** | [{{< fa brands r-project >}}](https://cran.r-project.org/web/packages/dndR/index.html) -- [{{< fa brands github >}}](https://github.com/njlyon0/dndR#readme)
+- `supportR`: **Support Functions for Wrangling and Visualization** | [{{< fa brands r-project >}}](https://cran.r-project.org/web/packages/supportR/index.html) -- [{{< fa brands github >}}](https://github.com/njlyon0/supportR#readme)
+- `ltertools`: **Tools Developed by the Long Term Ecological Research Community** | [{{< fa brands r-project >}}](https://cran.rstudio.com/web/packages/ltertools/index.html) -- [{{< fa brands github >}}](https://github.com/lter/ltertools#readme)
+- `lterpalettefinder`: **Extract Color Palettes from Photos and Pick Official LTER Palettes** | [{{< fa brands r-project >}}](https://cran.r-project.org/web/packages/lterpalettefinder/index.html) -- [{{< fa brands github >}}](https://github.com/lter/lterpalettefinder#readme)
+- `scicomptools`: **Tools Developed by NCEAS' Scientific Computing Support Team** | [{{< fa brands r-project >}}](https://cran.r-project.org/web/packages/scicomptools/index.html) -- [{{< fa brands github >}}](https://github.com/NCEAS/scicomptools#readme)
+- `metajam`: **Easily Download Data and Metadata from 'DataONE'** | [{{< fa brands r-project >}}](https://cran.rstudio.com/web/packages/metajam/index.html) -- [{{< fa brands github >}}](https://github.com/NCEAS/metajam#readme)
+- `HERON`: **<u>He</u>lpers for <u>R</u>iver <u>O</u>bservatio<u>n</u>** | [{{< fa brands github >}}](https://github.com/lter/HERON#readme)
 
 <p align="center">
-<img src="images/hex_dndR.png" alt = "hex logo for the dndR R package" width="100" height="110"/> <img src="images/hex_supportR.png" alt = "hex logo for the supportR R package" width="100" height="110"/> <img src="images/hex_lterpalettefinder.png" alt = "hex logo for the lterpalettefinder R package" width="95" height="110"/> <img src="images/hex_scicomptools.png" alt = "hex logo for the scicomptools R package" width="110" height="110"/> <img src="images/hex_HERON.png" alt = "hex logo for the HERON R package" width="95" height="110"/>
+<img src="images/hex_dndR.png" alt = "hex logo for the dndR R package" width="100" height="110"/> <img src="images/hex_supportR.png" alt = "hex logo for the supportR R package" width="100" height="110"/> <img src="images/hex_lterpalettefinder.png" alt = "hex logo for the lterpalettefinder R package" width="95" height="110"/> <img src="images/hex_scicomptools.png" alt = "hex logo for the scicomptools R package" width="110" height="110"/> <img src="images/hex_metajam.png" alt = "hex logo for the metajam R package" width="95" height="110"/> <img src="images/hex_HERON.png" alt = "hex logo for the HERON R package" width="95" height="110"/>
 </p>
 
 ## R / Python Bilingualism
