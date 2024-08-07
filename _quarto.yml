@@ -29,8 +29,6 @@ website:
     right:
       - icon: github
         href: https://github.com/njlyon0
-      - text: CV
-        href: https://github.com/njlyon0/njlyon0.github.io/blob/main/files/LyonCV.pdf
   page-footer:
     center: "Copyright 2024, Nicholas Lyon"
     background: secondary
