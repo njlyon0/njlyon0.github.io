@@ -24,13 +24,13 @@ Note that many of these projects have GitHub repositories but they are set to 'P
 
 ## Published
 
-{{< fa screwdriver-wrench >}} -- Lyon, N.J. & Chen, A. [Announcing `ltertools`: An R Package By and For the LTER Community](https://lternet.edu/stories/announcing-ltertools-an-r-package-by-and-for-the-lter-community/) **2024**. DataBits
+{{< fa screwdriver-wrench >}} -- Lyon, N.J. & Chen, A. [Announcing `ltertools`: An R Package By and For the LTER Community](https://lternet.edu/stories/announcing-ltertools-an-r-package-by-and-for-the-lter-community/). **2024**. DataBits
 
-{{< fa water >}} -- Johnson, K. _et al._ [Establishing Fluvial Silicon Regimes and Their Stability Across the Northern Hemisphere](https://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lol2.10372) **2024**. Limnology and Oceanography Letters
+{{< fa water >}} -- Johnson, K. _et al._ [Establishing Fluvial Silicon Regimes and Their Stability Across the Northern Hemisphere](https://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lol2.10372). **2024**. Limnology and Oceanography Letters
 
-{{< fa seedling >}} -- Herbivory Variability Network. [Plant Size, Latitude, and Phylogeny Explain Within-Population Variability in Herbivory](https://www.science.org/doi/10.1126/science.adh8830) **2023**. Science
+{{< fa seedling >}} -- Herbivory Variability Network. [Plant Size, Latitude, and Phylogeny Explain Within-Population Variability in Herbivory](https://www.science.org/doi/10.1126/science.adh8830). **2023**. Science
 
-{{< fa bug >}} -- Kucuk, R.A. _et al._ [Gut Bacteria of Adult and Larval _Cotinis nitida_ Linnaeus (Coleoptera: Scarabaeidae) Demonstrate Community Differences According to Life Stage and Gut Region](https://www.frontiersin.org/articles/10.3389/fmicb.2023.1185661/full) **2023**. Frontiers in Microbiology - [{{< fa brands github >}}](https://github.com/njlyon0/collab_kucuk-cotinis)
+{{< fa bug >}} -- Kucuk, R.A. _et al._ [Gut Bacteria of Adult and Larval _Cotinis nitida_ Linnaeus (Coleoptera: Scarabaeidae) Demonstrate Community Differences According to Life Stage and Gut Region](https://www.frontiersin.org/articles/10.3389/fmicb.2023.1185661/full). **2023**. Frontiers in Microbiology - [{{< fa brands github >}}](https://github.com/njlyon0/collab_kucuk-cotinis)
 
 {{< fa people-group >}} -- Gaynor, K. _et al._ [Ten Simple Rules to Cultivate Belonging in Collaborative Data Science Research Teams](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010567). **2022**. PLOS Computational Biology
 
