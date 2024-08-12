@@ -14,13 +14,13 @@ Note that many of these projects have GitHub repositories but they are set to 'P
 
 {{< fa tree >}} -- LaMontagne, J. _et al._ Community Synchrony in Seed Production is Associated with Trait Similarity and Climate across North America. *\[In press at Ecology Letters\]* - [{{< fa brands github >}}](https://github.com/lter/lterwg-plant-repro-synchrony)
 
-{{< fa tree >}} -- Nigro, K. _et al._ coMAST: Harmonized Seed Production Data for Woody Plants across U.S. Long Term Research Sites. *\[In revision at Ecology\]* - [{{< fa brands github >}}](https://github.com/knigro83/LTER_plant_reproduction)
+{{< fa water >}} -- Johnson, K. _et al._ Climate, Hydrology, and Nutrients Control the Seasonality of Si Concentrations in Rivers. *\[In press at Journal of Geophysical Research: Biogeosciences\]*
 
-{{< fa water >}} -- Johnson, K. _et al._ Climate, Hydrology, and Nutrients Control the Seasonality of Si Concentrations in Rivers. *\[In review at Journal of Geophysical Research: Biogeosciences\]*
+{{< fa tree >}} -- Nigro, K. _et al._ coMAST: Harmonized Seed Production Data for Woody Plants across U.S. Long Term Research Sites. *\[In revision at Ecology\]* - [{{< fa brands github >}}](https://github.com/knigro83/LTER_plant_reproduction)
 
 {{< fa screwdriver-wrench >}} -- Brun, J. _et al._ Enabling Data-Driven Collaborative and Reproducible Environmental Synthesis Science. *\[In prep\]*
 
-{{< fa seedling >}} {{< fa cow >}} -- Moranz, R., Lyon, N.J. and Debinski, D.M. Response of Butterfly Milkweed (*Ascelpias tuberosa*) to Cattle Grazing. *\[In prep\]*
+{{< fa seedling >}} {{< fa cow >}} -- Moranz, R. _et al._ Response of Butterfly Milkweed (*Ascelpias tuberosa*) to Cattle Grazing. *\[In prep\]*
 
 ## Published
 
