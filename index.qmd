@@ -9,7 +9,7 @@ about:
     - href: https://github.com/njlyon0
       text: GitHub
       icon: github
-    - href: https://github.com/njlyon0/njlyon0.github.io/blob/main/files/LyonResume.pdf
+    - href: https://github.com/njlyon0/njlyon0.github.io/blob/main/files/lyon-resume.pdf
       text: Resume
       icon: journal-bookmark-fill
     - href: https://www.linkedin.com/in/nicholasjlyon
