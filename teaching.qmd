@@ -26,8 +26,8 @@ Note that these workshops were designed to be offered repeatedly to different au
 
 {{< fa people-group >}} {{< fa screwdriver-wrench >}} -- **[Ecological Data Synthesis: A Primer on Essential Methods](https://lter.github.io/eco-data-synth-primer/)** - [{{< fa brands github >}}](https://github.com/lter/eco-data-synth-primer)
 
-{{< fa screwdriver-wrench >}} -- **[Collaborative Coding with GitHub](https://nceas.github.io/scicomp-workshop-collaborative-coding/)** - [{{< fa brands github >}}](https://github.com/NCEAS/scicomp-workshop-collaborative-coding)
+{{< fa screwdriver-wrench >}} -- **[Collaborative Coding with GitHub](https://lter.github.io/workshop-github/)** - [{{< fa brands github >}}](https://github.com/lter/workshop-github)
 
 {{< fa screwdriver-wrench >}} -- **[Sharing Science with R Shiny Apps](https://njlyon0.github.io/asm-2022_shiny-workshop/)** - [{{< fa brands github >}}](https://github.com/njlyon0/asm-2022_shiny-workshop)
 
-{{< fa screwdriver-wrench >}} -- **[Coding with the Tidyverse](https://nceas.github.io/scicomp-workshop-tidyverse/)** - [{{< fa brands github >}}](https://github.com/NCEAS/scicomp-workshop-tidyverse)
+{{< fa screwdriver-wrench >}} -- **[Coding with the Tidyverse](https://lter.github.io/workshop-tidyverse/)** - [{{< fa brands github >}}](https://github.com/lter/workshop-tidyverse)
