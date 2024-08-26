@@ -34,10 +34,10 @@ $link-color: $blue-2; // hyperlinks
 
 // Inline code
 $code-bg: $gray-0; // inline code background color
-$code-color: $blue-3; // inline code text color
+$code-color: $gray-3; // inline code text color
 
 // Code blocks
-$code-block-bg: $blue-2; // code block background color
+$code-block-bg: $gray-0; // code block background color
 
 /*-- scss:rules --*/
 
@@ -56,9 +56,3 @@ pre code:not(.sourceCode) { background-color: $blue-1; }
   --bs-dropdown-link-hover-color: #F4F3EE;
   --bs-dropdown-link-hover-bg: #01BAEF;
 }
-
-// Code language semantic text colors
-.r { color: $orange-3; }
-.py { color: $blue-3; }
-.sql { color: $blue-4; }
-.cli {color: $orange-4; }
