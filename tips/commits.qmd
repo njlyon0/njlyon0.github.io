@@ -22,17 +22,17 @@ I'm doing my best to be consistent in using this system going forward but [this 
 
 ## Available 'Types'
 
-For reference, here's the full list of official 'types' (and one bonus one I use sometimes).
+For reference, here's the full list of official 'types' (and one <span style="color:#FF9B00">bonus</span> that I use sometimes). Note that I added fun symbols for each type that are _not_ official.
 
-| Type | Description |
-|:---:|:-----------------------------------------------|
-| `build` | Changes that affect the build system or external dependencies (e.g., Quarto extensions, etc.) |
-| `ci` | Changes to continuous integration ("CI") files and scripts (e.g., GitHub Actions, etc.) |
-| `dev` | **<span style="color:#FF9B00">This is my un-official addition</span>!** Changes to files that are not a 'real' part of the build (e.g., exploratory changes) but ones where I may want to "roll back" future changes to this point |
-| `docs` | Documentation only changes |
-| `feat` | A new feature |
-| `fix` | A bug fix |
-| `perf` | A code change that affects performance |
-| `refactor` | A code change that neither fixes a bug nor adds a feature. Used when the output of the code is unchanged but the _way in which that output is reached_ has changed |
-| `style` | Changes that do not affect the meaning of the code (e.g., white space, formatting, etc.) |
-| `test` | Adding missing tests or correcting / adding to existing tests |
+| Type | Symbol | Description |
+|:-----:|:---:|:-----------------------------------------------|
+| `build` | {{< fa trowel-bricks >}} | Changes that affect the build system or external dependencies (e.g., Quarto extensions, etc. |
+| `ci` | {{< fa infinity >}} | Changes to continuous integration ("CI") files and scripts (e.g., GitHub Actions, etc. |
+| `dev` | {{< fa compass >}} | **<span style="color:#FF9B00">This is my un-official addition</span>!** Changes to files that are not a 'real' part of the build (e.g., exploratory changes) but ones where I may want to "roll back" future changes to this point |
+| `docs` | {{< fa book >}} | Documentation only changes |
+| `feat` | {{< fa star >}} | A new feature |
+| `fix` | {{< fa bandage >}} | A bug fix |
+| `perf` | {{< fa gauge-high >}} | A code change that affects performance |
+| `refactor` | {{< fa recycle >}} | A code change that neither fixes a bug nor adds a feature. Used when the output of the code is unchanged but the _way in which that output is reached_ has changed |
+| `style` | {{< fa brush >}} | Changes that do not affect the meaning of the code (e.g., white space, formatting, etc. |
+| `test` | {{< fa flask-vial >}} | Adding missing tests or correcting / adding to existing tests |
