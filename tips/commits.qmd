@@ -1,0 +1,38 @@
+---
+title: "Conventional Commits"
+---
+
+I use Git to preserve the history of files in the _vast_ majority of my projects but I am largely self-taught and thus feel like I periodically stumble onto fabulous features I didn't know existed. For example, I was recently introduced to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) which is a system for making more informative commit messages in version control systems.
+
+I've long appreciated that "update" is not an ideal commit message but it can be hard to know which files should be staged into a commit or how much rambling information is useful in the long term. I've really enjoyed using this system to formalize both the **frequency** of my commits and the **content** of the associated messages.
+
+## Explanation
+
+A conventional commit is one that uses one of the allowed "types" followed by a colon and then a short description of the specific content of that commit. As an example, your commit might look like:
+
+```
+feat: adding code tips to website
+```
+
+Making sure a commit fits only a single 'type' (and that all of the changes for a particular 'type' are in the _same_ commit) has been a really useful scaffold for me. If it's a breaking change you put a `!` after the 'type' but before the `:`.
+
+### Example
+
+I'm doing my best to be consistent in using this system going forward but [this {{< fa brands github >}} GitHub repository](https://github.com/lter/scicomp/commits/main/) is one good example of my approach to this method.
+
+## Available 'Types'
+
+For reference, here's the full list of official 'types' (and one bonus one I use sometimes).
+
+| Type | Description |
+|:---:|:-----------------------------------------------|
+| `build` | Changes that affect the build system or external dependencies (e.g., Quarto extensions, etc.) |
+| `ci` | Changes to continuous integration ("CI") files and scripts (e.g., GitHub Actions, etc.) |
+| `dev` | **<span style="color:#FF9B00">This is my un-official addition</span>!** Changes to files that are not a 'real' part of the build (e.g., exploratory changes) but ones where I may want to "roll back" future changes to this point |
+| `docs` | Documentation only changes |
+| `feat` | A new feature |
+| `fix` | A bug fix |
+| `perf` | A code change that affects performance |
+| `refactor` | A code change that neither fixes a bug nor adds a feature. Used when the output of the code is unchanged but the _way in which that output is reached_ has changed |
+| `style` | Changes that do not affect the meaning of the code (e.g., white space, formatting, etc.) |
+| `test` | Adding missing tests or correcting / adding to existing tests |

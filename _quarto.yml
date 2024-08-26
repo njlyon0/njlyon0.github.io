@@ -18,6 +18,10 @@ website:
         href: index.qmd
       - text: "Software"
         href: software.qmd
+      - text: "Code Tips"
+        menu:
+          - text: "Commits"
+            href: tips/commits.qmd
       - text: "Teaching"
         href: teaching.qmd
       - text: "Papers"
