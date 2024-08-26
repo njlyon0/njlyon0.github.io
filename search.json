@@ -14,6 +14,90 @@
     "text": "My name is Nick Lyon (they / them) and I am an early career data scientist with experience managing and analyzing scientific data in a range of formats. I’m also a passionate educator (certified as an instructor by The Carpentries) and thoroughly enjoy chances to teach and learn with audiences of all levels of prior experience. I firmly believe in transparency in data management and am an avid Git/GitHub user. Check out my  GitHub profile for examples of my work!\n\n\n Coding –  Ecology –  Reading –  Photography –  Teaching –  Dungeons & Dragons –  Botany –  Birding"
   },
   {
+    "objectID": "pubs.html",
+    "href": "pubs.html",
+    "title": "Papers",
+    "section": "",
+    "text": "I have had several opportunities to publish scientific papers both as a lead author and as a member of a larger scientific team. Here are some of the highlights of that record. If any of these links are behind a paywall for you, simply reach out to me and I’ll work to get you a PDF. The icons to the left of the titles (e.g., ) are intended to help roughly group content by their topic."
+  },
+  {
+    "objectID": "pubs.html#not-yet-published",
+    "href": "pubs.html#not-yet-published",
+    "title": "Papers",
+    "section": "Not (Yet!) Published",
+    "text": "Not (Yet!) Published\nNote that many of these projects have GitHub repositories but they are set to ‘Private’ until publication. If you would like to use the code in one of these repos, just reach out and we can discuss adding you to the repositories before the papers are published.\n – LaMontagne, J. et al. Community Synchrony in Seed Production is Associated with Trait Similarity and Climate across North America. [In press at Ecology Letters] - \n – Johnson, K. et al. Climate, Hydrology, and Nutrients Control the Seasonality of Si Concentrations in Rivers. [In press at Journal of Geophysical Research: Biogeosciences]\n – Nigro, K. et al. coMAST: Harmonized Seed Production Data for Woody Plants across U.S. Long Term Research Sites. [In revision at Ecology] - \n – Brun, J. et al. Enabling Data-Driven Collaborative and Reproducible Environmental Synthesis Science. [In prep]\n  – Moranz, R. et al. Response of Butterfly Milkweed (Ascelpias tuberosa) to Cattle Grazing. [In prep]"
+  },
+  {
+    "objectID": "pubs.html#published",
+    "href": "pubs.html#published",
+    "title": "Papers",
+    "section": "Published",
+    "text": "Published\n – Lyon, N.J. & Chen, A. Announcing ltertools: An R Package By and For the LTER Community. 2024. DataBits\n – Johnson, K. et al. Establishing Fluvial Silicon Regimes and Their Stability Across the Northern Hemisphere. 2024. Limnology and Oceanography Letters\n – Herbivory Variability Network. Plant Size, Latitude, and Phylogeny Explain Within-Population Variability in Herbivory. 2023. Science\n – Kucuk, R.A. et al. Gut Bacteria of Adult and Larval Cotinis nitida Linnaeus (Coleoptera: Scarabaeidae) Demonstrate Community Differences According to Life Stage and Gut Region. 2023. Frontiers in Microbiology - \n – Gaynor, K. et al. Ten Simple Rules to Cultivate Belonging in Collaborative Data Science Research Teams. 2022. PLOS Computational Biology\n  – Coon, J.J. et al. Using Adaptive Management to Restore Grasslands Invaded by Tall Fescue (Schedonorus arundinaceus). 76. 2021. Rangeland Ecology and Management - \n  – Lyon, N.J. et al. Responses of Flowering Plant and Butterfly Communities to Experimental Herbicide and Seeding Treatments for Native Grassland Restoration. 3. 2021. Ecological Restoration - \n  – Lyon, N.J. et al. An Integrated Approach to Restoring Grassland Function to Working Lands. 2019. Master of Science Thesis\n – Lyon, N.J., Debinski, D.M., and Rangwala, I. Evaluating the Utility of Species Distribution Models in Informing Climate Change-Resilient Grassland Restoration Strategy. 7. 2019 Frontiers in Ecology and Evolution - \n – Lyon, N.J. & Hodum, P. Mytilus Mussels as Bio-indicators of Regional Microplastic Trends. 2015. University of Puget Sound Undergraduate Thesis"
+  },
+  {
+    "objectID": "consult.html",
+    "href": "consult.html",
+    "title": "Consulting",
+    "section": "",
+    "text": "I have increasingly been leveraging my expertise as a consultant and am happy to discuss possible future opportunities to work with your team! Please feel free to explore the rest of this website and my  GitHub profile for examples of my data science skills and send me an email (see the “Email” button of my homepage) if you’d like to get more information.\nI am a certified instructor with The Carpentries so I have formal training in coding pedagogy and am happy to do such tutoring as a consultant if that is of interest."
+  },
+  {
+    "objectID": "consult.html#rates",
+    "href": "consult.html#rates",
+    "title": "Consulting",
+    "section": "Rates",
+    "text": "Rates\nMy typical rates are as follows:\n\n\n\nJob Category\nRate\n\n\n\n\nNon-Academic\n$75 / hour\n\n\nAcademic\n$50 / hour\n\n\nGraduate Student\nAuthorship on Publication(s)\n\n\nRush Job (&lt; 72 hours)\n$250 minimum\n\n\n\nDepending on the scope of the job we can absolutely discuss deviations from this framework!"
+  },
+  {
+    "objectID": "consult.html#past-consulting-work",
+    "href": "consult.html#past-consulting-work",
+    "title": "Consulting",
+    "section": "Past Consulting Work",
+    "text": "Past Consulting Work\nThe nature of consulting is that products of the work are not always publicly-available but I am happy to discuss (within the confines of relevant non-disclosure agreements) the type of work I’ve done with researchers at the following organizations:"
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "I love chatting about science and data management and leap at the opportunity to present in public-facing contexts. Here is a breakdown of some of the lectures and conference-style talks I have given. The icons to the left of the titles (e.g., ) are intended to help roughly group content by their topic."
+  },
+  {
+    "objectID": "talks.html#lectures",
+    "href": "talks.html#lectures",
+    "title": "Presentations",
+    "section": "Lectures",
+    "text": "Lectures\n – Lyon, N.J. Introduction to Statistics and R in Ecology Research. 2020. Insect Ecology (ENT 4520/6520), Clemson University. Clemson SC.\n – Lyon, N.J. Plotting with ggplot2. 2019. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.\n – Lyon, N.J. Choosing the “Right” Statistical Test. 2019. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.\n – Lyon, N.J. Multivariate Statistics in R. 2018. Data Management and Analysis in R for Ecologists and Evolutionary Biologists (EEB 698) -  Lecture slides"
+  },
+  {
+    "objectID": "talks.html#conference-style-presentations",
+    "href": "talks.html#conference-style-presentations",
+    "title": "Presentations",
+    "section": "Conference-Style Presentations",
+    "text": "Conference-Style Presentations\n  – Lyon, N.J. From Ecologist to Data Scientist. Biology Department Seminar. Stonehill College, Easton MA, September 2023\n – Lyon, N.J. and Vargas, C. Data Quality Control Using R. Santa Barbara R Users Group, June 2022 - \n  – Lyon, N.J. and Debinski, D.M. Evaluating the Effects of Eleven Years of Consistent Restoration Management. Ecological Society of America, Louisville KY, August 2019\n  – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. Native Plant and Pollinator Response to Management with Fire and Grazing. Ecological Society of America, New Orleans LA, August 2018\n  – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. Plant and Pollinator Response to Adaptive Management. Graduate and Professional Student Research Conference, Ames IA, April 2018. Awarded Best Oral Presentation.\n  – Lyon, N.J., Debinski, D.M. Butterfly and Nectar-Producing Plant Response to Invasive Grass Management. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February 2018 - \n   – Lyon, N.J. An Integrated Approach to Tallgrass Prairie Restoration. Three-Minute Thesis, Ames IA, January 2018\n – Lyon, N. J., Debinski, D.M., and Rangwala, I. Species Distribution Modeling to Predict Prairie Restoration Success under Climate Change. Ecological Society of America, Portland OR, August 2017 - \n – Lyon, N.J. Predicted Response of Native Grassland Plants to Climate Change. Ten Years of Research in the Grand River Grasslands Symposium, Lamoni IA, June 2017 - \n   – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W., and Stein, D. Grazing, Burning, and Butterflies. Iowa Urban Tree Council, Des Moines IA, April 2017\n   – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. and Stein, D. Adaptive Management for Prairie Plants and Pollinators in Midwestern Working Landscapes. Iowa Invasive Species Conference, Moravia IA, March 2017\n – Lyon, N.J. Incorporating Correlative Modeling into Modifying Restoration Strategies for the Future. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February 2017 - \n – Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Air and Waste Management Student Challenge, Portland OR, April 2016. Awarded Best Presentation\n – Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Phi Sigma Research Symposium, University of Puget Sound, April 2016\n – Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Murdock College Science Research Conference, Vancouver WA (Hilton Vancouver), November 2015\n – Lyon N. Mussels as Samplers of Regional Microplastic Contamination Trends. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September 2015\n – Lyon, N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Oral presentation. Phi Sigma Research Symposium, University of Puget Sound, April 2015\n – Lyon N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September 2014\n – Lyon, N. Plastic Contamination in Marine Environments. Oral presentation. Honors Research Symposium, Seattle University, October 2014"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Courses & Workshops",
+    "section": "",
+    "text": "I’m a deeply enthusiastic person generally and one of the things that brings me the most joy is teaching and learning with others. As such, I have repeatedly sought out opportunities to teach in contexts ranging from hour-long workshops all the way to year-long courses. See a list of those below along with–where applicable–additional resources."
+  },
+  {
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "Courses & Workshops",
+    "section": "Courses",
+    "text": "Courses\n  – Instructor - Synthesis Skills for Early Career Researchers (SSECR), 2024-2025, Long Term Ecological Research Network Office, Santa Barbara, CA - \n – Adjunct Faculty - Programming in R for Biologists (BIO 316), Summer 2023 & Summer 2024, Stonehill College, Easton, MA - \n – Teaching Assistant - Principles of Biology Lab (BIO 1108L), Spring 2021, University of Georgia. Athens, GA\n – Teaching Assistant - Concepts in Biology Lab (BIO 1103L), Fall 2020, University of Georgia. Athens, GA\n  – Teaching Assistant - Ecology Lab (BIO 312L), Fall 2018, Iowa State University. Ames, IA"
+  },
+  {
+    "objectID": "teaching.html#workshops",
+    "href": "teaching.html#workshops",
+    "title": "Courses & Workshops",
+    "section": "Workshops",
+    "text": "Workshops\nNote that these workshops were designed to be offered repeatedly to different audiences. As such, while each of these workshops is only identified once I have been part of the teaching team for all of them many times. All resources are “living” so that participants from earlier iterations of a given workshop find the most up-to-date version of the materials when they revisit their old bookmarks.\n  – Ecological Data Synthesis: A Primer on Essential Methods - \n – Collaborative Coding with GitHub - \n – Sharing Science with R Shiny Apps - \n – Coding with the Tidyverse -"
+  },
+  {
     "objectID": "software.html",
     "href": "software.html",
     "title": "Software",
@@ -42,87 +126,24 @@
     "text": "R / Python Bilingualism\nWhile I am primarily an  R coder, I definitely recognize that other languages can be extremely valuable! To make sure that I’m well-rounded I’ve made some strong efforts to self-teach  Python and document that process in ways that may be useful to others interested in making a similar leap. First and foremost of these efforts is my stab at a ‘bilingualism’ website for R & Python. This site demonstrates a range of increasingly complex operations and how they are accomplished in both languages.\nI’m constantly improving on that website and have comprehensive contributing guidelines to make it easier for others to collaborate with me on maximizing the value of this resource. You can also check out the  GitHub repository for the website here."
   },
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Courses & Workshops",
+    "objectID": "tips/commits.html",
+    "href": "tips/commits.html",
+    "title": "Conventional Commits",
     "section": "",
-    "text": "I’m a deeply enthusiastic person generally and one of the things that brings me the most joy is teaching and learning with others. As such, I have repeatedly sought out opportunities to teach in contexts ranging from hour-long workshops all the way to year-long courses. See a list of those below along with–where applicable–additional resources."
+    "text": "I use Git to preserve the history of files in the vast majority of my projects but I am largely self-taught and thus feel like I periodically stumble onto fabulous features I didn’t know existed. For example, I was recently introduced to Conventional Commits which is a system for making more informative commit messages in version control systems.\nI’ve long appreciated that “update” is not an ideal commit message but it can be hard to know which files should be staged into a commit or how much rambling information is useful in the long term. I’ve really enjoyed using this system to formalize both the frequency of my commits and the content of the associated messages."
   },
   {
-    "objectID": "teaching.html#courses",
-    "href": "teaching.html#courses",
-    "title": "Courses & Workshops",
-    "section": "Courses",
-    "text": "Courses\n  – Instructor - Synthesis Skills for Early Career Researchers (SSECR), 2024-2025, Long Term Ecological Research Network Office, Santa Barbara, CA - \n – Adjunct Faculty - Programming in R for Biologists (BIO 316), Summer 2023 & Summer 2024, Stonehill College, Easton, MA - \n – Teaching Assistant - Principles of Biology Lab (BIO 1108L), Spring 2021, University of Georgia. Athens, GA\n – Teaching Assistant - Concepts in Biology Lab (BIO 1103L), Fall 2020, University of Georgia. Athens, GA\n  – Teaching Assistant - Ecology Lab (BIO 312L), Fall 2018, Iowa State University. Ames, IA"
+    "objectID": "tips/commits.html#explanation",
+    "href": "tips/commits.html#explanation",
+    "title": "Conventional Commits",
+    "section": "Explanation",
+    "text": "Explanation\nA conventional commit is one that uses one of the allowed “types” followed by a colon and then a short description of the specific content of that commit. As an example, your commit might look like:\nfeat: adding code tips to website\nMaking sure a commit fits only a single ‘type’ (and that all of the changes for a particular ‘type’ are in the same commit) has been a really useful scaffold for me. If it’s a breaking change you put a ! after the ‘type’ but before the :.\n\nExample\nI’m doing my best to be consistent in using this system going forward but this  GitHub repository is one good example of my approach to this method."
   },
   {
-    "objectID": "teaching.html#workshops",
-    "href": "teaching.html#workshops",
-    "title": "Courses & Workshops",
-    "section": "Workshops",
-    "text": "Workshops\nNote that these workshops were designed to be offered repeatedly to different audiences. As such, while each of these workshops is only identified once I have been part of the teaching team for all of them many times. All resources are “living” so that participants from earlier iterations of a given workshop find the most up-to-date version of the materials when they revisit their old bookmarks.\n  – Ecological Data Synthesis: A Primer on Essential Methods - \n – Collaborative Coding with GitHub - \n – Sharing Science with R Shiny Apps - \n – Coding with the Tidyverse -"
-  },
-  {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "Presentations",
-    "section": "",
-    "text": "I love chatting about science and data management and leap at the opportunity to present in public-facing contexts. Here is a breakdown of some of the lectures and conference-style talks I have given. The icons to the left of the titles (e.g., ) are intended to help roughly group content by their topic."
-  },
-  {
-    "objectID": "talks.html#lectures",
-    "href": "talks.html#lectures",
-    "title": "Presentations",
-    "section": "Lectures",
-    "text": "Lectures\n – Lyon, N.J. Introduction to Statistics and R in Ecology Research. 2020. Insect Ecology (ENT 4520/6520), Clemson University. Clemson SC.\n – Lyon, N.J. Plotting with ggplot2. 2019. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.\n – Lyon, N.J. Choosing the “Right” Statistical Test. 2019. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.\n – Lyon, N.J. Multivariate Statistics in R. 2018. Data Management and Analysis in R for Ecologists and Evolutionary Biologists (EEB 698) -  Lecture slides"
-  },
-  {
-    "objectID": "talks.html#conference-style-presentations",
-    "href": "talks.html#conference-style-presentations",
-    "title": "Presentations",
-    "section": "Conference-Style Presentations",
-    "text": "Conference-Style Presentations\n  – Lyon, N.J. From Ecologist to Data Scientist. Biology Department Seminar. Stonehill College, Easton MA, September 2023\n – Lyon, N.J. and Vargas, C. Data Quality Control Using R. Santa Barbara R Users Group, June 2022 - \n  – Lyon, N.J. and Debinski, D.M. Evaluating the Effects of Eleven Years of Consistent Restoration Management. Ecological Society of America, Louisville KY, August 2019\n  – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. Native Plant and Pollinator Response to Management with Fire and Grazing. Ecological Society of America, New Orleans LA, August 2018\n  – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. Plant and Pollinator Response to Adaptive Management. Graduate and Professional Student Research Conference, Ames IA, April 2018. Awarded Best Oral Presentation.\n  – Lyon, N.J., Debinski, D.M. Butterfly and Nectar-Producing Plant Response to Invasive Grass Management. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February 2018 - \n   – Lyon, N.J. An Integrated Approach to Tallgrass Prairie Restoration. Three-Minute Thesis, Ames IA, January 2018\n – Lyon, N. J., Debinski, D.M., and Rangwala, I. Species Distribution Modeling to Predict Prairie Restoration Success under Climate Change. Ecological Society of America, Portland OR, August 2017 - \n – Lyon, N.J. Predicted Response of Native Grassland Plants to Climate Change. Ten Years of Research in the Grand River Grasslands Symposium, Lamoni IA, June 2017 - \n   – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W., and Stein, D. Grazing, Burning, and Butterflies. Iowa Urban Tree Council, Des Moines IA, April 2017\n   – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. and Stein, D. Adaptive Management for Prairie Plants and Pollinators in Midwestern Working Landscapes. Iowa Invasive Species Conference, Moravia IA, March 2017\n – Lyon, N.J. Incorporating Correlative Modeling into Modifying Restoration Strategies for the Future. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February 2017 - \n – Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Air and Waste Management Student Challenge, Portland OR, April 2016. Awarded Best Presentation\n – Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Phi Sigma Research Symposium, University of Puget Sound, April 2016\n – Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Murdock College Science Research Conference, Vancouver WA (Hilton Vancouver), November 2015\n – Lyon N. Mussels as Samplers of Regional Microplastic Contamination Trends. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September 2015\n – Lyon, N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Oral presentation. Phi Sigma Research Symposium, University of Puget Sound, April 2015\n – Lyon N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September 2014\n – Lyon, N. Plastic Contamination in Marine Environments. Oral presentation. Honors Research Symposium, Seattle University, October 2014"
-  },
-  {
-    "objectID": "consult.html",
-    "href": "consult.html",
-    "title": "Consulting",
-    "section": "",
-    "text": "I have increasingly been leveraging my expertise as a consultant and am happy to discuss possible future opportunities to work with your team! Please feel free to explore the rest of this website and my  GitHub profile for examples of my data science skills and send me an email (see the “Email” button of my homepage) if you’d like to get more information.\nI am a certified instructor with The Carpentries so I have formal training in coding pedagogy and am happy to do such tutoring as a consultant if that is of interest."
-  },
-  {
-    "objectID": "consult.html#rates",
-    "href": "consult.html#rates",
-    "title": "Consulting",
-    "section": "Rates",
-    "text": "Rates\nMy typical rates are as follows:\n\n\n\nJob Category\nRate\n\n\n\n\nNon-Academic\n$75 / hour\n\n\nAcademic\n$50 / hour\n\n\nGraduate Student\nAuthorship on Publication(s)\n\n\nRush Job (&lt; 72 hours)\n$250 minimum\n\n\n\nDepending on the scope of the job we can absolutely discuss deviations from this framework!"
-  },
-  {
-    "objectID": "consult.html#past-consulting-work",
-    "href": "consult.html#past-consulting-work",
-    "title": "Consulting",
-    "section": "Past Consulting Work",
-    "text": "Past Consulting Work\nThe nature of consulting is that products of the work are not always publicly-available but I am happy to discuss (within the confines of relevant non-disclosure agreements) the type of work I’ve done with researchers at the following organizations:"
-  },
-  {
-    "objectID": "pubs.html",
-    "href": "pubs.html",
-    "title": "Papers",
-    "section": "",
-    "text": "I have had several opportunities to publish scientific papers both as a lead author and as a member of a larger scientific team. Here are some of the highlights of that record. If any of these links are behind a paywall for you, simply reach out to me and I’ll work to get you a PDF. The icons to the left of the titles (e.g., ) are intended to help roughly group content by their topic."
-  },
-  {
-    "objectID": "pubs.html#not-yet-published",
-    "href": "pubs.html#not-yet-published",
-    "title": "Papers",
-    "section": "Not (Yet!) Published",
-    "text": "Not (Yet!) Published\nNote that many of these projects have GitHub repositories but they are set to ‘Private’ until publication. If you would like to use the code in one of these repos, just reach out and we can discuss adding you to the repositories before the papers are published.\n – LaMontagne, J. et al. Community Synchrony in Seed Production is Associated with Trait Similarity and Climate across North America. [In press at Ecology Letters] - \n – Johnson, K. et al. Climate, Hydrology, and Nutrients Control the Seasonality of Si Concentrations in Rivers. [In press at Journal of Geophysical Research: Biogeosciences]\n – Nigro, K. et al. coMAST: Harmonized Seed Production Data for Woody Plants across U.S. Long Term Research Sites. [In revision at Ecology] - \n – Brun, J. et al. Enabling Data-Driven Collaborative and Reproducible Environmental Synthesis Science. [In prep]\n  – Moranz, R. et al. Response of Butterfly Milkweed (Ascelpias tuberosa) to Cattle Grazing. [In prep]"
-  },
-  {
-    "objectID": "pubs.html#published",
-    "href": "pubs.html#published",
-    "title": "Papers",
-    "section": "Published",
-    "text": "Published\n – Lyon, N.J. & Chen, A. Announcing ltertools: An R Package By and For the LTER Community. 2024. DataBits\n – Johnson, K. et al. Establishing Fluvial Silicon Regimes and Their Stability Across the Northern Hemisphere. 2024. Limnology and Oceanography Letters\n – Herbivory Variability Network. Plant Size, Latitude, and Phylogeny Explain Within-Population Variability in Herbivory. 2023. Science\n – Kucuk, R.A. et al. Gut Bacteria of Adult and Larval Cotinis nitida Linnaeus (Coleoptera: Scarabaeidae) Demonstrate Community Differences According to Life Stage and Gut Region. 2023. Frontiers in Microbiology - \n – Gaynor, K. et al. Ten Simple Rules to Cultivate Belonging in Collaborative Data Science Research Teams. 2022. PLOS Computational Biology\n  – Coon, J.J. et al. Using Adaptive Management to Restore Grasslands Invaded by Tall Fescue (Schedonorus arundinaceus). 76. 2021. Rangeland Ecology and Management - \n  – Lyon, N.J. et al. Responses of Flowering Plant and Butterfly Communities to Experimental Herbicide and Seeding Treatments for Native Grassland Restoration. 3. 2021. Ecological Restoration - \n  – Lyon, N.J. et al. An Integrated Approach to Restoring Grassland Function to Working Lands. 2019. Master of Science Thesis\n – Lyon, N.J., Debinski, D.M., and Rangwala, I. Evaluating the Utility of Species Distribution Models in Informing Climate Change-Resilient Grassland Restoration Strategy. 7. 2019 Frontiers in Ecology and Evolution - \n – Lyon, N.J. & Hodum, P. Mytilus Mussels as Bio-indicators of Regional Microplastic Trends. 2015. University of Puget Sound Undergraduate Thesis"
+    "objectID": "tips/commits.html#available-types",
+    "href": "tips/commits.html#available-types",
+    "title": "Conventional Commits",
+    "section": "Available ‘Types’",
+    "text": "Available ‘Types’\nFor reference, here’s the full list of official ‘types’ (and one bonus that I use sometimes). Note that I added fun symbols for each type that are not official.\n\n\n\n\n\n\n\n\nType\nSymbol\nDescription\n\n\n\n\nbuild\n\nChanges that affect the build system or external dependencies (e.g., Quarto extensions, etc.\n\n\nci\n\nChanges to continuous integration (“CI”) files and scripts (e.g., GitHub Actions, etc.\n\n\ndev\n\nThis is my un-official addition! Changes to files that are not a ‘real’ part of the build (e.g., exploratory changes) but ones where I may want to “roll back” future changes to this point\n\n\ndocs\n\nDocumentation only changes\n\n\nfeat\n\nA new feature\n\n\nfix\n\nA bug fix\n\n\nperf\n\nA code change that affects performance\n\n\nrefactor\n\nA code change that neither fixes a bug nor adds a feature. Used when the output of the code is unchanged but the way in which that output is reached has changed\n\n\nstyle\n\nChanges that do not affect the meaning of the code (e.g., white space, formatting, etc.\n\n\ntest\n\nAdding missing tests or correcting / adding to existing tests"
   }
 ]
