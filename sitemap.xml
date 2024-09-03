@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://njlyon0.github.io/index.html</loc>
-    <lastmod>2024-08-26T20:17:25.202Z</lastmod>
-  </url>
-  <url>
     <loc>https://njlyon0.github.io/pubs.html</loc>
-    <lastmod>2024-08-26T20:17:25.202Z</lastmod>
+    <lastmod>2024-09-03T17:09:24.212Z</lastmod>
   </url>
   <url>
-    <loc>https://njlyon0.github.io/consult.html</loc>
-    <lastmod>2024-08-26T20:17:25.130Z</lastmod>
-  </url>
-  <url>
-    <loc>https://njlyon0.github.io/talks.html</loc>
-    <lastmod>2024-08-26T20:17:25.202Z</lastmod>
-  </url>
-  <url>
-    <loc>https://njlyon0.github.io/teaching.html</loc>
-    <lastmod>2024-08-26T20:17:25.202Z</lastmod>
-  </url>
-  <url>
-    <loc>https://njlyon0.github.io/software.html</loc>
-    <lastmod>2024-08-26T20:17:25.202Z</lastmod>
+    <loc>https://njlyon0.github.io/index.html</loc>
+    <lastmod>2024-09-03T17:09:24.212Z</lastmod>
   </url>
   <url>
     <loc>https://njlyon0.github.io/tips/commits.html</loc>
-    <lastmod>2024-08-26T20:17:25.202Z</lastmod>
+    <lastmod>2024-09-03T17:09:24.212Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njlyon0.github.io/teaching.html</loc>
+    <lastmod>2024-09-03T17:09:24.212Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njlyon0.github.io/talks.html</loc>
+    <lastmod>2024-09-03T17:09:24.212Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njlyon0.github.io/software.html</loc>
+    <lastmod>2024-09-03T17:09:24.212Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njlyon0.github.io/consult.html</loc>
+    <lastmod>2024-09-03T17:09:24.140Z</lastmod>
   </url>
 </urlset>
