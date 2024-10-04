@@ -26,13 +26,13 @@ For reference, here's the full list of official 'types' (and one <span style="co
 
 | Type | Symbol | Description |
 |:-----:|:---:|:-----------------------------------------------|
-| `build` | {{< fa trowel-bricks >}} | Changes that affect the build system or external dependencies (e.g., Quarto extensions, etc. |
-| `ci` | {{< fa infinity >}} | Changes to continuous integration ("CI") files and scripts (e.g., GitHub Actions, etc. |
-| `dev` | {{< fa hammer >}} | **<span style="color:#FF9B00">This is my un-official addition</span>!** Changes to files that are not a 'real' part of the build (e.g., exploratory changes) but ones where I may want to "roll back" future changes to this point |
-| `docs` | {{< fa book >}} | Documentation only changes |
-| `feat` | {{< fa star >}} | A new feature |
-| `fix` | {{< fa bandage >}} | A bug fix |
-| `perf` | {{< fa gauge-high >}} | A code change that affects performance |
-| `refactor` | {{< fa recycle >}} | A code change that neither fixes a bug nor adds a feature. Used when the output of the code is unchanged but the _way in which that output is reached_ has changed |
-| `style` | {{< fa palette >}} | Changes that do not affect the meaning of the code (e.g., white space, formatting, etc. |
-| `test` | {{< fa flask-vial >}} | Adding missing tests or correcting / adding to existing tests |
+| `build` | {{< fa trowel-bricks >}} | Changes that affect the build system or external dependencies (e.g., Quarto extensions, etc.) |
+| `ci` | {{< fa infinity >}} | Changes that affect <u>c</u>ontinuous <u>i</u>ntegration ("CI") operations (e.g., GitHub Actions, etc.) |
+| `dev` | {{< fa hammer >}} | Changes that are experimental but that you may want to revisit in the future. **<span style="color:#FF9B00">This is my un-official addition</span>!** |
+| `docs` | {{< fa book >}} | Changes to documentation |
+| `feat` | {{< fa star >}} | Changes that introduce a new feature |
+| `fix` | {{< fa bandage >}} | Changes that fix a bug |
+| `perf` | {{< fa gauge-high >}} | Changes that affect (improve) performance |
+| `refactor` | {{< fa recycle >}} | Changes that neither fix a bug nor add a feature. Used when the output of the code is unchanged but the _way in which that output is reached_ has changed |
+| `style` | {{< fa palette >}} | Changes that do not affect the meaning of the code (e.g., white space, formatting, etc.) |
+| `test` | {{< fa flask-vial >}} | Changes that create or modify tests |
