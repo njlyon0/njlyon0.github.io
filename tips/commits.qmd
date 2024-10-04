@@ -26,9 +26,9 @@ For reference, here's the full list of official 'types' (and one <span style="co
 
 | Type | Symbol | Description |
 |:-----:|:---:|:-----------------------------------------------|
-| `build` | {{< fa trowel-bricks >}} | Changes that affect the build system or external dependencies (e.g., Quarto extensions, etc.) |
-| `ci` | {{< fa infinity >}} | Changes that affect <u>c</u>ontinuous <u>i</u>ntegration ("CI") operations (e.g., GitHub Actions, etc.) |
-| `dev` | {{< fa hammer >}} | Changes that are experimental but that you may want to revisit in the future. **<span style="color:#FF9B00">This is my un-official addition</span>!** |
+| `build` | {{< fa trowel-bricks >}} | Changes to build system or external dependencies (e.g., Quarto extensions, etc.) |
+| `ci` | {{< fa infinity >}} | Changes to <u>c</u>ontinuous <u>i</u>ntegration ("CI") operations (e.g., GitHub Actions, etc.) |
+| `dev` | {{< fa hammer >}} | Experimental changes that you may want to revisit in the future. **<span style="color:#FF9B00">This is my un-official addition</span>!** |
 | `docs` | {{< fa book >}} | Changes to documentation |
 | `feat` | {{< fa star >}} | Changes that introduce a new feature |
 | `fix` | {{< fa bandage >}} | Changes that fix a bug |
