@@ -1,0 +1,142 @@
+---
+title: "Class Coercion (in R)"
+---
+
+The R programming language is extremely useful for a variety of data science tasks. It--and other object-oriented programming languages--allow storing values in "objects" and then using those objects to re-call and use the values to which they are bound. In order to combine different "types" of values, R has to "coerce" one or both of the values into a shared type (sometimes a.k.a. "class" depending on what you're working on).
+
+## Coercion Rules
+
+**The order of this coercion is `logical -> integer -> double -> character`**. Logicals are the most specific type of atomic vector and the order proceeds to characters which are the most general type. It might be helpful to consider some examples. Let's begin by making one object for each atomic type (identified above).
+
+:::{.panel-tabset}
+#### Logical
+
+```{r tip-coerce-make-logi}
+my_logi <- c(TRUE, FALSE)
+typeof(x = my_logi)
+```
+
+#### Integer
+
+```{r tip-coerce-make-int}
+my_int <- c(4L, 5L, 6L) # <1>
+typeof(x = my_int)
+```
+1. The `L` at the end is for "length" and ensures that number is type 
+
+#### Double
+
+```{r tip-coerce-make-double}
+my_doub <- c(3.14, 77.0, 20) # <2>
+typeof(x = my_doub)
+```
+2. Even though "20" _looks_ like an integer, R will consider it a double without the trailing `L`
+
+#### Character
+
+```{r tip-coerce-make-char}
+my_char <- c("a", "b", "c")
+typeof(x = my_char)
+```
+
+:::
+
+Now that we have those, let's combine them in sequence so we can see the coercion rules in action!
+
+:::{.panel-tabset}
+#### Logical + Integer
+
+```{r tip-coerce-logi-int}
+my_logi.int <- c(my_logi, my_int)
+my_logi.int
+typeof(x = my_logi.int)
+```
+
+#### Integer + Double
+
+```{r tip-coerce-int-doub}
+my_int.doub <- c(my_int, my_doub)
+my_int.doub
+typeof(x = my_int.doub)
+```
+
+#### Double + Character
+
+```{r tip-coerce-doub-char}
+my_doub.char <- c(my_doub, my_char)
+my_doub.char
+typeof(x = my_doub.char)
+```
+
+:::
+
+### Other Coercion Variants
+
+You may have noticed that the above examples are missing some classes of object with which you may work regularly. These were absent from the above examples because the first component of this tip is restricted only to "type" coercion while you may be thinking of "class" coercion. See below for some examples that may address what felt missing above.
+
+:::{.panel-tabset}
+#### Numeric Coercion
+
+<u>"Numeric" values are technically inclusive of both integers and doubles</u>. The reason to avoid that phrasing earlier was just to be more precise about the coercion rules between integers and doubles.
+
+#### Factor Coercion
+
+<u>Factors are a special case of an integer</u>. This does mean that coercing a factor can have surprising results in some cases.
+
+```{r tip-coerce-factor-1}
+# Make our character object into a factor
+my_fact <- as.factor(x = my_char)
+my_fact
+```
+
+```{r tip-coerce-factor-2}
+# Check the type & class
+typeof(x = my_fact)
+class(x = my_fact)
+```
+
+```{r tip-coerce-factor-3}
+# Coerce it by combining with a double
+my_doub.fact <- c(my_doub, my_fact)
+my_doub.fact # <3>
+typeof(x = my_doub.fact)
+```
+3. Because doubles "win" coercion against integers, our `a`, `b`, and `c` become `1.00`, `2.00`, and `3.00` respectively!
+
+#### Date Coercion
+
+<u>Dates are a special case of a double</u>. They represent the number of **days** since January 1^st^, 1970. Like factors, this means that coercion can behave in a way that surprises you.
+
+```{r tip-coerce-date}
+# Make a date
+my_date <- as.Date(x = "2024-10-13")
+
+# Check the type & class
+typeof(x = my_date)
+class(x = my_date)
+
+# Coerce it by combining with a character
+my_char.date <- c(my_char, my_date)
+my_char.date
+typeof(x = my_char.date)
+```
+
+#### Date-Time Coercion
+
+<u>Date-times are a special case of a double</u>. They represent the number of **seconds** since January 1^st^, 1970. Just like dates, this can make coercion surprising here as well.
+
+```{r tip-coerce-datetime}
+# Make a datetime
+my_datetime <- as.POSIXct("2024-10-13 23:00", tz = "UTC")
+
+# Check the type & class
+typeof(x = my_datetime)
+class(x = my_datetime)
+
+# Coerce it by combining with a character
+my_char.datetime <- c(my_char, my_datetime)
+my_char.datetime
+typeof(x = my_char.datetime)
+```
+
+:::

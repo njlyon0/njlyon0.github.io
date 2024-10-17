@@ -18,10 +18,12 @@ website:
         href: index.qmd
       - text: "Software"
         href: software.qmd
-      - text: "Code Tips"
+      - text: "Tips"
         menu:
-          - text: "Commits"
+          - text: "{{< fa brands git >}} -- Conventional Commits"
             href: tips/commits.qmd
+          - text: "{{< fa brands r-project >}} -- Class Coercion"
+            href: tips/r_class-coercion.qmd
       - text: "Teaching"
         href: teaching.qmd
       - text: "Papers"
@@ -46,3 +48,4 @@ format:
     toc: true
     link-external-newwindow: true
     link-external-icon: false
+    code-annotations: hover
