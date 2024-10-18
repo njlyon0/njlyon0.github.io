@@ -2,34 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://njlyon0.github.io/consult.html</loc>
-    <lastmod>2024-10-17T22:04:55.862Z</lastmod>
+    <lastmod>2024-10-18T16:47:06.520Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njlyon0.github.io/tips/r_select-elements.html</loc>
+    <lastmod>2024-10-18T16:47:06.592Z</lastmod>
   </url>
   <url>
     <loc>https://njlyon0.github.io/tips/commits.html</loc>
-    <lastmod>2024-10-17T22:04:55.934Z</lastmod>
-  </url>
-  <url>
-    <loc>https://njlyon0.github.io/talks.html</loc>
-    <lastmod>2024-10-17T22:04:55.934Z</lastmod>
-  </url>
-  <url>
-    <loc>https://njlyon0.github.io/pubs.html</loc>
-    <lastmod>2024-10-17T22:04:55.934Z</lastmod>
-  </url>
-  <url>
-    <loc>https://njlyon0.github.io/software.html</loc>
-    <lastmod>2024-10-17T22:04:55.934Z</lastmod>
-  </url>
-  <url>
-    <loc>https://njlyon0.github.io/teaching.html</loc>
-    <lastmod>2024-10-17T22:04:55.934Z</lastmod>
+    <lastmod>2024-10-18T16:47:06.592Z</lastmod>
   </url>
   <url>
     <loc>https://njlyon0.github.io/index.html</loc>
-    <lastmod>2024-10-17T22:04:55.934Z</lastmod>
+    <lastmod>2024-10-18T16:47:06.592Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njlyon0.github.io/teaching.html</loc>
+    <lastmod>2024-10-18T16:47:06.592Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njlyon0.github.io/software.html</loc>
+    <lastmod>2024-10-18T16:47:06.592Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njlyon0.github.io/pubs.html</loc>
+    <lastmod>2024-10-18T16:47:06.592Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njlyon0.github.io/talks.html</loc>
+    <lastmod>2024-10-18T16:47:06.592Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njlyon0.github.io/tips/r_int-loops.html</loc>
+    <lastmod>2024-10-18T16:47:06.592Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njlyon0.github.io/tips/r_conditions.html</loc>
+    <lastmod>2024-10-18T16:47:06.592Z</lastmod>
   </url>
   <url>
     <loc>https://njlyon0.github.io/tips/r_class-coercion.html</loc>
-    <lastmod>2024-10-17T22:04:55.934Z</lastmod>
+    <lastmod>2024-10-18T16:47:06.592Z</lastmod>
   </url>
 </urlset>
