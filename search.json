@@ -1,45 +1,24 @@
 [
   {
-    "objectID": "consult.html",
-    "href": "consult.html",
-    "title": "Consulting",
+    "objectID": "tips/r_class-coercion.html",
+    "href": "tips/r_class-coercion.html",
+    "title": "Class Coercion (in R)",
     "section": "",
-    "text": "I have increasingly been leveraging my expertise as a consultant and am happy to discuss possible future opportunities to work with your team! Please feel free to explore the rest of this website and my  GitHub profile for examples of my data science skills and send me an email (see the “Email” button of my homepage) if you’d like to get more information.\nI am a certified instructor with The Carpentries so I have formal training in coding pedagogy and am happy to do such tutoring as a consultant if that is of interest."
+    "text": "The R programming language is extremely useful for a variety of data science tasks. It–and other object-oriented programming languages–allow storing values in “objects” and then using those objects to re-call and use the values to which they are bound. In order to combine different “types” of values, R has to “coerce” one or both of the values into a shared type (sometimes a.k.a. “class” depending on what you’re working on)."
   },
   {
-    "objectID": "consult.html#rates",
-    "href": "consult.html#rates",
-    "title": "Consulting",
-    "section": "Rates",
-    "text": "Rates\nMy typical rates are as follows:\n\n\n\nJob Category\nRate\n\n\n\n\nNon-Academic\n$75 / hour\n\n\nAcademic\n$50 / hour\n\n\nGraduate Student\nAuthorship on Publication(s)\n\n\nRush Job (&lt; 72 hours)\n$250 minimum\n\n\n\nDepending on the scope of the job we can absolutely discuss deviations from this framework!"
+    "objectID": "tips/r_class-coercion.html#coercion-rules",
+    "href": "tips/r_class-coercion.html#coercion-rules",
+    "title": "Class Coercion (in R)",
+    "section": "Coercion Rules",
+    "text": "Coercion Rules\nThe order of this coercion is logical -&gt; integer -&gt; double -&gt; character. Logicals are the most specific type of atomic vector and the order proceeds to characters which are the most general type. It might be helpful to consider some examples. Let’s begin by making one object for each atomic type (identified above).\n\nLogicalIntegerDoubleCharacter\n\n\n\nmy_logi &lt;- c(TRUE, FALSE)\ntypeof(x = my_logi)\n\n[1] \"logical\"\n\n\n\n\n\n1my_int &lt;- c(4L, 5L, 6L)\ntypeof(x = my_int)\n\n\n1\n\nThe L at the end is for “length” and ensures that number is type\n\n\n\n\n[1] \"integer\"\n\n\n\n\n\n2my_doub &lt;- c(3.14, 77.0, 20)\ntypeof(x = my_doub)\n\n\n2\n\nEven though “20” looks like an integer, R will consider it a double without the trailing L\n\n\n\n\n[1] \"double\"\n\n\n\n\n\nmy_char &lt;- c(\"a\", \"b\", \"c\")\ntypeof(x = my_char)\n\n[1] \"character\"\n\n\n\n\n\nNow that we have those, let’s combine them in sequence so we can see the coercion rules in action!\n\nLogical + IntegerInteger + DoubleDouble + Character\n\n\n\nmy_logi.int &lt;- c(my_logi, my_int)\nmy_logi.int\n\n[1] 1 0 4 5 6\n\ntypeof(x = my_logi.int)\n\n[1] \"integer\"\n\n\n\n\n\nmy_int.doub &lt;- c(my_int, my_doub)\nmy_int.doub\n\n[1]  4.00  5.00  6.00  3.14 77.00 20.00\n\ntypeof(x = my_int.doub)\n\n[1] \"double\"\n\n\n\n\n\nmy_doub.char &lt;- c(my_doub, my_char)\nmy_doub.char\n\n[1] \"3.14\" \"77\"   \"20\"   \"a\"    \"b\"    \"c\"   \n\ntypeof(x = my_doub.char)\n\n[1] \"character\"\n\n\n\n\n\n\nOther Coercion Variants\nYou may have noticed that the above examples are missing some classes of object with which you may work regularly. These were absent from the above examples because the first component of this tip is restricted only to “type” coercion while you may be thinking of “class” coercion. See below for some examples that may address what felt missing above.\n\nNumeric CoercionFactor CoercionDate CoercionDate-Time Coercion\n\n\n“Numeric” values are technically inclusive of both integers and doubles. The reason to avoid that phrasing earlier was just to be more precise about the coercion rules between integers and doubles.\n\n\nFactors are a special case of an integer. This does mean that coercing a factor can have surprising results in some cases.\n\n# Make our character object into a factor\nmy_fact &lt;- as.factor(x = my_char)\nmy_fact\n\n[1] a b c\nLevels: a b c\n\n\n\n# Check the type & class\ntypeof(x = my_fact)\n\n[1] \"integer\"\n\nclass(x = my_fact)\n\n[1] \"factor\"\n\n\n\n# Coerce it by combining with a double\nmy_doub.fact &lt;- c(my_doub, my_fact)\n3my_doub.fact\ntypeof(x = my_doub.fact)\n\n\n3\n\nBecause doubles “win” coercion against integers, our a, b, and c become 1.00, 2.00, and 3.00 respectively!\n\n\n\n\n[1]  3.14 77.00 20.00  1.00  2.00  3.00\n[1] \"double\"\n\n\n\n\nDates are a special case of a double. They represent the number of days since January 1st, 1970. Like factors, this means that coercion can behave in a way that surprises you.\n\n# Make a date\nmy_date &lt;- as.Date(x = \"2024-10-13\")\n\n# Check the type & class\ntypeof(x = my_date)\n\n[1] \"double\"\n\nclass(x = my_date)\n\n[1] \"Date\"\n\n# Coerce it by combining with a character\nmy_char.date &lt;- c(my_char, my_date)\nmy_char.date\n\n[1] \"a\"     \"b\"     \"c\"     \"20009\"\n\ntypeof(x = my_char.date)\n\n[1] \"character\"\n\n\n\n\nDate-times are a special case of a double. They represent the number of seconds since January 1st, 1970. Just like dates, this can make coercion surprising here as well.\n\n# Make a datetime\nmy_datetime &lt;- as.POSIXct(\"2024-10-13 23:00\", tz = \"UTC\")\n\n# Check the type & class\ntypeof(x = my_datetime)\n\n[1] \"double\"\n\nclass(x = my_datetime)\n\n[1] \"POSIXct\" \"POSIXt\" \n\n# Coerce it by combining with a character\nmy_char.datetime &lt;- c(my_char, my_datetime)\nmy_char.datetime\n\n[1] \"a\"          \"b\"          \"c\"          \"1728860400\"\n\ntypeof(x = my_char.datetime)\n\n[1] \"character\""
   },
   {
-    "objectID": "consult.html#past-consulting-work",
-    "href": "consult.html#past-consulting-work",
-    "title": "Consulting",
-    "section": "Past Consulting Work",
-    "text": "Past Consulting Work\nThe nature of consulting is that products of the work are not always publicly-available but I am happy to discuss (within the confines of relevant non-disclosure agreements) the type of work I’ve done with researchers at the following organizations:"
-  },
-  {
-    "objectID": "tips/r_select-elements.html",
-    "href": "tips/r_select-elements.html",
-    "title": "Selecting Elements (in R)",
+    "objectID": "tips/r_conditions.html",
+    "href": "tips/r_conditions.html",
+    "title": "Signaling Conditions (in R)",
     "section": "",
-    "text": "In R, there are three primary methods of selecting elements in an object – [, [[, and $. However, many R users don’t actually know how the three methods differ from one another. The following attempts to clarify this! Let’s start with a multi-element list and then check out an example of each.\n\n# Make a 3-element list\nmy_list &lt;- list(\"a\" = 1:3, \"b\" = \"hello\", \"c\" = 7:9)\n\n\nSingle Bracket - [Double Brackets - [[Dollar Sign - $\n\n\nIf x is a train with multiple cars where each car may contain some number of items, x[1] grabs the whole first train car. This means that the extracted bit is still the same type of data as the original object; in this case that means we still have a list, just this time it has only a single element.\n\n# Select with position\nmy_list[1]\n\n$a\n[1] 1 2 3\n\n\nUsing either element position or element name (if there is one) is supported.\n\n# Select with name\nmy_list[\"c\"]\n\n$c\n[1] 7 8 9\n\n\n\n\nIf x is a train with multiple cars where each car may contain some number of items, x[[1]] grabs the contents of the whole first train car. This means that the type of data changes to whatever is stored in that element. In this case that means we now have a vector.\n\nmy_list[[1]]\n\n[1] 1 2 3\n\n\nAgain, both element position and element name (if there is one) are supported.\n\nmy_list[[\"c\"]]\n\n[1] 7 8 9\n\n\n\n\nIf x is a train with multiple cars where each car may contain some number of items, x$name also grabs the contents of the whole first train car. x$name is shorthand for x[[\"name\"]]! However, only the element name is supported when using this method for selecting an element.\n\nmy_list$a\n\n[1] 1 2 3"
-  },
-  {
-    "objectID": "tips/r_select-elements.html#and",
-    "href": "tips/r_select-elements.html#and",
-    "title": "Selecting Elements (in R)",
-    "section": "",
-    "text": "In R, there are three primary methods of selecting elements in an object – [, [[, and $. However, many R users don’t actually know how the three methods differ from one another. The following attempts to clarify this! Let’s start with a multi-element list and then check out an example of each.\n\n# Make a 3-element list\nmy_list &lt;- list(\"a\" = 1:3, \"b\" = \"hello\", \"c\" = 7:9)\n\n\nSingle Bracket - [Double Brackets - [[Dollar Sign - $\n\n\nIf x is a train with multiple cars where each car may contain some number of items, x[1] grabs the whole first train car. This means that the extracted bit is still the same type of data as the original object; in this case that means we still have a list, just this time it has only a single element.\n\n# Select with position\nmy_list[1]\n\n$a\n[1] 1 2 3\n\n\nUsing either element position or element name (if there is one) is supported.\n\n# Select with name\nmy_list[\"c\"]\n\n$c\n[1] 7 8 9\n\n\n\n\nIf x is a train with multiple cars where each car may contain some number of items, x[[1]] grabs the contents of the whole first train car. This means that the type of data changes to whatever is stored in that element. In this case that means we now have a vector.\n\nmy_list[[1]]\n\n[1] 1 2 3\n\n\nAgain, both element position and element name (if there is one) are supported.\n\nmy_list[[\"c\"]]\n\n[1] 7 8 9\n\n\n\n\nIf x is a train with multiple cars where each car may contain some number of items, x$name also grabs the contents of the whole first train car. x$name is shorthand for x[[\"name\"]]! However, only the element name is supported when using this method for selecting an element.\n\nmy_list$a\n\n[1] 1 2 3"
-  },
-  {
-    "objectID": "tips/r_select-elements.html#versus",
-    "href": "tips/r_select-elements.html#versus",
-    "title": "Selecting Elements (in R)",
-    "section": "[[ versus $",
-    "text": "[[ versus $\nThe above examples show how [[ and $ function similarly but there is an important caveat to this! If name is an object containing one of the names in x, then the two methods differ. x[[name]] will get the entity that matches the value of name while x$name will get an entity that is itself named name. See an example below:\n\n# Make a new list\nmy_list2 &lt;- list(\"d\" = 4, \"e\" = 5, \"f\" = 6)\n\n# Make an object containing the name we want\nwanted_bit &lt;- \"e\"\n\n# Select it with double brackets\n1my_list2[[wanted_bit]]\n\n\n1\n\nwanted_bit is interpreted as \"e\" because that is the value bound to that object.\n\n\n\n\n[1] 5\n\n\n\n# Select it with a dollar sign\n2my_list2$wanted_bit\n\n\n2\n\nThis returns NULL because \"wanted_bit\" is not the name of any element of this list.\n\n\n\n\nNULL"
+    "text": "Many programming languages rely on being able to signal “conditions” when code doesn’t work as intended. These conditions range from effectively ‘for your information’ notes all the way to full-blown errors. See the tabs below for the three most common conditions in R\n\nMessageWarningError\n\n\nMessages indicate that an action has been taken on the user’s behalf but not necessarily a problem. These can be useful to explicitly inform a user about an assumed default value or–for code that iterates for a long time–reassure users that the function is still working.\n\nmessage(\"Pssst\")\n\nPssst\n\n\n\n\nWarnings indicate that something has gone wrong but the function could at least partially recover. These can be useful when some facet of a user’s input is incorrect but the code can still complete. I often uses warnings in my custom functions that have at least one argument that expects a logical (i.e., T or F). If the user supplies anything other than a logical, I return a warning and coerce that argument to whatever default logical I originally defined.\n\nwarning(\"Oops\")\n\nWarning: Oops\n\n\n\n\nErrors indicate that that the function cannot continue and execution must stop. Including custom input checks with informative messages in an important facet of package development! And in non-function code, error messages are your first indicating that something is not working as it should.\n\nstop(\"Oh no\")\n1#&gt; Error: Oh no\n\n\n1\n\nI included what this looks like as a commented-out line because otherwise the website can’t render this page."
   },
   {
     "objectID": "tips/commits.html",
@@ -63,6 +42,69 @@
     "text": "Available ‘Types’\nFor reference, here’s the full list of official ‘types’ (and one bonus that I use sometimes). Note that I added fun symbols for each type that are not official.\n\n\n\n\n\n\n\n\nType\nSymbol\nDescription\n\n\n\n\nbuild\n\nChanges to build system or external dependencies (e.g., Quarto extensions, etc.)\n\n\nci\n\nChanges to continuous integration (“CI”) operations (e.g., GitHub Actions, etc.)\n\n\ndev\n\nExperimental changes that you may want to revisit in the future. This is my un-official addition!\n\n\ndocs\n\nChanges to documentation\n\n\nfeat\n\nChanges that introduce a new feature\n\n\nfix\n\nChanges that fix a bug\n\n\nperf\n\nChanges that affect (improve) performance\n\n\nrefactor\n\nChanges that neither fix a bug nor add a feature. Used when the output of the code is unchanged but the way in which that output is reached has changed\n\n\nstyle\n\nChanges that do not affect the meaning of the code (e.g., white space, formatting, etc.)\n\n\ntest\n\nChanges that create or modify tests"
   },
   {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "I love chatting about science and data management and leap at the opportunity to present in public-facing contexts. Here is a breakdown of some of the lectures and conference-style talks I have given. The icons to the left of the titles (e.g., ) are intended to help roughly group content by their topic."
+  },
+  {
+    "objectID": "talks.html#lectures",
+    "href": "talks.html#lectures",
+    "title": "Presentations",
+    "section": "Lectures",
+    "text": "Lectures\n – Lyon, N.J. Introduction to Statistics and R in Ecology Research. 2020. Insect Ecology (ENT 4520/6520), Clemson University. Clemson SC.\n – Lyon, N.J. Plotting with ggplot2. 2019. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.\n – Lyon, N.J. Choosing the “Right” Statistical Test. 2019. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.\n – Lyon, N.J. Multivariate Statistics in R. 2018. Data Management and Analysis in R for Ecologists and Evolutionary Biologists (EEB 698) -  Lecture slides"
+  },
+  {
+    "objectID": "talks.html#conference-style-presentations",
+    "href": "talks.html#conference-style-presentations",
+    "title": "Presentations",
+    "section": "Conference-Style Presentations",
+    "text": "Conference-Style Presentations\n  – Lyon, N.J. From Ecologist to Data Scientist. Biology Department Seminar. Stonehill College, Easton MA, September 2023\n – Lyon, N.J. and Vargas, C. Data Quality Control Using R. Santa Barbara R Users Group, June 2022 - \n  – Lyon, N.J. and Debinski, D.M. Evaluating the Effects of Eleven Years of Consistent Restoration Management. Ecological Society of America, Louisville KY, August 2019\n  – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. Native Plant and Pollinator Response to Management with Fire and Grazing. Ecological Society of America, New Orleans LA, August 2018\n  – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. Plant and Pollinator Response to Adaptive Management. Graduate and Professional Student Research Conference, Ames IA, April 2018. Awarded Best Oral Presentation.\n  – Lyon, N.J., Debinski, D.M. Butterfly and Nectar-Producing Plant Response to Invasive Grass Management. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February 2018 - \n   – Lyon, N.J. An Integrated Approach to Tallgrass Prairie Restoration. Three-Minute Thesis, Ames IA, January 2018\n – Lyon, N. J., Debinski, D.M., and Rangwala, I. Species Distribution Modeling to Predict Prairie Restoration Success under Climate Change. Ecological Society of America, Portland OR, August 2017 - \n – Lyon, N.J. Predicted Response of Native Grassland Plants to Climate Change. Ten Years of Research in the Grand River Grasslands Symposium, Lamoni IA, June 2017 - \n   – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W., and Stein, D. Grazing, Burning, and Butterflies. Iowa Urban Tree Council, Des Moines IA, April 2017\n   – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. and Stein, D. Adaptive Management for Prairie Plants and Pollinators in Midwestern Working Landscapes. Iowa Invasive Species Conference, Moravia IA, March 2017\n – Lyon, N.J. Incorporating Correlative Modeling into Modifying Restoration Strategies for the Future. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February 2017 - \n – Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Air and Waste Management Student Challenge, Portland OR, April 2016. Awarded Best Presentation\n – Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Phi Sigma Research Symposium, University of Puget Sound, April 2016\n – Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Murdock College Science Research Conference, Vancouver WA (Hilton Vancouver), November 2015\n – Lyon N. Mussels as Samplers of Regional Microplastic Contamination Trends. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September 2015\n – Lyon, N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Oral presentation. Phi Sigma Research Symposium, University of Puget Sound, April 2015\n – Lyon N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September 2014\n – Lyon, N. Plastic Contamination in Marine Environments. Oral presentation. Honors Research Symposium, Seattle University, October 2014"
+  },
+  {
+    "objectID": "pubs.html",
+    "href": "pubs.html",
+    "title": "Papers",
+    "section": "",
+    "text": "I have had several opportunities to publish scientific papers both as a lead author and as a member of a larger scientific team. Here are some of the highlights of that record. If any of these links are behind a paywall for you, simply reach out to me and I’ll work to get you a PDF. The icons to the left of the titles (e.g., ) are intended to help roughly group content by their topic."
+  },
+  {
+    "objectID": "pubs.html#not-yet-published",
+    "href": "pubs.html#not-yet-published",
+    "title": "Papers",
+    "section": "Not (Yet!) Published",
+    "text": "Not (Yet!) Published\nNote that many of these projects have GitHub repositories but they are set to ‘Private’ until publication. If you would like to use the code in one of these repos, just reach out and we can discuss adding you to the repositories before the papers are published.\n – LaMontagne, J. et al. Community Synchrony in Seed Production is Associated with Trait Similarity and Climate across North America. [In press at Ecology Letters] - \n – Nigro, K. et al. coMAST: Harmonized Seed Production Data for Woody Plants across U.S. Long Term Research Sites. [In revision at Ecology] - \n – Ohlert, T. et al. Drought Severity Interacts with Duration to Erode Ecosystem Resistance. [In review at Science] - \n – Brun, J. et al. Enabling Data-Driven Collaborative and Reproducible Environmental Synthesis Science. [In prep]\n  – Moranz, R. et al. Response of Butterfly Milkweed (Ascelpias tuberosa) to Cattle Grazing. [In prep]"
+  },
+  {
+    "objectID": "pubs.html#published",
+    "href": "pubs.html#published",
+    "title": "Papers",
+    "section": "Published",
+    "text": "Published\n – Johnson, K. et al. Climate, Hydrology, and Nutrients Control the Seasonality of Si Concentrations in Rivers. 2024. Journal of Geophysical Research: Biogeosciences\n – Lyon, N.J. & Chen, A. Announcing ltertools: An R Package By and For the LTER Community. 2024. DataBits\n – Johnson, K. et al. Establishing Fluvial Silicon Regimes and Their Stability Across the Northern Hemisphere. 2024. Limnology and Oceanography Letters\n – Herbivory Variability Network. Plant Size, Latitude, and Phylogeny Explain Within-Population Variability in Herbivory. 2023. Science\n – Kucuk, R.A. et al. Gut Bacteria of Adult and Larval Cotinis nitida Linnaeus (Coleoptera: Scarabaeidae) Demonstrate Community Differences According to Life Stage and Gut Region. 2023. Frontiers in Microbiology - \n – Gaynor, K. et al. Ten Simple Rules to Cultivate Belonging in Collaborative Data Science Research Teams. 2022. PLOS Computational Biology\n  – Coon, J.J. et al. Using Adaptive Management to Restore Grasslands Invaded by Tall Fescue (Schedonorus arundinaceus). 76. 2021. Rangeland Ecology and Management - \n  – Lyon, N.J. et al. Responses of Flowering Plant and Butterfly Communities to Experimental Herbicide and Seeding Treatments for Native Grassland Restoration. 3. 2021. Ecological Restoration - \n  – Lyon, N.J. et al. An Integrated Approach to Restoring Grassland Function to Working Lands. 2019. Master of Science Thesis\n – Lyon, N.J., Debinski, D.M., and Rangwala, I. Evaluating the Utility of Species Distribution Models in Informing Climate Change-Resilient Grassland Restoration Strategy. 7. 2019 Frontiers in Ecology and Evolution - \n – Lyon, N.J. & Hodum, P. Mytilus Mussels as Bio-indicators of Regional Microplastic Trends. 2015. University of Puget Sound Undergraduate Thesis"
+  },
+  {
+    "objectID": "consult.html",
+    "href": "consult.html",
+    "title": "Consulting",
+    "section": "",
+    "text": "I have increasingly been leveraging my expertise as a consultant and am happy to discuss possible future opportunities to work with your team! Please feel free to explore the rest of this website and my  GitHub profile for examples of my data science skills and send me an email (see the “Email” button of my homepage) if you’d like to get more information.\nI am a certified instructor with The Carpentries so I have formal training in coding pedagogy and am happy to do such tutoring as a consultant if that is of interest."
+  },
+  {
+    "objectID": "consult.html#rates",
+    "href": "consult.html#rates",
+    "title": "Consulting",
+    "section": "Rates",
+    "text": "Rates\nMy typical rates are as follows:\n\n\n\nJob Category\nRate\n\n\n\n\nNon-Academic\n$75 / hour\n\n\nAcademic\n$50 / hour\n\n\nGraduate Student\nAuthorship on Publication(s)\n\n\nRush Job (&lt; 72 hours)\n$250 minimum\n\n\n\nDepending on the scope of the job we can absolutely discuss deviations from this framework!"
+  },
+  {
+    "objectID": "consult.html#past-consulting-work",
+    "href": "consult.html#past-consulting-work",
+    "title": "Consulting",
+    "section": "Past Consulting Work",
+    "text": "Past Consulting Work\nThe nature of consulting is that products of the work are not always publicly-available but I am happy to discuss (within the confines of relevant non-disclosure agreements) the type of work I’ve done with researchers at the following organizations:"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Nicholas J Lyon",
@@ -75,27 +117,6 @@
     "title": "Nicholas J Lyon",
     "section": "",
     "text": "My name is Nick Lyon (they / them) and I am an early career data scientist with experience managing and analyzing scientific data in a range of formats. I’m also a passionate educator (certified as an instructor by The Carpentries) and thoroughly enjoy chances to teach and learn with audiences of all levels of prior experience. I firmly believe in transparency in data management and am an avid Git/GitHub user. Check out my  GitHub profile for examples of my work!\n\n\n Coding –  Ecology –  Reading –  Photography –  Teaching –  Dungeons & Dragons –  Botany –  Birding"
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Courses & Workshops",
-    "section": "",
-    "text": "I’m a deeply enthusiastic person generally and one of the things that brings me the most joy is teaching and learning with others. As such, I have repeatedly sought out opportunities to teach in contexts ranging from hour-long workshops all the way to year-long courses. See a list of those below along with–where applicable–additional resources."
-  },
-  {
-    "objectID": "teaching.html#courses",
-    "href": "teaching.html#courses",
-    "title": "Courses & Workshops",
-    "section": "Courses",
-    "text": "Courses\n  – Instructor - Synthesis Skills for Early Career Researchers (SSECR), 2024-2025, Long Term Ecological Research Network Office, Santa Barbara, CA - \n – Adjunct Faculty - Programming in R for Biologists (BIO 316), Summer 2023 & Summer 2024, Stonehill College, Easton, MA - \n – Teaching Assistant - Principles of Biology Lab (BIO 1108L), Spring 2021, University of Georgia. Athens, GA\n – Teaching Assistant - Concepts in Biology Lab (BIO 1103L), Fall 2020, University of Georgia. Athens, GA\n  – Teaching Assistant - Ecology Lab (BIO 312L), Fall 2018, Iowa State University. Ames, IA"
-  },
-  {
-    "objectID": "teaching.html#workshops",
-    "href": "teaching.html#workshops",
-    "title": "Courses & Workshops",
-    "section": "Workshops",
-    "text": "Workshops\nNote that these workshops were designed to be offered repeatedly to different audiences. As such, while each of these workshops is only identified once I have been part of the teaching team for all of them many times. All resources are “living” so that participants from earlier iterations of a given workshop find the most up-to-date version of the materials when they revisit their old bookmarks.\n  – Ecological Data Synthesis: A Primer on Essential Methods - \n – Collaborative Coding with GitHub - \n – Sharing Science with R Shiny Apps - \n – Coding with the Tidyverse -"
   },
   {
     "objectID": "software.html",
@@ -126,46 +147,25 @@
     "text": "R / Python Bilingualism\nWhile I am primarily an  R coder, I definitely recognize that other languages can be extremely valuable! To make sure that I’m well-rounded I’ve made some strong efforts to self-teach  Python and document that process in ways that may be useful to others interested in making a similar leap. First and foremost of these efforts is my stab at a ‘bilingualism’ website for R & Python. This site demonstrates a range of increasingly complex operations and how they are accomplished in both languages.\nI’m constantly improving on that website and have comprehensive contributing guidelines to make it easier for others to collaborate with me on maximizing the value of this resource. You can also check out the  GitHub repository for the website here."
   },
   {
-    "objectID": "pubs.html",
-    "href": "pubs.html",
-    "title": "Papers",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Courses & Workshops",
     "section": "",
-    "text": "I have had several opportunities to publish scientific papers both as a lead author and as a member of a larger scientific team. Here are some of the highlights of that record. If any of these links are behind a paywall for you, simply reach out to me and I’ll work to get you a PDF. The icons to the left of the titles (e.g., ) are intended to help roughly group content by their topic."
+    "text": "I’m a deeply enthusiastic person generally and one of the things that brings me the most joy is teaching and learning with others. As such, I have repeatedly sought out opportunities to teach in contexts ranging from hour-long workshops all the way to year-long courses. See a list of those below along with–where applicable–additional resources."
   },
   {
-    "objectID": "pubs.html#not-yet-published",
-    "href": "pubs.html#not-yet-published",
-    "title": "Papers",
-    "section": "Not (Yet!) Published",
-    "text": "Not (Yet!) Published\nNote that many of these projects have GitHub repositories but they are set to ‘Private’ until publication. If you would like to use the code in one of these repos, just reach out and we can discuss adding you to the repositories before the papers are published.\n – LaMontagne, J. et al. Community Synchrony in Seed Production is Associated with Trait Similarity and Climate across North America. [In press at Ecology Letters] - \n – Nigro, K. et al. coMAST: Harmonized Seed Production Data for Woody Plants across U.S. Long Term Research Sites. [In revision at Ecology] - \n – Ohlert, T. et al. Drought Severity Interacts with Duration to Erode Ecosystem Resistance. [In review at Science] - \n – Brun, J. et al. Enabling Data-Driven Collaborative and Reproducible Environmental Synthesis Science. [In prep]\n  – Moranz, R. et al. Response of Butterfly Milkweed (Ascelpias tuberosa) to Cattle Grazing. [In prep]"
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "Courses & Workshops",
+    "section": "Courses",
+    "text": "Courses\n  – Instructor - Synthesis Skills for Early Career Researchers (SSECR), 2024-2025, Long Term Ecological Research Network Office, Santa Barbara, CA - \n – Adjunct Faculty - Programming in R for Biologists (BIO 316), Summer 2023 & Summer 2024, Stonehill College, Easton, MA - \n – Teaching Assistant - Principles of Biology Lab (BIO 1108L), Spring 2021, University of Georgia. Athens, GA\n – Teaching Assistant - Concepts in Biology Lab (BIO 1103L), Fall 2020, University of Georgia. Athens, GA\n  – Teaching Assistant - Ecology Lab (BIO 312L), Fall 2018, Iowa State University. Ames, IA"
   },
   {
-    "objectID": "pubs.html#published",
-    "href": "pubs.html#published",
-    "title": "Papers",
-    "section": "Published",
-    "text": "Published\n – Johnson, K. et al. Climate, Hydrology, and Nutrients Control the Seasonality of Si Concentrations in Rivers. 2024. Journal of Geophysical Research: Biogeosciences\n – Lyon, N.J. & Chen, A. Announcing ltertools: An R Package By and For the LTER Community. 2024. DataBits\n – Johnson, K. et al. Establishing Fluvial Silicon Regimes and Their Stability Across the Northern Hemisphere. 2024. Limnology and Oceanography Letters\n – Herbivory Variability Network. Plant Size, Latitude, and Phylogeny Explain Within-Population Variability in Herbivory. 2023. Science\n – Kucuk, R.A. et al. Gut Bacteria of Adult and Larval Cotinis nitida Linnaeus (Coleoptera: Scarabaeidae) Demonstrate Community Differences According to Life Stage and Gut Region. 2023. Frontiers in Microbiology - \n – Gaynor, K. et al. Ten Simple Rules to Cultivate Belonging in Collaborative Data Science Research Teams. 2022. PLOS Computational Biology\n  – Coon, J.J. et al. Using Adaptive Management to Restore Grasslands Invaded by Tall Fescue (Schedonorus arundinaceus). 76. 2021. Rangeland Ecology and Management - \n  – Lyon, N.J. et al. Responses of Flowering Plant and Butterfly Communities to Experimental Herbicide and Seeding Treatments for Native Grassland Restoration. 3. 2021. Ecological Restoration - \n  – Lyon, N.J. et al. An Integrated Approach to Restoring Grassland Function to Working Lands. 2019. Master of Science Thesis\n – Lyon, N.J., Debinski, D.M., and Rangwala, I. Evaluating the Utility of Species Distribution Models in Informing Climate Change-Resilient Grassland Restoration Strategy. 7. 2019 Frontiers in Ecology and Evolution - \n – Lyon, N.J. & Hodum, P. Mytilus Mussels as Bio-indicators of Regional Microplastic Trends. 2015. University of Puget Sound Undergraduate Thesis"
-  },
-  {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "Presentations",
-    "section": "",
-    "text": "I love chatting about science and data management and leap at the opportunity to present in public-facing contexts. Here is a breakdown of some of the lectures and conference-style talks I have given. The icons to the left of the titles (e.g., ) are intended to help roughly group content by their topic."
-  },
-  {
-    "objectID": "talks.html#lectures",
-    "href": "talks.html#lectures",
-    "title": "Presentations",
-    "section": "Lectures",
-    "text": "Lectures\n – Lyon, N.J. Introduction to Statistics and R in Ecology Research. 2020. Insect Ecology (ENT 4520/6520), Clemson University. Clemson SC.\n – Lyon, N.J. Plotting with ggplot2. 2019. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.\n – Lyon, N.J. Choosing the “Right” Statistical Test. 2019. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.\n – Lyon, N.J. Multivariate Statistics in R. 2018. Data Management and Analysis in R for Ecologists and Evolutionary Biologists (EEB 698) -  Lecture slides"
-  },
-  {
-    "objectID": "talks.html#conference-style-presentations",
-    "href": "talks.html#conference-style-presentations",
-    "title": "Presentations",
-    "section": "Conference-Style Presentations",
-    "text": "Conference-Style Presentations\n  – Lyon, N.J. From Ecologist to Data Scientist. Biology Department Seminar. Stonehill College, Easton MA, September 2023\n – Lyon, N.J. and Vargas, C. Data Quality Control Using R. Santa Barbara R Users Group, June 2022 - \n  – Lyon, N.J. and Debinski, D.M. Evaluating the Effects of Eleven Years of Consistent Restoration Management. Ecological Society of America, Louisville KY, August 2019\n  – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. Native Plant and Pollinator Response to Management with Fire and Grazing. Ecological Society of America, New Orleans LA, August 2018\n  – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. Plant and Pollinator Response to Adaptive Management. Graduate and Professional Student Research Conference, Ames IA, April 2018. Awarded Best Oral Presentation.\n  – Lyon, N.J., Debinski, D.M. Butterfly and Nectar-Producing Plant Response to Invasive Grass Management. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February 2018 - \n   – Lyon, N.J. An Integrated Approach to Tallgrass Prairie Restoration. Three-Minute Thesis, Ames IA, January 2018\n – Lyon, N. J., Debinski, D.M., and Rangwala, I. Species Distribution Modeling to Predict Prairie Restoration Success under Climate Change. Ecological Society of America, Portland OR, August 2017 - \n – Lyon, N.J. Predicted Response of Native Grassland Plants to Climate Change. Ten Years of Research in the Grand River Grasslands Symposium, Lamoni IA, June 2017 - \n   – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W., and Stein, D. Grazing, Burning, and Butterflies. Iowa Urban Tree Council, Des Moines IA, April 2017\n   – Lyon, N.J., Debinski, D.M., Miller, J., Schact, W. and Stein, D. Adaptive Management for Prairie Plants and Pollinators in Midwestern Working Landscapes. Iowa Invasive Species Conference, Moravia IA, March 2017\n – Lyon, N.J. Incorporating Correlative Modeling into Modifying Restoration Strategies for the Future. Graduate Research in Ecology and Evolutionary Biology Symposium, Ames IA, February 2017 - \n – Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Air and Waste Management Student Challenge, Portland OR, April 2016. Awarded Best Presentation\n – Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Phi Sigma Research Symposium, University of Puget Sound, April 2016\n – Lyon, N. Mytilus Mussels as Bio-indicators of Microplastic Pollution. Oral presentation. Murdock College Science Research Conference, Vancouver WA (Hilton Vancouver), November 2015\n – Lyon N. Mussels as Samplers of Regional Microplastic Contamination Trends. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September 2015\n – Lyon, N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Oral presentation. Phi Sigma Research Symposium, University of Puget Sound, April 2015\n – Lyon N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September 2014\n – Lyon, N. Plastic Contamination in Marine Environments. Oral presentation. Honors Research Symposium, Seattle University, October 2014"
+    "objectID": "teaching.html#workshops",
+    "href": "teaching.html#workshops",
+    "title": "Courses & Workshops",
+    "section": "Workshops",
+    "text": "Workshops\nNote that these workshops were designed to be offered repeatedly to different audiences. As such, while each of these workshops is only identified once I have been part of the teaching team for all of them many times. All resources are “living” so that participants from earlier iterations of a given workshop find the most up-to-date version of the materials when they revisit their old bookmarks.\n  – Ecological Data Synthesis: A Primer on Essential Methods - \n – Collaborative Coding with GitHub - \n – Sharing Science with R Shiny Apps - \n – Coding with the Tidyverse -"
   },
   {
     "objectID": "tips/r_int-loops.html",
@@ -175,24 +175,24 @@
     "text": "When iterating a given operation it is common to loop across some integer. For example, maybe you’re looping across a list and want to use the numeric position of each element of the list. Typically, this is accomplished like so:\n\n# Define vector\nmy_vec &lt;- c(\"a\", \"b\", \"c\")\n\n# Loop across it\nfor(k in 1:length(my_vec)){\n  \n  # Print the kth letter\n  cat(\"Processing \", my_vec[[k]], \"\\n\", sep=\"\")\n  \n}\n\nProcessing a\nProcessing b\nProcessing c\n\n\nThis works in this case but if the vector of values has no elements, the loop will behave unexpectedly. This is because 1:length of an empty vector returns 1 and 0! Let’s demonstrate this here:\n\n# Make an empty vector\nempty_vec &lt;- c()\n\n# Loop across it\nfor(k in 1:length(empty_vec)){\n  \n  # Print the kth letter\n  cat(\"Processing \", empty_vec[[k]], \"\\n\", sep=\"\")\n  \n}\n\nProcessing \nProcessing \n\n# Demonstrate how the loop interpreted the `1:length` bit\n1:length(empty_vec)\n\n[1] 1 0\n\n\nSee how the loop still appears to work but isn’t returning values that might be expected? This can be especially challenging to debug with a more complex (i.e., more realistic) loop. However, we can reformat the first part of the loop to use seq_along instead of 1:length. The loop will still not work but it will be more clear that the issue is with your initial vector of inputs.\n\n# Loop across the empty vector\n1for(k in seq_along(empty_vec)){\n  \n  # Print the kth letter\n  cat(\"Processing \", empty_vec[[k]], \"\\n\", sep=\"\")\n  \n}\n\n# Demonstrate how the loop interpreted the `seq_along` bit\nseq_along(empty_vec)\n\n\n1\n\nTechnically, seq_along has an along.with argument but for conciseness I’ve let it be implicit in this demo\n\n\n\n\ninteger(0)"
   },
   {
-    "objectID": "tips/r_conditions.html",
-    "href": "tips/r_conditions.html",
-    "title": "Signaling Conditions (in R)",
+    "objectID": "tips/r_select-elements.html",
+    "href": "tips/r_select-elements.html",
+    "title": "Selecting Elements (in R)",
     "section": "",
-    "text": "Many programming languages rely on being able to signal “conditions” when code doesn’t work as intended. These conditions range from effectively ‘for your information’ notes all the way to full-blown errors. See the tabs below for the three most common conditions in R\n\nMessageWarningError\n\n\nMessages indicate that an action has been taken on the user’s behalf but not necessarily a problem. These can be useful to explicitly inform a user about an assumed default value or–for code that iterates for a long time–reassure users that the function is still working.\n\nmessage(\"Pssst\")\n\nPssst\n\n\n\n\nWarnings indicate that something has gone wrong but the function could at least partially recover. These can be useful when some facet of a user’s input is incorrect but the code can still complete. I often uses warnings in my custom functions that have at least one argument that expects a logical (i.e., T or F). If the user supplies anything other than a logical, I return a warning and coerce that argument to whatever default logical I originally defined.\n\nwarning(\"Oops\")\n\nWarning: Oops\n\n\n\n\nErrors indicate that that the function cannot continue and execution must stop. Including custom input checks with informative messages in an important facet of package development! And in non-function code, error messages are your first indicating that something is not working as it should.\n\nstop(\"Oh no\")\n1#&gt; Error: Oh no\n\n\n1\n\nI included what this looks like as a commented-out line because otherwise the website can’t render this page."
+    "text": "In R, there are three primary methods of selecting elements in an object – [, [[, and $. However, many R users don’t actually know how the three methods differ from one another. The following attempts to clarify this! Let’s start with a multi-element list and then check out an example of each.\n\n# Make a 3-element list\nmy_list &lt;- list(\"a\" = 1:3, \"b\" = \"hello\", \"c\" = 7:9)\n\n\nSingle Bracket - [Double Brackets - [[Dollar Sign - $\n\n\nIf x is a train with multiple cars where each car may contain some number of items, x[1] grabs the whole first train car. This means that the extracted bit is still the same type of data as the original object; in this case that means we still have a list, just this time it has only a single element.\n\n# Select with position\nmy_list[1]\n\n$a\n[1] 1 2 3\n\n\nUsing either element position or element name (if there is one) is supported.\n\n# Select with name\nmy_list[\"c\"]\n\n$c\n[1] 7 8 9\n\n\n\n\nIf x is a train with multiple cars where each car may contain some number of items, x[[1]] grabs the contents of the whole first train car. This means that the type of data changes to whatever is stored in that element. In this case that means we now have a vector.\n\nmy_list[[1]]\n\n[1] 1 2 3\n\n\nAgain, both element position and element name (if there is one) are supported.\n\nmy_list[[\"c\"]]\n\n[1] 7 8 9\n\n\n\n\nIf x is a train with multiple cars where each car may contain some number of items, x$name also grabs the contents of the whole first train car. x$name is shorthand for x[[\"name\"]]! However, only the element name is supported when using this method for selecting an element.\n\nmy_list$a\n\n[1] 1 2 3"
   },
   {
-    "objectID": "tips/r_class-coercion.html",
-    "href": "tips/r_class-coercion.html",
-    "title": "Class Coercion (in R)",
+    "objectID": "tips/r_select-elements.html#and",
+    "href": "tips/r_select-elements.html#and",
+    "title": "Selecting Elements (in R)",
     "section": "",
-    "text": "The R programming language is extremely useful for a variety of data science tasks. It–and other object-oriented programming languages–allow storing values in “objects” and then using those objects to re-call and use the values to which they are bound. In order to combine different “types” of values, R has to “coerce” one or both of the values into a shared type (sometimes a.k.a. “class” depending on what you’re working on)."
+    "text": "In R, there are three primary methods of selecting elements in an object – [, [[, and $. However, many R users don’t actually know how the three methods differ from one another. The following attempts to clarify this! Let’s start with a multi-element list and then check out an example of each.\n\n# Make a 3-element list\nmy_list &lt;- list(\"a\" = 1:3, \"b\" = \"hello\", \"c\" = 7:9)\n\n\nSingle Bracket - [Double Brackets - [[Dollar Sign - $\n\n\nIf x is a train with multiple cars where each car may contain some number of items, x[1] grabs the whole first train car. This means that the extracted bit is still the same type of data as the original object; in this case that means we still have a list, just this time it has only a single element.\n\n# Select with position\nmy_list[1]\n\n$a\n[1] 1 2 3\n\n\nUsing either element position or element name (if there is one) is supported.\n\n# Select with name\nmy_list[\"c\"]\n\n$c\n[1] 7 8 9\n\n\n\n\nIf x is a train with multiple cars where each car may contain some number of items, x[[1]] grabs the contents of the whole first train car. This means that the type of data changes to whatever is stored in that element. In this case that means we now have a vector.\n\nmy_list[[1]]\n\n[1] 1 2 3\n\n\nAgain, both element position and element name (if there is one) are supported.\n\nmy_list[[\"c\"]]\n\n[1] 7 8 9\n\n\n\n\nIf x is a train with multiple cars where each car may contain some number of items, x$name also grabs the contents of the whole first train car. x$name is shorthand for x[[\"name\"]]! However, only the element name is supported when using this method for selecting an element.\n\nmy_list$a\n\n[1] 1 2 3"
   },
   {
-    "objectID": "tips/r_class-coercion.html#coercion-rules",
-    "href": "tips/r_class-coercion.html#coercion-rules",
-    "title": "Class Coercion (in R)",
-    "section": "Coercion Rules",
-    "text": "Coercion Rules\nThe order of this coercion is logical -&gt; integer -&gt; double -&gt; character. Logicals are the most specific type of atomic vector and the order proceeds to characters which are the most general type. It might be helpful to consider some examples. Let’s begin by making one object for each atomic type (identified above).\n\nLogicalIntegerDoubleCharacter\n\n\n\nmy_logi &lt;- c(TRUE, FALSE)\ntypeof(x = my_logi)\n\n[1] \"logical\"\n\n\n\n\n\n1my_int &lt;- c(4L, 5L, 6L)\ntypeof(x = my_int)\n\n\n1\n\nThe L at the end is for “length” and ensures that number is type\n\n\n\n\n[1] \"integer\"\n\n\n\n\n\n2my_doub &lt;- c(3.14, 77.0, 20)\ntypeof(x = my_doub)\n\n\n2\n\nEven though “20” looks like an integer, R will consider it a double without the trailing L\n\n\n\n\n[1] \"double\"\n\n\n\n\n\nmy_char &lt;- c(\"a\", \"b\", \"c\")\ntypeof(x = my_char)\n\n[1] \"character\"\n\n\n\n\n\nNow that we have those, let’s combine them in sequence so we can see the coercion rules in action!\n\nLogical + IntegerInteger + DoubleDouble + Character\n\n\n\nmy_logi.int &lt;- c(my_logi, my_int)\nmy_logi.int\n\n[1] 1 0 4 5 6\n\ntypeof(x = my_logi.int)\n\n[1] \"integer\"\n\n\n\n\n\nmy_int.doub &lt;- c(my_int, my_doub)\nmy_int.doub\n\n[1]  4.00  5.00  6.00  3.14 77.00 20.00\n\ntypeof(x = my_int.doub)\n\n[1] \"double\"\n\n\n\n\n\nmy_doub.char &lt;- c(my_doub, my_char)\nmy_doub.char\n\n[1] \"3.14\" \"77\"   \"20\"   \"a\"    \"b\"    \"c\"   \n\ntypeof(x = my_doub.char)\n\n[1] \"character\"\n\n\n\n\n\n\nOther Coercion Variants\nYou may have noticed that the above examples are missing some classes of object with which you may work regularly. These were absent from the above examples because the first component of this tip is restricted only to “type” coercion while you may be thinking of “class” coercion. See below for some examples that may address what felt missing above.\n\nNumeric CoercionFactor CoercionDate CoercionDate-Time Coercion\n\n\n“Numeric” values are technically inclusive of both integers and doubles. The reason to avoid that phrasing earlier was just to be more precise about the coercion rules between integers and doubles.\n\n\nFactors are a special case of an integer. This does mean that coercing a factor can have surprising results in some cases.\n\n# Make our character object into a factor\nmy_fact &lt;- as.factor(x = my_char)\nmy_fact\n\n[1] a b c\nLevels: a b c\n\n\n\n# Check the type & class\ntypeof(x = my_fact)\n\n[1] \"integer\"\n\nclass(x = my_fact)\n\n[1] \"factor\"\n\n\n\n# Coerce it by combining with a double\nmy_doub.fact &lt;- c(my_doub, my_fact)\n3my_doub.fact\ntypeof(x = my_doub.fact)\n\n\n3\n\nBecause doubles “win” coercion against integers, our a, b, and c become 1.00, 2.00, and 3.00 respectively!\n\n\n\n\n[1]  3.14 77.00 20.00  1.00  2.00  3.00\n[1] \"double\"\n\n\n\n\nDates are a special case of a double. They represent the number of days since January 1st, 1970. Like factors, this means that coercion can behave in a way that surprises you.\n\n# Make a date\nmy_date &lt;- as.Date(x = \"2024-10-13\")\n\n# Check the type & class\ntypeof(x = my_date)\n\n[1] \"double\"\n\nclass(x = my_date)\n\n[1] \"Date\"\n\n# Coerce it by combining with a character\nmy_char.date &lt;- c(my_char, my_date)\nmy_char.date\n\n[1] \"a\"     \"b\"     \"c\"     \"20009\"\n\ntypeof(x = my_char.date)\n\n[1] \"character\"\n\n\n\n\nDate-times are a special case of a double. They represent the number of seconds since January 1st, 1970. Just like dates, this can make coercion surprising here as well.\n\n# Make a datetime\nmy_datetime &lt;- as.POSIXct(\"2024-10-13 23:00\", tz = \"UTC\")\n\n# Check the type & class\ntypeof(x = my_datetime)\n\n[1] \"double\"\n\nclass(x = my_datetime)\n\n[1] \"POSIXct\" \"POSIXt\" \n\n# Coerce it by combining with a character\nmy_char.datetime &lt;- c(my_char, my_datetime)\nmy_char.datetime\n\n[1] \"a\"          \"b\"          \"c\"          \"1728860400\"\n\ntypeof(x = my_char.datetime)\n\n[1] \"character\""
+    "objectID": "tips/r_select-elements.html#versus",
+    "href": "tips/r_select-elements.html#versus",
+    "title": "Selecting Elements (in R)",
+    "section": "[[ versus $",
+    "text": "[[ versus $\nThe above examples show how [[ and $ function similarly but there is an important caveat to this! If name is an object containing one of the names in x, then the two methods differ. x[[name]] will get the entity that matches the value of name while x$name will get an entity that is itself named name. See an example below:\n\n# Make a new list\nmy_list2 &lt;- list(\"d\" = 4, \"e\" = 5, \"f\" = 6)\n\n# Make an object containing the name we want\nwanted_bit &lt;- \"e\"\n\n# Select it with double brackets\n1my_list2[[wanted_bit]]\n\n\n1\n\nwanted_bit is interpreted as \"e\" because that is the value bound to that object.\n\n\n\n\n[1] 5\n\n\n\n# Select it with a dollar sign\n2my_list2$wanted_bit\n\n\n2\n\nThis returns NULL because \"wanted_bit\" is not the name of any element of this list.\n\n\n\n\nNULL"
   }
 ]
