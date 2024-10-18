@@ -41,15 +41,11 @@ vignettes/*.pdf
 # Interior parts of Quarto
 /.quarto/
 
-# Add DS_Store
+# DS_Store
 .DS_Store
 
 # .Rproj file
 *.Rproj
 
-# Content archive
-_archive
-
-# Rendered docs folder
+# Folders
 docs/
-
