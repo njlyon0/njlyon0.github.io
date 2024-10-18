@@ -16,9 +16,15 @@ website:
   navbar:
     background: primary
     left:
-      - text: "Software"
-        href: software.qmd
-      - text: "Tips"
+      - text: "Code"
+        href: code.qmd
+      - text: "Teach"
+        href: teach.qmd
+      - text: "Write"
+        href: write.qmd
+      - text: "Consult"
+        href: consult.qmd
+      - text: "Data Science Tips"
         menu:
           - text: "{{< fa brands git >}} -- Conventional Commits"
             href: tips/commits.qmd
@@ -30,14 +36,6 @@ website:
             href: tips/r_select-elements.qmd
           - text: "{{< fa brands r-project >}} -- Loop Syntax"
             href: tips/r_int-loops.qmd
-      - text: "Teaching"
-        href: teaching.qmd
-      - text: "Papers"
-        href: pubs.qmd
-      - text: "Presentations"
-        href: talks.qmd
-      - text: "Consulting"
-        href: consult.qmd
     right:
       - icon: github
         href: https://github.com/njlyon0

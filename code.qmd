@@ -1,5 +1,5 @@
 ---
-title: "Software"
+title: "Software Products"
 ---
 
 One of the main products of my work as a data scientist is various forms of software. While {{< fa brands r-project >}} R is my primary language I have branched out somewhat into other languages (including {{< fa brands python >}} Python) and will try to reference those outputs here as well.
@@ -15,11 +15,11 @@ I work extensively on {{< fa brands github >}} GitHub and am a firm believer in 
 <img src="images/logo_nceas.png" alt="Logo for the National Center for Ecological Analysis and Synthesis (NCEAS)" height="80" align="right"/>
 <img src="images/logo_lter.png" alt="Logo for the Long Term Ecological Research (LTER) Network Office" height="80" align="right"/>
 
-In my role as a Data Scientist for the Long Term Ecological Research ([LTER](https://lternet.edu/)) Network Office I've also done a lot of code work in the {{< fa brands github >}} [GitHub Organization](https://github.com/lter). I've also done some work in the National Center for Ecological Analysis and Synthesis ([NCEAS](https://www.nceas.ucsb.edu/)) {{< fa brands github >}} [GitHub Organization](https://github.com/NCEAS), particularly in repositories with "scicomp" as part of their name.
+In my role as a Data Scientist for the Long Term Ecological Research ([LTER](https://lternet.edu/)) Network Office I've also done a lot of code work in that {{< fa brands github >}} [GitHub Organization](https://github.com/lter). I've also done some work in the National Center for Ecological Analysis and Synthesis ([NCEAS](https://www.nceas.ucsb.edu/)) {{< fa brands github >}} [GitHub Organization](https://github.com/NCEAS).
 
 ## R Packages
 
- have increasingly worked on wrapping the functions that I write into R packages both for simplicity's sake on my end as I reference my own work across different projects but also to (hopefully) help others who run into the same repetitive tasks that I have attempted to solve. Below is a list of the packages where I am an author Additionally, note that I designed the hex logos for `dndR` and `supportR` while [Gabe De La Rosa](https://www.gabrieldelarosa.com/) designed the hex logos for `lterpalettefinder`, `HERON`, and `scicomptools`; thanks Gabe!
+I have increasingly worked on wrapping the functions that I write into R packages both for simplicity's sake on my end as I reference my own work across different projects but also to (hopefully) help others who run into the same repetitive tasks that I have attempted to solve. Below is a list of the packages where I am an author Additionally, note that I designed the hex logos for `dndR` and `supportR` while [Gabe De La Rosa](https://www.gabrieldelarosa.com/) designed the hex logos for `lterpalettefinder`, `HERON`, and `scicomptools`; thanks Gabe!
 
 _Icon legend:_ {{< fa brands r-project >}} = CRAN link | {{< fa brands github >}} = GitHub repository
 

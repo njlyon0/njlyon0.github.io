@@ -1,12 +1,40 @@
 ---
-title: "Presentations"
+title: "Teaching & Presentations"
 ---
 
-I love chatting about science and data management and leap at the opportunity to present in public-facing contexts. Here is a breakdown of some of the lectures and conference-style talks I have given. The icons to the left of the titles (e.g., {{< fa screwdriver-wrench >}}) are intended to help roughly group content by their topic.
+I'm a deeply enthusiastic person generally and one of the things that brings me the most joy is teaching and learning with others. As such, I have repeatedly sought out opportunities to teach in contexts ranging from hour-long workshops all the way to year-long courses. Also included in this page are guest lectures and conference-style presentations.
+
+See a list of all of these types of teaching below along with--where applicable--additional resources. The icons to the left of the titles (e.g., {{< fa screwdriver-wrench >}}) are intended to help roughly group content by their topic.
 
 <p align="center">
-<img src="images/pic_squash-bug-nymph.jpg" alt="Picture of a squash bug (Anasa tristis) nymph next to a number 2 pencil" width="85%"/>
+<img src="images/pic_question-mark.jpg" alt="Picture of a question mark butterfly (Polygonia interrogationis) on a leaf" width="85%"/>
 </p>
+
+:::{.panel-tabset}
+
+## Courses
+
+{{< fa people-group >}} {{< fa screwdriver-wrench >}} -- **<u>Lead Technical Instructor</u>** - [Synthesis Skills for Early Career Researchers](https://lter.github.io/ssecr/) (SSECR), **2024-2025**, Long Term Ecological Research Network Office, Santa Barbara, CA - [{{< fa brands github >}}](https://github.com/lter/ssecr)
+
+{{< fa screwdriver-wrench >}} -- **<u>Adjunct Faculty</u>** - [Programming in R for Biologists](https://njlyon0.github.io/teach_r-for-biologists/) (BIO 316), Summer **2023** & Summer **2024**, Stonehill College, Easton, MA - [{{< fa brands github >}}](https://github.com/njlyon0/teach_r-for-biologists)
+
+{{< fa bug >}} -- **<u>Teaching Assistant</u>** - Principles of Biology Lab (BIO 1108L), Spring **2021**, University of Georgia. Athens, GA
+
+{{< fa microscope >}} -- **<u>Teaching Assistant</u>** - Concepts in Biology Lab (BIO 1103L), Fall **2020**, University of Georgia. Athens, GA
+
+{{< fa bugs >}} {{< fa seedling >}} -- **<u>Teaching Assistant</u>** - Ecology Lab (BIO 312L), Fall **2018**, Iowa State University. Ames, IA
+
+## Workshops
+
+Note that these workshops were designed to be offered repeatedly to different audiences. As such, while each of these workshops is only identified once I have been part of the teaching team for all of them _many_ times. All resources are "living" so that participants from earlier iterations of a given workshop find the most up-to-date version of the materials when they revisit their old bookmarks.
+
+{{< fa people-group >}} {{< fa screwdriver-wrench >}} -- **[Ecological Data Synthesis: A Primer on Essential Methods](https://lter.github.io/eco-data-synth-primer/)** - [{{< fa brands github >}}](https://github.com/lter/eco-data-synth-primer)
+
+{{< fa screwdriver-wrench >}} -- **[Collaborative Coding with GitHub](https://lter.github.io/workshop-github/)** - [{{< fa brands github >}}](https://github.com/lter/workshop-github)
+
+{{< fa screwdriver-wrench >}} -- **[Sharing Science with R Shiny Apps](https://njlyon0.github.io/asm-2022_shiny-workshop/)** - [{{< fa brands github >}}](https://github.com/njlyon0/asm-2022_shiny-workshop)
+
+{{< fa screwdriver-wrench >}} -- **[Coding with the Tidyverse](https://lter.github.io/workshop-tidyverse/)** - [{{< fa brands github >}}](https://github.com/lter/workshop-tidyverse)
 
 ## Lectures
 
@@ -57,3 +85,9 @@ I love chatting about science and data management and leap at the opportunity to
 {{< fa anchor >}} -- Lyon N. Patterns of Microplastic Ingestion in Mytilus Mussels around Puget Sound, Washington. Poster presentation. Puget Sound Fall Research Symposium, University of Puget Sound, September **2014**
 
 {{< fa anchor >}} -- Lyon, N. Plastic Contamination in Marine Environments. Oral presentation. Honors Research Symposium, Seattle University, October **2014**
+
+:::
+
+<p align="center">
+<img src="images/pic_squash-bug-nymph.jpg" alt="Picture of a squash bug (Anasa tristis) nymph next to a number 2 pencil" width="85%"/>
+</p>
