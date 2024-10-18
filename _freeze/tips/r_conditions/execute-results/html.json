@@ -1,0 +1,15 @@
+{
+  "hash": "82ac9db16735100f9770b0548c530b65",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Signaling Conditions (in R)\"\n---\n\n\n\n\nMany programming languages rely on being able to signal \"conditions\" when code doesn't work as intended. These conditions range from effectively 'for your information' notes all the way to full-blown errors. See the tabs below for the three most common conditions in R\n\n:::{.panel-tabset}\n### Message\n\n<u>Messages indicate that an action has been taken on the user's behalf but not necessarily a problem</u>. These can be useful to explicitly inform a user about an assumed default value or--for code that iterates for a long time--reassure users that the function is still working.\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nmessage(\"Pssst\")\n```\n\n::: {.cell-output .cell-output-stderr}\n\n```\nPssst\n```\n\n\n:::\n:::\n\n\n\n\n### Warning\n\n<u>Warnings indicate that something has gone wrong but the function could at least partially recover</u>. These can be useful when some facet of a user's input is incorrect but the code can still complete. I often uses warnings in my custom functions that have at least one argument that expects a logical (i.e., `T` or `F`). If the user supplies anything other than a logical, I return a warning and coerce that argument to whatever default logical I originally defined.\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nwarning(\"Oops\")\n```\n\n::: {.cell-output .cell-output-stderr}\n\n```\nWarning: Oops\n```\n\n\n:::\n:::\n\n\n\n\n### Error\n\n<u>Errors indicate that that the function _cannot_ continue and execution must stop</u>. Including custom input checks with informative messages in an important facet of package development! And in non-function code, error messages are your first indicating that something is not working as it should.\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nstop(\"Oh no\")\n#> Error: Oh no  # <1>\n```\n:::\n\n\n\n1. I included what this looks like as a commented-out line because otherwise the website can't render this page.\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,36 @@
+---
+title: "Signaling Conditions (in R)"
+---
+
+Many programming languages rely on being able to signal "conditions" when code doesn't work as intended. These conditions range from effectively 'for your information' notes all the way to full-blown errors. See the tabs below for the three most common conditions in R
+
+:::{.panel-tabset}
+### Message
+
+<u>Messages indicate that an action has been taken on the user's behalf but not necessarily a problem</u>. These can be useful to explicitly inform a user about an assumed default value or--for code that iterates for a long time--reassure users that the function is still working.
+
+```{r tip-cond-message}
+message("Pssst")
+```
+
+### Warning
+
+<u>Warnings indicate that something has gone wrong but the function could at least partially recover</u>. These can be useful when some facet of a user's input is incorrect but the code can still complete. I often uses warnings in my custom functions that have at least one argument that expects a logical (i.e., `T` or `F`). If the user supplies anything other than a logical, I return a warning and coerce that argument to whatever default logical I originally defined.
+
+```{r tip-cond-warning}
+warning("Oops")
+```
+
+### Error
+
+<u>Errors indicate that that the function _cannot_ continue and execution must stop</u>. Including custom input checks with informative messages in an important facet of package development! And in non-function code, error messages are your first indicating that something is not working as it should.
+
+```{r tip-cond-error}
+#| eval: false
+
+stop("Oh no")
+#> Error: Oh no  # <1>
+```
+1. I included what this looks like as a commented-out line because otherwise the website can't render this page.
+
+:::

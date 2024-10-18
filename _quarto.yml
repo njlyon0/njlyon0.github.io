@@ -24,6 +24,8 @@ website:
             href: tips/commits.qmd
           - text: "{{< fa brands r-project >}} -- Class Coercion"
             href: tips/r_class-coercion.qmd
+          - text: "{{< fa brands r-project >}} -- Condition Signalling"
+            href: tips/r_conditions.qmd
       - text: "Teaching"
         href: teaching.qmd
       - text: "Papers"
