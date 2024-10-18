@@ -16,8 +16,6 @@ website:
   navbar:
     background: primary
     left:
-      - text: "Home"
-        href: index.qmd
       - text: "Software"
         href: software.qmd
       - text: "Tips"
