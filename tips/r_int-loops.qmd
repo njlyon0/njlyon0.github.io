@@ -1,0 +1,52 @@
+---
+title: "Looping Across Integers (in R)"
+---
+
+When iterating a given operation it is common to loop across some integer. For example, maybe you're looping across a list and want to use the numeric position of each element of the list. Typically, this is accomplished like so:
+
+```{r tip-int-loop-v1}
+# Define vector
+my_vec <- c("a", "b", "c")
+
+# Loop across it
+for(k in 1:length(my_vec)){
+  
+  # Print the kth letter
+  cat("Processing ", my_vec[[k]], "\n", sep="")
+  
+}
+```
+
+This works in this case but <u>if the vector of values has _no_ elements, the loop will behave unexpectedly</u>. This is because `1:length` of an empty vector returns `1` and `0`! Let's demonstrate this here:
+
+```{r tip-int-loop-v2}
+# Make an empty vector
+empty_vec <- c()
+
+# Loop across it
+for(k in 1:length(empty_vec)){
+  
+  # Print the kth letter
+  cat("Processing ", empty_vec[[k]], "\n", sep="")
+  
+}
+
+# Demonstrate how the loop interpreted the `1:length` bit
+1:length(empty_vec)
+```
+
+See how the loop still appears to work but isn't returning values that might be expected? This can be especially challenging to debug with a more complex (i.e., more realistic) loop. However, we can reformat the first part of the loop to use `seq_along` instead of `1:length`. The loop will still not work but it will be more clear that the issue is with your initial vector of inputs.
+
+```{r tip-int-loop-v3}
+# Loop across the empty vector
+for(k in seq_along(empty_vec)){ # <1>
+  
+  # Print the kth letter
+  cat("Processing ", empty_vec[[k]], "\n", sep="")
+  
+}
+
+# Demonstrate how the loop interpreted the `seq_along` bit
+seq_along(empty_vec)
+```
+1. Technically, `seq_along` has an `along.with` argument but for conciseness I've let it be implicit in this demo

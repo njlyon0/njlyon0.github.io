@@ -1,0 +1,15 @@
+{
+  "hash": "3025f42cc7e6762e2366d674eb693229",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Looping Across Integers (in R)\"\n---\n\n\n\n\nWhen iterating a given operation it is common to loop across some integer. For example, maybe you're looping across a list and want to use the numeric position of each element of the list. Typically, this is accomplished like so:\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# Define vector\nmy_vec <- c(\"a\", \"b\", \"c\")\n\n# Loop across it\nfor(k in 1:length(my_vec)){\n  \n  # Print the kth letter\n  cat(\"Processing \", my_vec[[k]], \"\\n\", sep=\"\")\n  \n}\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\nProcessing a\nProcessing b\nProcessing c\n```\n\n\n:::\n:::\n\n\n\n\nThis works in this case but <u>if the vector of values has _no_ elements, the loop will behave unexpectedly</u>. This is because `1:length` of an empty vector returns `1` and `0`! Let's demonstrate this here:\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# Make an empty vector\nempty_vec <- c()\n\n# Loop across it\nfor(k in 1:length(empty_vec)){\n  \n  # Print the kth letter\n  cat(\"Processing \", empty_vec[[k]], \"\\n\", sep=\"\")\n  \n}\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\nProcessing \nProcessing \n```\n\n\n:::\n\n```{.r .cell-code}\n# Demonstrate how the loop interpreted the `1:length` bit\n1:length(empty_vec)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 1 0\n```\n\n\n:::\n:::\n\n\n\n\nSee how the loop still appears to work but isn't returning values that might be expected? This can be especially challenging to debug with a more complex (i.e., more realistic) loop. However, we can reformat the first part of the loop to use `seq_along` instead of `1:length`. The loop will still not work but it will be more clear that the issue is with your initial vector of inputs.\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# Loop across the empty vector\nfor(k in seq_along(empty_vec)){ # <1>\n  \n  # Print the kth letter\n  cat(\"Processing \", empty_vec[[k]], \"\\n\", sep=\"\")\n  \n}\n\n# Demonstrate how the loop interpreted the `seq_along` bit\nseq_along(empty_vec)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\ninteger(0)\n```\n\n\n:::\n:::\n\n\n\n1. Technically, `seq_along` has an `along.with` argument but for conciseness I've let it be implicit in this demo\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
