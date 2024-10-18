@@ -1,0 +1,77 @@
+---
+title: "Selecting Elements (in R)"
+---
+
+## `[`, `[[`, and `$`
+
+In R, there are three primary methods of selecting elements in an object -- `[`, `[[`, and `$`. However, many R users don't actually know how the three methods differ from one another. The following attempts to clarify this! Let's start with a multi-element list and then check out an example of each.
+
+```{r tip-select-data}
+# Make a 3-element list
+my_list <- list("a" = 1:3, "b" = "hello", "c" = 7:9)
+```
+
+:::{.panel-tabset}
+
+### Single Bracket - `[`
+
+If `x` is a train with multiple cars where each car may contain some number of items, <u>`x[1]` grabs the whole first train car</u>. This means that the extracted bit is still the same type of data as the original object; in this case that means we still have a list, just this time it has only a single element.
+
+```{r tip-select-bracket-v1}
+# Select with position
+my_list[1]
+```
+
+Using either element position or element name (if there is one) is supported.
+
+```{r tip-select-bracket-v2}
+# Select with name
+my_list["c"]
+```
+
+### Double Brackets - `[[`
+
+If `x` is a train with multiple cars where each car may contain some number of items, <u>`x[[1]]` grabs the _contents of_ the whole first train car</u>. This means that the type of data _changes_ to whatever is stored in that element. In this case that means we now have a vector.
+
+```{r tip-select-double-brackets-v1}
+my_list[[1]]
+```
+
+Again, both element position and element name (if there is one) are supported.
+
+```{r tip-select-double-brackets-v2}
+my_list[["c"]]
+```
+
+
+### Dollar Sign - `$`
+
+If `x` is a train with multiple cars where each car may contain some number of items, <u>`x$name` _also_ grabs the _contents of_ the whole first train car</u>. `x$name` is shorthand for `x[["name"]]`! However, _only_ the element name is supported when using this method for selecting an element.
+
+```{r tip-select-dollar-sign}
+my_list$a
+```
+
+:::
+
+## `[[` versus `$`
+
+The above examples show how `[[` and `$` function similarly but there is an important caveat to this! <u>If `name` is an object containing one of the names in `x`, then the two methods differ</u>. `x[[name]]` will get the entity that matches the _value_ of `name` while `x$name` will get an entity that _is itself named_ `name`. See an example below:
+
+```{r tip-select-double-bracket-vs-dollar-sign-v1}
+# Make a new list
+my_list2 <- list("d" = 4, "e" = 5, "f" = 6)
+
+# Make an object containing the name we want
+wanted_bit <- "e"
+
+# Select it with double brackets
+my_list2[[wanted_bit]] # <1>
+```
+1. `wanted_bit` is interpreted as `"e"` because that is the value bound to that object.
+
+```{r tip-select-double-bracket-vs-dollar-sign-v2}
+# Select it with a dollar sign
+my_list2$wanted_bit # <2>
+```
+2. This returns `NULL` because `"wanted_bit"` is not the name of any element of this list.

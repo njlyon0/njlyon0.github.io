@@ -26,6 +26,8 @@ website:
             href: tips/r_class-coercion.qmd
           - text: "{{< fa brands r-project >}} -- Condition Signalling"
             href: tips/r_conditions.qmd
+          - text: "{{< fa brands r-project >}} -- Selecting Elements"
+            href: tips/r_select-elements.qmd
           - text: "{{< fa brands r-project >}} -- Loop Syntax"
             href: tips/r_int-loops.qmd
       - text: "Teaching"
