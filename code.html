@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Papers – Nicholas J Lyon</title>
+<title>Software Products – Nicholas J Lyon</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -93,18 +93,26 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
+    <a class="nav-link active" href="./code.html" aria-current="page"> 
+<span class="menu-text">Code</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./software.html"> 
-<span class="menu-text">Software</span></a>
+    <a class="nav-link" href="./teach.html"> 
+<span class="menu-text">Teach</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./write.html"> 
+<span class="menu-text">Write</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./consult.html"> 
+<span class="menu-text">Consult</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tips" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Tips</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data-science-tips" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Data Science Tips</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-tips">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-data-science-tips">    
         <li>
     <a class="dropdown-item" href="./tips/commits.html">
  <span class="dropdown-text"><i class="fa-brands fa-git" aria-hidden="true"></i> – Conventional Commits</span></a>
@@ -127,22 +135,6 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
-<span class="menu-text">Teaching</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./pubs.html" aria-current="page"> 
-<span class="menu-text">Papers</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./talks.html"> 
-<span class="menu-text">Presentations</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./consult.html"> 
-<span class="menu-text">Consulting</span></a>
-  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
@@ -167,8 +159,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#not-yet-published" id="toc-not-yet-published" class="nav-link active" data-scroll-target="#not-yet-published">Not (Yet!) Published</a></li>
-  <li><a href="#published" id="toc-published" class="nav-link" data-scroll-target="#published">Published</a></li>
+  <li><a href="#general-code-products" id="toc-general-code-products" class="nav-link active" data-scroll-target="#general-code-products">General Code Products</a></li>
+  <li><a href="#r-packages" id="toc-r-packages" class="nav-link" data-scroll-target="#r-packages">R Packages</a></li>
+  <li><a href="#r-python-bilingualism" id="toc-r-python-bilingualism" class="nav-link" data-scroll-target="#r-python-bilingualism">R / Python Bilingualism</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/njlyon0/njlyon0.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -177,7 +170,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Papers</h1>
+<h1 class="title">Software Products</h1>
 </div>
 
 
@@ -194,32 +187,37 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I have had several opportunities to publish scientific papers both as a lead author and as a member of a larger scientific team. Here are some of the highlights of that record. If any of these links are behind a paywall for you, simply reach out to me and I’ll work to get you a PDF. The icons to the left of the titles (e.g., <i class="fa-solid fa-bug" aria-hidden="true"></i>) are intended to help roughly group content by their topic.</p>
+<p>One of the main products of my work as a data scientist is various forms of software. While <i class="fa-brands fa-r-project" aria-hidden="true"></i> R is my primary language I have branched out somewhat into other languages (including <i class="fa-brands fa-python" aria-hidden="true"></i> Python) and will try to reference those outputs here as well.</p>
 <p align="center">
-<img src="images/pic_great-spangled-fritillary.jpg" alt="Picture of a question mark butterfly (Speyeria cybele) on a common milkweed flower (Asclepias syriaca)" width="85%">
+<img src="images/pic_stilt-bug.jpg" alt="Picture of a stilt bug (family: Berytidae) on a leaf" width="85%">
 </p>
-<section id="not-yet-published" class="level2">
-<h2 class="anchored" data-anchor-id="not-yet-published">Not (Yet!) Published</h2>
-<p>Note that many of these projects have GitHub repositories but they are set to ‘Private’ until publication. If you would like to use the code in one of these repos, just reach out and we can discuss adding you to the repositories before the papers are published.</p>
-<p><i class="fa-solid fa-tree" aria-hidden="true"></i> – LaMontagne, J. <em>et al.</em> Community Synchrony in Seed Production is Associated with Trait Similarity and Climate across North America. <em>[In press at Ecology Letters]</em> - <a href="https://github.com/lter/lterwg-plant-repro-synchrony"><i class="fa-brands fa-github" aria-hidden="true"></i></a></p>
-<p><i class="fa-solid fa-tree" aria-hidden="true"></i> – Nigro, K. <em>et al.</em> coMAST: Harmonized Seed Production Data for Woody Plants across U.S. Long Term Research Sites. <em>[In revision at Ecology]</em> - <a href="https://github.com/knigro83/LTER_plant_reproduction"><i class="fa-brands fa-github" aria-hidden="true"></i></a></p>
-<p><i class="fa-solid fa-sun-plant-wilt" aria-hidden="true"></i> – Ohlert, T. <em>et al.</em> Drought Severity Interacts with Duration to Erode Ecosystem Resistance. <em>[In review at Science]</em> - <a href="https://github.com/lter/lterwg-droughtnet"><i class="fa-brands fa-github" aria-hidden="true"></i></a></p>
-<p><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i> – Brun, J. <em>et al.</em> Enabling Data-Driven Collaborative and Reproducible Environmental Synthesis Science. <em>[In prep]</em></p>
-<p><i class="fa-solid fa-seedling" aria-hidden="true"></i> <i class="fa-solid fa-cow" aria-hidden="true"></i> – Moranz, R. <em>et al.</em> Response of Butterfly Milkweed (<em>Ascelpias tuberosa</em>) to Cattle Grazing. <em>[In prep]</em></p>
+<section id="general-code-products" class="level2">
+<h2 class="anchored" data-anchor-id="general-code-products">General Code Products</h2>
+<p>I work extensively on <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub and am a firm believer in version control as a mechanism for ensuring code reproducibility. Because of that–and to avoid redundancy–I recommend that you explore <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/njlyon0">my GitHub profile</a> for a more or less complete set of the projects I’ve worked on.</p>
+<p><img src="images/logo_nceas.png" alt="Logo for the National Center for Ecological Analysis and Synthesis (NCEAS)" height="80" align="right"> <img src="images/logo_lter.png" alt="Logo for the Long Term Ecological Research (LTER) Network Office" height="80" align="right"></p>
+<p>In my role as a Data Scientist for the Long Term Ecological Research (<a href="https://lternet.edu/">LTER</a>) Network Office I’ve also done a lot of code work in that <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/lter">GitHub Organization</a>. I’ve also done some work in the National Center for Ecological Analysis and Synthesis (<a href="https://www.nceas.ucsb.edu/">NCEAS</a>) <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/NCEAS">GitHub Organization</a>.</p>
 </section>
-<section id="published" class="level2">
-<h2 class="anchored" data-anchor-id="published">Published</h2>
-<p><i class="fa-solid fa-water" aria-hidden="true"></i> – Johnson, K. <em>et al.</em> <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JG008141">Climate, Hydrology, and Nutrients Control the Seasonality of Si Concentrations in Rivers</a>. <strong>2024</strong>. Journal of Geophysical Research: Biogeosciences</p>
-<p><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i> – Lyon, N.J. &amp; Chen, A. <a href="https://lternet.edu/stories/announcing-ltertools-an-r-package-by-and-for-the-lter-community/">Announcing <code>ltertools</code>: An R Package By and For the LTER Community</a>. <strong>2024</strong>. DataBits</p>
-<p><i class="fa-solid fa-water" aria-hidden="true"></i> – Johnson, K. <em>et al.</em> <a href="https://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lol2.10372">Establishing Fluvial Silicon Regimes and Their Stability Across the Northern Hemisphere</a>. <strong>2024</strong>. Limnology and Oceanography Letters</p>
-<p><i class="fa-solid fa-seedling" aria-hidden="true"></i> – Herbivory Variability Network. <a href="https://www.science.org/doi/10.1126/science.adh8830">Plant Size, Latitude, and Phylogeny Explain Within-Population Variability in Herbivory</a>. <strong>2023</strong>. Science</p>
-<p><i class="fa-solid fa-bug" aria-hidden="true"></i> – Kucuk, R.A. <em>et al.</em> <a href="https://www.frontiersin.org/articles/10.3389/fmicb.2023.1185661/full">Gut Bacteria of Adult and Larval <em>Cotinis nitida</em> Linnaeus (Coleoptera: Scarabaeidae) Demonstrate Community Differences According to Life Stage and Gut Region</a>. <strong>2023</strong>. Frontiers in Microbiology - <a href="https://github.com/njlyon0/collab_kucuk-cotinis"><i class="fa-brands fa-github" aria-hidden="true"></i></a></p>
-<p><i class="fa-solid fa-people-group" aria-hidden="true"></i> – Gaynor, K. <em>et al.</em> <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010567">Ten Simple Rules to Cultivate Belonging in Collaborative Data Science Research Teams</a>. <strong>2022</strong>. PLOS Computational Biology</p>
-<p><i class="fa-solid fa-fire-flame-curved" aria-hidden="true"></i> <i class="fa-solid fa-cow" aria-hidden="true"></i> – Coon, J.J. <em>et al.</em> <a href="https://www.sciencedirect.com/science/article/abs/pii/S1550742421000129?casa_token=4hUYfkm3-RcAAAAA:wxQ1-YwOxcii7F3TzLo8FL5uBeMe7QzmKsOHQ0TIM3zYO5m4tARAfLpgVOcLlLVxElm4d4qwrWc">Using Adaptive Management to Restore Grasslands Invaded by Tall Fescue (<em>Schedonorus arundinaceus</em>)</a>. 76. <strong>2021</strong>. Rangeland Ecology and Management - <a href="https://github.com/njlyon0/collab_coon-daubenmire-herbicide"><i class="fa-brands fa-github" aria-hidden="true"></i></a></p>
-<p><i class="fa-solid fa-seedling" aria-hidden="true"></i> <i class="fa-solid fa-bug" aria-hidden="true"></i> – Lyon, N.J. <em>et al.</em> <a href="http://er.uwpress.org/content/39/3/168.short">Responses of Flowering Plant and Butterfly Communities to Experimental Herbicide and Seeding Treatments for Native Grassland Restoration</a>. 3. <strong>2021</strong>. Ecological Restoration - <a href="https://github.com/njlyon0/lyon_bfly-herbicide"><i class="fa-brands fa-github" aria-hidden="true"></i></a></p>
-<p><i class="fa-solid fa-fire-flame-curved" aria-hidden="true"></i> <i class="fa-solid fa-cow" aria-hidden="true"></i> – Lyon, N.J. <em>et al.</em> <a href="https://dr.lib.iastate.edu/entities/publication/f3cd5b5f-17ae-4fdd-b8b9-0a87fda99765">An Integrated Approach to Restoring Grassland Function to Working Lands</a>. <strong>2019</strong>. Master of Science Thesis</p>
-<p><i class="fa-solid fa-cloud-sun" aria-hidden="true"></i> – Lyon, N.J., Debinski, D.M., and Rangwala, I. <a href="https://www.frontiersin.org/articles/10.3389/fevo.2019.00033/full">Evaluating the Utility of Species Distribution Models in Informing Climate Change-Resilient Grassland Restoration Strategy</a>. 7. <strong>2019</strong> Frontiers in Ecology and Evolution - <a href="https://github.com/njlyon0/lyon-ms-thesis_sdm"><i class="fa-brands fa-github" aria-hidden="true"></i></a></p>
-<p><i class="fa-solid fa-anchor" aria-hidden="true"></i> – Lyon, N.J. &amp; Hodum, P. <a href="https://soundideas.pugetsound.edu/summer_research/259/">Mytilus Mussels as Bio-indicators of Regional Microplastic Trends</a>. <strong>2015</strong>. University of Puget Sound Undergraduate Thesis</p>
+<section id="r-packages" class="level2">
+<h2 class="anchored" data-anchor-id="r-packages">R Packages</h2>
+<p>I have increasingly worked on wrapping the functions that I write into R packages both for simplicity’s sake on my end as I reference my own work across different projects but also to (hopefully) help others who run into the same repetitive tasks that I have attempted to solve. Below is a list of the packages where I am an author Additionally, note that I designed the hex logos for <code>dndR</code> and <code>supportR</code> while <a href="https://www.gabrieldelarosa.com/">Gabe De La Rosa</a> designed the hex logos for <code>lterpalettefinder</code>, <code>HERON</code>, and <code>scicomptools</code>; thanks Gabe!</p>
+<p><em>Icon legend:</em> <i class="fa-brands fa-r-project" aria-hidden="true"></i> = CRAN link | <i class="fa-brands fa-github" aria-hidden="true"></i> = GitHub repository</p>
+<ul>
+<li><code>dndR</code>: <strong>Dungeons &amp; Dragons Functions for Players and Dungeon Masters</strong> | <a href="https://cran.r-project.org/web/packages/dndR/index.html"><i class="fa-brands fa-r-project" aria-hidden="true"></i></a> – <a href="https://github.com/njlyon0/dndR#readme"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
+<li><code>supportR</code>: <strong>Support Functions for Wrangling and Visualization</strong> | <a href="https://cran.r-project.org/web/packages/supportR/index.html"><i class="fa-brands fa-r-project" aria-hidden="true"></i></a> – <a href="https://github.com/njlyon0/supportR#readme"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
+<li><code>ltertools</code>: <strong>Tools Developed by the Long Term Ecological Research Community</strong> | <a href="https://cran.rstudio.com/web/packages/ltertools/index.html"><i class="fa-brands fa-r-project" aria-hidden="true"></i></a> – <a href="https://github.com/lter/ltertools#readme"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
+<li><code>lterpalettefinder</code>: <strong>Extract Color Palettes from Photos and Pick Official LTER Palettes</strong> | <a href="https://cran.r-project.org/web/packages/lterpalettefinder/index.html"><i class="fa-brands fa-r-project" aria-hidden="true"></i></a> – <a href="https://github.com/lter/lterpalettefinder#readme"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
+<li><code>scicomptools</code>: <strong>Tools Developed by NCEAS’ Scientific Computing Support Team</strong> | <a href="https://cran.r-project.org/web/packages/scicomptools/index.html"><i class="fa-brands fa-r-project" aria-hidden="true"></i></a> – <a href="https://github.com/NCEAS/scicomptools#readme"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
+<li><code>metajam</code>: <strong>Easily Download Data and Metadata from ‘DataONE’</strong> | <a href="https://cran.rstudio.com/web/packages/metajam/index.html"><i class="fa-brands fa-r-project" aria-hidden="true"></i></a> – <a href="https://github.com/NCEAS/metajam#readme"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
+<li><code>HERON</code>: <strong><u>He</u>lpers for <u>R</u>iver <u>O</u>bservatio<u>n</u></strong> | <a href="https://github.com/lter/HERON#readme"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
+</ul>
+<p align="center">
+<img src="images/hex_dndR.png" alt="hex logo for the dndR R package" width="100" height="110"> <img src="images/hex_supportR.png" alt="hex logo for the supportR R package" width="100" height="110"> <img src="images/hex_lterpalettefinder.png" alt="hex logo for the lterpalettefinder R package" width="95" height="110"> <img src="images/hex_scicomptools.png" alt="hex logo for the scicomptools R package" width="110" height="110"> <img src="images/hex_metajam.png" alt="hex logo for the metajam R package" width="95" height="110"> <img src="images/hex_HERON.png" alt="hex logo for the HERON R package" width="95" height="110">
+</p>
+</section>
+<section id="r-python-bilingualism" class="level2">
+<h2 class="anchored" data-anchor-id="r-python-bilingualism">R / Python Bilingualism</h2>
+<p>While I am primarily an <i class="fa-brands fa-r-project" aria-hidden="true"></i> R coder, I definitely recognize that other languages can be extremely valuable! To make sure that I’m well-rounded I’ve made some strong efforts to self-teach <i class="fa-brands fa-python" aria-hidden="true"></i> Python and document that process in ways that may be useful to others interested in making a similar leap. First and foremost of these efforts is my stab at a <a href="https://njlyon0.github.io/collab_bilingualism/">‘bilingualism’ website for R &amp; Python</a>. This site demonstrates a range of increasingly complex operations and how they are accomplished in both languages.</p>
+<p>I’m constantly improving on that website and have comprehensive <a href="https://njlyon0.github.io/collab_bilingualism/collabs.html">contributing guidelines</a> to make it easier for others to collaborate with me on maximizing the value of this resource. You can also check out the <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/njlyon0/collab_bilingualism">GitHub repository</a> for the website here.</p>
 
 
 </section>
