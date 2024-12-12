@@ -14,8 +14,6 @@ Note that many of these projects have GitHub repositories but they are set to 'P
 
 {{< fa tree >}} -- LaMontagne, J. _et al._ Community Synchrony in Seed Production is Associated with Trait Similarity and Climate across North America. _\[In press at Ecology Letters\]_ - [{{< fa brands github >}}](https://github.com/lter/lterwg-plant-repro-synchrony)
 
-{{< fa tree >}} -- Nigro, K. _et al._ coMAST: Harmonized Seed Production Data for Woody Plants across U.S. Long Term Research Sites. _\[In revision at Ecology\]_ - [{{< fa brands github >}}](https://github.com/knigro83/LTER_plant_reproduction)
-
 {{< fa sun-plant-wilt >}} -- Ohlert, T. _et al._ Drought Severity Interacts with Duration to Erode Ecosystem Resistance. _\[In review at Science\]_ - [{{< fa brands github >}}](https://github.com/lter/lterwg-droughtnet)
 
 {{< fa screwdriver-wrench >}} -- Brun, J. _et al._ Enabling Data-Driven Collaborative and Reproducible Environmental Synthesis Science. _\[In prep\]_
@@ -23,6 +21,8 @@ Note that many of these projects have GitHub repositories but they are set to 'P
 {{< fa seedling >}} {{< fa cow >}} -- Moranz, R. _et al._ Response of Butterfly Milkweed (*Ascelpias tuberosa*) to Cattle Grazing. _\[In prep\]_
 
 ## Published
+
+{{< fa tree >}} -- Nigro, K.M. _et al._ [coMAST: Harmonized Seed Production Data for Woody Plants across U.S. Long Term Research Sites](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.4463). **2024**. Ecology - [{{< fa brands github >}}](https://github.com/knigro83/LTER_plant_reproduction)
 
 {{< fa water >}} -- Johnson, K. _et al._ [Climate, Hydrology, and Nutrients Control the Seasonality of Si Concentrations in Rivers](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JG008141). **2024**. Journal of Geophysical Research: Biogeosciences
 
