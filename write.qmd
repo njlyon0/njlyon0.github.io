@@ -22,6 +22,8 @@ Note that many of these projects have GitHub repositories but they are set to 'P
 
 ## Published
 
+{{< fa screwdriver-wrench >}} -- Lyon, N.J. & Earl, S. [Conventional Commits: A Better Way to Track Changes with Git](https://lternet.edu/stories/databits-conventional-commits/). **2024**. DataBits
+
 {{< fa tree >}} -- Nigro, K.M. _et al._ [coMAST: Harmonized Seed Production Data for Woody Plants across U.S. Long Term Research Sites](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.4463). **2024**. Ecology - [{{< fa brands github >}}](https://github.com/knigro83/LTER_plant_reproduction)
 
 {{< fa water >}} -- Johnson, K. _et al._ [Climate, Hydrology, and Nutrients Control the Seasonality of Si Concentrations in Rivers](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JG008141). **2024**. Journal of Geophysical Research: Biogeosciences
