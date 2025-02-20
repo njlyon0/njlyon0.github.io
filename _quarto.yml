@@ -9,7 +9,7 @@ execute:
   freeze: auto
 
 website:
-  title: "Nicholas J Lyon"
+  title: "Nick J Lyon"
   favicon: images/logo_lyon.png
   repo-url: https://github.com/njlyon0/njlyon0.github.io
   repo-actions: [issue]
