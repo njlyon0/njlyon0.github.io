@@ -14,6 +14,8 @@ See a list of all of these types of teaching below along with--where applicable-
 
 ## Courses
 
+This section includes all teaching/public-speaking that takes place over the course of months or academic semesters.
+
 {{< fa people-group >}} {{< fa screwdriver-wrench >}} -- **<u>Lead Technical Instructor</u>** - [Synthesis Skills for Early Career Researchers](https://lter.github.io/ssecr/) (SSECR), **2024-2025**, Long Term Ecological Research Network Office, Santa Barbara, CA - [{{< fa brands github >}}](https://github.com/lter/ssecr)
 
 {{< fa screwdriver-wrench >}} -- **<u>Adjunct Faculty</u>** - [Programming in R for Biologists](https://njlyon0.github.io/teach_r-for-biologists/) (BIO 316), Summer **2023** & Summer **2024**, Stonehill College, Easton, MA - [{{< fa brands github >}}](https://github.com/njlyon0/teach_r-for-biologists)
@@ -25,6 +27,8 @@ See a list of all of these types of teaching below along with--where applicable-
 {{< fa bugs >}} {{< fa seedling >}} -- **<u>Teaching Assistant</u>** - Ecology Lab (BIO 312L), Fall **2018**, Iowa State University. Ames, IA
 
 ## Workshops
+
+This presentation type typically takes between two and six hours, though this instructional time may be divided across two days if the content is sufficiently technical.
 
 Note that these workshops were designed to be offered repeatedly to different audiences. As such, while each of these workshops is only identified once I have been part of the teaching team for all of them _many_ times. All resources are "living" so that participants from earlier iterations of a given workshop find the most up-to-date version of the materials when they revisit their old bookmarks.
 
@@ -38,6 +42,8 @@ Note that these workshops were designed to be offered repeatedly to different au
 
 ## Lectures
 
+Presentations under this heading take between 30 minutes and one hour.
+
 {{< fa screwdriver-wrench >}} -- Lyon, N.J. Introduction to Statistics and R in Ecology Research. **2020**. Insect Ecology (ENT 4520/6520), Clemson University. Clemson SC.
 
 {{< fa screwdriver-wrench >}} -- Lyon, N.J. Plotting with `ggplot2`. **2019**. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.
@@ -47,6 +53,8 @@ Note that these workshops were designed to be offered repeatedly to different au
 {{< fa screwdriver-wrench >}} -- Lyon, N.J. Multivariate Statistics in R. **2018**. Data Management and Analysis in R for Ecologists and Evolutionary Biologists (EEB 698) - {{< fa person-chalkboard >}} [Lecture slides](https://njlyon0.github.io/lyon_talks/slides/tutorial_multivar-stats.html#/title-slide)
 
 ## Conference-Style Presentations
+
+This style of presentation typically is the shortest form posted on my website; conference presentations typically take somewhere between five and 20 minutes.
 
 {{< fa bug >}} {{< fa screwdriver-wrench >}} -- Lyon, N.J. From Ecologist to Data Scientist. Biology Department Seminar. Stonehill College, Easton MA, September **2023**
 
