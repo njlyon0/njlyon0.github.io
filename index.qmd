@@ -24,7 +24,7 @@ about:
 
 ## Welcome!
 
-My name is Nick Lyon _(they / them)_ and I am an early career data scientist with experience managing and analyzing scientific data in a range of formats. I'm also a passionate educator (certified as an instructor by [The Carpentries](https://carpentries.org/)) and thoroughly enjoy chances to teach and learn with audiences of all levels of prior experience. I firmly believe in transparency in data management and am an avid Git/GitHub user. Check out my [{{< fa brands github >}} GitHub profile](https://github.com/njlyon0){target="_blank"} for examples of my work!
+My name is Nick Lyon _(they / them)_ and I am an early career data scientist with experience managing and analyzing scientific data in a range of formats. I'm also a passionate educator (certified as an instructor by [The Carpentries](https://carpentries.org/)) and thoroughly enjoy chances to teach and learn with audiences of all levels of prior experience. I firmly believe in transparency in data management and am an avid Git/GitHub user. Check out my {{< fa brands github >}} [GitHub profile](https://github.com/njlyon0){target="_blank"} for examples of my work!
 
 ### Skills & Interests
 
