@@ -12,8 +12,6 @@ I have had several opportunities to publish scientific papers both as a lead aut
 
 Note that many of these projects have GitHub repositories but they are set to 'Private' until publication. If you would like to use the code in one of these repos, just reach out and we can discuss adding you to the repositories before the papers are published.
 
-{{< fa screwdriver-wrench >}} -- Brun, J. _et al._ Enabling Data-Driven Collaborative and Reproducible Environmental Synthesis Science. _\[In revision at Methods in Ecology and Evolution\]_
-
 {{< fa sun-plant-wilt >}} -- Ohlert, T. _et al._ Drought Severity Interacts with Duration to Erode Ecosystem Resistance. _\[In review at Science\]_ - [{{< fa brands github >}}](https://github.com/lter/lterwg-droughtnet)
 
 {{< fa water >}} -- Carey, J.C. _et al._ River Silicon Concentrations and Exports are Predominantly Increasing Relative to Nitrogen and Phosphorus Across High Latitude Systems. _\[In prep\]_ - [{{< fa brands github >}}](https://github.com/njlyon0/lter_silica-high-latitude)
@@ -23,6 +21,8 @@ Note that many of these projects have GitHub repositories but they are set to 'P
 {{< fa seedling >}} {{< fa cow >}} -- Moranz, R. _et al._ Response of Butterfly Milkweed (*Ascelpias tuberosa*) to Cattle Grazing. _\[In prep\]_
 
 ## Published
+
+{{< fa screwdriver-wrench >}} -- Brun, J. _et al._ [Enabling Data-Driven Collaborative and Reproducible Environmental Synthesis Science](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.70036). **2025**. Methods in Ecology and Evolution
 
 {{< fa tree >}} -- LaMontagne, J. _et al._ [Community Synchrony in Seed Production is Associated with Trait Similarity and Climate across North America](https://onlinelibrary.wiley.com/doi/ftr/10.1111/ele.14498). **2024**. Ecology Letters - [{{< fa brands github >}}](https://github.com/lter/lterwg-plant-repro-synchrony)
 
