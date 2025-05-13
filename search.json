@@ -53,21 +53,21 @@
     "href": "consult.html",
     "title": "Consulting Work",
     "section": "",
-    "text": "I have increasingly been leveraging my expertise as a consultant and am happy to discuss possible future opportunities to work with your team! Please feel free to explore the rest of this website and my  GitHub profile for examples of my data science skills and send me an email (see the “Email” button of my homepage) if you’d like to get more information. I am a certified instructor with The Carpentries so I have formal training in coding pedagogy and am happy to do such tutoring as a consultant if that is of interest.\nNote also that I don’t use generative AI (e.g., GitHub Copilot, ChatGPT, etc.) in any context so you can be sure that if you decide to work with me, you will actually be working with me rather than a random number generator."
+    "text": "I have increasingly been leveraging my expertise as a consultant and am happy to discuss possible future opportunities to work with your team! In addition to my data science skills, I have substantial ecology research experience and formal training in coding pedagogy (I am a certified instructor with The Carpentries), so I can help with a wide range of possible tasks. Note also that I don’t use generative AI (e.g., GitHub Copilot, ChatGPT, etc.) so you can be sure that if you decide to work with me you will be benefitting from the intuition I have been honing for my career thus far."
   },
   {
-    "objectID": "consult.html#rates",
-    "href": "consult.html#rates",
+    "objectID": "consult.html#available-consulting-variants",
+    "href": "consult.html#available-consulting-variants",
     "title": "Consulting Work",
-    "section": "Rates",
-    "text": "Rates\nMy typical rates are as follows:\n\n\n\nJob Category\nRate\n\n\n\n\nNon-Academic\n$75 / hour\n\n\nAcademic\n$50 / hour\n\n\nGraduate Student\nAuthorship on Publication(s)\n\n\nRush Job (&lt; 72 hours)\n$250 minimum\n\n\n\nDepending on the scope of the job we can absolutely discuss deviations from this framework!"
+    "section": "Available Consulting Variants",
+    "text": "Available Consulting Variants\nPlease consider the tabs below as guidelines rather than exclusive categories. If you have questions or want to discuss details, please send me an email!\n\nHourly WorkTeachingStudent Discount\n\n\nI am happy to work hourly on projects where a small amount of dedicated work is all that is required to reach the desired outcome. My typical rates are as follows:\n\n\n\nJob Category\nRate\n\n\n\n\nNon-Academic\n$150 / hour\n\n\nAcademic\n$100 / hour\n\n\nRush Job (&lt; 72 hours)\n$500 minimum\n\n\n\nDepending on the scope of the job we can absolutely discuss deviations from this framework!\n\n\nI have developed several sets of course materials to teach various code-related topics and would happily teach that to you or your team. See the ‘menu’ below and consider which options might be the best fit for you!\n\n\n\nTeaching Category\nTime Estimate\nRate\n\n\n\n\nStudents self-teach with available materials\n–\nFree!\n\n\nOffice hours with me\nMinimum 4 hr.\n$100 / hour\n\n\nR Programming for Biologists course\n1-2 hr.\n$200 / slide deck\n\n\nCollaborative Coding with GitHub workshop\n2-3 hr.\n$300\n\n\nCreating Websites with Quarto workshop\n2-3 hr.\n$300\n\n\nSynthesis Skills for Early Career Researchers course\n2-3 hr.\n$300 / module\n\n\n\nNote that all teaching is synchronous online unless otherwise specified.\n\n\nTypically I offer a 50% discount for current students. For code tasks, I am also sometimes willing to waive my fee entirely in exchange for authorship on the most-closely related product of the work. Please email me to discuss more if this feels relevant to you."
   },
   {
     "objectID": "consult.html#past-consulting-work",
     "href": "consult.html#past-consulting-work",
     "title": "Consulting Work",
     "section": "Past Consulting Work",
-    "text": "Past Consulting Work\nThe nature of consulting is that products of the work are not always publicly-available but I am happy to discuss (within the confines of relevant non-disclosure agreements) the type of work I’ve done with researchers at the following organizations:"
+    "text": "Past Consulting Work\n\nTestimonials\nSee below for a selection of anonymized testimonials from students I’ve taught and from researchers for whom I have written code.\n\n“Amazing to get to benefit from your talent and curiosity”\n\n\n“I thought [Nick] was great and very passionate, which made learning R a lot of fun!”\n\n\n“Oh wow, so exciting!! You did this about 50 million times faster than I would have”\n\n\n“Really [the GitHub workshop] may be one of if not the best resource for teaching [GitHub] that I have come across”\n\n\n“Nick has a gift for explaining the subject matter in an understandable way”\n\n\n“OMG Nick you’re amazing! Continually! Thank you so much”\n\n\n\nOrganizations\nThe nature of consulting is that products of the work are not always publicly-available but I am happy to discuss (within the confines of relevant non-disclosure agreements) the type of work I’ve done with researchers at the following organizations:"
   },
   {
     "objectID": "code.html",
