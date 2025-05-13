@@ -48,6 +48,24 @@ Typically I offer a 50% discount for current students. For code tasks, I am also
 
 ## Past Consulting Work
 
+### Testimonials
+
+See below for a selection of anonymized testimonials from students I've taught and from researchers for whom I have written code.
+
+> _"Amazing to get to benefit from your talent and curiosity"_
+
+> _"I thought [Nick] was great and very passionate, which made learning R a lot of fun!"_
+
+> _"Oh wow, so exciting!! You did this about 50 million times faster than I would have"_
+
+> _"Really [the GitHub workshop] may be one of if not the best resource for teaching [GitHub] that I have come across"_
+
+> _"Nick has a gift for explaining the subject matter in an understandable way"_
+
+> _"OMG Nick you're amazing! Continually! Thank you so much"_
+
+### Organizations
+
 The nature of consulting is that products of the work are not always publicly-available but I am happy to discuss (within the confines of relevant non-disclosure agreements) the type of work I've done with researchers at the following organizations:
 
 <p align="center">
