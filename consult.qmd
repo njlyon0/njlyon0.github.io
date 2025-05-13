@@ -2,26 +2,49 @@
 title: "Consulting Work"
 ---
 
-I have increasingly been leveraging my expertise as a consultant and am happy to discuss possible future opportunities to work with your team! Please feel free to explore the rest of this website and my {{< fa brands github >}} [GitHub profile](https://github.com/njlyon0) for examples of my data science skills and send me an email (see the "Email" button of [my homepage](https://njlyon0.github.io/)) if you'd like to get more information. I am a certified instructor with [The Carpentries](https://carpentries.org/) so I have formal training in coding pedagogy and am happy to do such tutoring as a consultant if that is of interest.
-
-Note also that I don't use generative AI (e.g., GitHub Copilot, ChatGPT, etc.) in _any_ context so you can be sure that if you decide to work with me, you will _actually_ be working with me rather than a random number generator.
+I have increasingly been leveraging my expertise as a consultant and am happy to discuss possible future opportunities to work with your team! **In addition to my data science skills, I have substantial ecology research experience and formal training in coding pedagogy** (I am a certified instructor with [The Carpentries](https://carpentries.org/))**, so I can help with a wide range of possible tasks.** Note also that I don't use generative AI (e.g., GitHub Copilot, ChatGPT, etc.) so you can be sure that if you decide to work with me you will be benefitting from the intuition I have been honing for my career thus far.
 
 <p align="center">
 <img src="images/pic_microplastic.jpg" alt="Piece of microplastic auto-fluorescing under near-UV light" width="85%"/>
 </p>
 
-## Rates
+## Available Consulting Variants
 
-My typical rates are as follows:
+Please consider the tabs below as _guidelines_ rather than exclusive categories. **If you have questions or want to discuss details, please [send me an email](mailto:nicholasjlyon@gmail.com)!**
+
+:::{.panel-tabset}
+## Hourly Work
+
+I am happy to work hourly on projects where a small amount of dedicated work is all that is required to reach the desired outcome. My typical rates are as follows:
 
 | Job Category | Rate |
 |--------------|------|
-| Non-Academic | $75 / hour |
-| Academic     | $50 / hour |
-| Graduate Student | Authorship on Publication(s) |
-| Rush Job (< 72 hours) | $250 minimum |
+| Non-Academic | $150 / hour |
+| Academic     | $100 / hour |
+| Rush Job (< 72 hours) | $500 minimum |
 
 Depending on the scope of the job we can absolutely discuss deviations from this framework!
+
+## Teaching
+
+I have developed several sets of course materials to teach various code-related topics and would happily teach that to you or your team. See the 'menu' below and consider which options might be the best fit for you!
+
+| Teaching Category | Time Estimate | Rate |
+|--------------|:---:|------|
+| Students self-teach with available materials | -- | _Free!_ |
+| Office hours with me | Minimum 4 hr. | $100 / hour |
+| [R Programming for Biologists](https://njlyon0.github.io/teach_r-for-biologists/) course | 1-2 hr. | $200 / slide deck |
+| [Collaborative Coding with GitHub](https://lter.github.io/workshop-github/) workshop | 2-3 hr. | $300 |
+| [Creating Websites with Quarto](https://lter.github.io/workshop-quarto/) workshop | 2-3 hr. | $300 |
+| [Synthesis Skills for Early Career Researchers](https://lter.github.io/ssecr/) course | 2-3 hr. | $300 / module | 
+
+Note that all teaching is synchronous online unless otherwise specified.
+
+## Student Discount
+
+Typically I offer a 50% discount for current students. For code tasks, I am also sometimes willing to waive my fee entirely in exchange for authorship on the most-closely related product of the work. Please [email me](mailto:nicholasjlyon@gmail.com) to discuss more if this feels relevant to you.
+
+:::
 
 ## Past Consulting Work
 
