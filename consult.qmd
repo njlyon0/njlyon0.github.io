@@ -19,9 +19,9 @@ I am happy to work hourly on projects where a small amount of dedicated work is 
 
 | Job Category | Rate |
 |--------------|------|
-| Non-Academic | $150 / hour |
-| Academic     | $100 / hour |
-| Rush Job (< 72 hours) | $500 minimum |
+| Non-Academic | $100 / hour |
+| Academic     | $75 / hour |
+| Rush Job (< 72 hours) | $450 minimum |
 
 Depending on the scope of the job we can absolutely discuss deviations from this framework!
 
@@ -32,7 +32,7 @@ I have developed several sets of course materials to teach various code-related 
 | Teaching Category | Time Estimate | Rate |
 |--------------|:---:|------|
 | Students self-teach with available materials | -- | _Free!_ |
-| Office hours with me | Minimum 4 hr. | $100 / hour |
+| Office hours with me | Minimum 2 hr. | $100 / hour |
 | [R Programming for Biologists](https://njlyon0.github.io/teach_r-for-biologists/) course | 1-2 hr. | $200 / slide deck |
 | [Collaborative Coding with GitHub](https://lter.github.io/workshop-github/) workshop | 2-3 hr. | $300 |
 | [Creating Websites with Quarto](https://lter.github.io/workshop-quarto/) workshop | 2-3 hr. | $300 |
