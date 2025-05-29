@@ -29,16 +29,18 @@ Depending on the scope of the job we can absolutely discuss deviations from this
 
 I have developed several sets of course materials to teach various code-related topics and would happily teach that to you or your team. See the 'menu' below and consider which options might be the best fit for you!
 
+Note that all teaching is <u>synchronous online</u> unless otherwise specified. Also, all teaching offerings can support up to 20 learners; for larger class sizes, consider booking more than one session of the same course materials.
+
 | Teaching Category | Time Estimate | Rate |
-|--------------|:---:|------|
+|:----------|:---:|:------|
 | Students self-teach with available materials | -- | _Free!_ |
 | Office hours with me | Minimum 2 hr. | $100 / hour |
 | [R Programming for Biologists](https://njlyon0.github.io/teach_r-for-biologists/) course | 1-2 hr. | $200 / slide deck |
 | [Collaborative Coding with GitHub](https://lter.github.io/workshop-github/) workshop | 2-3 hr. | $300 |
 | [Creating Websites with Quarto](https://lter.github.io/workshop-quarto/) workshop | 2-3 hr. | $300 |
 | [Synthesis Skills for Early Career Researchers](https://lter.github.io/ssecr/) course | 2-3 hr. | $300 / module | 
+| Create and teach a workshop on a topic of your choice | 2-3 hr. | $1000 | 
 
-Note that all teaching is synchronous online unless otherwise specified.
 
 ## Student Discount
 
