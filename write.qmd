@@ -26,7 +26,7 @@ Note that many of these projects have GitHub repositories but they are set to 'P
 
 {{< fa screwdriver-wrench >}} -- Brun, J. _et al._ [Enabling Data-Driven Collaborative and Reproducible Environmental Synthesis Science](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.70036). **2025**. Methods in Ecology and Evolution
 
-{{< fa tree >}} -- LaMontagne, J. _et al._ [Community Synchrony in Seed Production is Associated with Trait Similarity and Climate across North America](https://onlinelibrary.wiley.com/doi/ftr/10.1111/ele.14498). **2024**. Ecology Letters - [{{< fa brands github >}}](https://github.com/lter/lterwg-plant-repro-synchrony)
+{{< fa tree >}} -- LaMontagne, J. _et al._ [Community Synchrony in Seed Production is Associated with Trait Similarity and Climate across North America](https://onlinelibrary.wiley.com/doi/ftr/10.1111/ele.14498). **2024**. Ecology Letters - [{{< fa brands github >}}](https://github.com/lter/lterwg-plant-repro-synchrony) - Recipient of the 2025 [McIntosh Award](https://esa.org/vegetation/awards/robert-p-mcintosh-award/) for best paper in vegetation ecology
 
 {{< fa screwdriver-wrench >}} -- Lyon, N.J. & Earl, S. [Conventional Commits: A Better Way to Track Changes with Git](https://lternet.edu/stories/databits-conventional-commits/). **2024**. DataBits
 
