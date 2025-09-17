@@ -1,0 +1,11 @@
+---
+title: "Creative Projects"
+---
+
+In addition to my work-related efforts, I have a number of creative hobbies that are sometimes worth sharing with others. See the sections below for some highlights of these non-work (but still fun!) products.
+
+## Featherlight {{< fa feather >}}
+
+I've developed a tabletop role-playing game (TTRPG) called Featherlight. This category of game includes games like Dungeons & Dragons but Featherlight is what's known as "rules-lite" meaning that the rules that govern how the game works are really simple and intuitive. Featherlight is built to be the backdrop for players to take big narrative swings in whatever setting sparks the most joy for their group.
+
+For more details on Featherlight, check out its website [here](https://njlyon0.github.io/featherlight-ttrpg/). Or you can download a copy from {{< fa brands itch-io >}} itch.io at **[njlyon0.itch.io/featherlight-ttrpg](https://njlyon0.itch.io/featherlight-ttrpg).**

@@ -37,6 +37,8 @@ website:
           - text: "{{< fa brands r-project >}} -- Loop Syntax"
             href: tips/r_int-loops.qmd
     right:
+      - text: "Creative Projects"
+        href: create.qmd
       - icon: github
         href: https://github.com/njlyon0
   page-footer:
