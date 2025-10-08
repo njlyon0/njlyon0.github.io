@@ -10,8 +10,6 @@ I have had several opportunities to publish scientific papers both as a lead aut
 
 ## Not (Yet!) Published
 
-Note that many of these projects have GitHub repositories but they are set to 'Private' until publication. If you would like to use the code in one of these repos, just reach out and we can discuss adding you to the repositories before the papers are published.
-
 {{< fa sun-plant-wilt >}} -- Ohlert, T. _et al._ Drought Severity Interacts with Duration to Erode Ecosystem Resistance. _\[In press at Science\]_ - [{{< fa brands github >}}](https://github.com/lter/lterwg-droughtnet)
 
 {{< fa water >}} -- Bush, S. _et al._ Thinking Outside the Rocks: Subsurface Storage, Topography, and Land Cover Modulate Large-Scale Riverine Dissolved Silicon Dynamics. _\[In revision at Geophysical Research Letters\]_ - [{{< fa brands github >}}](https://github.com/lter/lterwg-silica-spatial) ^spatial^ & [{{<fa brands github>}}](https://github.com/sidneyabush/LTER-SiSyn-Spatial-Controls) ^manuscript^
@@ -26,7 +24,7 @@ Note that many of these projects have GitHub repositories but they are set to 'P
 
 {{< fa screwdriver-wrench >}} -- Brun, J. _et al._ [Enabling Data-Driven Collaborative and Reproducible Environmental Synthesis Science](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.70036). **2025**. Methods in Ecology and Evolution
 
-{{< fa tree >}} -- LaMontagne, J. _et al._ [Community Synchrony in Seed Production is Associated with Trait Similarity and Climate across North America](https://onlinelibrary.wiley.com/doi/ftr/10.1111/ele.14498). **2024**. Ecology Letters - [{{< fa brands github >}}](https://github.com/lter/lterwg-plant-repro-synchrony) - Recipient of the 2025 [McIntosh Award](https://esa.org/vegetation/awards/robert-p-mcintosh-award/) for best paper in vegetation ecology
+{{< fa tree >}} -- LaMontagne, J. _et al._ [Community Synchrony in Seed Production is Associated with Trait Similarity and Climate across North America](https://onlinelibrary.wiley.com/doi/ftr/10.1111/ele.14498). **2024**. Ecology Letters - [{{< fa brands github >}}](https://github.com/lter/lterwg-plant-repro-synchrony) - {{< fa trophy >}} Recipient of the 2025 [McIntosh Award](https://esa.org/vegetation/awards/robert-p-mcintosh-award/)
 
 {{< fa screwdriver-wrench >}} -- Lyon, N.J. & Earl, S. [Conventional Commits: A Better Way to Track Changes with Git](https://lternet.edu/stories/databits-conventional-commits/). **2024**. DataBits
 
@@ -48,7 +46,7 @@ Note that many of these projects have GitHub repositories but they are set to 'P
 
 {{< fa seedling >}} {{< fa bug >}} -- Lyon, N.J. _et al._ [Responses of Flowering Plant and Butterfly Communities to Experimental Herbicide and Seeding Treatments for Native Grassland Restoration](http://er.uwpress.org/content/39/3/168.short). 3. **2021**. Ecological Restoration - [{{< fa brands github >}}](https://github.com/njlyon0/lyon_bfly-herbicide)
 
-{{< fa fire-flame-curved >}} {{< fa cow >}} -- Lyon, N.J. _et al._ [An Integrated Approach to Restoring Grassland Function to Working Lands](https://dr.lib.iastate.edu/entities/publication/f3cd5b5f-17ae-4fdd-b8b9-0a87fda99765). **2019**. Master of Science Thesis
+{{< fa fire-flame-curved >}} {{< fa cow >}} -- Lyon, N.J. _et al._ [An Integrated Approach to Restoring Grassland Function to Working Lands](https://dr.lib.iastate.edu/entities/publication/f3cd5b5f-17ae-4fdd-b8b9-0a87fda99765). **2019**. Master of Science Thesis - [{{< fa brands github >}}](https://github.com/njlyon0/lyon-ms-thesis_butterfly-project)
 
 {{< fa cloud-sun >}} -- Lyon, N.J., Debinski, D.M., and Rangwala, I. [Evaluating the Utility of Species Distribution Models in Informing Climate Change-Resilient Grassland Restoration Strategy](https://www.frontiersin.org/articles/10.3389/fevo.2019.00033/full). 7. **2019** Frontiers in Ecology and Evolution - [{{< fa brands github >}}](https://github.com/njlyon0/lyon-ms-thesis_sdm)
 
