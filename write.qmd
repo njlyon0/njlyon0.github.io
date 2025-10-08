@@ -14,7 +14,7 @@ Note that many of these projects have GitHub repositories but they are set to 'P
 
 {{< fa sun-plant-wilt >}} -- Ohlert, T. _et al._ Drought Severity Interacts with Duration to Erode Ecosystem Resistance. _\[In press at Science\]_ - [{{< fa brands github >}}](https://github.com/lter/lterwg-droughtnet)
 
-{{< fa water >}} -- Bush, S. _et al._ Thinking Outside the Rocks: Subsurface Storage, Topography, and Land Cover Modulate Large-Scale Riverine Dissolved Silicon Dynamics. _\[In revision at Geophysical Research Letters\]_
+{{< fa water >}} -- Bush, S. _et al._ Thinking Outside the Rocks: Subsurface Storage, Topography, and Land Cover Modulate Large-Scale Riverine Dissolved Silicon Dynamics. _\[In revision at Geophysical Research Letters\]_ - [{{< fa brands github >}}](https://github.com/lter/lterwg-silica-spatial) ^spatial^ & [{{<fa brands github>}}](https://github.com/sidneyabush/LTER-SiSyn-Spatial-Controls) ^manuscript^
 
 {{< fa fish-fins >}} -- White, M. _et al._ Scale-Dependent Effects of Species Richness and Asynchrony Regulate the Temporal Stability of Consumer-Mediated Nutrient Dynamics. _\[In review at Nature Ecology & Evolution\]_ - [{{< fa brands github >}}](https://github.com/lter/lterwg-marine-cnd)
 
