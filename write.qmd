@@ -22,8 +22,6 @@ Note that many of these projects have GitHub repositories but they are set to 'P
 
 {{< fa screwdriver-wrench >}} -- Maurer, G. _et al._ Ten Simple Rules for Team Synthesis in Ecological Research. _\[In prep\]_
 
-{{< fa seedling >}} {{< fa cow >}} -- Moranz, R. _et al._ Response of Butterfly Milkweed (*Ascelpias tuberosa*) to Cattle Grazing. _\[In prep\]_ - [{{< fa brands github >}}](https://github.com/njlyon0/collab_moranz-asclepias)
-
 ## Published
 
 {{< fa screwdriver-wrench >}} -- Brun, J. _et al._ [Enabling Data-Driven Collaborative and Reproducible Environmental Synthesis Science](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.70036). **2025**. Methods in Ecology and Evolution
