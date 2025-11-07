@@ -18,6 +18,8 @@ I have had several opportunities to publish scientific papers both as a lead aut
 
 {{< fa water >}} -- Carey, J.C. _et al._ River Silicon Concentrations and Exports are Predominantly Increasing Relative to Nitrogen and Phosphorus Across High Latitude Systems. _\[In prep\]_ - [{{< fa brands github >}}](https://github.com/njlyon0/lter_silica-high-latitude)
 
+{{< fa tree >}} -- Macias, D. _et al._ Contrasting Drivers of Seed-Production Tempo at Different Scales of Comparison.  _\[In prep\]_
+
 {{< fa screwdriver-wrench >}} -- Maurer, G. _et al._ Ten Simple Rules for Team Synthesis in Ecological Research. _\[In prep\]_
 
 ## Published
