@@ -10,11 +10,9 @@ I have had several opportunities to publish scientific papers both as a lead aut
 
 ## Not (Yet!) Published
 
-{{< fa sun-plant-wilt >}} -- Ohlert, T. _et al._ Drought Severity Interacts with Duration to Erode Ecosystem Resistance. _\[In press at Science\]_ - [{{< fa brands github >}}](https://github.com/lter/lterwg-droughtnet)
-
 {{< fa water >}} -- Bush, S. _et al._ Thinking Outside the Rocks: Subsurface Storage, Topography, and Land Cover Modulate Large-Scale Riverine Dissolved Silicon Dynamics. _\[In revision at Geophysical Research Letters\]_ - [{{< fa brands github >}}](https://github.com/lter/lterwg-silica-spatial) ^spatial^ & [{{<fa brands github>}}](https://github.com/sidneyabush/LTER-SiSyn-Spatial-Controls) ^manuscript^
 
-{{< fa fish-fins >}} -- White, M. _et al._ Scale-Dependent Effects of Species Richness and Asynchrony Regulate the Temporal Stability of Consumer-Mediated Nutrient Dynamics. _\[In review at Nature Ecology & Evolution\]_ - [{{< fa brands github >}}](https://github.com/lter/lterwg-marine-cnd)
+{{< fa fish-fins >}} -- White, M. _et al._ Scale-Dependent Effects of Species Richness and Asynchrony Regulate the Temporal Stability of Consumer-Mediated Nutrient Dynamics. _\[In review at PNAS\]_ - [{{< fa brands github >}}](https://github.com/lter/lterwg-marine-cnd)
 
 {{< fa water >}} -- Carey, J.C. _et al._ River Silicon Concentrations and Exports are Predominantly Increasing Relative to Nitrogen and Phosphorus Across High Latitude Systems. _\[In prep\]_ - [{{< fa brands github >}}](https://github.com/njlyon0/lter_silica-high-latitude)
 
@@ -23,6 +21,8 @@ I have had several opportunities to publish scientific papers both as a lead aut
 {{< fa screwdriver-wrench >}} -- Maurer, G. _et al._ Ten Simple Rules for Team Synthesis in Ecological Research. _\[In prep\]_
 
 ## Published
+
+{{< fa sun-plant-wilt >}} -- Ohlert, T. _et al._ [Drought Intensity and Duration Interact to Magnify Losses in Primary Productivity](https://www.science.org/doi/10.1126/science.ads8144). **2025**. Science - [{{< fa brands github >}}](https://github.com/lter/lterwg-droughtnet)
 
 {{< fa screwdriver-wrench >}} -- Brun, J. _et al._ [Enabling Data-Driven Collaborative and Reproducible Environmental Synthesis Science](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.70036). **2025**. Methods in Ecology and Evolution
 
