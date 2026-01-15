@@ -24,6 +24,7 @@ website:
         href: write.qmd
       - text: "Consult"
         href: consult.qmd
+    right:
       - text: "Data Science Tips"
         menu:
           - text: "{{< fa brands git >}} -- Conventional Commits"
@@ -36,7 +37,6 @@ website:
             href: tips/r_select-elements.qmd
           - text: "{{< fa brands r-project >}} -- Loop Syntax"
             href: tips/r_int-loops.qmd
-    right:
       - text: "Creative Projects"
         href: create.qmd
       - icon: github
