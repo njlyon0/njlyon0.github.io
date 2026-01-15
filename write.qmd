@@ -12,13 +12,13 @@ I have had several opportunities to publish scientific papers both as a lead aut
 
 {{< fa water >}} -- Bush, S. _et al._ Thinking Outside the Rocks: Subsurface Storage, Topography, and Land Cover Modulate Large-Scale Riverine Dissolved Silicon Dynamics. _\[In revision at Geophysical Research Letters\]_ - [{{< fa brands github >}}](https://github.com/lter/lterwg-silica-spatial) ^spatial^ & [{{<fa brands github>}}](https://github.com/sidneyabush/LTER-SiSyn-Spatial-Controls) ^manuscript^
 
-{{< fa fish-fins >}} -- White, M. _et al._ Scale-Dependent Effects of Species Richness and Asynchrony Regulate the Temporal Stability of Consumer-Mediated Nutrient Dynamics. _\[In review at PNAS\]_ - [{{< fa brands github >}}](https://github.com/lter/lterwg-marine-cnd)
+{{< fa water >}} -- Carey, J.C. _et al._ River Silicon Concentrations and Exports are Predominantly Increasing Relative to Nitrogen and Phosphorus Across High Latitude Systems. _\[In revision at Global Biogeochemical Cycles\]_ - [{{< fa brands github >}}](https://github.com/njlyon0/lter_silica-high-latitude)
 
-{{< fa water >}} -- Carey, J.C. _et al._ River Silicon Concentrations and Exports are Predominantly Increasing Relative to Nitrogen and Phosphorus Across High Latitude Systems. _\[In prep\]_ - [{{< fa brands github >}}](https://github.com/njlyon0/lter_silica-high-latitude)
+{{< fa fish-fins >}} -- White, M. _et al._ Scale-Dependent Effects of Species Richness and Asynchrony Regulate the Temporal Stability of Consumer-Mediated Nutrient Dynamics. _\[In review at PNAS\]_ - [{{< fa brands github >}}](https://github.com/lter/lterwg-marine-cnd)
 
 {{< fa tree >}} -- Macias, D. _et al._ Contrasting Drivers of Seed-Production Tempo at Different Scales of Comparison.  _\[In prep\]_
 
-{{< fa screwdriver-wrench >}} -- Maurer, G. _et al._ Ten Simple Rules for Team Synthesis in Ecological Research. _\[In prep\]_
+{{< fa screwdriver-wrench >}} -- Elmendorf, S.C. _et al._ Ten Simple Rules for Team Synthesis in Ecological Research. _\[In prep\]_
 
 ## Published
 
