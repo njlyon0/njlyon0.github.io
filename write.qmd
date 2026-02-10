@@ -12,11 +12,11 @@ I have had several opportunities to publish scientific papers both as a lead aut
 
 {{< fa water >}} -- Carey, J.C. _et al._ River Silicon Concentrations and Exports are Predominantly Increasing Relative to Nitrogen and Phosphorus Across High Latitude Systems. _\[In revision at Global Biogeochemical Cycles\]_ - [{{< fa brands github >}}](https://github.com/njlyon0/lter_silica-high-latitude)
 
-{{< fa fish-fins >}} -- White, M. _et al._ Scale-Dependent Effects of Species Richness and Asynchrony Regulate the Temporal Stability of Consumer-Mediated Nutrient Dynamics. _\[In review at PNAS\]_ - [{{< fa brands github >}}](https://github.com/lter/lterwg-marine-cnd)
+{{< fa fish-fins >}} -- White, M. _et al._ Scale-Dependent Effects of Species Richness and Asynchrony Regulate the Temporal Stability of Consumer-Mediated Nutrient Dynamics. _\[In revision at PNAS\]_ - [{{< fa brands github >}}](https://github.com/lter/lterwg-marine-cnd)
+
+{{< fa people-group >}} -- Elmendorf, S.C. _et al._ Ten Simple Rules for Team Synthesis in Ecological Research. _\[In review at Methods in Ecology and Evolution\]_
 
 {{< fa tree >}} -- Macias, D. _et al._ Contrasting Drivers of Seed-Production Tempo at Different Scales of Comparison.  _\[In prep\]_
-
-{{< fa screwdriver-wrench >}} -- Elmendorf, S.C. _et al._ Ten Simple Rules for Team Synthesis in Ecological Research. _\[In prep\]_
 
 ## Published
 
