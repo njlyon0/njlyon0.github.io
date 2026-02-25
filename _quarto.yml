@@ -40,7 +40,7 @@ website:
       - text: "Creative Projects"
         href: create.qmd
       - icon: github
-        href: https://github.com/njlyon0
+        href: https://github.com/njlyon0/njlyon0.github.io
   page-footer:
     center: "Copyright 2024, Nicholas Lyon"
     background: secondary
