@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Looping Across Integers (in R) – Nick J Lyon</title>
+<title>Cautionary Notes on Generative AI – Nick J Lyon</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,41 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -363,8 +328,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#reasons-to-consider-not-using-generative-ai" id="toc-reasons-to-consider-not-using-generative-ai" class="nav-link active" data-scroll-target="#reasons-to-consider-not-using-generative-ai">Reasons to <em>Consider</em> Not Using Generative AI</a>
+  <ul class="collapse">
+  <li><a href="#environmental-impact" id="toc-environmental-impact" class="nav-link" data-scroll-target="#environmental-impact">Environmental Impact (<i class="fa-solid fa-droplet" aria-hidden="true"></i> / <i class="fa-solid fa-bolt-lightning" aria-hidden="true"></i>)</a></li>
+  <li><a href="#data-center-location" id="toc-data-center-location" class="nav-link" data-scroll-target="#data-center-location">Data Center Location (<i class="fa-solid fa-industry" aria-hidden="true"></i>)</a></li>
+  <li><a href="#intellectual-property-bias" id="toc-intellectual-property-bias" class="nav-link" data-scroll-target="#intellectual-property-bias">Intellectual Property &amp; Bias (<i class="fa-solid fa-lightbulb" aria-hidden="true"></i>)</a></li>
+  <li><a href="#critical-thinking" id="toc-critical-thinking" class="nav-link" data-scroll-target="#critical-thinking">Critical Thinking (<i class="fa-solid fa-brain" aria-hidden="true"></i>)</a></li>
+  <li><a href="#output-reliability" id="toc-output-reliability" class="nav-link" data-scroll-target="#output-reliability">Output Reliability (<i class="fa-solid fa-robot" aria-hidden="true"></i>)</a></li>
+  </ul></li>
+  <li><a href="#sources" id="toc-sources" class="nav-link" data-scroll-target="#sources">Sources</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/njlyon0/njlyon0.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -372,7 +351,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Looping Across Integers (in R)</h1>
+<h1 class="title">Cautionary Notes on Generative AI</h1>
 </div>
 
 
@@ -389,72 +368,112 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>When iterating a given operation it is common to loop across some integer. For example, maybe you’re looping across a list and want to use the numeric position of each element of the list. Typically, this is accomplished like so:</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define vector</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>my_vec <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"a"</span>, <span class="st">"b"</span>, <span class="st">"c"</span>)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Loop across it</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span>(k <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(my_vec)){</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Print the kth letter</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"Processing "</span>, my_vec[[k]], <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>, <span class="at">sep=</span><span class="st">""</span>)</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Processing a
-Processing b
-Processing c</code></pre>
+<p><u>Gen</u>erative <u>A</u>rtificial <u>I</u>ntelligence (“genAI”) tools are increasingly widely used but, as with many new technologies, the ethical and environmental impacts are often not discussed at all or only mentioned in a cursory manner. For a number of reasons, <strong>I don’t use genAI tools</strong>, and I think it will be helpful for me to gather some of the facts and feelings behind my decision in one place.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span><i class="fa-solid fa-person-digging" aria-hidden="true"></i> UNDER CONSTRUCTION
 </div>
 </div>
-<p>This works in this case but <u>if the vector of values has <em>no</em> elements, the loop will behave unexpectedly</u>. This is because <code>1:length</code> of an empty vector returns <code>1</code> and <code>0</code>! Let’s demonstrate this here:</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Make an empty vector</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>empty_vec <span class="ot">&lt;-</span> <span class="fu">c</span>()</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Loop across it</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span>(k <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(empty_vec)){</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Print the kth letter</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"Processing "</span>, empty_vec[[k]], <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>, <span class="at">sep=</span><span class="st">""</span>)</span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Processing 
-Processing </code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Demonstrate how the loop interpreted the `1:length` bit</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(empty_vec)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 1 0</code></pre>
+<div class="callout-body-container callout-body">
+<p>This page is under construction so I apologize for any inconsistently-formatted citations or grammar/spelling issues</p>
 </div>
 </div>
-<p>See how the loop still appears to work but isn’t returning values that might be expected? This can be especially challenging to debug with a more complex (i.e., more realistic) loop. However, we can reformat the first part of the loop to use <code>seq_along</code> instead of <code>1:length</code>. The loop will still not work but it will be more clear that the issue is with your initial vector of inputs.</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="annotated-cell-4"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-4-1"><a href="#annotated-cell-4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Loop across the empty vector</span></span>
-<button class="code-annotation-anchor" data-target-cell="annotated-cell-4" data-target-annotation="1">1</button><span id="annotated-cell-4-2" class="code-annotation-target"><a href="#annotated-cell-4-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span>(k <span class="cf">in</span> <span class="fu">seq_along</span>(empty_vec)){</span>
-<span id="annotated-cell-4-3"><a href="#annotated-cell-4-3" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="annotated-cell-4-4"><a href="#annotated-cell-4-4" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Print the kth letter</span></span>
-<span id="annotated-cell-4-5"><a href="#annotated-cell-4-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"Processing "</span>, empty_vec[[k]], <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>, <span class="at">sep=</span><span class="st">""</span>)</span>
-<span id="annotated-cell-4-6"><a href="#annotated-cell-4-6" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="annotated-cell-4-7"><a href="#annotated-cell-4-7" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="annotated-cell-4-8"><a href="#annotated-cell-4-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="annotated-cell-4-9"><a href="#annotated-cell-4-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Demonstrate how the loop interpreted the `seq_along` bit</span></span>
-<span id="annotated-cell-4-10"><a href="#annotated-cell-4-10" aria-hidden="true" tabindex="-1"></a><span class="fu">seq_along</span>(empty_vec)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-annotation">
-<dl class="code-annotation-container-hidden code-annotation-container-grid">
-<dt data-target-cell="annotated-cell-4" data-target-annotation="1">1</dt>
-<dd>
-<span data-code-cell="annotated-cell-4" data-code-lines="2" data-code-annotation="1">Technically, <code>seq_along</code> has an <code>along.with</code> argument but for conciseness I’ve let it be implicit in this demo</span>
-</dd>
-</dl>
+<section id="reasons-to-consider-not-using-generative-ai" class="level2">
+<h2 class="anchored" data-anchor-id="reasons-to-consider-not-using-generative-ai">Reasons to <em>Consider</em> Not Using Generative AI</h2>
+<p><strong><u>Whether, and how, you use generative AI is fundamentally a decision you have to make for yourself.</u></strong> Mostly I collated the information in this page because I think a lot of people who use genAI do so either without thinking through the pros and cons of the decision or do so out of a sense of fatalism that ‘everyone is using AI so I must as well.’ I don’t think using genAI makes you a bad person, but <strong>I do think it’s risky if you use these tools without seriously considering whether they are needed for a given context and how you can minimize the broader harm if you do choose to use them.</strong></p>
+<section id="environmental-impact" class="level3">
+<h3 class="anchored" data-anchor-id="environmental-impact">Environmental Impact (<i class="fa-solid fa-droplet" aria-hidden="true"></i> / <i class="fa-solid fa-bolt-lightning" aria-hidden="true"></i>)</h3>
+<p>When you submit a prompt to a genAI tool, the actual computing that happens as your prompt is interpreted and a result is returned to you is done at a data center. These data centers are <em>incredibly</em> water- and energy-hungry. Note that while data centers are used for many facets of cloud computing (not only genAI), genAI is a significant driver of recent upticks in water and energy use worldwide and in the United States.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href=""><i class="fa-solid fa-droplet" aria-hidden="true"></i> Water Use</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href=""><i class="fa-solid fa-bolt-lightning" aria-hidden="true"></i> Energy Use</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<ul>
+<li>Large data centers may use between 1 and 5 million gallons of water <u>a day</u><sup>1</sup>
+<ul>
+<li>This is comparable to the water usage of a town of 10,000 to 50,000 people<sup>1</sup></li>
+</ul></li>
+<li>In 2022, Google released* information that their data center in The Dalles, Oregon was using 25% of the town’s water supply<sup>1</sup>
+<ul>
+<li>* = after a 13-month legal battle where Google attempted to avoid disclosing their water use in the town<sup>2</sup></li>
+</ul></li>
+<li>In 2021, Google reported that it used 450,000 gallons of water <u>per day</u><sup>3</sup></li>
+<li>In 2018, data centers in the United States alone used 513 <u>million</u> cubic meters of water<sup>4</sup>
+<ul>
+<li>Equal to roughly 135.5 <u>billion</u> gallons</li>
+</ul></li>
+</ul>
 </div>
-<div class="cell-output cell-output-stdout">
-<pre><code>integer(0)</code></pre>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<ul>
+<li>Data centers use between 10 and 50 times the energy per floor space of a commercial office building<sup>5</sup></li>
+<li>A ChatGPT query uses about 5 times the energy of an equivalent web search<sup>6</sup></li>
+</ul>
 </div>
 </div>
+</div>
+</section>
+<section id="data-center-location" class="level3">
+<h3 class="anchored" data-anchor-id="data-center-location">Data Center Location (<i class="fa-solid fa-industry" aria-hidden="true"></i>)</h3>
+<p>In addition to their environmental impacts, <em>where</em> data centers are built has some troubling ethical ramifications</p>
+<ul>
+<li>Data centers tend to be built in places where the cost of land is cheap, and water is often scarce in such places<sup>1</sup></li>
+</ul>
+</section>
+<section id="intellectual-property-bias" class="level3">
+<h3 class="anchored" data-anchor-id="intellectual-property-bias">Intellectual Property &amp; Bias (<i class="fa-solid fa-lightbulb" aria-hidden="true"></i>)</h3>
+<p>genAI models are trained on publicly-available information, without any systematic effort to gather consent from the original producers of that content.</p>
+<ul>
+<li>GitHub itself acknowledges that the “model that powers Copilot is trained on a broad collection of publicly accessible code, which may include copyrighted code”<sup>7</sup></li>
+<li>This is problematic in and of itself but is worsened by the use of genAI tools to displace the creators who generated those outputs from which the tools were trained!</li>
+<li>GenAI used in hiring decisions is particularly problematic as it reflects the biases built into current hiring pools and industry demographics
+<ul>
+<li>Amazon had to scrap it’s AI-hiring tool after finding it penalized resumes including the word “women”<sup>8</sup></li>
+<li>A genAI-based speech recognition system used by HireVue to make hiring decisions was found to disadvantage deaf and non-white applicants<sup>9</sup></li>
+</ul></li>
+</ul>
+</section>
+<section id="critical-thinking" class="level3">
+<h3 class="anchored" data-anchor-id="critical-thinking">Critical Thinking (<i class="fa-solid fa-brain" aria-hidden="true"></i>)</h3>
+<p>For students, genAI can be particularly harmful in eroding their critical thinking skills.</p>
+<ul>
+<li>A 2025 study of 666 adults (aged 17-45+) found a <u>significant <strong>negative</strong> relationship between frequent AI use and critical thinking ability</u><sup>10</sup>
+<ul>
+<li>This negative effect was significantly stronger for the youngest age group of participants in the study (ages 17-25)<sup>10</sup></li>
+</ul></li>
+<li>Another 2025 study of 319 adults (ages 18-55+) found that participants reported they did less critical thinking the more that they trusted genAI outputs in work contexts<sup>11</sup></li>
+<li>A 2024 study found that participants who used an LLM (ChatGPT) to write an essay showed significantly less neural connectivity than those who used no tool at all or only standard web searches<sup>12</sup></li>
+</ul>
+</section>
+<section id="output-reliability" class="level3">
+<h3 class="anchored" data-anchor-id="output-reliability">Output Reliability (<i class="fa-solid fa-robot" aria-hidden="true"></i>)</h3>
+<p>Anecdotally, many colleagues of mine (who are almost exclusively working data scientists or academics) have commented on how genAI “hallucinations” (i.e., entirely fake, incorrect, or otherwise unreliable outputs) are common–even under the most recent versions of the more popular LLMs (e.g., GitHub Copilot, ChatGPT, Claude, Gemini).</p>
+<p>This unreliability means that all genAI-produced outputs need to be carefully vetted (which I support!) but also means that the vaunted efficiency of genAI in automating rote tasks is not all it’s cracked up to be. One colleague even expressed to me that it takes them as long to double-check the code outputs of genAI than it would to just write the code themselves from the start.</p>
+</section>
+</section>
+<section id="sources" class="level2">
+<h2 class="anchored" data-anchor-id="sources">Sources</h2>
+<ol type="1">
+<li>Washington Post, <a href="https://www.washingtonpost.com/climate-environment/2023/04/25/data-centers-drought-water-use/">“A New Front in the Water Wars: Your Internet Use”</a></li>
+<li>The Oregonian, <a href="https://www.oregonlive.com/silicon-forest/2022/12/the-dalles-settles-public-records-lawsuit-over-googles-data-centers-will-disclose-water-use.html">“The Dalles settles public records lawsuit over Google’s data centers, will disclose water use to The Oregonian/OregonLive”</a></li>
+<li>Google, <a href="https://blog.google/company-news/outreach-and-initiatives/sustainability/our-commitment-to-climate-conscious-data-center-cooling/">“Our commitment to climate-conscious data center cooling”</a></li>
+<li><a href="https://iopscience.iop.org/article/10.1088/1748-9326/abfba1#erlabfba1s3">Siddik et al., 2021. Environ. Res. Lett.</a></li>
+<li>US Department of Energy, <a href="https://www.energy.gov/eere/buildings/data-centers-and-servers">“Data Centers and Servers”</a></li>
+<li>MIT News, <a href="https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117">“Explained: Generative AI’s environmental impact”</a></li>
+<li>GitHub, <a href="https://github.com/features/copilot/">“GitHub Copilot”</a></li>
+<li>Dastin, 2018. <a href="https://www.reuters.com/article/world/insight-amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK0AG/">“Amazon scraps secret AI recruiting tool that showed bias against women”</a></li>
+<li>Stein &amp; Carrick, 2025. <a href="https://www.abc.net.au/news/2025-05-08/ai-job-recruitment-tools-could-enable-discrimination-research/105258820">“AI job recruitment tools could ‘enable discrimination’ against marginalised groups, research finds”</a></li>
+<li><a href="https://www.mdpi.com/2075-4698/15/1/6">Gerlich, 2025</a>. Societies</li>
+<li><a href="https://dl.acm.org/doi/10.1145/3706598.3713778">Lee, H.P. et al., 2025.</a> Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems</li>
+<li><a href="https://www.media.mit.edu/publications/your-brain-on-chatgpt/">Kosmyna, N. et al., 2024</a>. MIT Media Lab</li>
+</ol>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -922,7 +941,7 @@ Processing </code></pre>
     </div>   
     <div class="nav-footer-center">
 <p>Copyright 2024, Nicholas Lyon</p>
-<div class="toc-actions"><ul><li><a href="https://github.com/njlyon0/njlyon0.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/njlyon0/njlyon0.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
