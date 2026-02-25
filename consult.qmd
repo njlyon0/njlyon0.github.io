@@ -70,10 +70,39 @@ See below for a selection of anonymized testimonials from students I've taught a
 
 The nature of consulting is that products of the work are not always publicly-available but I am happy to discuss (within the confines of relevant non-disclosure agreements) the type of work I've done with researchers at the following organizations:
 
+::::{.columns}
+:::{.column width="32%"}
+<img src="images/consult_xerces.png" alt="Logo for the Xerces Society" width="100%" />
+
+<img src="images/consult_univ-georgia.png" alt="Logo for the University of Georgia" width="100%" />
+
+<img src="images/consult_iunu.png" alt="Logo for iUNU" width="100%" />
+
+:::
+:::{.column width="2%"}
+:::
+:::{.column width="32%"}
 <p align="center">
-
-<img src="images/consult_univ-georgia.png" alt="Logo for the University of Georgia" width="30%" /> <img src="images/consult_iunu.png" alt="Logo for iUNU" width="30%" /> <img src="images/consult_scope3.png" alt="Logo for Scope3 Consulting" width="30%" />
-
-<img src="images/consult_xerces.png" alt="Logo for the Xerces Society" width="30%" /> <img src="images/consult_montana-state.png" alt="Logo for Montana State University" width="30%" /> <img src="images/consult_brdgai.png" alt="Logo for BrdgAI" width="30%" />
-
+<img src="images/consult_scope3.png" alt="Logo for Scope3 Consulting" width="100%" />
 </p>
+
+<p align="center">
+<img src="images/consult_legacyworks.png" alt="Logo for LegacyWorks Group" width="100%" />
+</p>
+
+<p align="center">
+<img src="images/consult_babson.png" alt="Logo for Babson College" width="50%" />
+</p>
+
+:::
+:::{.column width="2%"}
+:::
+:::{.column width="32%"}
+<img src="images/consult_usgs.png" alt="Logo for the United States Geological Survey (USGS)" width="100%"/>
+
+<img src="images/consult_montana-state.png" alt="Logo for Montana State University" width="100%" />
+
+<img src="images/consult_sci-museum-mn.png" alt="Logo for the Science Museum of Minnesota" width="100%" />
+
+:::
+::::
