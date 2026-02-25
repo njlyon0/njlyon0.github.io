@@ -29,6 +29,8 @@ website:
         menu:
           - text: "{{< fa brands git >}} -- Conventional Commits"
             href: tips/commits.qmd
+          - text: "{{< fa robot >}} -- AI Cautionary Notes"
+            href: tips/ai.qmd
           - text: "{{< fa brands r-project >}} -- Class Coercion"
             href: tips/r_class-coercion.qmd
           - text: "{{< fa brands r-project >}} -- Condition Signalling"

@@ -1,0 +1,84 @@
+---
+title: "Cautionary Notes on Generative AI"
+---
+
+<u>Gen</u>erative <u>A</u>rtificial <u>I</u>ntelligence ("genAI") tools are increasingly widely used but, as with many new technologies, the ethical and environmental impacts are often not discussed at all or only mentioned in a cursory manner. For a number of reasons, **I don't use genAI tools**, and I think it will be helpful for me to gather some of the facts and feelings behind my decision in one place.
+
+:::{.callout-important}
+## {{< fa person-digging >}} UNDER CONSTRUCTION
+
+This page is under construction so I apologize for any inconsistently-formatted citations or grammar/spelling issues
+:::
+
+## Reasons to _Consider_ Not Using Generative AI
+
+**<u>Whether, and how, you use generative AI is fundamentally a decision you have to make for yourself.</u>** Mostly I collated the information in this page because I think a lot of people who use genAI do so either without thinking through the pros and cons of the decision or do so out of a sense of fatalism that 'everyone is using AI so I must as well.' I don't think using genAI makes you a bad person, but **I do think it's risky if you use these tools without seriously considering whether they are needed for a given context and how you can minimize the broader harm if you do choose to use them.**
+
+### Environmental Impact ({{< fa droplet >}} / {{< fa bolt-lightning >}})
+
+When you submit a prompt to a genAI tool, the actual computing that happens as your prompt is interpreted and a result is returned to you is done at a data center. These data centers are _incredibly_ water- and energy-hungry. Note that while data centers are used for many facets of cloud computing (not only genAI), genAI is a significant driver of recent upticks in water and energy use worldwide and in the United States.
+
+:::{.panel-tabset}
+#### {{< fa droplet >}} Water Use
+
+- Large data centers may use between 1 and 5 million gallons of water <u>a day</u>^1^
+    - This is comparable to the water usage of a town of 10,000 to 50,000 people^1^
+- In 2022, Google released\* information that their data center in The Dalles, Oregon was using 25% of the town's water supply^1^
+    - \* = after a 13-month legal battle where Google attempted to avoid disclosing their water use in the town^2^
+- In 2021, Google reported that it used 450,000 gallons of water <u>per day</u>^3^
+- In 2018, data centers in the United States alone used 513 <u>million</u> cubic meters of water^4^
+    - Equal to roughly 135.5 <u>billion</u> gallons
+
+
+#### {{< fa bolt-lightning >}} Energy Use
+
+- Data centers use between 10 and 50 times the energy per floor space of a commercial office building^5^
+- A ChatGPT query uses about 5 times the energy of an equivalent web search^6^
+
+:::
+
+### Data Center Location ({{< fa industry >}})
+
+In addition to their environmental impacts, _where_ data centers are built has some troubling ethical ramifications
+
+- Data centers tend to be built in places where the cost of land is cheap, and water is often scarce in such places^1^
+
+### Intellectual Property & Bias ({{< fa lightbulb >}})
+
+genAI models are trained on publicly-available information, without any systematic effort to gather consent from the original producers of that content.
+
+- GitHub itself acknowledges that the "model that powers Copilot is trained on a broad collection of publicly accessible code, which may include copyrighted code"^7^
+- This is problematic in and of itself but is worsened by the use of genAI tools to displace the creators who generated those outputs from which the tools were trained!
+- GenAI used in hiring decisions is particularly problematic as it reflects the biases built into current hiring pools and industry demographics
+    - Amazon had to scrap it's AI-hiring tool after finding it penalized resumes including the word "women"^8^
+    - A genAI-based speech recognition system used by HireVue to make hiring decisions was found to disadvantage deaf and non-white applicants^9^
+
+### Critical Thinking ({{< fa brain >}})
+
+For students, genAI can be particularly harmful in eroding their critical thinking skills.
+
+- A 2025 study of 666 adults (aged 17-45+) found a <u>significant **negative** relationship between frequent AI use and critical thinking ability</u>^10^
+    - This negative effect was significantly stronger for the youngest age group of participants in the study (ages 17-25)^10^
+- Another 2025 study of 319 adults (ages 18-55+) found that participants reported they did less critical thinking the more that they trusted genAI outputs in work contexts^11^
+- A 2024 study found that participants who used an LLM (ChatGPT) to write an essay showed significantly less neural connectivity than those who used no tool at all or only standard web searches^12^
+
+### Output Reliability ({{< fa robot >}})
+
+Anecdotally, many colleagues of mine (who are almost exclusively working data scientists or academics) have commented on how genAI "hallucinations" (i.e., entirely fake, incorrect, or otherwise unreliable outputs) are common--even under the most recent versions of the more popular LLMs (e.g., GitHub Copilot, ChatGPT, Claude, Gemini).
+
+This unreliability means that all genAI-produced outputs need to be carefully vetted (which I support!) but also means that the vaunted efficiency of genAI in automating rote tasks is not all it's cracked up to be. One colleague even expressed to me that it takes them as long to double-check the code outputs of genAI than it would to just write the code themselves from the start.
+
+## Sources
+
+1. Washington Post, ["A New Front in the Water Wars: Your Internet Use"](https://www.washingtonpost.com/climate-environment/2023/04/25/data-centers-drought-water-use/)
+2. The Oregonian, ["The Dalles settles public records lawsuit over Google’s data centers, will disclose water use to The Oregonian/OregonLive"](https://www.oregonlive.com/silicon-forest/2022/12/the-dalles-settles-public-records-lawsuit-over-googles-data-centers-will-disclose-water-use.html)
+3. Google, ["Our commitment to climate-conscious data center cooling"](https://blog.google/company-news/outreach-and-initiatives/sustainability/our-commitment-to-climate-conscious-data-center-cooling/)
+4. [Siddik et al., 2021. Environ. Res. Lett.](https://iopscience.iop.org/article/10.1088/1748-9326/abfba1#erlabfba1s3)
+5. US Department of Energy, ["Data Centers and Servers"](https://www.energy.gov/eere/buildings/data-centers-and-servers)
+6. MIT News, ["Explained: Generative AI’s environmental impact"](https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117)
+7. GitHub, ["GitHub Copilot"](https://github.com/features/copilot/)
+8. Dastin, 2018. ["Amazon scraps secret AI recruiting tool that showed bias against women"](https://www.reuters.com/article/world/insight-amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK0AG/)
+9. Stein & Carrick, 2025. ["AI job recruitment tools could 'enable discrimination' against marginalised groups, research finds"](https://www.abc.net.au/news/2025-05-08/ai-job-recruitment-tools-could-enable-discrimination-research/105258820)
+10. [Gerlich, 2025](https://www.mdpi.com/2075-4698/15/1/6). Societies
+11. [Lee, H.P. et al., 2025.](https://dl.acm.org/doi/10.1145/3706598.3713778) Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+12. [Kosmyna, N. et al., 2024](https://www.media.mit.edu/publications/your-brain-on-chatgpt/). MIT Media Lab
