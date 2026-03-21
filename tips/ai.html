@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Cautionary Notes on Generative AI – Nick J Lyon</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -33,19 +36,18 @@ ul.task-list li input[type="checkbox"] {
 <link href="../images/logo_lyon.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c92be3d749c9ddc4e9f94ff39267d9a0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-90779c96e4b544d6a5a966a6f628c79f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-c92be3d749c9ddc4e9f94ff39267d9a0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-3bcd17a2ce46d699057c27c408081901.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-e7f697b4712bf9dfde0595b8c501327e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-3bcd17a2ce46d699057c27c408081901.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -333,15 +335,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#reasons-to-consider-not-using-generative-ai" id="toc-reasons-to-consider-not-using-generative-ai" class="nav-link active" data-scroll-target="#reasons-to-consider-not-using-generative-ai">Reasons to <em>Consider</em> Not Using Generative AI</a>
-  <ul class="collapse">
-  <li><a href="#environmental-impact" id="toc-environmental-impact" class="nav-link" data-scroll-target="#environmental-impact">Environmental Impact (<i class="fa-solid fa-droplet" aria-hidden="true"></i> / <i class="fa-solid fa-bolt-lightning" aria-hidden="true"></i>)</a></li>
-  <li><a href="#data-center-location" id="toc-data-center-location" class="nav-link" data-scroll-target="#data-center-location">Data Center Location (<i class="fa-solid fa-industry" aria-hidden="true"></i>)</a></li>
-  <li><a href="#intellectual-property-bias" id="toc-intellectual-property-bias" class="nav-link" data-scroll-target="#intellectual-property-bias">Intellectual Property &amp; Bias (<i class="fa-solid fa-lightbulb" aria-hidden="true"></i>)</a></li>
-  <li><a href="#critical-thinking" id="toc-critical-thinking" class="nav-link" data-scroll-target="#critical-thinking">Critical Thinking (<i class="fa-solid fa-brain" aria-hidden="true"></i>)</a></li>
-  <li><a href="#output-reliability" id="toc-output-reliability" class="nav-link" data-scroll-target="#output-reliability">Output Reliability (<i class="fa-solid fa-robot" aria-hidden="true"></i>)</a></li>
-  </ul></li>
-  <li><a href="#sources" id="toc-sources" class="nav-link" data-scroll-target="#sources">Sources</a></li>
+  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120627261696e203e7d7d-critical-thinking" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120627261696e203e7d7d-critical-thinking" class="nav-link active" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120627261696e203e7d7d-critical-thinking"><i class="fa-solid fa-brain" aria-hidden="true"></i> Critical Thinking</a></li>
+  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207361636b2d646f6c6c6172203e7d7d-corporate-oversight" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207361636b2d646f6c6c6172203e7d7d-corporate-oversight" class="nav-link" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207361636b2d646f6c6c6172203e7d7d-corporate-oversight"><i class="fa-solid fa-sack-dollar" aria-hidden="true"></i> Corporate Oversight</a></li>
+  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612064726f706c6574203e7d7d-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6c742d6c696768746e696e67203e7d7d-environmental-impact" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612064726f706c6574203e7d7d-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6c742d6c696768746e696e67203e7d7d-environmental-impact" class="nav-link" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612064726f706c6574203e7d7d-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6c742d6c696768746e696e67203e7d7d-environmental-impact"><i class="fa-solid fa-droplet" aria-hidden="true"></i> / <i class="fa-solid fa-bolt-lightning" aria-hidden="true"></i> Environmental Impact</a></li>
+  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207363616c652d756e62616c616e636564203e7d7d-bias" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207363616c652d756e62616c616e636564203e7d7d-bias" class="nav-link" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207363616c652d756e62616c616e636564203e7d7d-bias"><i class="fa-solid fa-scale-unbalanced" aria-hidden="true"></i> Bias</a></li>
+  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6967687462756c62203e7d7d-intellectual-property" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6967687462756c62203e7d7d-intellectual-property" class="nav-link" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6967687462756c62203e7d7d-intellectual-property"><i class="fa-solid fa-lightbulb" aria-hidden="true"></i> Intellectual Property</a></li>
+  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120726f626f74203e7d7d-output-reliability" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120726f626f74203e7d7d-output-reliability" class="nav-link" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120726f626f74203e7d7d-output-reliability"><i class="fa-solid fa-robot" aria-hidden="true"></i> Output Reliability</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/njlyon0/njlyon0.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -368,109 +368,56 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><u>Gen</u>erative <u>A</u>rtificial <u>I</u>ntelligence (“genAI”) tools are increasingly widely used but, as with many new technologies, the ethical and environmental impacts are often not discussed at all or only mentioned in a cursory manner. For a number of reasons, <strong>I don’t use genAI tools</strong>, and I think it will be helpful for me to gather some of the facts and feelings behind my decision in one place.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span><i class="fa-solid fa-person-digging" aria-hidden="true"></i> UNDER CONSTRUCTION
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This page is under construction so I apologize for any inconsistently-formatted citations or grammar/spelling issues</p>
-</div>
-</div>
-<section id="reasons-to-consider-not-using-generative-ai" class="level2">
-<h2 class="anchored" data-anchor-id="reasons-to-consider-not-using-generative-ai">Reasons to <em>Consider</em> Not Using Generative AI</h2>
-<p><strong><u>Whether, and how, you use generative AI is fundamentally a decision you have to make for yourself.</u></strong> Mostly I collated the information in this page because I think a lot of people who use genAI do so either without thinking through the pros and cons of the decision or do so out of a sense of fatalism that ‘everyone is using AI so I must as well.’ I don’t think using genAI makes you a bad person, but <strong>I do think it’s risky if you use these tools without seriously considering whether they are needed for a given context and how you can minimize the broader harm if you do choose to use them.</strong></p>
-<section id="environmental-impact" class="level3">
-<h3 class="anchored" data-anchor-id="environmental-impact">Environmental Impact (<i class="fa-solid fa-droplet" aria-hidden="true"></i> / <i class="fa-solid fa-bolt-lightning" aria-hidden="true"></i>)</h3>
-<p>When you submit a prompt to a genAI tool, the actual computing that happens as your prompt is interpreted and a result is returned to you is done at a data center. These data centers are <em>incredibly</em> water- and energy-hungry. Note that while data centers are used for many facets of cloud computing (not only genAI), genAI is a significant driver of recent upticks in water and energy use worldwide and in the United States.</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href=""><i class="fa-solid fa-droplet" aria-hidden="true"></i> Water Use</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href=""><i class="fa-solid fa-bolt-lightning" aria-hidden="true"></i> Energy Use</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<ul>
-<li>Large data centers may use between 1 and 5 million gallons of water <u>a day</u><sup>1</sup>
-<ul>
-<li>This is comparable to the water usage of a town of 10,000 to 50,000 people<sup>1</sup></li>
-</ul></li>
-<li>In 2022, Google released* information that their data center in The Dalles, Oregon was using 25% of the town’s water supply<sup>1</sup>
-<ul>
-<li>* = after a 13-month legal battle where Google attempted to avoid disclosing their water use in the town<sup>2</sup></li>
-</ul></li>
-<li>In 2021, Google reported that it used 450,000 gallons of water <u>per day</u><sup>3</sup></li>
-<li>In 2018, data centers in the United States alone used 513 <u>million</u> cubic meters of water<sup>4</sup>
-<ul>
-<li>Equal to roughly 135.5 <u>billion</u> gallons</li>
-</ul></li>
-</ul>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<ul>
-<li>Data centers use between 10 and 50 times the energy per floor space of a commercial office building<sup>5</sup></li>
-<li>A ChatGPT query uses about 5 times the energy of an equivalent web search<sup>6</sup></li>
-</ul>
-</div>
-</div>
-</div>
+<p>Many unresolved questions about the legal, ethical, technical, and practical dimensions of <u>gen</u>erative <u>A</u>rtificial <u>I</u>ntelligence (“genAI”) tools exist and easy answers seem unlikely to arise at this point. Regardless, these questions–I think–should affect how we individually decide to use genAI in our work or personal lives; for a number of these reasons, <strong>I don’t use <em>any</em> genAI tools</strong>, and if you choose to work with me, you can count on the work I create being the product of the experience and instincts I’ve honed over my career thus far.</p>
+<p><em>I’m not creating this page to shame anyone</em> but rather to collate some useful resources on this topic and serve as food for thought when you consider whether and how to use these tools yourself.</p>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120627261696e203e7d7d-critical-thinking" class="level3">
+<h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120627261696e203e7d7d-critical-thinking"><i class="fa-solid fa-brain" aria-hidden="true"></i> Critical Thinking</h3>
+<p>Studies on how AI use affects brain activity and critical thinking skills are beginning to be conducted and published. Using generative AI tools leads to a reduction of critical thinking skills, memory, and neural connections in the brain (Kosmyna et al., 2025). Frequent AI use has been found to negatively relate to critical thinking ability in adults aged 17-45 (Gerlich, 2025). The negative effect was strongest for the youngest age group of that study: 17-25 year olds (Gerlich, 2025). In work contexts, participants reported that they did less critical thinking the more that they trusted genAI outputs (Lee et al., 2025).</p>
 </section>
-<section id="data-center-location" class="level3">
-<h3 class="anchored" data-anchor-id="data-center-location">Data Center Location (<i class="fa-solid fa-industry" aria-hidden="true"></i>)</h3>
-<p>In addition to their environmental impacts, <em>where</em> data centers are built has some troubling ethical ramifications</p>
-<ul>
-<li>Data centers tend to be built in places where the cost of land is cheap, and water is often scarce in such places<sup>1</sup></li>
-</ul>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207361636b2d646f6c6c6172203e7d7d-corporate-oversight" class="level3">
+<h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207361636b2d646f6c6c6172203e7d7d-corporate-oversight"><i class="fa-solid fa-sack-dollar" aria-hidden="true"></i> Corporate Oversight</h3>
+<p>Corporations develop and own generative AI engines but legal safeguards protecting customers–or people in general–are still in their infancy (Yakimova &amp; Ojamo, 2022). In 2022, Google fought a 13-month legal battle (Rogoway, 2022) to avoid disclosing that they were using 25 percent of the town’s drinking water in The Dalles, Oregon (Osaka, 2023).</p>
 </section>
-<section id="intellectual-property-bias" class="level3">
-<h3 class="anchored" data-anchor-id="intellectual-property-bias">Intellectual Property &amp; Bias (<i class="fa-solid fa-lightbulb" aria-hidden="true"></i>)</h3>
-<p>genAI models are trained on publicly-available information, without any systematic effort to gather consent from the original producers of that content.</p>
-<ul>
-<li>GitHub itself acknowledges that the “model that powers Copilot is trained on a broad collection of publicly accessible code, which may include copyrighted code”<sup>7</sup></li>
-<li>This is problematic in and of itself but is worsened by the use of genAI tools to displace the creators who generated those outputs from which the tools were trained!</li>
-<li>GenAI used in hiring decisions is particularly problematic as it reflects the biases built into current hiring pools and industry demographics
-<ul>
-<li>Amazon had to scrap it’s AI-hiring tool after finding it penalized resumes including the word “women”<sup>8</sup></li>
-<li>A genAI-based speech recognition system used by HireVue to make hiring decisions was found to disadvantage deaf and non-white applicants<sup>9</sup></li>
-</ul></li>
-</ul>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612064726f706c6574203e7d7d-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6c742d6c696768746e696e67203e7d7d-environmental-impact" class="level3">
+<h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612064726f706c6574203e7d7d-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6c742d6c696768746e696e67203e7d7d-environmental-impact"><i class="fa-solid fa-droplet" aria-hidden="true"></i> / <i class="fa-solid fa-bolt-lightning" aria-hidden="true"></i> Environmental Impact</h3>
+<p>Using AI directly and substantively contributes to climate change (UN Environment Programme 2024).</p>
+<p><strong>AI Queries</strong> – A ChatGPT query uses about 5 times the energy of an equivalent web search (Zewe, 2025). A 100-word email written by ChatGPT (GPT-4) uses 519 mL (17.6 oz) of water–about equivalent to a single-use water bottle (Pranshu &amp; Tan, 2024).</p>
+<p><strong>Data Centers</strong> – Data centers use 10-50 times the energy used by a commercial office building of the same size (US Department of Energy, 2026). The electricity used to power the data centers is still largely powered by burning fossil fuels. Data centers tend to be built in places where the cost of land is cheap, and water is often scarce in such places (Osaka, 2023). Large data centers may use 1-5 million gallons of water a day, comparable to the daily water usage of a town of 10-50,000 people (Osaka, 2023). An average Google data center in 2022, for example, used 450,000 gallons of water each day (Hölzle, 2026). In 2018, United States data centers used just under 136 billion gallons of water (Siddick et al., 2021).</p>
 </section>
-<section id="critical-thinking" class="level3">
-<h3 class="anchored" data-anchor-id="critical-thinking">Critical Thinking (<i class="fa-solid fa-brain" aria-hidden="true"></i>)</h3>
-<p>For students, genAI can be particularly harmful in eroding their critical thinking skills.</p>
-<ul>
-<li>A 2025 study of 666 adults (aged 17-45+) found a <u>significant <strong>negative</strong> relationship between frequent AI use and critical thinking ability</u><sup>10</sup>
-<ul>
-<li>This negative effect was significantly stronger for the youngest age group of participants in the study (ages 17-25)<sup>10</sup></li>
-</ul></li>
-<li>Another 2025 study of 319 adults (ages 18-55+) found that participants reported they did less critical thinking the more that they trusted genAI outputs in work contexts<sup>11</sup></li>
-<li>A 2024 study found that participants who used an LLM (ChatGPT) to write an essay showed significantly less neural connectivity than those who used no tool at all or only standard web searches<sup>12</sup></li>
-</ul>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207363616c652d756e62616c616e636564203e7d7d-bias" class="level3">
+<h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207363616c652d756e62616c616e636564203e7d7d-bias"><i class="fa-solid fa-scale-unbalanced" aria-hidden="true"></i> Bias</h3>
+<p>If the information going in is inaccurate, biased, fabricated, etc., the product will be inaccurate, biased, or fabricated. AI suffers from a range of biases (Nazer et al., 2023). GenAI used in hiring decisions is particularly problematic as it reflects the biases built into current hiring pools and industry demographics. Amazon had to scrap its AI-hiring tool after finding it penalized resumes including the word “women” (Dastin, 2018). A genAI-based speech recognition system used by HireVue to make hiring decisions was found to disadvantage deaf and non-white applicants (Stein &amp; Carrick, 2025).</p>
 </section>
-<section id="output-reliability" class="level3">
-<h3 class="anchored" data-anchor-id="output-reliability">Output Reliability (<i class="fa-solid fa-robot" aria-hidden="true"></i>)</h3>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6967687462756c62203e7d7d-intellectual-property" class="level3">
+<h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6967687462756c62203e7d7d-intellectual-property"><i class="fa-solid fa-lightbulb" aria-hidden="true"></i> Intellectual Property</h3>
+<p>Peoples’ writing, art, code, analyses, data, etc. are fed into the system without consent, attribution, or compensation (Appel et al., 2023). GitHub itself acknowledges that the “model that powers Copilot is trained on a broad collection of publicly accessible code, which may include copyrighted code” (GitHub, 2026). This is–in my opinion–problematic in and of itself but is worsened by the use of genAI tools to displace the creators whose outputs were used to train the models!</p>
+</section>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120726f626f74203e7d7d-output-reliability" class="level3">
+<h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120726f626f74203e7d7d-output-reliability"><i class="fa-solid fa-robot" aria-hidden="true"></i> Output Reliability</h3>
 <p>Anecdotally, many colleagues of mine (who are almost exclusively working data scientists or academics) have commented on how genAI “hallucinations” (i.e., entirely fake, incorrect, or otherwise unreliable outputs) are common–even under the most recent versions of the more popular LLMs (e.g., GitHub Copilot, ChatGPT, Claude, Gemini).</p>
-<p>This unreliability means that all genAI-produced outputs need to be carefully vetted (which I support!) but also means that the vaunted efficiency of genAI in automating rote tasks is not all it’s cracked up to be. One colleague even expressed to me that it takes them as long to double-check the code outputs of genAI than it would to just write the code themselves from the start.</p>
+<p>This unreliability means that all genAI-produced outputs need to be carefully vetted (which I support!) but also means that the efficiency gains of using AI may be less than they are purported to be by AI proponents. One colleague expressed to me that it takes them as long to double-check the code outputs of genAI than it would to just write the code themselves from the start.</p>
 </section>
-</section>
-<section id="sources" class="level2">
-<h2 class="anchored" data-anchor-id="sources">Sources</h2>
-<ol type="1">
-<li>Washington Post, <a href="https://www.washingtonpost.com/climate-environment/2023/04/25/data-centers-drought-water-use/">“A New Front in the Water Wars: Your Internet Use”</a></li>
-<li>The Oregonian, <a href="https://www.oregonlive.com/silicon-forest/2022/12/the-dalles-settles-public-records-lawsuit-over-googles-data-centers-will-disclose-water-use.html">“The Dalles settles public records lawsuit over Google’s data centers, will disclose water use to The Oregonian/OregonLive”</a></li>
-<li>Google, <a href="https://blog.google/company-news/outreach-and-initiatives/sustainability/our-commitment-to-climate-conscious-data-center-cooling/">“Our commitment to climate-conscious data center cooling”</a></li>
-<li><a href="https://iopscience.iop.org/article/10.1088/1748-9326/abfba1#erlabfba1s3">Siddik et al., 2021. Environ. Res. Lett.</a></li>
-<li>US Department of Energy, <a href="https://www.energy.gov/eere/buildings/data-centers-and-servers">“Data Centers and Servers”</a></li>
-<li>MIT News, <a href="https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117">“Explained: Generative AI’s environmental impact”</a></li>
-<li>GitHub, <a href="https://github.com/features/copilot/">“GitHub Copilot”</a></li>
-<li>Dastin, 2018. <a href="https://www.reuters.com/article/world/insight-amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK0AG/">“Amazon scraps secret AI recruiting tool that showed bias against women”</a></li>
-<li>Stein &amp; Carrick, 2025. <a href="https://www.abc.net.au/news/2025-05-08/ai-job-recruitment-tools-could-enable-discrimination-research/105258820">“AI job recruitment tools could ‘enable discrimination’ against marginalised groups, research finds”</a></li>
-<li><a href="https://www.mdpi.com/2075-4698/15/1/6">Gerlich, 2025</a>. Societies</li>
-<li><a href="https://dl.acm.org/doi/10.1145/3706598.3713778">Lee, H.P. et al., 2025.</a> Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems</li>
-<li><a href="https://www.media.mit.edu/publications/your-brain-on-chatgpt/">Kosmyna, N. et al., 2024</a>. MIT Media Lab</li>
-</ol>
+<section id="resources" class="level3">
+<h3 class="anchored" data-anchor-id="resources">Resources</h3>
+<ul>
+<li>Appel, G., Neelbauer, J., &amp; Schweidel, D.A. <strong>2023</strong>. <a href="https://hbr.org/2023/04/generative-ai-has-an-intellectual-property-problem">Generative AI Has an Intellectual Property Problem</a>. Harvard Business Review Online</li>
+<li>Dastin J., <strong>2018</strong>. <a href="https://www.reuters.com/article/world/insight-amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK0AG/">Amazon Scraps Secret AI Recruiting Tool That Showed Bias Against Women</a>. Reuters</li>
+<li>Gerlich, M. <strong>2025</strong>. <a href="https://www.mdpi.com/2075-4698/15/1/6">AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking</a>. Societies</li>
+<li>GitHub. <strong>2026</strong>. <a href="https://github.com/features/copilot/">GitHub Copilot - Your AI Pair Programmer</a>. Accessed March 21, 2026</li>
+<li>Hölzle, U. <strong>2022</strong>. <a href="https://blog.google/company-news/outreach-and-initiatives/sustainability/our-commitment-to-climate-conscious-data-center-cooling/">Our Commitment to Climate-Conscious Data Center Cooling</a>. Google, The Keyword</li>
+<li>Kosmyna, N., Hauptmann, E., Yuan, Y.T., Situ, J., Liao, X. Beresnitzky, A.V., Braunstein, I., &amp; Maes, P. <strong>2025</strong>. Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task. arXiv. <a href="https://arxiv.org/abs/2506.08872">https://arxiv.org/abs/2506.08872</a></li>
+<li>Lee, H.P., Sarkar, A., Tankelevitch, L., Drosos, I., Rintel, S. Banks, R., &amp; Wilson, N. <strong>2025</strong>. <a href="https://dl.acm.org/doi/10.1145/3706598.3713778">The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers</a>. Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems</li>
+<li>Nazer, L.H., Zatarah, R., Waldrip, S., Ke, J. X. C., Moukheiber, M., Khanna, A. K., Hicklen, R.S., Moukheiber, L., Moukheiber, D., Ma, H., &amp; Mathur, P. <strong>2023</strong>. <a href="https://doi.org/10.1371/journal.pdig.0000278">Bias in Artificial Intelligence Algorithms and Recommendations for Mitigation</a>. PLOS Digital Health</li>
+<li>Osaka, S. <strong>2023</strong>. <a href="https://www.washingtonpost.com/climate-environment/2023/04/25/data-centers-drought-water-use/">A New Front in the Water Wars: Your Internet Use</a>. Washington Post</li>
+<li>Pranshu, V. &amp; Tan, S. <strong>2024</strong>. <a href="https://www.washingtonpost.com/technology/2024/09/18/energy-ai-use-electricity-water-data-centers/">A Bottle of Water Per Email: The Hidden Environmental Costs of Using AI Chatbots</a>. Washington Post</li>
+<li>Rogoway, M. <strong>2022</strong>. <a href="https://www.oregonlive.com/silicon-forest/2022/12/the-dalles-settles-public-records-lawsuit-over-googles-data-centers-will-disclose-water-use.html">The Dalles Settles Public Records Lawsuit Over Google’s Data Centers, Will Disclose Water Use to The Oregonian/OregonLive</a>. The Oregonian</li>
+<li>Siddik, M.A.B., Shehabi, A., &amp; Marson, L. <strong>2021</strong>. <a href="https://iopscience.iop.org/article/10.1088/1748-9326/abfba1#erlabfba1s3">The Environmental Footprint of Data Centers in the United States</a>. Environmental Research Letters</li>
+<li>Stein, L. &amp; Carrick, D. <strong>2025</strong>. <a href="https://www.abc.net.au/news/2025-05-08/ai-job-recruitment-tools-could-enable-discrimination-research/105258820">AI Job Recruitment Tools Could ‘Enable Discrimination’ Against Marginalised Groups, Research Finds</a>. ABC News, Law Report</li>
+<li>United Nations Environment Programme. <strong>2024</strong>. AI Has an Environmental Problem. Here’s What the World Can Do About That. <a href="https://www.unep.org/news-and-stories/story/ai-has-environmental-problem-heres-what-world-can-do-about">https://www.unep.org/news-and-stories/story/ai-has-environmental-problem-heres-what-world-can-do-about</a></li>
+<li>United States Department of Energy. <strong>2026</strong>. <a href="https://www.energy.gov/eere/buildings/data-centers-and-servers">Data Centers and Servers</a>. Accessed March 21, 2026</li>
+<li>Yakimova, Y. &amp; Ojamo, J. <strong>2022</strong>. <a href="https://www.europarl.europa.eu/news/en/press-room/20231206IPR15699/artificial-intelligence-act-deal-on-comprehensive-rules-for-trustworthy-ai">Artificial Intelligence Act: Deal on Comprehensive Rules for Trustworthy AI</a>. European Parliament Press Release</li>
+<li>Zewe, A. <strong>2025</strong>. <a href="https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117">Explained: Generative AI’s Environmental Impact</a>. MIT News</li>
+</ul>
 
 
 </section>
