@@ -50,7 +50,7 @@ Presentations under this heading take between 30 minutes and one hour.
 
 {{< fa screwdriver-wrench >}} -- Lyon, N.J. Choosing the "Right" Statistical Test. **2019**. Data Wrangling in R for Natural Resource Professionals (NREM 305), Iowa State University.
 
-{{< fa screwdriver-wrench >}} -- Lyon, N.J. Multivariate Statistics in R. **2018**. Data Management and Analysis in R for Ecologists and Evolutionary Biologists (EEB 698) - {{< fa person-chalkboard >}} [Lecture slides](https://njlyon0.github.io/lyon_talks/slides/tutorial_multivar-stats.html#/title-slide)
+{{< fa screwdriver-wrench >}} -- Lyon, N.J. Multivariate Statistics in R. **2018**. Data Management and Analysis in R for Ecologists and Evolutionary Biologists (EEB 698) - {{< fa person-chalkboard >}} [Lecture slides](https://njlyon0.github.io/teach_tutorials/content/slides_multivariate-stats.html#/title-slide)
 
 ## Conference-Style Presentations
 
