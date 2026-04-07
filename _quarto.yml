@@ -39,12 +39,14 @@ website:
             href: tips/r_select-elements.qmd
           - text: "{{< fa brands r-project >}} -- Loop Syntax"
             href: tips/r_int-loops.qmd
+          - text: "{{< fa gift >}} -- Other Tutorials"
+            href: https://njlyon0.github.io/teach_tutorials/
       - text: "Creative Projects"
         href: create.qmd
       - icon: github
         href: https://github.com/njlyon0/njlyon0.github.io
   page-footer:
-    center: "Copyright 2024, Nicholas Lyon"
+    center: "Copyright &copy; 2026, Nicholas J Lyon"
     background: secondary
 
 format:
