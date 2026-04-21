@@ -23,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -345,7 +364,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207363616c652d756e62616c616e636564203e7d7d-bias" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207363616c652d756e62616c616e636564203e7d7d-bias" class="nav-link" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207363616c652d756e62616c616e636564203e7d7d-bias"><i class="fa-solid fa-scale-unbalanced" aria-hidden="true"></i> Bias</a></li>
   <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6967687462756c62203e7d7d-intellectual-property" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6967687462756c62203e7d7d-intellectual-property" class="nav-link" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6967687462756c62203e7d7d-intellectual-property"><i class="fa-solid fa-lightbulb" aria-hidden="true"></i> Intellectual Property</a></li>
   <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120726f626f74203e7d7d-output-reliability" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120726f626f74203e7d7d-output-reliability" class="nav-link" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120726f626f74203e7d7d-output-reliability"><i class="fa-solid fa-robot" aria-hidden="true"></i> Output Reliability</a></li>
-  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/njlyon0/njlyon0.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -376,57 +394,85 @@ ul.task-list li input[type="checkbox"] {
 <p><em>I’m not creating this page to shame anyone</em> but rather to collate some useful resources on this topic and serve as food for thought when you consider whether and how to use these tools yourself.</p>
 <section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120627261696e203e7d7d-critical-thinking" class="level3">
 <h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120627261696e203e7d7d-critical-thinking"><i class="fa-solid fa-brain" aria-hidden="true"></i> Critical Thinking</h3>
-<p>Studies on how AI use affects brain activity and critical thinking skills are beginning to be conducted and published. Using generative AI tools leads to a reduction of critical thinking skills, memory, and neural connections in the brain (Kosmyna et al., 2025). Frequent AI use has been found to negatively relate to critical thinking ability in adults aged 17-45 (Gerlich, 2025). The negative effect was strongest for the youngest age group of that study: 17-25 year olds (Gerlich, 2025). In work contexts, participants reported that they did less critical thinking the more that they trusted genAI outputs (Lee et al., 2025).</p>
+<p>Studies on how AI use affects brain activity and critical thinking skills are beginning to be conducted and published. Using generative AI tools leads to a reduction of critical thinking skills, memory, and neural connections in the brain <span class="citation" data-cites="kosmyna_2025">(<a href="#ref-kosmyna_2025" role="doc-biblioref">Kosmyna et al. 2025</a>)</span>. Frequent AI use has been found to negatively relate to critical thinking ability in adults aged 17-45 <span class="citation" data-cites="gerlich_2025">(<a href="#ref-gerlich_2025" role="doc-biblioref">Gerlich 2025</a>)</span>. The negative effect was strongest for the youngest age group of that study: 17-25 year olds <span class="citation" data-cites="gerlich_2025">(<a href="#ref-gerlich_2025" role="doc-biblioref">Gerlich 2025</a>)</span>. In work contexts, participants reported that they did less critical thinking the more that they trusted genAI outputs <span class="citation" data-cites="lee_2025">(<a href="#ref-lee_2025" role="doc-biblioref">Lee et al. 2025</a>)</span>.</p>
 </section>
 <section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207361636b2d646f6c6c6172203e7d7d-corporate-oversight" class="level3">
 <h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207361636b2d646f6c6c6172203e7d7d-corporate-oversight"><i class="fa-solid fa-sack-dollar" aria-hidden="true"></i> Corporate Oversight</h3>
-<p>Corporations develop and own generative AI engines but legal safeguards protecting customers–or people in general–are still in their infancy (Yakimova &amp; Ojamo, 2022). In 2022, Google fought a 13-month legal battle (Rogoway, 2022) to avoid disclosing that they were using 25 percent of the town’s drinking water in The Dalles, Oregon (Osaka, 2023).</p>
+<p>Corporations develop and own generative AI engines but legal safeguards protecting customers–or people in general–are still in their infancy <span class="citation" data-cites="yakimova_2022">(<a href="#ref-yakimova_2022" role="doc-biblioref">Yakimova and Ojamo 2022</a>)</span>. In 2022, Google fought a 13-month legal battle <span class="citation" data-cites="rogoway_2022">(<a href="#ref-rogoway_2022" role="doc-biblioref">Rogoway 2022</a>)</span> to avoid disclosing that they were using 25 percent of the town’s drinking water in The Dalles, Oregon <span class="citation" data-cites="osaka_2023">(<a href="#ref-osaka_2023" role="doc-biblioref">Osaka 2023</a>)</span>.</p>
 </section>
 <section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612064726f706c6574203e7d7d-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6c742d6c696768746e696e67203e7d7d-environmental-impact" class="level3">
 <h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612064726f706c6574203e7d7d-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6c742d6c696768746e696e67203e7d7d-environmental-impact"><i class="fa-solid fa-droplet" aria-hidden="true"></i> / <i class="fa-solid fa-bolt-lightning" aria-hidden="true"></i> Environmental Impact</h3>
 <p>Using AI directly and substantively contributes to climate change (UN Environment Programme 2024).</p>
-<p><strong>AI Queries</strong> – A ChatGPT query uses about 5 times the energy of an equivalent web search (Zewe, 2025). A 100-word email written by ChatGPT (GPT-4) uses 519 mL (17.6 oz) of water–about equivalent to a single-use water bottle (Verma &amp; Tan, 2024).</p>
-<p><strong>Data Centers</strong> – Data centers use 10-50 times the energy used by a commercial office building of the same size (US Department of Energy, 2026). The electricity used to power the data centers is still largely powered by burning fossil fuels. Data centers tend to be built in places where the cost of land is cheap, and water is often scarce in such places (Osaka, 2023). Large data centers may use 1-5 million gallons of water a day, comparable to the daily water usage of a town of 10-50,000 people (Osaka, 2023). An average Google data center in 2022, for example, used 450,000 gallons of water each day (Hölzle, 2022). In 2018, United States data centers used just under 136 billion gallons of water (Siddick et al., 2021).</p>
+<p><strong>AI Queries</strong> – A ChatGPT query uses about 5 times the energy of an equivalent web search <span class="citation" data-cites="zewe_2025">(<a href="#ref-zewe_2025" role="doc-biblioref">Zewe 2025</a>)</span>. A 100-word email written by ChatGPT (GPT-4) uses 519 mL (17.6 oz) of water–about equivalent to a single-use water bottle <span class="citation" data-cites="verma_2024">(<a href="#ref-verma_2024" role="doc-biblioref">Verma and Tan 2024</a>)</span>.</p>
+<p><strong>Data Centers</strong> – Data centers use 10-50 times the energy used by a commercial office building of the same size <span class="citation" data-cites="doe_2026">(<a href="#ref-doe_2026" role="doc-biblioref">Energy 2026</a>)</span>. The electricity used to power the data centers is still largely powered by burning fossil fuels. Data centers tend to be built in places where the cost of land is cheap, and water is often scarce in such places <span class="citation" data-cites="osaka_2023">(<a href="#ref-osaka_2023" role="doc-biblioref">Osaka 2023</a>)</span>. Large data centers may use 1-5 million gallons of water a day, comparable to the daily water usage of a town of 10-50,000 people <span class="citation" data-cites="osaka_2023">(<a href="#ref-osaka_2023" role="doc-biblioref">Osaka 2023</a>)</span>. An average Google data center in 2022, for example, used 450,000 gallons of water each day <span class="citation" data-cites="hozle_2022">(<a href="#ref-hozle_2022" role="doc-biblioref">Hölzle 2022</a>)</span>. In 2018, United States data centers used just under 136 billion gallons of water <span class="citation" data-cites="siddick_2021">(<a href="#ref-siddick_2021" role="doc-biblioref">Siddik et al. 2021</a>)</span>.</p>
 </section>
 <section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207363616c652d756e62616c616e636564203e7d7d-bias" class="level3">
 <h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207363616c652d756e62616c616e636564203e7d7d-bias"><i class="fa-solid fa-scale-unbalanced" aria-hidden="true"></i> Bias</h3>
-<p>If the information going in is inaccurate, biased, fabricated, etc., the product will be inaccurate, biased, or fabricated. AI suffers from a range of biases (Nazer et al., 2023). GenAI used in hiring decisions is particularly problematic as it reflects the biases built into current hiring pools and industry demographics. Amazon had to scrap its AI-hiring tool after finding it penalized resumes including the word “women” (Dastin, 2018). A genAI-based speech recognition system used by HireVue to make hiring decisions was found to disadvantage deaf and non-white applicants (Stein &amp; Carrick, 2025).</p>
+<p>If the information going in is inaccurate, biased, fabricated, etc., the product will be inaccurate, biased, or fabricated. AI suffers from a range of biases <span class="citation" data-cites="nazer_2023">(<a href="#ref-nazer_2023" role="doc-biblioref">Nazer et al. 2023</a>)</span>. GenAI used in hiring decisions is particularly problematic as it reflects the biases built into current hiring pools and industry demographics. Amazon had to scrap its AI-hiring tool after finding it penalized resumes including the word “women” <span class="citation" data-cites="dastin_2018">(<a href="#ref-dastin_2018" role="doc-biblioref">Dastin 2018</a>)</span>. A genAI-based speech recognition system used by HireVue to make hiring decisions was found to disadvantage deaf and non-white applicants <span class="citation" data-cites="stein_2025">(<a href="#ref-stein_2025" role="doc-biblioref">Stein and Carrick 2025</a>)</span>.</p>
 </section>
 <section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6967687462756c62203e7d7d-intellectual-property" class="level3">
 <h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206c6967687462756c62203e7d7d-intellectual-property"><i class="fa-solid fa-lightbulb" aria-hidden="true"></i> Intellectual Property</h3>
-<p>Peoples’ writing, art, code, analyses, data, etc. are fed into the system without consent, attribution, or compensation (Appel et al., 2023). GitHub itself acknowledges that the “model that powers Copilot is trained on a broad collection of publicly accessible code, which may include copyrighted code” (GitHub, 2026). This is–in my opinion–problematic in and of itself but is worsened by the use of genAI tools to displace the creators whose outputs were used to train the models!</p>
+<p>Peoples’ writing, art, code, analyses, data, etc. are fed into the system without consent, attribution, or compensation <span class="citation" data-cites="appel_2023">(<a href="#ref-appel_2023" role="doc-biblioref">Appel et al. 2023</a>)</span>. GitHub itself acknowledges that the “model that powers Copilot is trained on a broad collection of publicly accessible code, which may include copyrighted code” <span class="citation" data-cites="github_2026">(<a href="#ref-github_2026" role="doc-biblioref">GitHub 2026</a>)</span>. This is–in my opinion–problematic in and of itself but is worsened by the use of genAI tools to displace the creators whose outputs were used to train the models!</p>
 </section>
 <section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120726f626f74203e7d7d-output-reliability" class="level3">
 <h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120726f626f74203e7d7d-output-reliability"><i class="fa-solid fa-robot" aria-hidden="true"></i> Output Reliability</h3>
 <p>Anecdotally, many colleagues of mine (who are almost exclusively working data scientists or academics) have commented on how genAI “hallucinations” (i.e., entirely fake, incorrect, or otherwise unreliable outputs) are common–even under the most recent versions of the more popular LLMs (e.g., GitHub Copilot, ChatGPT, Claude, Gemini).</p>
 <p>This unreliability means that all genAI-produced outputs need to be carefully vetted (which I support!) but also means that the efficiency gains of using AI may be less than they are purported to be by AI proponents. One colleague expressed to me that it takes them as long to double-check the code outputs of genAI than it would to just write the code themselves from the start.</p>
-</section>
-<section id="resources" class="level3">
-<h3 class="anchored" data-anchor-id="resources">Resources</h3>
-<ul>
-<li>Appel, G., Neelbauer, J., &amp; Schweidel, D.A. <strong>2023</strong>. <a href="https://hbr.org/2023/04/generative-ai-has-an-intellectual-property-problem">Generative AI Has an Intellectual Property Problem</a>. Harvard Business Review Online</li>
-<li>Dastin J., <strong>2018</strong>. <a href="https://www.reuters.com/article/world/insight-amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK0AG/">Amazon Scraps Secret AI Recruiting Tool That Showed Bias Against Women</a>. Reuters</li>
-<li>Gerlich, M. <strong>2025</strong>. <a href="https://www.mdpi.com/2075-4698/15/1/6">AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking</a>. Societies</li>
-<li>GitHub. <strong>2026</strong>. <a href="https://github.com/features/copilot/">GitHub Copilot - Your AI Pair Programmer</a>. Accessed March 21, 2026</li>
-<li>Hölzle, U. <strong>2022</strong>. <a href="https://blog.google/company-news/outreach-and-initiatives/sustainability/our-commitment-to-climate-conscious-data-center-cooling/">Our Commitment to Climate-Conscious Data Center Cooling</a>. Google, The Keyword</li>
-<li>Kosmyna, N., Hauptmann, E., Yuan, Y.T., Situ, J., Liao, X. Beresnitzky, A.V., Braunstein, I., &amp; Maes, P. <strong>2025</strong>. Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task. arXiv. <a href="https://arxiv.org/abs/2506.08872">https://arxiv.org/abs/2506.08872</a></li>
-<li>Lee, H.P., Sarkar, A., Tankelevitch, L., Drosos, I., Rintel, S. Banks, R., &amp; Wilson, N. <strong>2025</strong>. <a href="https://dl.acm.org/doi/10.1145/3706598.3713778">The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers</a>. Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems</li>
-<li>Nazer, L.H., Zatarah, R., Waldrip, S., Ke, J. X. C., Moukheiber, M., Khanna, A. K., Hicklen, R.S., Moukheiber, L., Moukheiber, D., Ma, H., &amp; Mathur, P. <strong>2023</strong>. <a href="https://doi.org/10.1371/journal.pdig.0000278">Bias in Artificial Intelligence Algorithms and Recommendations for Mitigation</a>. PLOS Digital Health</li>
-<li>Osaka, S. <strong>2023</strong>. <a href="https://www.washingtonpost.com/climate-environment/2023/04/25/data-centers-drought-water-use/">A New Front in the Water Wars: Your Internet Use</a>. Washington Post</li>
-<li>Verma, P. &amp; Tan, S. <strong>2024</strong>. <a href="https://www.washingtonpost.com/technology/2024/09/18/energy-ai-use-electricity-water-data-centers/">A Bottle of Water Per Email: The Hidden Environmental Costs of Using AI Chatbots</a>. Washington Post</li>
-<li>Rogoway, M. <strong>2022</strong>. <a href="https://www.oregonlive.com/silicon-forest/2022/12/the-dalles-settles-public-records-lawsuit-over-googles-data-centers-will-disclose-water-use.html">The Dalles Settles Public Records Lawsuit Over Google’s Data Centers, Will Disclose Water Use to The Oregonian/OregonLive</a>. The Oregonian</li>
-<li>Siddik, M.A.B., Shehabi, A., &amp; Marson, L. <strong>2021</strong>. <a href="https://iopscience.iop.org/article/10.1088/1748-9326/abfba1#erlabfba1s3">The Environmental Footprint of Data Centers in the United States</a>. Environmental Research Letters</li>
-<li>Stein, L. &amp; Carrick, D. <strong>2025</strong>. <a href="https://www.abc.net.au/news/2025-05-08/ai-job-recruitment-tools-could-enable-discrimination-research/105258820">AI Job Recruitment Tools Could ‘Enable Discrimination’ Against Marginalised Groups, Research Finds</a>. ABC News, Law Report</li>
-<li>United Nations Environment Programme. <strong>2024</strong>. AI Has an Environmental Problem. Here’s What the World Can Do About That. <a href="https://www.unep.org/news-and-stories/story/ai-has-environmental-problem-heres-what-world-can-do-about">https://www.unep.org/news-and-stories/story/ai-has-environmental-problem-heres-what-world-can-do-about</a></li>
-<li>United States Department of Energy. <strong>2026</strong>. <a href="https://www.energy.gov/eere/buildings/data-centers-and-servers">Data Centers and Servers</a>. Accessed March 21, 2026</li>
-<li>Yakimova, Y. &amp; Ojamo, J. <strong>2022</strong>. <a href="https://www.europarl.europa.eu/news/en/press-room/20231206IPR15699/artificial-intelligence-act-deal-on-comprehensive-rules-for-trustworthy-ai">Artificial Intelligence Act: Deal on Comprehensive Rules for Trustworthy AI</a>. European Parliament Press Release</li>
-<li>Zewe, A. <strong>2025</strong>. <a href="https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117">Explained: Generative AI’s Environmental Impact</a>. MIT News</li>
-</ul>
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-appel_2023" class="csl-entry" role="listitem">
+Appel, G., Neelbauer J., and D. A. Schweidel. 2023. <span>“Generative AI Has an Intellectual Property Problem.”</span> <em>Harvard Business Review Online</em>. <a href="https://hbr.org/2023/04/generative-ai-has-an-intellectual-property-problem">https://hbr.org/2023/04/generative-ai-has-an-intellectual-property-problem</a>.
+</div>
+<div id="ref-dastin_2018" class="csl-entry" role="listitem">
+Dastin, J. 2018. <span>“Generative AI Has an Intellectual Property Problem.”</span> <em>Reuters</em>. <a href="https://www.reuters.com/article/world/insight-amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK0AG/">https://www.reuters.com/article/world/insight-amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK0AG/</a>.
+</div>
+<div id="ref-doe_2026" class="csl-entry" role="listitem">
+Energy, US Department of. 2026. <em>Data Centers and Servers</em>. <a href="https://www.energy.gov/cmei/buildings/data-centers-and-servers">https://www.energy.gov/cmei/buildings/data-centers-and-servers</a>.
+</div>
+<div id="ref-gerlich_2025" class="csl-entry" role="listitem">
+Gerlich, M. 2025. <span>“AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking.”</span> <em>Societies</em> 15 (1). <a href="https://doi.org/10.3390/soc15010006">https://doi.org/10.3390/soc15010006</a>.
+</div>
+<div id="ref-github_2026" class="csl-entry" role="listitem">
+GitHub. 2026. <em>GitHub Copilot - Your AI Pair Programmer</em>. <a href="https://github.com/features/copilot/">https://github.com/features/copilot/</a>.
+</div>
+<div id="ref-hozle_2022" class="csl-entry" role="listitem">
+Hölzle, U. 2022. <span>“Our Commitment to Climate-Conscious Data Center Cooling.”</span> <em>Google, The Keyword</em>. <a href="https://blog.google/company-news/outreach-and-initiatives/sustainability/our-commitment-to-climate-conscious-data-center-cooling/">https://blog.google/company-news/outreach-and-initiatives/sustainability/our-commitment-to-climate-conscious-data-center-cooling/</a>.
+</div>
+<div id="ref-kosmyna_2025" class="csl-entry" role="listitem">
+Kosmyna, N., Hauptmann E., Yuan Y. T., et al. 2025. <span>“Your Brain on ChatGPT: Accumulation of Cognitive Debt When Using an AI Assistant for Essay Writing Task.”</span> <em>arXiv</em>. <a href="https://arxiv.org/abs/2506.08872">https://arxiv.org/abs/2506.08872</a>.
+</div>
+<div id="ref-lee_2025" class="csl-entry" role="listitem">
+Lee, H. P., Sarkar A., Tankelevitch L., et al. 2025. <span>“The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects from a Survey of Knowledge Workers.”</span> <em>Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems</em>, no. 1121. <a href="https://doi.org/10.1145/3706598.3713778">https://doi.org/10.1145/3706598.3713778</a>.
+</div>
+<div id="ref-nazer_2023" class="csl-entry" role="listitem">
+Nazer, L. H., Zatarah R., Waldrip S., et al. 2023. <span>“Bias in Artificial Intelligence Algorithms and Recommendations for Mitigation.”</span> <em>PLoS Digital Health</em> 2 (6). <a href="https://doi.org/10.1371/journal.pdig.0000278">https://doi.org/10.1371/journal.pdig.0000278</a>.
+</div>
+<div id="ref-osaka_2023" class="csl-entry" role="listitem">
+Osaka, Shannon. 2023. <span>“A New Front in the Water Wars: Your Internet Use.”</span> <em>The Washington Post</em>. <a href="https://www.washingtonpost.com/climate-environment/2023/04/25/data-centers-drought-water-use/">https://www.washingtonpost.com/climate-environment/2023/04/25/data-centers-drought-water-use/</a>.
+</div>
+<div id="ref-rogoway_2022" class="csl-entry" role="listitem">
+Rogoway, M. 2022. <span>“The Dalles Settles Public Records Lawsuit over Google’s Data Centers, Will Disclose Water Use to the Oregonian/OregonLive.”</span> <em>The Oregonian</em>. <a href="https://www.oregonlive.com/silicon-forest/2022/12/the-dalles-settles-public-records-lawsuit-over-googles-data-centers-will-disclose-water-use.html">https://www.oregonlive.com/silicon-forest/2022/12/the-dalles-settles-public-records-lawsuit-over-googles-data-centers-will-disclose-water-use.html</a>.
+</div>
+<div id="ref-siddick_2021" class="csl-entry" role="listitem">
+Siddik, M. A.B, Shehabi A., and L. Marson. 2021. <span>“The Environmental Footprint of Data Centers in the United States.”</span> <em>Environmental Research Letters</em> 16 (6). <a href="https://doi.org/10.1088/1748-9326/abfba1">https://doi.org/10.1088/1748-9326/abfba1</a>.
+</div>
+<div id="ref-stein_2025" class="csl-entry" role="listitem">
+Stein, L., and D. Carrick. 2025. <span>“AI Job Recruitment Tools Could ’Enable Discrimination’ Against Marginalised Groups, Research Finds.”</span> <em>ABC News, Law Report</em>. <a href="https://www.abc.net.au/news/2025-05-08/ai-job-recruitment-tools-could-enable-discrimination-research/105258820">https://www.abc.net.au/news/2025-05-08/ai-job-recruitment-tools-could-enable-discrimination-research/105258820</a>.
+</div>
+<div id="ref-verma_2024" class="csl-entry" role="listitem">
+Verma, P., and S. Tan. 2024. <span>“A Bottle of Water Per Email: The Hidden Environmental Costs of Using AI Chatbots.”</span> <em>The Washington Post</em>. <a href="https://www.washingtonpost.com/technology/2024/09/18/energy-ai-use-electricity-water-data-centers/">https://www.washingtonpost.com/technology/2024/09/18/energy-ai-use-electricity-water-data-centers/</a>.
+</div>
+<div id="ref-yakimova_2022" class="csl-entry" role="listitem">
+Yakimova, Y., and J. Ojamo. 2022. <span>“Artificial Intelligence Act: Deal on Comprehensive Rules for Trustworthy AI.”</span> <em>European Parliament Press Release</em>. <a href="https://www.europarl.europa.eu/news/en/press-room/20231206IPR15699/artificial-intelligence-act-deal-on-comprehensive-rules-for-trustworthy-ai">https://www.europarl.europa.eu/news/en/press-room/20231206IPR15699/artificial-intelligence-act-deal-on-comprehensive-rules-for-trustworthy-ai</a>.
+</div>
+<div id="ref-zewe_2025" class="csl-entry" role="listitem">
+Zewe, A. 2025. <span>“Explained: Generative AI’s Environmental Impact.”</span> <em>MIT News</em>. <a href="https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117">https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
