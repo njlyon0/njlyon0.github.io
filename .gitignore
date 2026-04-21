@@ -47,5 +47,8 @@ vignettes/*.pdf
 # .Rproj file
 *.Rproj
 
+# Other files
+**/*.quarto_ipynb
+
 # Folders
 docs/
