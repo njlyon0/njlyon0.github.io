@@ -25,22 +25,8 @@ website:
       - text: "Consult"
         href: consult.qmd
     right:
-      - text: "Data Science Tips"
-        menu:
-          - text: "{{< fa brands git >}} -- Conventional Commits"
-            href: tips/commits.qmd
-          - text: "{{< fa robot >}} -- AI Cautionary Notes"
-            href: tips/ai.qmd
-          - text: "{{< fa brands r-project >}} -- Class Coercion"
-            href: tips/r_class-coercion.qmd
-          - text: "{{< fa brands r-project >}} -- Condition Signalling"
-            href: tips/r_conditions.qmd
-          - text: "{{< fa brands r-project >}} -- Selecting Elements"
-            href: tips/r_select-elements.qmd
-          - text: "{{< fa brands r-project >}} -- Loop Syntax"
-            href: tips/r_int-loops.qmd
-          - text: "{{< fa gift >}} -- Other Tutorials"
-            href: https://njlyon0.github.io/teach_tutorials/
+      - text: "Tips & Tricks"
+        href: https://njlyon0.github.io/teach_tutorials/
       - text: "Creative Projects"
         href: create.qmd
       - icon: github
