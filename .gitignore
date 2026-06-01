@@ -40,15 +40,13 @@ vignettes/*.pdf
 
 # Interior parts of Quarto
 /.quarto/
+**/*.quarto_ipynb
 
 # DS_Store
 .DS_Store
 
 # .Rproj file
 *.Rproj
-
-# Other files
-**/*.quarto_ipynb
 
 # Folders
 docs/
