@@ -18,7 +18,7 @@ This presentation type typically takes between two and six hours, though this in
 
 {{< fa screwdriver-wrench >}} {{< fa people-group >}} -- Lyon N.J. _et al._ **[Collaborative Coding with GitHub](https://lter.github.io/workshop-github/)** (v 2.0) - [{{< fa brands github >}}](https://github.com/lter/workshop-github)
 
-{{< fa screwdriver-wrench >}} {{< fa globe >}} -- Lyon N.J. **[Creating Websites with Quarto](https://lter.github.io/workshop-quarto/)** (v 1.0) - [{{< fa brands github >}}](https://github.com/lter/workshop-quarto)
+{{< fa screwdriver-wrench >}} {{< fa globe >}} -- Lyon N.J. **[Creating Websites with Quarto](https://lter.github.io/workshop-quarto/)** (v 2.0) - [{{< fa brands github >}}](https://github.com/lter/workshop-quarto)
 
 {{< fa people-group >}} {{< fa screwdriver-wrench >}} -- Maurer, G.E. _et al._ **[Ecological Data Synthesis: Primer on Essential Methods](https://lter.github.io/eco-data-synth-primer/)** (2025 ed.) - [{{< fa brands github >}}](https://github.com/lter/eco-data-synth-primer)
 
@@ -30,7 +30,7 @@ This presentation type typically takes between two and six hours, though this in
 
 This section includes all teaching/public-speaking that takes place over the course of months or academic semesters.
 
-{{< fa people-group >}} {{< fa screwdriver-wrench >}} -- **<u>Lead Technical Instructor</u>** - [Synthesis Skills for Early Career Researchers](https://lter.github.io/ssecr/) (SSECR), **2024-2025**, Long Term Ecological Research Network Office, Santa Barbara, CA - [{{< fa brands github >}}](https://github.com/lter/ssecr)
+{{< fa people-group >}} {{< fa screwdriver-wrench >}} -- **<u>Lead Technical Instructor</u>** - [Synthesis Skills for Early Career Researchers](https://lter.github.io/ssecr/) (SSECR), **2024-2025** & **2026-2027**, Long Term Ecological Research Network Office, Santa Barbara, CA - [{{< fa brands github >}}](https://github.com/lter/ssecr)
 
 {{< fa screwdriver-wrench >}} -- **<u>Adjunct Faculty</u>** - [Programming in R for Biologists](https://njlyon0.github.io/teach_r-for-biologists/) (BIO 316), Summer **2023** & Summer **2024**, Stonehill College, Easton, MA - [{{< fa brands github >}}](https://github.com/njlyon0/teach_r-for-biologists)
 
@@ -42,7 +42,11 @@ This section includes all teaching/public-speaking that takes place over the cou
 
 ## Guest Lectures
 
-Presentations under this heading take between 30 minutes and one hour.
+Presentations under this heading take 30-90 minutes.
+
+{{< fa screwdriver-wrench >}} -- Lyon, N.J. Data Visualization with R. **2026**. Green Teams Program, Montclair State University. Montclair NJ. {{< fa person-chalkboard >}} [Lecture slides](https://njlyon0.github.io/teach_tutorials/content/slides_data-viz-with-r.html#/title-slide)
+
+{{< fa screwdriver-wrench >}} -- Lyon, N.J. Data Visualization Basics. **2026**. Green Teams Program, Montclair State University. Montclair NJ. {{< fa person-chalkboard >}} [Lecture slides](https://njlyon0.github.io/teach_tutorials/content/slides_data-viz-basics.html#/title-slide)
 
 {{< fa screwdriver-wrench >}} -- Lyon, N.J. Introduction to Statistics and R in Ecology Research. **2020**. Insect Ecology (ENT 4520/6520), Clemson University. Clemson SC.
 
