@@ -63,11 +63,11 @@
     "text": "One of the main products of my work as a data scientist is various forms of software. While  R is my primary language I have branched out somewhat into other languages (including  Python) and will try to reference those outputs here as well."
   },
   {
-    "objectID": "code.html#general-code-products",
-    "href": "code.html#general-code-products",
+    "objectID": "code.html#github-portfolio",
+    "href": "code.html#github-portfolio",
     "title": "Software Products",
-    "section": "General Code Products",
-    "text": "General Code Products\nI work extensively on  GitHub and am a firm believer in version control as a mechanism for ensuring code reproducibility and code openness. Because of that–and to avoid redundancy–I recommend that you explore  my GitHub profile for a more or less complete set of the projects I’ve worked on.\n \nIn my role as a Data Scientist for the Long Term Ecological Research (LTER) Network Office I’ve also done a lot of code work in that  GitHub Organization. I’ve also done some work in the National Center for Ecological Analysis and Synthesis (NCEAS)  GitHub Organization."
+    "section": "GitHub Portfolio",
+    "text": "GitHub Portfolio\nI work extensively on  GitHub and am a firm believer in version control as a mechanism for ensuring code reproducibility and code openness. Because of that–and to avoid redundancy–I recommend that you explore  my GitHub profile for a more or less complete set of the projects I’ve worked on.\n\nIn my role as a data scientist for the Long Term Ecological Research (LTER) Network Office I’ve also done a lot of code work in that  GitHub Organization; for simplicity, I’ve “pinned” the repostiories that I think are the highlights of my code portfolio."
   },
   {
     "objectID": "code.html#r-packages",
@@ -82,6 +82,13 @@
     "title": "Software Products",
     "section": "R / Python Bilingualism",
     "text": "R / Python Bilingualism\nWhile I am primarily an  R coder, I definitely recognize that other languages can be extremely valuable! To make sure that I’m well-rounded I’ve made some strong efforts to self-teach  Python and document that process in ways that may be useful to others interested in making a similar leap. First and foremost of these efforts is my stab at a ‘bilingualism’ website for R & Python. This site demonstrates a range of increasingly complex operations and how they are accomplished in both languages.\nI’m constantly improving on that website and have comprehensive contributing guidelines to make it easier for others to collaborate with me on maximizing the value of this resource. You can also check out the  GitHub repository for the website here."
+  },
+  {
+    "objectID": "code.html#data-packages",
+    "href": "code.html#data-packages",
+    "title": "Software Products",
+    "section": "Data Packages",
+    "text": "Data Packages\nSome of my code work has resulted in publicly-available data packages with robust, FAIR metadata. A selection of these is included below.\n\nLyon, N.J., et al. 2026. Eleven Years of Butterfly and Nectar-Producing Plant Community Data from Grassland Sites Managed with Pyric Herbivory ver 1. Environmental Data Initiative. – \nJankowski, K.J., et al. 2024, Global Aggregation of Stream Silica (GlASS) ver. 2, July 2025. U.S. Geological Survey data release – .\nLyon, N.J. 2022. Native Bee and Nectar-Producing Plant Community Data from Iowa and Missouri (2017-2018) ver 1. Environmental Data Initiative. –"
   },
   {
     "objectID": "create.html",
