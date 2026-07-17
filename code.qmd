@@ -8,14 +8,13 @@ One of the main products of my work as a data scientist is various forms of soft
 <img src="images/pic_stilt-bug.jpg" alt="Picture of a stilt bug (family: Berytidae) on a leaf" width="85%"/>
 </p>
 
-## General Code Products
+## GitHub Portfolio
 
 I work extensively on {{< fa brands github >}} GitHub and am a firm believer in version control as a mechanism for ensuring code reproducibility and code openness. Because of that--and to avoid redundancy--I recommend that you explore {{< fa brands github >}} [my GitHub profile](https://github.com/njlyon0) for a more or less complete set of the projects I've worked on.
 
-<img src="images/logo_nceas.png" alt="Logo for the National Center for Ecological Analysis and Synthesis (NCEAS)" height="80" align="right"/>
 <img src="images/logo_lter.png" alt="Logo for the Long Term Ecological Research (LTER) Network Office" height="80" align="right"/>
 
-In my role as a Data Scientist for the Long Term Ecological Research ([LTER](https://lternet.edu/)) Network Office I've also done a lot of code work in that {{< fa brands github >}} [GitHub Organization](https://github.com/lter). I've also done some work in the National Center for Ecological Analysis and Synthesis ([NCEAS](https://www.nceas.ucsb.edu/)) {{< fa brands github >}} [GitHub Organization](https://github.com/NCEAS).
+In my role as a data scientist for the Long Term Ecological Research ([LTER](https://lternet.edu/)) Network Office I've also done a lot of code work in that {{< fa brands github >}} [GitHub Organization](https://github.com/lter); for simplicity, **I've "pinned" the repostiories that I think are the highlights of my code portfolio.**
 
 ## R Packages
 
@@ -41,3 +40,11 @@ _Click a hex logo to visit the respective package's GitHub repository!_
 While I am primarily an {{< fa brands r-project >}} R coder, I definitely recognize that other languages can be extremely valuable! To make sure that I'm well-rounded I've made some strong efforts to self-teach {{< fa brands python >}} Python and document that process in ways that may be useful to others interested in making a similar leap. First and foremost of these efforts is my stab at a ['bilingualism' website for R & Python](https://njlyon0.github.io/collab_bilingualism/). This site demonstrates a range of increasingly complex operations and how they are accomplished in both languages.
 
 I'm constantly improving on that website and have comprehensive [contributing guidelines](https://njlyon0.github.io/collab_bilingualism/collabs.html) to make it easier for others to collaborate with me on maximizing the value of this resource. You can also check out the {{< fa brands github >}} [GitHub repository](https://github.com/njlyon0/collab_bilingualism) for the website here.
+
+## Data Packages
+
+Some of my code work has resulted in publicly-available data packages with robust, FAIR metadata. A selection of these is included below.
+
+- Lyon, N.J., _et al._ **2026**. [Eleven Years of Butterfly and Nectar-Producing Plant Community Data from Grassland Sites Managed with Pyric Herbivory](https://doi.org/10.6073/pasta/a3c252130f28b9cddae36362b7535aa7) ver 1. Environmental Data Initiative. -- [{{< fa brands github >}}](https://github.com/njlyon0/lyon-ms-thesis_butterfly-project)
+- Jankowski, K.J., _et al._ **2024**, [Global Aggregation of Stream Silica (GlASS)](https://doi.org/10.5066/P138M8AR) ver. 2, July 2025. U.S. Geological Survey data release -- [{{< fa brands github >}}](https://github.com/lter/lterwg-silica-data). 
+- Lyon, N.J. **2022**. [Native Bee and Nectar-Producing Plant Community Data from Iowa and Missouri (2017-2018)](https://doi.org/10.6073/pasta/a2f3fba9c21b249f92db7b45a6ae40ac) ver 1. Environmental Data Initiative. -- [{{< fa brands github >}}](https://github.com/njlyon0/lyon-ms-thesis_bee-project)
