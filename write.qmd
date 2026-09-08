@@ -10,11 +10,11 @@ I have had several opportunities to publish scientific papers both as a lead aut
 
 ## Not (Yet!) Published
 
-{{< fa fish-fins >}} -- White, M. _et al._ Scale-Dependent Effects of Species Richness and Asynchrony Regulate the Temporal Stability of Consumer-Mediated Nutrient Dynamics. _\[In revision at PNAS\]_ - [{{< fa brands github >}}](https://github.com/lter/lterwg-marine-cnd)
-
 {{< fa tree >}} -- Macias, D. _et al._ Contrasting Drivers of Seed-Production Tempo at Different Scales of Comparison.  _\[In prep\]_
 
 ## Published
+
+{{< fa fish-fins >}} -- White, M. _et al._ [Scale-Dependent Effects of Species Richness and Asynchrony Regulate the Temporal Stability of Consumer-Mediated Nutrient Dynamics](https://www.pnas.org/doi/10.1073/pnas.2532469123). **2026**. Proceedings of the National Academy of Sciences (PNAS) - [{{< fa brands github >}}](https://github.com/lter/lterwg-marine-cnd)
 
 {{< fa people-group >}} -- Elmendorf, S.C. _et al._ [Ten Simple Rules for Team Synthesis in Ecological Research](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210x.70378). **2026**. Methods in Ecology and Evolution.
 
