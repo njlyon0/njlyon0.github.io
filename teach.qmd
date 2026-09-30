@@ -60,7 +60,7 @@ Presentations under this heading take 30-90 minutes.
 
 This style of presentation typically is the shortest form posted on my website; conference presentations typically take somewhere between five and 20 minutes.
 
-{{< fa bug >}} {{< fa screwdriver-wrench >}} -- Lyon, N.J. From Ecologist to Data Scientist. Biology Department Seminar. Stonehill College, Easton MA, September **2023**
+{{< fa bug >}} {{< fa screwdriver-wrench >}} -- Lyon, N.J. From Ecologist to Data Scientist. Biology Department Seminar. Stonehill College, Easton MA, September **2023 & '26**
 
 {{< fa screwdriver-wrench >}} -- Lyon, N.J. and Vargas, C. Data Quality Control Using R. Santa Barbara R Users Group, June **2022** - [{{< fa brands github >}}](https://github.com/njlyon0/collab_vargas-quality-control-talk)
 
