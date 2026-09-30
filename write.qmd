@@ -12,6 +12,8 @@ I have had several opportunities to publish scientific papers both as a lead aut
 
 {{< fa tree >}} -- Macias, D. _et al._ Trait and Climate Associations with Seed Production Variability Shift with Taxonomic and Spatial Scale.  _\[In review at Ecology Letters\]_
 
+{{< fa database >}} -- Kopecky, K. _et al._ Life After Death: A Harmonized Dataset of Live and Dead Foundation Species Across Marine and Terrestrial Ecosystems.  _\[In review at Ecology\]_ - [{{< fa brands github >}}](https://github.com/lter/lter-sparc-material-legacy)
+
 ## Published
 
 {{< fa fish-fins >}} -- White, M. _et al._ [Scale-Dependent Effects of Species Richness and Asynchrony Regulate the Temporal Stability of Consumer-Mediated Nutrient Dynamics](https://www.pnas.org/doi/10.1073/pnas.2532469123). **2026**. Proceedings of the National Academy of Sciences (PNAS) - [{{< fa brands github >}}](https://github.com/lter/lterwg-marine-cnd)
